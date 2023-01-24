@@ -55,7 +55,10 @@
 .collection-hero__description{
   font-family: new-caledonia, serif;
   font-weight: 400 !important;
-  font-size: 0.1rem !important;
+}
+
+.collection-hero__description + .h3{
+  font-size: 1.2rem !important;
 }
 
 .collection-hero__description strong{
