@@ -809,6 +809,7 @@ details > * {
 
 :root {
   --font-body-family: pitch;
+  --font-heading-family: new-caledonia;
 }
 
 .underlined-link,
