@@ -179,7 +179,8 @@
 }
 
 #product-grid .card__heading{
-  font-size: 1.2em;
+  font-size: 1.1em;
+  font-family: new-caledonia;
 }
 
 .card__heading:last-child {
