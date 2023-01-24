@@ -2,9 +2,10 @@
   z-index: 1;
 }
 
-.rich-text em{
+.rich-text em strong{
   font-family: var(--font-body-family);
   font-weight: 400;
+  font-style: italic;
 }
 
 .rich-text__wrapper {
