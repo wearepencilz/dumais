@@ -391,6 +391,10 @@ body{
   }
 }
 
+body{
+  scroll-behavior: smooth;
+}
+
 body,
 .color-background-1,
 .color-background-2,
