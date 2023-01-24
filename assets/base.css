@@ -805,6 +805,8 @@ details > * {
   --duration-short: 100ms;
   --duration-default: 200ms;
   --duration-long: 500ms;
+
+  font-family: "pitch";
 }
 
 .underlined-link,
