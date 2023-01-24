@@ -55,6 +55,10 @@
   font-weight: 400 !important;
 }
 
+.collection-hero__description strong{
+  font-weight: 400 !important;
+}
+
 @media screen and (min-width: 750px) {
   .collection-hero__title + .collection-hero__description {
     font-size: 1.8rem;
