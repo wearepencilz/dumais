@@ -95,6 +95,7 @@
 .card__media {
   margin: var(--image-padding);
   width: calc(100% - 2 * var(--image-padding));
+  border-radius: 4px;
 }
 
 .card--standard .card__media {
