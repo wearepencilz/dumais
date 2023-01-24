@@ -1,5 +1,43 @@
-/* Color custom properties */
 
+/* FONTS */
+
+@font-face {
+  font-family: "pitch";
+  font-weight: normal;
+  font-style: normal;
+  src: url('{{ "pitch-web-regular.eot" | asset_url }}');
+  src: url('{{ "pitch-web-regular.eot" | asset_url }} ?#iefix') format("embedded-opentype"),
+       url('{{ "pitch-web-regular.woff" | asset_url }}') format("woff"),
+       url('{{ "pitch-web-regular.woff2" | asset_url }}') format("woff2")
+}
+
+@font-face {
+  font-family: "pitch";
+  font-weight: normal;
+  font-style: italic;
+  src: url('{{ "pitch-web-regular-italic.eot" | asset_url }}');
+  src: url('{{ "pitch-web-regular-italic.eot" | asset_url }} ?#iefix') format("embedded-opentype"),
+       url('{{ "pitch-web-regular-italic.woff" | asset_url }}') format("woff"),
+       url('{{ "pitch-web-regular-italic.woff2" | asset_url }}') format("woff2")
+}
+
+@font-face {
+  font-family: "new-caledonia";
+  font-weight: normal;
+  font-style: normal;
+  src: url('{{ "NewCaledoniaLTStd.woff" | asset_url }}') format("woff"),
+       url('{{ "NewCaledoniaLTStd.woff2" | asset_url }}') format("woff2")
+}
+
+@font-face {
+  font-family: "new-caledonia";
+  font-weight: normal;
+  font-style: italic;
+  src: url('{{ "NewCaledoniaLTStd-It.woff" | asset_url }}') format("woff"),
+       url('{{ "NewCaledoniaLTStd-It.woff2" | asset_url }}') format("woff2")
+}
+
+/* Color custom properties */
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
@@ -395,10 +433,11 @@ body,
   font-size: 1.5rem;
   letter-spacing: 0.06rem;
   line-height: calc(1 + 0.8 / var(--font-body-scale));
-  font-family: var(--font-body-family);
+  font-family:"pitch";
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
 }
+
 
 h1,
 h2,
