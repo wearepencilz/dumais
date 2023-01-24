@@ -2716,6 +2716,7 @@ details[open] > .header__submenu {
   animation: animateMenuOpen var(--duration-default) ease;
   animation-fill-mode: forwards;
   z-index: 1;
+  border-radius: 4px;
 }
 
 @media (prefers-reduced-motion) {
@@ -2804,7 +2805,6 @@ details[open] > .header__menu-item .icon-caret {
 .header__submenu {
   transition: opacity var(--duration-default) ease,
     transform var(--duration-default) ease;
-  border-radius: 4px;
 }
 
 .global-settings-popup,
