@@ -3045,7 +3045,7 @@ details-disclosure > details {
   }
 
   .product-grid{
-    margin-top:100em;
+    margin-top:0;
   }
 
   .product-grid .grid__item {
@@ -3092,4 +3092,8 @@ details-disclosure > details {
   .localization-form__select:focus {
     outline: transparent solid 1px;
   }
+}
+
+body{
+  background: pink !important;
 }
