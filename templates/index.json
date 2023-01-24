@@ -21,7 +21,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Dumais Made <br\/>A labor of love, a collaboration <br\/> an Experiment<\/p>",
+            "heading": "<p>Dumais Made <br\/>A labor of love, a collaboration <br\/><em><strong> an Experiment<\/strong><\/em><\/p>",
             "heading_size": "h1"
           }
         }
