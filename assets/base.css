@@ -3044,6 +3044,10 @@ details-disclosure > details {
     }
   }
 
+  .product-grid{
+    margin-top:0;
+  }
+
   .product-grid .grid__item {
     padding-bottom: var(--grid-mobile-vertical-spacing);
   }
