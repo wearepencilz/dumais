@@ -1,82 +1,14 @@
 {
   "sections": {
     "main": {
-      "type": "process-page",
+      "type": "main-page",
       "settings": {
-        "menu_color": "inverted"
-      }
-    },
-    "5f72a2db-0ecd-452e-8d6a-e1da3f5027bc": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16314233356540__5f72a2db-0ecd-452e-8d6a-e1da3f5027bc-1667479020d7c1cc90-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Contact us",
-            "heading_size": "h1"
-          }
-        },
-        "template--16314233356540__5f72a2db-0ecd-452e-8d6a-e1da3f5027bc-1667479020d7c1cc90-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>If there is anything you need help with please do not hesitate to contact us.<br\/><br\/>Customer Care<br\/>care@cobra-sc.om<br\/><br\/>General Enquiries<br\/>contact@cobra-sc.com<br\/><br\/>Wholesale<br\/>wholesale@cobra-sc.com<\/p><p><br\/>Follow us<br\/>@cobra-sc<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--16314233356540__5f72a2db-0ecd-452e-8d6a-e1da3f5027bc-1667479020d7c1cc90-0",
-        "template--16314233356540__5f72a2db-0ecd-452e-8d6a-e1da3f5027bc-1667479020d7c1cc90-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/lb2.jpg",
-        "height": "full",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "f7ed143d-0924-4e83-9357-400c915fe5ba": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--16314233356540__f7ed143d-0924-4e83-9357-400c915fe5ba-1667478318df6ccba2-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Contact Us<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--16314233356540__f7ed143d-0924-4e83-9357-400c915fe5ba-1667478318df6ccba2-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>If there is anything you need help with please do not hesitate to contact us.<br\/><br\/>Customer Care<br\/>care@cobra-sc.om<br\/><br\/>General Enquiries<br\/>contact@cobra-sc.com<br\/><br\/>Wholesale<br\/>wholesale@cobra-sc.com<\/p><p><br\/>Follow us<br\/>@cobra-sc<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16314233356540__f7ed143d-0924-4e83-9357-400c915fe5ba-1667478318df6ccba2-0",
-        "template--16314233356540__f7ed143d-0924-4e83-9357-400c915fe5ba-1667478318df6ccba2-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     }
   },
   "order": [
-    "main",
-    "5f72a2db-0ecd-452e-8d6a-e1da3f5027bc",
-    "f7ed143d-0924-4e83-9357-400c915fe5ba"
+    "main"
   ]
 }
