@@ -1,7 +1,9 @@
 
 /* FONTS */
 
-@font-face {
+/* fix for live version */
+
+/* @font-face {
   font-family: "pitch";
   font-weight: normal;
   font-style: normal;
@@ -34,6 +36,43 @@
   font-weight: normal;
   font-style: italic;
   src: url('{{ "NewCaledoniaLTStd-It.woff" | asset_url }}') format("woff"),
+       url('{{ "NewCaledoniaLTStd-It.woff2" | asset_url }}') format("woff2")
+} */
+
+
+@font-face {
+  font-family: "pitch";
+  font-weight: normal;
+  font-style: normal;
+  src: url('{{ "pitch-web-regular.eot" | asset_url }}');
+  src: url('{{ "pitch-web-regular.eot" | asset_url }} ?#iefix') format("embedded-opentype"),
+       url('https://cdn.shopify.com/s/files/1/0414/3782/3127/t/1/assets/pitch-web-regular.woff?v=42110376663454127231593030622') format("woff"),
+       url('{{ "pitch-web-regular.woff2" | asset_url }}') format("woff2")
+}
+
+@font-face {
+  font-family: "pitch";
+  font-weight: normal;
+  font-style: italic;
+  src: url('{{ "pitch-web-regular-italic.eot" | asset_url }}');
+  src: url('{{ "pitch-web-regular-italic.eot" | asset_url }} ?#iefix') format("embedded-opentype"),
+       url('https://cdn.shopify.com/s/files/1/0414/3782/3127/t/1/assets/pitch-web-regular-italic.woff?v=149470778142971669651593030572') format("woff"),
+       url('{{ "pitch-web-regular-italic.woff2" | asset_url }}') format("woff2")
+}
+
+@font-face {
+  font-family: "new-caledonia";
+  font-weight: normal;
+  font-style: normal;
+  src: url('https://cdn.shopify.com/s/files/1/0414/3782/3127/t/1/assets/NewCaledoniaLTStd.woff?v=145673531379719850901593030506') format("woff"),
+       url('{{ "NewCaledoniaLTStd.woff2" | asset_url }}') format("woff2")
+}
+
+@font-face {
+  font-family: "new-caledonia";
+  font-weight: normal;
+  font-style: italic;
+  src: url('https://cdn.shopify.com/s/files/1/0414/3782/3127/t/1/assets/NewCaledoniaLTStd-It.woff?v=119884701669969819741593030533') format("woff"),
        url('{{ "NewCaledoniaLTStd-It.woff2" | asset_url }}') format("woff2")
 }
 
