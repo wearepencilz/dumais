@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "main": {
+      "type": "custom-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "ecff0775-fd21-4fdc-b628-d558c66f2c64": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16834057601238__ecff0775-fd21-4fdc-b628-d558c66f2c64-167460307673756530-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16834057601238__ecff0775-fd21-4fdc-b628-d558c66f2c64-167460307673756530-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--16834057601238__ecff0775-fd21-4fdc-b628-d558c66f2c64-167460307673756530-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16834057601238__ecff0775-fd21-4fdc-b628-d558c66f2c64-167460307673756530-0",
+        "template--16834057601238__ecff0775-fd21-4fdc-b628-d558c66f2c64-167460307673756530-1",
+        "template--16834057601238__ecff0775-fd21-4fdc-b628-d558c66f2c64-167460307673756530-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "69dc357d-4b28-48f0-a92d-9d24fdd4cfe5": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/August_15_2022_139.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ecff0775-fd21-4fdc-b628-d558c66f2c64",
+    "69dc357d-4b28-48f0-a92d-9d24fdd4cfe5"
+  ]
+}
