@@ -184,6 +184,10 @@
   font-style: normal;
 }
 
+.product-grid{
+  margin-top:0;
+}
+
 .card__heading:last-child {
   margin-bottom: 0;
 }
