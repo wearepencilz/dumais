@@ -3,7 +3,7 @@
 }
 
 .rich-text em{
-  font-family: var(--font-body-family));
+  font-family: var(--font-body-family);
   font-weight: 400;
 }
 
