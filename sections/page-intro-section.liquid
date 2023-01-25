@@ -28,6 +28,7 @@
             {%- when 'heading' -%}
               <h2 class="image-with-text__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                 {{ block.settings.heading | escape }}
+              </h2>
             {%- when 'text' -%}
               <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
@@ -58,18 +59,21 @@
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
       </div>
+
       {%- for block in section.blocks -%}
         {% case block.type %}
-      </h2>
-    {%- when 'caption' -%}
-      <p
-        class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
-        {{ block.shopify_attributes }}
-      >
-        {{ block.settings.caption | escape }}
-      </p>
+
+        {%- when 'caption' -%}
+          <p
+            class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+            {{ block.shopify_attributes }}
+          >
+            {{ block.settings.caption | escape }}
+          </p>
+
         {%- endcase -%}
       {%- endfor -%}
+
     </div>
 
 
