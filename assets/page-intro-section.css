@@ -303,8 +303,9 @@
   margin-bottom: 1rem;
 
   font-family: new-caledonia, serif;
-  font-style: italic;
-  line-height: 1.1em;
+  /* font-style: italic; */
+  font-size: 1.2em
+  line-height: 1.4em;
   /* font-size: 1em; */
 }
 
