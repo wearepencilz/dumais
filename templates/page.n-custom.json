@@ -118,12 +118,101 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "b34cb4bd-53d1-41ec-b530-7f7802677de2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16834058191062__b34cb4bd-53d1-41ec-b530-7f7802677de2-1674686338e13c3f54-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>How it works<\/p>",
+            "heading_size": "hxs"
+          }
+        },
+        "022953f1-1cbf-4c1a-9f01-08b044f4eae9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>While the process behind creating a custom piece depends on  its design and complexity, you can expect the following for any Dumais Made item that's made especially for you.<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058191062__b34cb4bd-53d1-41ec-b530-7f7802677de2-1674686338e13c3f54-0",
+        "022953f1-1cbf-4c1a-9f01-08b044f4eae9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 52
+      }
+    },
+    "fcad08b4-1465-4980-9c8d-50288a5048b5": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16834058191062__fcad08b4-1465-4980-9c8d-50288a5048b5-1674686324f4ed34a4-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/how-1.jpg",
+            "title": "",
+            "text": "<p><strong>1.<\/strong><br\/><br\/>Regardless of whether you're adapting an existing design or creating something completely custom, we will provide sketches, illustrations or renderings of your piece, as well as relevant material samples so that you can make an informed decision.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058191062__fcad08b4-1465-4980-9c8d-50288a5048b5-1674686324f4ed34a4-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/how-2.jpg",
+            "title": "",
+            "text": "<p><strong>2.<br\/><br\/><\/strong>If we're creating something from scratch, or if you're producing a large number of pieces for a commercial project, we'll also create test pieces to ensure that the design is structurally sound and achieves the desired effect.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058191062__fcad08b4-1465-4980-9c8d-50288a5048b5-1674686324f4ed34a4-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/how-3.jpg",
+            "title": "",
+            "text": "<p><strong>3.<br\/><\/strong><br\/>Once everything is approved, we'll cut, assemble, dry, fire, glaze, fire, fit, shade and test your finished piece, a process that takes approx. 6 to 8 weeks. Pieces are then carefully packaged and can be collected from our studio or shipped to you via UPS.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058191062__fcad08b4-1465-4980-9c8d-50288a5048b5-1674686324f4ed34a4-0",
+        "template--16834058191062__fcad08b4-1465-4980-9c8d-50288a5048b5-1674686324f4ed34a4-1",
+        "template--16834058191062__fcad08b4-1465-4980-9c8d-50288a5048b5-1674686324f4ed34a4-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "b5312627-67aa-4640-8117-4a6d2dca5640",
     "c6647dad-2108-43a8-bdf6-2fbe41c36823",
     "0f10338b-9075-4c4f-b90a-52066609d5ea",
-    "main"
+    "main",
+    "b34cb4bd-53d1-41ec-b530-7f7802677de2",
+    "fcad08b4-1465-4980-9c8d-50288a5048b5"
   ]
 }
