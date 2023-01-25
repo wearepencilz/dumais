@@ -31,12 +31,21 @@
             "button_label": "Button label",
             "button_link": ""
           }
+        },
+        "b1f406e7-3987-494a-a320-536801b1b7cf": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
         "template--16834058158294__418c546c-894d-4096-82a3-8b4f8accfb79-16746058327e3ec2ed-0",
         "template--16834058158294__418c546c-894d-4096-82a3-8b4f8accfb79-16746058327e3ec2ed-1",
-        "template--16834058158294__418c546c-894d-4096-82a3-8b4f8accfb79-16746058327e3ec2ed-2"
+        "template--16834058158294__418c546c-894d-4096-82a3-8b4f8accfb79-16746058327e3ec2ed-2",
+        "b1f406e7-3987-494a-a320-536801b1b7cf"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/process.jpg",
