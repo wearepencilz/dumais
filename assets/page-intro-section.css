@@ -77,6 +77,8 @@
 .page-intro-section__media-item{
   max-width: 85%;
   width:85%;
+
+  margin:auto;
 }
 
 .page-intro-section .grid__item::after {
