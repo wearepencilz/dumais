@@ -195,7 +195,7 @@
   }
 
     .multicolumn-card__info {
-      padding-right: 4.5rem;
+      padding-right: 4.5rem !important;
     }
 
 }
