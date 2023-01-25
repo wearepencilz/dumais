@@ -273,7 +273,7 @@
     background-image: url(https://cdn.shopify.com/s/files/1/0414/3782/3127/t/1/assets/arrow-left.png?v=1593634124);
     background-size: 50px 90px;
     display: block;
-    margin-left: -15%;
+    margin-left: -5%;
     width: 50px;
     height: 90px;
     position: absolute;
@@ -281,7 +281,7 @@
   }
 
   .stof-list.grid--2-col-desktop .grid__item:nth-child(3){
-    margin-top:-20vh;
+    margin-top:-10vh;
   }
 
 }
