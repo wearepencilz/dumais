@@ -28,7 +28,7 @@
         "55ad08a3-f28a-44f6-8b34-04a6575d2363"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/custom.jpg",
+        "image": "shopify:\/\/shop_images\/custom_5f21dd87-ad14-47ff-adcf-d0174abdc5c1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "padding_top": 36,
@@ -42,22 +42,23 @@
           "type": "heading",
           "settings": {
             "heading": "<p><strong>HOW WE DO IT<\/strong><\/p>",
-            "heading_size": "h2"
+            "heading_size": "hxs"
           }
         },
-        "template--16834058191062__c6647dad-2108-43a8-bdf6-2fbe41c36823-1674677877158a6481-1": {
-          "type": "text",
+        "c1e4ff2c-3815-4d08-8456-2ae52647b008": {
+          "type": "heading",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "heading": "<p>If you can't find what you're looking for or if you want to create something entirely individual, we'd be happy to produce a custom piece for you. This can be done in one of three ways:<\/p>",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
         "template--16834058191062__c6647dad-2108-43a8-bdf6-2fbe41c36823-1674677877158a6481-0",
-        "template--16834058191062__c6647dad-2108-43a8-bdf6-2fbe41c36823-1674677877158a6481-1"
+        "c1e4ff2c-3815-4d08-8456-2ae52647b008"
       ],
       "settings": {
-        "desktop_content_position": "center",
+        "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "background-2",
         "full_width": true,
@@ -71,8 +72,9 @@
         "template--16834057896150__0f10338b-9075-4c4f-b90a-52066609d5ea-1674603800d2f39697-0": {
           "type": "column",
           "settings": {
-            "title": "Columnlolo",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/illu-1.png",
+            "title": "Adapting an existing piece",
+            "text": "<p>Using an existing Dumais Made design, we work together to select from our current textures and glazes to develop a style that suits. We're also able to alter the scale of a piece, but please check if this is feasible first.<br\/><br\/><\/p><ul><li>An existing Dumais Made design<\/li><li>Adapted using our existing textures and glazes<\/li><li>Made in approx. 6 to 8 weeks<\/li><\/ul>",
             "link_label": "",
             "link": ""
           }
@@ -80,8 +82,9 @@
         "template--16834057896150__0f10338b-9075-4c4f-b90a-52066609d5ea-1674603800d2f39697-1": {
           "type": "column",
           "settings": {
-            "title": "jk",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/illu-2.png",
+            "title": "Creating a completely custom piece",
+            "text": "<p>A completely custom Dumais Made piece begins with a conversation. We then send sketches and renderings, share glazes and texture samples, and even create a physical mock-up before the final design is produced.<br\/><br\/><\/p><ul><li>A unique design<\/li><li>Rendered in custom textures and glazes<\/li><li>Made in approx. 10 to 14 weeks<\/li><\/ul>",
             "link_label": "",
             "link": ""
           }
@@ -92,14 +95,14 @@
         "template--16834057896150__0f10338b-9075-4c4f-b90a-52066609d5ea-1674603800d2f39697-1"
       ],
       "settings": {
-        "title": "How we do it",
+        "title": "",
         "heading_size": "h2",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-2",
         "columns_mobile": "1",
