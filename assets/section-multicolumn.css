@@ -236,3 +236,7 @@
   text-decoration: underline;
 text-underline-offset: .3rem;
 }
+
+.multicolumn-card__info .p{
+  font-family: new-caledonia, serif;
+}
