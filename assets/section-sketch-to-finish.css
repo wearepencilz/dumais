@@ -231,6 +231,9 @@
 /* make it do what it needs to do */
 
 @media screen and (min-width: 990px){
+  .stof-list{
+    background: pink
+  }
   .stof-list .grid--2-col-desktop .grid__item {
     width: calc(30% - var(--grid-desktop-horizontal-spacing) / 2) !important;
     max-width: calc(30% - var(--grid-desktop-horizontal-spacing) / 2) !important;
