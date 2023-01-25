@@ -18,6 +18,7 @@
   .stof .page-width {
     padding-left: 0;
     padding-right: 0;
+    max-width: 1200px;
   }
 }
 
@@ -269,7 +270,5 @@
     height: 90px;
     content: "";
   }
-
-
 
 }
