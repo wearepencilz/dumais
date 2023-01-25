@@ -305,7 +305,7 @@
   font-family: new-caledonia, serif;
   text-transform: italic;
   line-height: 1.1em;
-  font-size: 1em;
+  /* font-size: 1em; */
 }
 
 @media screen and (max-width: 749px) {
