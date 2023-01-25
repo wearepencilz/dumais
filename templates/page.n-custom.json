@@ -45,16 +45,17 @@
             "heading_size": "hxs"
           }
         },
-        "template--16834058191062__c6647dad-2108-43a8-bdf6-2fbe41c36823-1674677877158a6481-1": {
-          "type": "text",
+        "c1e4ff2c-3815-4d08-8456-2ae52647b008": {
+          "type": "heading",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "heading": "<p>If you can't find what you're looking for or if you want to create something entirely individual, we'd be happy to produce a custom piece for you. This can be done in one of three ways:<\/p>",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
         "template--16834058191062__c6647dad-2108-43a8-bdf6-2fbe41c36823-1674677877158a6481-0",
-        "template--16834058191062__c6647dad-2108-43a8-bdf6-2fbe41c36823-1674677877158a6481-1"
+        "c1e4ff2c-3815-4d08-8456-2ae52647b008"
       ],
       "settings": {
         "desktop_content_position": "center",
