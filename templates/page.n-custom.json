@@ -72,6 +72,7 @@
         "template--16834057896150__0f10338b-9075-4c4f-b90a-52066609d5ea-1674603800d2f39697-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/illu-1.png",
             "title": "Columnlolo",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -81,6 +82,7 @@
         "template--16834057896150__0f10338b-9075-4c4f-b90a-52066609d5ea-1674603800d2f39697-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/illu-2.png",
             "title": "jk",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -93,7 +95,7 @@
         "template--16834057896150__0f10338b-9075-4c4f-b90a-52066609d5ea-1674603800d2f39697-1"
       ],
       "settings": {
-        "title": "How we do it",
+        "title": "",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
