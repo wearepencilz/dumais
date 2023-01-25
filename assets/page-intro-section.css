@@ -79,7 +79,7 @@
   height:45vh;
   width:auto%;
 
-  margin:auto;
+  margin:0 auto;
 }
 
 .page-intro-section .grid__item::after {
