@@ -93,8 +93,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/sketch-finish-3.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "<p>3. <br\/>Our pieces are finished with the finest glazes. We’re drawn to depth and contrast found in the environment around us – the way nature layers colors, for instance. Or the way gilding can maximize the quality of light, both natural and artificial.<\/p>",
             "link_label": "",
             "link": ""
           }
