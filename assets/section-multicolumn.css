@@ -243,3 +243,9 @@
   font-size: 1.7rem;
   line-height: 1.9rem;
 }
+
+.multicolumn-card__info .rte p ul li{
+  font-family: new-caledonia, serif;
+  font-size: 1.7rem;
+  line-height: 1.9rem;
+}
