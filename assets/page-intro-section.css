@@ -286,6 +286,10 @@
   margin-bottom: 0;
 }
 
+.page-intro-section__text--caption{
+  margin-top: 0;
+}
+
 .page-intro-section__content .button + .page-intro-section__text {
   margin-top: 2rem;
 }
