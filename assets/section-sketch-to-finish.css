@@ -136,6 +136,11 @@
   padding: 2.5rem;
 }
 
+.stof-card__info p {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
 .background-none .stof-card__info {
   padding-top: 0;
   padding-left: 0;
