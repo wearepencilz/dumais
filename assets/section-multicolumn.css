@@ -195,7 +195,7 @@
   }
 
     .multicolumn-card__info {
-      padding-right: 4.5rem !important;
+      padding-right: 5.5rem !important;
     }
 
 }
@@ -247,5 +247,5 @@
 .multicolumn-card__info .rte ul li{
   font-family: new-caledonia, serif;
   font-size: 1.8rem;
-  line-height: 2rem;
+  line-height: 2.5rem;
 }
