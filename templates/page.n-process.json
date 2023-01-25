@@ -14,23 +14,19 @@
         "template--16834058158294__418c546c-894d-4096-82a3-8b4f8accfb79-16746058327e3ec2ed-0": {
           "type": "heading",
           "settings": {
-            "heading": "Our Process",
-            "heading_size": "h1"
+            "heading": "Our Process"
           }
         },
         "template--16834058158294__418c546c-894d-4096-82a3-8b4f8accfb79-16746058327e3ec2ed-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We make lamps because we love interacting with light: the waning sun, the flip of a switch, the warm pool that floods a room. Whether that interaction is with a lamp, pendant, sconce or even a candle, it's part of a daily ritual, which is why we believe these pieces are an essential aspect of any room.<\/p>",
-            "text_style": "body"
+            "text": "<p>We make lamps because we love interacting with light: the waning sun, the flip of a switch, the warm pool that floods a room. Whether that interaction is with a lamp, pendant, sconce or even a candle, it's part of a daily ritual, which is why we believe these pieces are an essential aspect of any room.<\/p>"
           }
         },
         "b1f406e7-3987-494a-a320-536801b1b7cf": {
           "type": "caption",
           "settings": {
-            "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "caption": "Add a tagline"
           }
         }
       },
@@ -40,7 +36,7 @@
         "b1f406e7-3987-494a-a320-536801b1b7cf"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/process.jpg",
+        "image": "shopify:\/\/shop_images\/process-2.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "padding_top": 36,
