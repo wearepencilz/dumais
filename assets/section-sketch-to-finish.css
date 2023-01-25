@@ -234,7 +234,7 @@
   .stof-list{
     background: pink
   }
-  .stof-list .grid--2-col-desktop .grid__item {
+  .stof-list.grid--2-col-desktop .grid__item {
     width: calc(30% - var(--grid-desktop-horizontal-spacing) / 2) !important;
     max-width: calc(30% - var(--grid-desktop-horizontal-spacing) / 2) !important;
   }
