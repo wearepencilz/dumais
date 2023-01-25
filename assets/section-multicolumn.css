@@ -241,11 +241,11 @@
 .multicolumn-card__info .rte p{
   font-family: new-caledonia, serif;
   font-size: 1.7rem;
-  /* line-height: 1.9rem; */
+  line-height: 2rem;
 }
 
 .multicolumn-card__info .rte ul li{
   font-family: new-caledonia, serif;
   font-size: 1.7rem;
-  line-height: 1.9rem;
+  line-height: 2rem;
 }
