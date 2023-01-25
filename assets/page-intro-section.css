@@ -355,4 +355,6 @@
 
 .page-intro-section-wrapper{
   background-color: #FFF3E7;
+  height: calc(100vh - 60px);
+  border-bottom: 1px solid black;
 }
