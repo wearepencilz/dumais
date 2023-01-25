@@ -73,8 +73,7 @@
   }
 
   .collection-hero__description {
-    width: 60%;
-    max-width: 600px;
+    max-width: 55%;
   }
 
   .collection-hero--with-image .collection-hero__description {
