@@ -84,6 +84,9 @@
 
 
 .page-intro-section__text-item{
+  width: 95%;
+  max-width: 750px;
+  margin:0 auto;
 }
 
 
@@ -260,7 +263,7 @@
 
 @media screen and (min-width: 990px) {
   .page-intro-section__content {
-    padding: 6rem 7rem 7rem;
+    padding: 4rem 2rem 5rem;
   }
 }
 
