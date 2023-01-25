@@ -1,10 +1,31 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "b5312627-67aa-4640-8117-4a6d2dca5640": {
+      "type": "page-intro-section",
+      "blocks": {
+        "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Custom"
+          }
+        },
+        "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We regularly create custom pieces for private and commercial clients. Some are after an existing design in a different finish, while others want something entirely individual. Our studio in Litchfield, Connecticut, is a fully functioning one, so as long as it fits inside our kiln, we'd be happy to create something for you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-0",
+        "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-1"
+      ],
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "image": "shopify:\/\/shop_images\/custom.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "0f10338b-9075-4c4f-b90a-52066609d5ea": {
@@ -59,10 +80,19 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
-    "main",
-    "0f10338b-9075-4c4f-b90a-52066609d5ea"
+    "b5312627-67aa-4640-8117-4a6d2dca5640",
+    "0f10338b-9075-4c4f-b90a-52066609d5ea",
+    "main"
   ]
 }
