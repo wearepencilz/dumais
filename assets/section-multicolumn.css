@@ -191,8 +191,13 @@
     .center
     .multicolumn-card__info {
     padding-left: 1.5rem;
-    padding-right: 4.5rem;
+    padding-right: 1.5rem;
   }
+
+    .multicolumn-card__info {
+      padding-right: 4.5rem;
+    }
+
 }
 
 .multicolumn-card {
