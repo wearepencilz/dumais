@@ -319,7 +319,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-counter__link--active.slider-counter__link--numbers {
-  text-decoration: underline;
+  text-decoration: underline; text-decoration-skip-ink: none;
   color: rgb(var(--color-foreground));
 }
 

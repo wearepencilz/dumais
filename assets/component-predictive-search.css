@@ -138,7 +138,7 @@ predictive-search[loading]
 .predictive-search__list-item[aria-selected="true"]
   .predictive-search__item-heading,
 .predictive-search__list-item:hover .predictive-search__item-heading {
-  text-decoration: underline;
+  text-decoration: underline; text-decoration-skip-ink: none;
   text-underline-offset: 0.3rem;
 }
 

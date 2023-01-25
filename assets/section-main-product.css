@@ -127,7 +127,7 @@
   font-size: 1.2rem;
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   letter-spacing: 0.05rem;
-  text-decoration: underline;
+  text-decoration: underline; text-decoration-skip-ink: none;
   text-underline-offset: 0.3rem;
 }
 
@@ -236,7 +236,7 @@ fieldset.product-form__input .form__label {
 
 @media screen and (forced-colors: active) {
   .product-form__input input[type=radio]:checked + label {
-    text-decoration: underline;
+    text-decoration: underline; text-decoration-skip-ink: none;
   }
 }
 
@@ -1270,7 +1270,7 @@ a.product__text {
 }
 
 .product__view-details:hover {
-  text-decoration: underline;
+  text-decoration: underline; text-decoration-skip-ink: none;
   text-underline-offset: 0.3rem;
 }
 
