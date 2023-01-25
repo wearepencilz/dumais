@@ -8,6 +8,11 @@
   font-style: italic;
 }
 
+.rich-text strong{
+  font-family: var(--font-body-family);
+  font-weight: 400;
+}
+
 .rich-text__wrapper {
   display: flex;
   justify-content: center;
