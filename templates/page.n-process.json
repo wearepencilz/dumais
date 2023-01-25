@@ -73,8 +73,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/sketch-finish-1.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "<p>1. <br\/>Our inspiration comes from far and wide. It can be found in the natural flora and fauna around our studio in Litchfield, which is serene and sometimes surprising.   Or in the product of human hands, like the shapes and forms of the mid-century – we're particular fans of Jean-Michel Frank – or objects from unknown craftsmen. Dumais Made began because  of antique Japanese lamp.<\/p>",
             "link_label": "",
             "link": ""
           }
