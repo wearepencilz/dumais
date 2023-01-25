@@ -235,7 +235,7 @@
     /* background: pink */
   }
   .stof-list.grid{
-    column-gap:21%;
+    column-gap:10%;
   }
 
   .stof-list.grid--2-col-desktop .grid__item {
@@ -275,5 +275,5 @@
 .stof .page-width {
   padding-left: 0;
   padding-right: 0;
-  max-width: 1200px;
+  max-width: 1100px;
 }
