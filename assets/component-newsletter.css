@@ -1,3 +1,8 @@
+.newsletter{
+  background-color: #FBFBFF;
+  border-top: 1px solid black;
+}
+
 .newsletter-form {
   display: flex;
   flex-direction: column;
