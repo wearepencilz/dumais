@@ -235,12 +235,12 @@
     background: pink
   }
   .stof-list.grid{
-    column-gap:30%;
+    column-gap:20%;
   }
 
   .stof-list.grid--2-col-desktop .grid__item {
-    width: calc(34% - var(--grid-desktop-horizontal-spacing) / 2) !important;
-    max-width: calc(34% - var(--grid-desktop-horizontal-spacing) / 2) !important;
+    width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2) !important;
+    max-width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2) !important;
   }
 }
 
