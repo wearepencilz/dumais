@@ -13,7 +13,7 @@
 }
 
 .page-intro-section__media {
-  max-width: 85%;
+  max-width: 100%;
 }
 
 .page-intro-section__media {
@@ -24,7 +24,7 @@
 
 @media screen and (min-width: 750px) {
   .page-intro-section__media {
-    max-width: 65%;
+    max-width: 100%;
   }
 }
 
