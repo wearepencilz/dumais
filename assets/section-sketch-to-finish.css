@@ -76,7 +76,7 @@
 .stof-list h3,
 .stof-list p {
   margin: 0;
-  max-width: 85%;
+  max-width: 90%;
 }
 
 .stof-card-spacing {
@@ -256,10 +256,10 @@
     background-size: 50px 90px;
     display: block;
     margin-left: 40%;
-    margin-top: 3rem;
+    margin-top: 2rem;
     width: 50px;
     height: 90px;
-     transform: rotate(-30deg);
+     transform: rotate(-20deg);
     position: absolute;
     content: "";
   }
