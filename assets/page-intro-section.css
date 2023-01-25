@@ -75,7 +75,7 @@
 
 
 .page-intro-section__media-item{
-  /* max-width: 85%; */
+  max-width: 85%;
   height:55vh;
   width:auto;
 
@@ -84,8 +84,14 @@
 
 
 .page-intro-section__text-item{
-  background: none;
 }
+
+.page-intro-section__content{
+  background: none;
+  align-self: center;
+  text-align: center;
+}
+
 
 .page-intro-section .grid__item::after {
   content: '';
