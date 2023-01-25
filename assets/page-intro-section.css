@@ -82,6 +82,11 @@
   margin:0 auto;
 }
 
+
+.page-intro-section__text-item{
+  background: none;
+}
+
 .page-intro-section .grid__item::after {
   content: '';
   position: absolute;
