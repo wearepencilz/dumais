@@ -43,6 +43,29 @@
         "padding_bottom": 36
       }
     },
+    "375b34b2-3c3e-45df-8e8f-57a3d3c40872": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16834058158294__375b34b2-3c3e-45df-8e8f-57a3d3c40872-1674666231bb1f3af0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>FROM SKETCH TO<\/strong><br\/><em>Finished piece<\/em><\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058158294__375b34b2-3c3e-45df-8e8f-57a3d3c40872-1674666231bb1f3af0-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "36cc1bae-2088-45e4-b6eb-f4db54ca13e2": {
       "type": "sketch-to-finish",
       "blocks": {
@@ -103,6 +126,7 @@
   "order": [
     "main",
     "418c546c-894d-4096-82a3-8b4f8accfb79",
+    "375b34b2-3c3e-45df-8e8f-57a3d3c40872",
     "36cc1bae-2088-45e4-b6eb-f4db54ca13e2"
   ]
 }
