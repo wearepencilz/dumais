@@ -76,7 +76,8 @@
 
 .page-intro-section__media-item{
   max-width: 85%;
-  width:85%;
+  height:45vh;
+  width:auto%;
 
   margin:auto;
 }
