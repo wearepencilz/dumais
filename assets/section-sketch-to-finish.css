@@ -235,7 +235,7 @@
     background: pink
   }
   .stof-list.grid{
-    column-gap:20%;
+    column-gap:22%;
   }
 
   .stof-list.grid--2-col-desktop .grid__item {
