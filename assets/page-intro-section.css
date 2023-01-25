@@ -87,6 +87,7 @@
 .page-intro-section__text-item{
 }
 
+
 .page-intro-section__content{
   background: none;
   align-self: center;
@@ -166,15 +167,6 @@
   }
 }
 
-.page-intro-section__content--mobile-right > * {
-  align-self: flex-end;
-  text-align: right;
-}
-
-.page-intro-section__content--mobile-center > * {
-  align-self: center;
-  text-align: center;
-}
 
 .page-intro-section--overlap .page-intro-section__content {
   width: 90%;
@@ -184,31 +176,6 @@
 @media screen and (min-width: 750px) {
   .page-intro-section__grid--reverse .page-intro-section__content {
     margin-left: auto;
-  }
-
-  .page-intro-section__content--bottom {
-    justify-content: flex-end;
-    align-self: flex-end;
-  }
-
-  .page-intro-section__content--top {
-    justify-content: flex-start;
-    align-self: flex-start;
-  }
-
-  .page-intro-section__content--desktop-right > * {
-    align-self: flex-end;
-    text-align: right;
-  }
-
-  .page-intro-section__content--desktop-left > * {
-    align-self: flex-start;
-    text-align: left;
-  }
-
-  .page-intro-section__content--desktop-center > * {
-    align-self: center;
-    text-align: center;
   }
 
   .page-intro-section--overlap .page-intro-section__text-item {
