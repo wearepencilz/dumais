@@ -22,7 +22,7 @@
     <div class="page-intro-section__text-item">
       <div
         id="ImageWithText--{{ section.id }}"
-        class="page-intro-section__content page-intro-section__content--{{ section.settings.desktop_content_position }} page-intro-section__content--desktop-{{ section.settings.desktop_content_alignment }} page-intro-section__content--mobile-{{ section.settings.mobile_content_alignment }} page-intro-section__content--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} content-container"
+        class="page-intro-section__content content-container"
       >
         {%- for block in section.blocks -%}
           {% case block.type %}
