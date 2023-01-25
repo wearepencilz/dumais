@@ -276,6 +276,7 @@
     margin-left: -5%;
     width: 50px;
     height: 90px;
+    transform: rotate(20deg);
     position: absolute;
     content: "";
   }
