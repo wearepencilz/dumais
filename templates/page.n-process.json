@@ -43,10 +43,10 @@
         "padding_bottom": 36
       }
     },
-    "6ad98dae-c53e-445f-a838-8524ba9bd0f3": {
-      "type": "multicolumn",
+    "36cc1bae-2088-45e4-b6eb-f4db54ca13e2": {
+      "type": "sketch-to-finish",
       "blocks": {
-        "template--16834058158294__6ad98dae-c53e-445f-a838-8524ba9bd0f3-1674662281818add2c-0": {
+        "template--16834058158294__36cc1bae-2088-45e4-b6eb-f4db54ca13e2-16746642029deff909-0": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/sketch-finish-1.jpg",
@@ -56,7 +56,7 @@
             "link": ""
           }
         },
-        "template--16834058158294__6ad98dae-c53e-445f-a838-8524ba9bd0f3-1674662281818add2c-1": {
+        "template--16834058158294__36cc1bae-2088-45e4-b6eb-f4db54ca13e2-16746642029deff909-1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/sketch-finish-2.png",
@@ -66,7 +66,7 @@
             "link": ""
           }
         },
-        "template--16834058158294__6ad98dae-c53e-445f-a838-8524ba9bd0f3-1674662281818add2c-2": {
+        "template--16834058158294__36cc1bae-2088-45e4-b6eb-f4db54ca13e2-16746642029deff909-2": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/sketch-finish-3.png",
@@ -78,9 +78,9 @@
         }
       },
       "block_order": [
-        "template--16834058158294__6ad98dae-c53e-445f-a838-8524ba9bd0f3-1674662281818add2c-0",
-        "template--16834058158294__6ad98dae-c53e-445f-a838-8524ba9bd0f3-1674662281818add2c-1",
-        "template--16834058158294__6ad98dae-c53e-445f-a838-8524ba9bd0f3-1674662281818add2c-2"
+        "template--16834058158294__36cc1bae-2088-45e4-b6eb-f4db54ca13e2-16746642029deff909-0",
+        "template--16834058158294__36cc1bae-2088-45e4-b6eb-f4db54ca13e2-16746642029deff909-1",
+        "template--16834058158294__36cc1bae-2088-45e4-b6eb-f4db54ca13e2-16746642029deff909-2"
       ],
       "settings": {
         "title": "Multicolumn",
@@ -89,8 +89,8 @@
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
+        "background_style": "primary",
+        "button_label": "Button label",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
@@ -103,6 +103,6 @@
   "order": [
     "main",
     "418c546c-894d-4096-82a3-8b4f8accfb79",
-    "6ad98dae-c53e-445f-a838-8524ba9bd0f3"
+    "36cc1bae-2088-45e4-b6eb-f4db54ca13e2"
   ]
 }
