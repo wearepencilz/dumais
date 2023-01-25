@@ -41,7 +41,7 @@
 
     <div class="page-intro-section__media-item grid__item">
       <div
-        class="page-intro-section__media page-intro-section__media--medium gradient color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank %}media{% else %}page-intro-section__media--placeholder placeholder{% endif %}"
+        class="page-intro-section__media gradient color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank %}media{% else %}page-intro-section__media--placeholder placeholder{% endif %}"
         {% if section.settings.height == 'adapt' and section.settings.image != blank %}
           style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
         {% endif %}
