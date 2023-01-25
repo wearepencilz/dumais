@@ -231,3 +231,8 @@
     display: list-item;
   }
 }
+
+.underline{
+  text-decoration: underline;
+text-underline-offset: .3rem;
+}
