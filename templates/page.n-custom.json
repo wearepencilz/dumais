@@ -62,7 +62,7 @@
         "content_alignment": "left",
         "color_scheme": "background-2",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 80,
         "padding_bottom": 52
       }
     },
@@ -108,7 +108,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 100
       }
     },
     "main": {
