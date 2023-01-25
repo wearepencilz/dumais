@@ -232,7 +232,7 @@
 
 @media screen and (min-width: 990px){
   .stof-list{
-    background: pink
+    /* background: pink */
   }
   .stof-list.grid{
     column-gap:21%;
