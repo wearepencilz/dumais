@@ -232,7 +232,7 @@
 
 @media screen and (min-width: 990px){
   .stof-list .grid--2-col-desktop .grid__item {
-    width: calc(30% - var(--grid-desktop-horizontal-spacing) / 2);
-    max-width: calc(30% - var(--grid-desktop-horizontal-spacing) / 2);
+    width: calc(30% - var(--grid-desktop-horizontal-spacing) / 2) !important;
+    max-width: calc(30% - var(--grid-desktop-horizontal-spacing) / 2) !important;
   }
 }
