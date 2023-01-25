@@ -254,9 +254,10 @@
     background-image: url(https://cdn.shopify.com/s/files/1/0414/3782/3127/t/1/assets/arrow-right.png?v=1593633369);
     background-size: 50px 90px;
     display: block;
-    margin-left: 110%;
+    margin-left: 100%;
     width: 50px;
     height: 90px;
+    position: absolute;
     content: "";
   }
 
