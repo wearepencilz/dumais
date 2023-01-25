@@ -234,9 +234,12 @@
 
 .underline{
   text-decoration: underline;
-text-underline-offset: .3rem;
+  text-underline-offset: .3rem;
+  text-decoration-skip-ink: none;
 }
 
 .multicolumn-card__info .rte p{
   font-family: new-caledonia, serif;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
 }
