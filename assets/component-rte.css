@@ -65,3 +65,9 @@
 .rte blockquote > * {
   margin: -0.5rem 0 -0.5rem 0;
 }
+
+.x-small-headline{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: pitch, monospaced;
+}
