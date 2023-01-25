@@ -32,7 +32,7 @@
               </h2>
             {%- when 'text' -%}
               <div class="page-intro-section__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-                <h3>{{ block.settings.text }}</h3>
+                {{ block.settings.text }}
               </div>
           {%- endcase -%}
         {%- endfor -%}
