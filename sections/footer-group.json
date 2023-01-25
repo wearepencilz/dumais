@@ -9,14 +9,14 @@
           "type": "link_list",
           "settings": {
             "heading": "",
-            "menu": "footer"
+            "menu": "footer-n"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
             "heading": "",
-            "menu": "footer"
+            "menu": "footer-second-n"
           }
         },
         "09a1d804-b8f2-4962-ba2c-840615a61971": {
