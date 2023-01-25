@@ -157,8 +157,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/how-1.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "<p><strong>1.<\/strong><br\/><br\/>Regardless of whether you're adapting an existing design or creating something completely custom, we will provide sketches, illustrations or renderings of your piece, as well as relevant material samples so that you can make an informed decision.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -167,8 +167,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/how-2.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "<p><strong>2.<br\/><br\/><\/strong>If we're creating something from scratch, or if you're producing a large number of pieces for a commercial project, we'll also create test pieces to ensure that the design is structurally sound and achieves the desired effect.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -177,8 +177,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/how-3.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "<p><strong>3.<br\/><\/strong><br\/>Once everything is approved, we'll cut, assemble, dry, fire, glaze, fire, fit, shade and test your finished piece, a process that takes approx. 6 to 8 weeks. Pieces are then carefully packaged and can be collected from our studio or shipped to you via UPS.<\/p>",
             "link_label": "",
             "link": ""
           }
