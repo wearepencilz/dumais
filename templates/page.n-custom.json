@@ -14,11 +14,18 @@
           "settings": {
             "text": "<p>We regularly create custom pieces for private and commercial clients. Some are after an existing design in a different finish, while others want something entirely individual. Our studio in Litchfield, Connecticut, is a fully functioning one, so as long as it fits inside our kiln, we'd be happy to create something for you.<\/p>"
           }
+        },
+        "55ad08a3-f28a-44f6-8b34-04a6575d2363": {
+          "type": "caption",
+          "settings": {
+            "caption": "A custom Mug Lamp in our guest room.."
+          }
         }
       },
       "block_order": [
         "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-0",
-        "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-1"
+        "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-1",
+        "55ad08a3-f28a-44f6-8b34-04a6575d2363"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/custom.jpg",
