@@ -88,7 +88,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/about-3.jpg",
             "text": "<p>A custom Mug Lamp in our guest room..<\/p>",
-            "image_offset": "no-offset"
+            "image_offset": "medium-offset"
           }
         }
       },
