@@ -135,16 +135,16 @@ h2,
 }
 
 .button::selection {
-  background-color: rgba(var(--color-base-solid-button-labels), 0.3);
+  /* background-color: rgba(var(--color-base-solid-button-labels), 0.3); */
 }
 
 .button:hover {
-  box-shadow: 0 0 0 0rem rgb(var(--color-base-accent-1));
+  /* box-shadow: 0 0 0 0rem rgb(var(--color-base-accent-1)); */
 }
 
 .button--secondary {
   color: rgb(var(--color-base-outline-button-labels));
-  box-shadow: 0 0 0 0rem rgb(var(--color-base-outline-button-labels));
+  /* box-shadow: 0 0 0 0rem rgb(var(--color-base-outline-button-labels)); */
   background-color: transparent;
 }
 
