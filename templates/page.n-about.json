@@ -9,10 +9,19 @@
             "text": "<p>Dumais Made is a pottery studio based in Litchfield, Connecticut, specializing in handmade lamps and accessories.<br\/><br\/>Founded by Charlie and Kevin Dumais in 2017, Dumais Made is a labor of love, a collaboration, reflecting their shared experience and interests. The studio began as a hobby, a small series of lamps conceived together and produced by Charlie outside his work as a lighting designer. Inspired by modernist sculpture, these simple, straightforward pieces, rendered in muted colors and natural textures, allowed the pair to experiment with how we interact with light. And, importantly, to better understand how we live with it.<br\/><br\/>These initial lamps are still a part of Charlie and Kevin’s life. One sits on a nightstand in their house in Litchfield, another on a desk in Kevin’s interior design practice in New York. As the studio has grown and evolved – it now produces lamps, pendants, sconces and accessories of all sizes that have found their way into homes, offices and other spaces around the country – these pieces have continued to inform the pair’s output: tactile objects that reveal their character the longer you live with them.<\/p><p><\/p>",
             "text_style": "body"
           }
+        },
+        "19aa202c-2b8b-45c4-a23f-029152d4ae88": {
+          "type": "caption",
+          "settings": {
+            "caption": "A custom Mug Lamp in our guest room..",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
         }
       },
       "block_order": [
-        "1846eb49-e4ad-4f13-aa3d-343923c0c3b8"
+        "1846eb49-e4ad-4f13-aa3d-343923c0c3b8",
+        "19aa202c-2b8b-45c4-a23f-029152d4ae88"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/aboit.jpg",
