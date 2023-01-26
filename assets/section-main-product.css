@@ -1,3 +1,9 @@
+.main-product-wrapper{
+  background-color: #FBFBFF;
+  width: 100%;
+  height: auto;
+}
+
 .main-product{
   max-width:1200px;
   background-color: #FBFBFF;
