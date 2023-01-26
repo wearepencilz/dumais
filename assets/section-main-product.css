@@ -1513,6 +1513,7 @@ a.product__text {
 
 .product-form__input .select {
     max-width: 44rem !important;
+    background: #FBFBFF;
 }
 
 
