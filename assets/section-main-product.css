@@ -349,7 +349,7 @@ fieldset.product-form__input .form__label {
   font-size: 1.4rem;
 
   max-width:450px;
-
+  padding-bottom:1rem;
   border-bottom: 1px solid black;
 }
 
