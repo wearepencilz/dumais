@@ -74,7 +74,7 @@
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
-        "padding_top": 40,
+        "padding_top": 60,
         "padding_bottom": 28
       }
     }
