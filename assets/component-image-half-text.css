@@ -1,5 +1,7 @@
 .image-half-text{
   width: 95vw;
+  padding: 2.5rem;
+  margin: 0;
 }
 
 .image-half-text .grid {
