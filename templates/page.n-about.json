@@ -1,0 +1,174 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "418c546c-894d-4096-82a3-8b4f8accfb79": {
+      "type": "page-intro-section",
+      "blocks": {
+        "template--16834058158294__418c546c-894d-4096-82a3-8b4f8accfb79-16746058327e3ec2ed-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Process"
+          }
+        },
+        "template--16834058158294__418c546c-894d-4096-82a3-8b4f8accfb79-16746058327e3ec2ed-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We make lamps because we love interacting with light: the waning sun, the flip of a switch, the warm pool that floods a room. Whether that interaction is with a lamp, pendant, sconce or even a candle, it's part of a daily ritual, which is why we believe these pieces are an essential aspect of any room.<\/p>"
+          }
+        },
+        "b1f406e7-3987-494a-a320-536801b1b7cf": {
+          "type": "caption",
+          "settings": {
+            "caption": "How we work, as illustrated by Charlie"
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058158294__418c546c-894d-4096-82a3-8b4f8accfb79-16746058327e3ec2ed-0",
+        "template--16834058158294__418c546c-894d-4096-82a3-8b4f8accfb79-16746058327e3ec2ed-1",
+        "b1f406e7-3987-494a-a320-536801b1b7cf"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/process-2_0cafb1c4-6a08-4c4a-be4f-0b8fc0f406cd.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "375b34b2-3c3e-45df-8e8f-57a3d3c40872": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16834058158294__375b34b2-3c3e-45df-8e8f-57a3d3c40872-1674666231bb1f3af0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>FROM SKETCH TO<\/strong><br\/><em>Finished piece<\/em><\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058158294__375b34b2-3c3e-45df-8e8f-57a3d3c40872-1674666231bb1f3af0-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 52
+      }
+    },
+    "36cc1bae-2088-45e4-b6eb-f4db54ca13e2": {
+      "type": "sketch-to-finish",
+      "blocks": {
+        "template--16834058158294__36cc1bae-2088-45e4-b6eb-f4db54ca13e2-16746642029deff909-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sketch-finish-1.jpg",
+            "title": "",
+            "text": "<p>1. <br\/>Our inspiration comes from far and wide. It can be found in the natural flora and fauna around our studio in Litchfield, which is serene and sometimes surprising. <br\/><br\/>  Or in the product of human hands, like the shapes and forms of the mid-century – we're particular fans of Jean-Michel Frank – or objects from unknown craftsmen. Dumais Made began because  of antique Japanese lamp.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058158294__36cc1bae-2088-45e4-b6eb-f4db54ca13e2-16746642029deff909-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sketch-finish-2.png",
+            "title": "",
+            "text": "<p>2. <br\/>Clay is a natural material, which  means each of our pieces is individual. Even a pair of lamps, while made from the same template, possess their own expression. <br\/><br\/>Their surfaces and seams are subtly different.   Their shapes quietly distinct. It's  a natural individuality, one that is respectfully enhanced through our hands.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058158294__36cc1bae-2088-45e4-b6eb-f4db54ca13e2-16746642029deff909-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sketch-finish-3.png",
+            "title": "",
+            "text": "<p>3. <br\/>Our pieces are finished with the finest glazes. We’re drawn to depth and contrast found in the environment around us – the way nature layers colors, for instance. Or the way gilding can maximize the quality of light, both natural and artificial.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058158294__36cc1bae-2088-45e4-b6eb-f4db54ca13e2-16746642029deff909-0",
+        "template--16834058158294__36cc1bae-2088-45e4-b6eb-f4db54ca13e2-16746642029deff909-1",
+        "template--16834058158294__36cc1bae-2088-45e4-b6eb-f4db54ca13e2-16746642029deff909-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "836d8415-0c97-4bca-b60c-33c0f3cd7b52": {
+      "type": "newsletter",
+      "blocks": {
+        "7857ab6d-dc8c-43ef-b268-03e60a86dc92": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        },
+        "template--16834058158294__836d8415-0c97-4bca-b60c-33c0f3cd7b52-16746738185959ea04-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--16834058158294__836d8415-0c97-4bca-b60c-33c0f3cd7b52-16746738185959ea04-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--16834058158294__836d8415-0c97-4bca-b60c-33c0f3cd7b52-16746738185959ea04-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "7857ab6d-dc8c-43ef-b268-03e60a86dc92",
+        "template--16834058158294__836d8415-0c97-4bca-b60c-33c0f3cd7b52-16746738185959ea04-0",
+        "template--16834058158294__836d8415-0c97-4bca-b60c-33c0f3cd7b52-16746738185959ea04-1",
+        "template--16834058158294__836d8415-0c97-4bca-b60c-33c0f3cd7b52-16746738185959ea04-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "418c546c-894d-4096-82a3-8b4f8accfb79",
+    "375b34b2-3c3e-45df-8e8f-57a3d3c40872",
+    "36cc1bae-2088-45e4-b6eb-f4db54ca13e2",
+    "836d8415-0c97-4bca-b60c-33c0f3cd7b52"
+  ]
+}
