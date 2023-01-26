@@ -3,12 +3,12 @@
 }
 
 .related-products__heading {
-  margin: 0 0 3rem;
+  margin: 0 0 5rem;
 }
 
 .related-products h2{
   font-family: pitch, monospaced;
   text-align: center;
 
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
