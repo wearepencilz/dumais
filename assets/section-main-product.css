@@ -340,7 +340,7 @@ fieldset.product-form__input .form__label {
 /* Product info */
 
 .product__info-container > * + * {
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 
 
@@ -411,7 +411,7 @@ a.product__text {
 }
 
 .price{
-  margin-top: -1.05rem;
+  margin-top: .5rem;
 }
 
 .product .price .badge {
