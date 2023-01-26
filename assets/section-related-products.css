@@ -5,3 +5,8 @@
 .related-products__heading {
   margin: 0 0 3rem;
 }
+
+.related-products h3{
+  font-family: pitch, monospaced;
+  text-align: center;
+}
