@@ -1492,3 +1492,11 @@ a.product__text {
     display: none;
   }
 }
+
+.product-form__input {
+    max-width: 100% !important;
+}
+
+.product-form__input .select {
+    max-width: 100% !important;
+}
