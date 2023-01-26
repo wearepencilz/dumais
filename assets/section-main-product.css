@@ -1513,12 +1513,11 @@ a.product__text {
 
 .product-form__input .select {
     max-width: 44rem !important;
-    background: #FBFBFF;
 }
 
 
 .view-glazes{
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #7E7E80;
   text-decoration: none;
 }
