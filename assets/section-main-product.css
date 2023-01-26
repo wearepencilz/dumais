@@ -186,6 +186,10 @@ variant-selects {
   display: block;
 }
 
+.select select:first-child::after{
+  content: "lalaal"
+}
+
 .product-form__input label{
   display: none;
 }
@@ -298,10 +302,11 @@ fieldset.product-form__input .form__label {
 .product-form__submit {
   margin-bottom: 1rem;
   border: 1px solid black;
+  background: #FBFBFF;
 }
 
 .product-form__submit:hover{
-  background: #FBFBFF;
+  background: #ffffff;
 }
 
 .no-js .product-form__submit.button--secondary {
