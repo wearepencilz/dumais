@@ -336,7 +336,7 @@ fieldset.product-form__input .form__label {
 }
 
 .product__description p em strong{
-  font-style: normal;
+  font-weight: normal;
   font-family: new-caledonia, serif;
   font-size: 2rem;
   line-height: 2.2rem;
