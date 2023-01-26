@@ -1514,3 +1514,14 @@ a.product__text {
 .product-form__input .select {
     max-width: 44rem !important;
 }
+
+
+.view-glazes{
+  font-size: 1.5rem;
+  color: #7E7E80;
+  text-decoration: none;
+}
+
+.view-glazes:hover{
+  color: black;
+}
