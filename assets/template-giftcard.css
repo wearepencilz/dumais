@@ -125,7 +125,7 @@ h2,
   padding: 1.5rem 3rem;
   text-decoration: none;
   background-color: rgb(var(--color-base-accent-1));
-  box-shadow: 0 0 0 0rem rgb(var(--color-base-accent-1));
+  box-shadow: 0 0 0 0 rem rgb(var(--color-base-accent-1));
   color: rgb(var(--color-base-solid-button-labels));
   min-width: 12rem;
   height: auto;
