@@ -1522,8 +1522,12 @@ a.product__text {
     background: #FBFBFF;
 }
 
+.product-form__input .select select{
+    background: #FBFBFF;
+}
+
 .view-glazes-wrapper{
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .view-glazes{
