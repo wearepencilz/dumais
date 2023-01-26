@@ -146,6 +146,10 @@
   display: none;
 }
 
+.shopify-payment-button:hover{
+  opacity: 0.9;
+}
+
 /* Product form */
 
 .product-form {
