@@ -1,11 +1,47 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
+    "1fb38b5e-c5dc-45d0-b0c9-6542d3bbd8cf": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16835143008470__1fb38b5e-c5dc-45d0-b0c9-6542d3bbd8cf-16747575399275bf4b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16835143008470__1fb38b5e-c5dc-45d0-b0c9-6542d3bbd8cf-16747575399275bf4b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16835143008470__1fb38b5e-c5dc-45d0-b0c9-6542d3bbd8cf-16747575399275bf4b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16835143008470__1fb38b5e-c5dc-45d0-b0c9-6542d3bbd8cf-16747575399275bf4b-0",
+        "template--16835143008470__1fb38b5e-c5dc-45d0-b0c9-6542d3bbd8cf-16747575399275bf4b-1",
+        "template--16835143008470__1fb38b5e-c5dc-45d0-b0c9-6542d3bbd8cf-16747575399275bf4b-2"
+      ],
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "image": "shopify:\/\/shop_images\/aboit.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "418c546c-894d-4096-82a3-8b4f8accfb79": {
@@ -122,53 +158,20 @@
         "padding_bottom": 36
       }
     },
-    "836d8415-0c97-4bca-b60c-33c0f3cd7b52": {
-      "type": "newsletter",
-      "blocks": {
-        "7857ab6d-dc8c-43ef-b268-03e60a86dc92": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": ""
-          }
-        },
-        "template--16834058158294__836d8415-0c97-4bca-b60c-33c0f3cd7b52-16746738185959ea04-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "template--16834058158294__836d8415-0c97-4bca-b60c-33c0f3cd7b52-16746738185959ea04-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
-          }
-        },
-        "template--16834058158294__836d8415-0c97-4bca-b60c-33c0f3cd7b52-16746738185959ea04-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "7857ab6d-dc8c-43ef-b268-03e60a86dc92",
-        "template--16834058158294__836d8415-0c97-4bca-b60c-33c0f3cd7b52-16746738185959ea04-0",
-        "template--16834058158294__836d8415-0c97-4bca-b60c-33c0f3cd7b52-16746738185959ea04-1",
-        "template--16834058158294__836d8415-0c97-4bca-b60c-33c0f3cd7b52-16746738185959ea04-2"
-      ],
+    "main": {
+      "type": "main-page",
+      "disabled": true,
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     }
   },
   "order": [
-    "main",
+    "1fb38b5e-c5dc-45d0-b0c9-6542d3bbd8cf",
     "418c546c-894d-4096-82a3-8b4f8accfb79",
     "375b34b2-3c3e-45df-8e8f-57a3d3c40872",
     "36cc1bae-2088-45e4-b6eb-f4db54ca13e2",
-    "836d8415-0c97-4bca-b60c-33c0f3cd7b52"
+    "main"
   ]
 }
