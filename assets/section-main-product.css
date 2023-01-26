@@ -1494,9 +1494,9 @@ a.product__text {
 }
 
 .product-form__input {
-    max-width: 100% !important;
+    max-width: 44rem !important;
 }
 
 .product-form__input .select {
-    max-width: 100% !important;
+    max-width: 44rem !important;
 }
