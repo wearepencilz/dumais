@@ -198,9 +198,6 @@
                   </div>
                 </details>
               </div>
-
-              <p> hello<a href="/glazes">jjajaj </a>
-
             {%- when 'quantity_selector' -%}
               <div
                 class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}"
@@ -312,6 +309,7 @@
               %}
 
             {%- when 'variant_picker' -%}
+              <p> hello<a href="/glazes">jjajaj </a>
               {% render 'product-variant-picker', block: block, product: product %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true -%}
