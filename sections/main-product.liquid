@@ -309,7 +309,9 @@
               %}
 
             {%- when 'variant_picker' -%}
+            <div class="view-glazes-wrapper">
               <a class="view-glazes" href="/glazes1">View all glazes</a>
+            </div>
               {% render 'product-variant-picker', block: block, product: product %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true -%}

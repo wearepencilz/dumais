@@ -1522,12 +1522,14 @@ a.product__text {
     background: #FBFBFF;
 }
 
+.view-glazes-wrapper{
+  margin-bottom: 0.5rem;
+}
 
 .view-glazes{
   font-size: 1.35rem;
   color: #7E7E80;
   text-decoration: none;
-  margin-bottom: 0.5rem;
 }
 
 .view-glazes:hover{
