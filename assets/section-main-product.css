@@ -182,6 +182,10 @@ variant-selects {
   display: block;
 }
 
+variant-selects label{
+  display: none;
+}
+
 .product-form__input--dropdown {
   margin-bottom: 1.6rem;
 }
