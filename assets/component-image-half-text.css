@@ -8,6 +8,8 @@
 
 .image-half-text .grid {
   margin-bottom: 0;
+
+  background: pink;
 }
 
 .image-half-text .grid__item {
