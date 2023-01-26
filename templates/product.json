@@ -8,6 +8,11 @@
           "settings": {
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -26,11 +31,6 @@
             "picker_type": "dropdown"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -40,10 +40,10 @@
       },
       "block_order": [
         "title",
+        "price",
         "caption",
         "description",
         "variant_picker",
-        "price",
         "buy_buttons"
       ],
       "settings": {
