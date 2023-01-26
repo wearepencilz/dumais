@@ -125,7 +125,7 @@ h2,
   padding: 1.5rem 3rem;
   text-decoration: none;
   background-color: rgb(var(--color-base-accent-1));
-  box-shadow: 0 0 0 0.1rem rgb(var(--color-base-accent-1));
+  box-shadow: 0 0 0 0rem rgb(var(--color-base-accent-1));
   color: rgb(var(--color-base-solid-button-labels));
   min-width: 12rem;
   height: auto;
@@ -139,12 +139,12 @@ h2,
 }
 
 .button:hover {
-  box-shadow: 0 0 0 0.2rem rgb(var(--color-base-accent-1));
+  box-shadow: 0 0 0 0rem rgb(var(--color-base-accent-1));
 }
 
 .button--secondary {
   color: rgb(var(--color-base-outline-button-labels));
-  box-shadow: 0 0 0 0.1rem rgb(var(--color-base-outline-button-labels));
+  box-shadow: 0 0 0 0rem rgb(var(--color-base-outline-button-labels));
   background-color: transparent;
 }
 
@@ -153,7 +153,7 @@ h2,
 }
 
 .button--secondary:hover {
-  box-shadow: 0 0 0 0.2rem rgb(var(--color-base-outline-button-labels));
+  box-shadow: 0 0 0 0rem rgb(var(--color-base-outline-button-labels));
 }
 
 .gift-card {
@@ -358,7 +358,7 @@ h2,
 }
 
 .button:focus-visible {
-  box-shadow: 0 0 0 0.1rem rgb(var(--color-base-accent-1)),
+  box-shadow: 0 0 0 0rem rgb(var(--color-base-accent-1)),
     0 0 0 0.3rem rgb(var(--color-base-background-1)),
     0 0 0.5rem 0.4rem rgba(var(--color-base-text), 0.3);
 }
@@ -370,19 +370,19 @@ h2,
 }
 
 .button:focus {
-  box-shadow: 0 0 0 0.1rem rgb(var(--color-base-accent-1)),
+  box-shadow: 0 0 0 0rem rgb(var(--color-base-accent-1)),
     0 0 0 0.3rem rgb(var(--color-base-background-1)),
     0 0 0.5rem 0.4rem rgba(var(--color-base-text), 0.3);
 }
 
 .button--secondary:focus-visible {
-  box-shadow: 0 0 0 0.1rem rgb(var(--color-base-outline-button-labels)),
+  box-shadow: 0 0 0 0rem rgb(var(--color-base-outline-button-labels)),
     0 0 0 0.3rem rgb(var(--color-base-background-1)),
     0 0 0.5rem 0.4rem rgba(var(--color-base-text), 0.3);
 }
 
 .button--secondary:focus {
-  box-shadow: 0 0 0 0.1rem rgb(var(--color-base-outline-button-labels)),
+  box-shadow: 0 0 0 0rem rgb(var(--color-base-outline-button-labels)),
     0 0 0 0.3rem rgb(var(--color-base-background-1)),
     0 0 0.5rem 0.4rem rgba(var(--color-base-text), 0.3);
 }
