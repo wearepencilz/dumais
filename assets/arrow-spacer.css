@@ -79,6 +79,35 @@
   background-color: #FFF9F3;
 }
 
+.arrow{
+  display: grid;
+  grid-template-areas: 'left center right';
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.arrow-position-right{
+  grid-area: right;
+  justify-self: center;
+}
+
+.arrow-position-left{
+  grid-area: left;
+  justify-self: center;
+}
+
+
+.arrow-position-center{
+  grid-area: center;
+  justify-self: center;
+}
+
+
+
+
+
 .arrow-point-right{
   background-image: url(https://cdn.shopify.com/s/files/1/0414/3782/3127/t/1/assets/arrow-right.png?v=1593633369);
   background-size: 50px 90px;
