@@ -281,3 +281,9 @@
     max-width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2) !important;
   }
 }
+
+.image-multicolumn-list .page-width {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 1100px;
+}
