@@ -23,8 +23,7 @@
 
 <div class="arrow-wrapper">
   <div class="arrow">
-    <div class="arrow-position-{{ section.settings.arrow_position | escape }}">
-
+    <div class="arrow-position-{{ section.settings.arrow_orientation | escape }}">
     </div>
   </div>
 </div>
@@ -59,6 +58,23 @@
       "default": "left",
       "label": "Arrow Left",
       "info": "Choose the position of the arrow between sections"
+    },
+    {
+      "type": "select",
+      "id": "arrow_orientation",
+      "options": [
+        {
+          "value": "point-right",
+          "label": "Arrow Right"
+        },
+        {
+          "value": "point-left",
+          "label": "Arrow Left"
+        }
+      ],
+      "default": "left",
+      "label": "Arrow Orientation Left",
+      "info": "Choose the orientation of the arrow between sections"
     },
     {
       "type": "range",
