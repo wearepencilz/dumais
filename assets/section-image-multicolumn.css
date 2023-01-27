@@ -286,6 +286,10 @@
   }
 }
 
+.image-multicolumn{
+  background-color: #FFF9F3;
+}
+
 .image-multicolumn .page-width {
   padding-left: 0;
   padding-right: 0;
