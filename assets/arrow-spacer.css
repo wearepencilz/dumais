@@ -79,7 +79,7 @@
   background-color: #FFF9F3;
 }
 
-.arrow-position-right{
+.arrow-point-right{
   background-image: url(https://cdn.shopify.com/s/files/1/0414/3782/3127/t/1/assets/arrow-right.png?v=1593633369);
   background-size: 50px 90px;
   display: block;
@@ -91,7 +91,7 @@
   /* position: absolute; */
 }
 
-.arrow-position-left{
+.arrow-point-left{
   background-image: url(https://cdn.shopify.com/s/files/1/0414/3782/3127/t/1/assets/arrow-left.png?v=1593634124);
   background-size: 50px 90px;
   /* display: block; */
