@@ -75,7 +75,7 @@
     "b77e9ce7-fbf6-4a57-8b19-e139fe0ea1df": {
       "type": "arrow-spacer",
       "settings": {
-        "arrow_position": "left",
+        "arrow_position": "right",
         "padding_top": 36,
         "padding_bottom": 36
       }
