@@ -297,6 +297,6 @@
   max-width: 1100px;
 }
 
-.image-multicolumn-card{
+.image-multicolumn:not(.background-none) .image-multicolumn-card{
   background-color: #FFF9F3;
 }
