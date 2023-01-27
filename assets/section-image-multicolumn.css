@@ -278,7 +278,7 @@
 
   .image-multicolumn-list.grid--2-col-desktop .grid__item {
     width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2) !important;
-    max-width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2) !important;
+    max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2) !important;
   }
 }
 
@@ -286,6 +286,5 @@
   padding-left: 0;
   padding-right: 0;
 
-  width: 65vw;
   max-width: 1100px;
 }
