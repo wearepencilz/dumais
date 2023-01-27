@@ -72,3 +72,9 @@
   text-transform: uppercase;
   font-family: pitch, monospaced;
 }
+
+.arrow-wrapper{
+  width: 100vw;
+
+  background-color: #FFF9F3;
+}
