@@ -81,11 +81,12 @@
 
 .arrow{
   display: grid;
-  grid-template-areas: 'left center right';
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: "spacer-l left center right spacer-r";
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
   align-items: center;
   width: 100%;
   max-width: 100%;
+  justify-content: end;
 }
 
 .arrow-position-right{
