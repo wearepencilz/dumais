@@ -30,6 +30,10 @@
   width: 50%;
 }
 
+.image-multicolumn-card__image-wrapper--two-thirds-width {
+  width: 50%;
+}
+
 .image-multicolumn-list__item.center
   .image-multicolumn-card__image-wrapper:not(.image-multicolumn-card__image-wrapper--full-width),
 .image-multicolumn-list__item:only-child {
