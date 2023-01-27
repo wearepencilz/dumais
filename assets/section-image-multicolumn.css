@@ -273,7 +273,7 @@
     /* background: pink */
   }
   .image-multicolumn-list.grid{
-    column-gap:21.5%;
+    column-gap:5.5%;
   }
 
   .image-multicolumn-list.grid--2-col-desktop .grid__item {
