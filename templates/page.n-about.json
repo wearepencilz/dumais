@@ -68,8 +68,8 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "7f6c913e-0f3e-4882-91b1-b416afbc4806": {
@@ -104,8 +104,71 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "bc669f1a-31b5-43ea-8688-cbe4d20dac9f": {
+      "type": "image-multicolumn",
+      "blocks": {
+        "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-2.jpg",
+            "text": "<p>A custom Mug Lamp in our guest room..<\/p>",
+            "image_offset": "no-offset"
+          }
+        },
+        "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-6.jpg",
+            "text": "<p>A custom Mug Lamp in our guest room..<\/p>",
+            "image_offset": "small-offset"
+          }
+        }
+      },
+      "block_order": [
+        "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-0",
+        "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-1"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "600361f3-b4c4-4b39-a4c2-152510393812": {
+      "type": "image-multicolumn",
+      "blocks": {
+        "template--16835143008470__600361f3-b4c4-4b39-a4c2-152510393812-16747810769e45c926-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-7.jpg",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image_offset": "no-offset"
+          }
+        }
+      },
+      "block_order": [
+        "template--16835143008470__600361f3-b4c4-4b39-a4c2-152510393812-16747810769e45c926-2"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
@@ -113,6 +176,8 @@
     "5f0cf666-b52f-4a07-a3c8-b92d2e85726c",
     "main",
     "4c18da40-819f-4acb-b37f-c57a4cda99ac",
-    "7f6c913e-0f3e-4882-91b1-b416afbc4806"
+    "7f6c913e-0f3e-4882-91b1-b416afbc4806",
+    "bc669f1a-31b5-43ea-8688-cbe4d20dac9f",
+    "600361f3-b4c4-4b39-a4c2-152510393812"
   ]
 }
