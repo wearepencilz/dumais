@@ -259,11 +259,14 @@
 .glazes-grid{
   grid-template-areas: "info images";
   grid-template-columns: 1fr 2fr;
+
+  border-bottom:1px solid black;
 }
 
 .glazes-info{
   grid-area: info;
   width: 33%;
+  border-right: 1px solid black;
 }
 
 .glazes-images{
