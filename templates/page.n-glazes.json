@@ -66,8 +66,9 @@
         "template--16834058092758__bc767dd0-f536-495d-b584-6066549ab95b-16749299634a65e006-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_88.jpg",
+            "title": "",
+            "text": "<p>Dipped Finch Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -75,8 +76,9 @@
         "template--16834058092758__bc767dd0-f536-495d-b584-6066549ab95b-16749299634a65e006-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_93.jpg",
+            "title": "",
+            "text": "<p>Dipped Nomad Sconce<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -84,8 +86,19 @@
         "template--16834058092758__bc767dd0-f536-495d-b584-6066549ab95b-16749299634a65e006-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_94.jpg",
+            "title": "",
+            "text": "<p>Dipped Bantam Lamp<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "77209a94-ded7-4804-b964-2aef31596718": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_95.jpg",
+            "title": "",
+            "text": "<p>Bottle-Green & Matte-Black Hudson Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -94,7 +107,8 @@
       "block_order": [
         "template--16834058092758__bc767dd0-f536-495d-b584-6066549ab95b-16749299634a65e006-0",
         "template--16834058092758__bc767dd0-f536-495d-b584-6066549ab95b-16749299634a65e006-1",
-        "template--16834058092758__bc767dd0-f536-495d-b584-6066549ab95b-16749299634a65e006-2"
+        "template--16834058092758__bc767dd0-f536-495d-b584-6066549ab95b-16749299634a65e006-2",
+        "77209a94-ded7-4804-b964-2aef31596718"
       ],
       "settings": {
         "title": "Bottle Green",
