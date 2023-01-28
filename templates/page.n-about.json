@@ -213,7 +213,7 @@
         "45f0ce87-973b-4ecb-be53-a9339ca2c687": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis eros quis lobortis aliquam. Nam non sem ipsum. Aenean porta diam est, ac lobortis magna cursus sit amet. <br\/><br\/><em>All about custom pieces<\/em><\/p>",
+            "heading": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis eros quis lobortis aliquam. Nam non sem ipsum. Aenean porta diam est, ac lobortis magna cursus sit amet. <br\/><br\/><a href=\"\/pages\/custom-n\" title=\"Custom (n)\"><em>All about custom pieces<\/em><\/a><\/p>",
             "heading_size": "h1"
           }
         }
