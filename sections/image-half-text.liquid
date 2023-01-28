@@ -38,6 +38,16 @@
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
       </div>
+      {%- for block in section.blocks -%}
+        {% case block.type %}
+          {%- when 'caption' -%}
+            <p
+              class="image-half-text__text image-half-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.caption | escape }}
+        {%- endcase -%}
+      {%- endfor -%}
     </div>
     <div class="image-half-text__text-item grid__item">
       <div
