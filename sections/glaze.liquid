@@ -35,6 +35,12 @@
         <h2 class="title {{ section.settings.heading_size }}">
           {{ section.settings.title | escape }}
         </h2>
+        {{ section.settings.description | escape }}
+
+        {{ section.settings.combinations | escape }}
+        {{ section.settings.descriptions-text | escape }}
+
+
       </div>
     {%- endunless -%}
     <slider-component class="slider-mobile-gutter glazes-images">
