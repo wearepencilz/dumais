@@ -3107,3 +3107,12 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+
+.color-background-3{
+  background-color: #FFF9F3 !important;
+}
+
+.color-background-4{
+  background-color: #E5E5EB !important;
+}
