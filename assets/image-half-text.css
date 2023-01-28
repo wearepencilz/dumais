@@ -255,8 +255,17 @@
 
   .image-half-text__media-item--small,
   .image-half-text__media-item--large + .image-half-text__text-item {
-    flex-grow: 0.15;
+    flex-grow: 0;
   }
+
+
+
+@media screen and (min-width: 1200px) {
+.image-half-text__media-item--small{
+   flex-grow: 0.15;
+}
+}
+
 
   .image-half-text.collapse-corners:not(.image-half-text--overlap) .grid:not(.image-half-text__grid--reverse) .image-half-text__media-item:after,
   .image-half-text.collapse-corners:not(.image-half-text--overlap) .grid:not(.image-half-text__grid--reverse) .image-half-text__media,
