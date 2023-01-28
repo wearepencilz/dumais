@@ -214,7 +214,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis eros quis lobortis aliquam. Nam non sem ipsum. Aenean porta diam est, ac lobortis magna cursus sit amet. <br\/><br\/><a href=\"\/pages\/custom-n\" title=\"Custom (n)\"><em>All about custom pieces<\/em><\/a><\/p>",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         }
       },
