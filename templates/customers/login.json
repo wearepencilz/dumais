@@ -1,7 +1,11 @@
 {
   "sections": {
     "main": {
-      "type": "main-login"
+      "type": "main-login",
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
