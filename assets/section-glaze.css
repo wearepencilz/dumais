@@ -255,3 +255,8 @@
   font-size: 1.8rem;
   line-height: 2.25rem;
 }
+
+.glazes-grid{
+  /* grid-template-areas: "spacer-l left center right spacer-r"; */
+  grid-template-columns: 1fr 2fr;
+}
