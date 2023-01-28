@@ -23,11 +23,10 @@
 
 <div class="arrow-wrapper">
   <div class="arrow erd">
-    <div class="la-qaa arrow-position-{{ section.settings.arrow_position }">
+    <div class="la-qaa arrow-{{ section.settings.arrow_orientation | escape }} arrow-position-{{ section.settings.arrow_position | escape }">
     </div>
   </div>
 </div>
-
 
 
 {% schema %}
