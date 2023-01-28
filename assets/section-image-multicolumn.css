@@ -139,6 +139,7 @@
 
 .image-multicolumn-card__info {
   padding: 2.5rem;
+  padding-top: 1rem;
 }
 
 .background-none .image-multicolumn-card__info {
