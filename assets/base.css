@@ -2295,7 +2295,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   color: rgb(0, 0, 0);
   height: 1.9rem;
   width: 1.9rem;
-  border: 1px solid black;
+  border: 0.15rem solid black;
   stroke: black;
   border-radius: 100%;
   display: flex;
@@ -2305,6 +2305,10 @@ product-info .loading-overlay:not(.hidden) ~ *,
   bottom: .4rem;
   left: 2.2rem;
   line-height: calc(1 + .1 / var(--font-body-scale));
+}
+
+.cart-count-bubble span{
+  font-weight: 800;
 }
 
 /* section-announcement-bar */
