@@ -256,11 +256,13 @@
   line-height: 2.25rem;
 }
 
+.glazes-wrapper{
+  border-bottom:1px solid black;
+}
+
 .glazes-grid{
   grid-template-areas: "info images";
   grid-template-columns: 1fr 2fr;
-
-  border-bottom:1px solid black;
 }
 
 .glazes-info{

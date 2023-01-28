@@ -26,7 +26,7 @@
   endif
 -%}
 
-<div class="multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
+<div class="glazes-wrapper multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div class="glazes-grid page-width section-{{ section.id }}-padding isolate grid grid--1-col-tablet-down grid--2-col-desktop">
     {%- unless section.settings.title == blank -%}
       <div class="glazes-info title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
