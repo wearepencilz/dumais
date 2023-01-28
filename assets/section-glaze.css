@@ -257,6 +257,6 @@
 }
 
 .glazes-grid{
-  /* grid-template-areas: "spacer-l left center right spacer-r"; */
+  grid-template-areas: "info images";
   grid-template-columns: 1fr 2fr;
 }
