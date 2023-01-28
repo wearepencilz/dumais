@@ -260,3 +260,11 @@
   grid-template-areas: "info images";
   grid-template-columns: 1fr 2fr;
 }
+
+.glazes-info{
+  grid-area: info;
+}
+
+.glazes-images{
+  grid-area: images;
+}
