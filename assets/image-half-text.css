@@ -25,8 +25,10 @@
 }
 
 .image-half-text__media {
-  min-height: 100%;
-  overflow: visible;
+  min-height: 80vh;
+  height: 80vh;
+  padding: 0 !important;
+  overflow: hidden;
 }
 
 .image-half-text__media--small {
@@ -35,7 +37,8 @@
 }
 
 .image-half-text__media--medium {
-  height: 29.6rem;
+  /* height: 29.6rem; */
+    height:80vh;
 }
 
 .image-half-text__media--large {
