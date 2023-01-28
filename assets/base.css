@@ -2295,14 +2295,14 @@ product-info .loading-overlay:not(.hidden) ~ *,
   color: rgb(0, 0, 0);
   height: 1.9rem;
   width: 1.9rem;
-  border: 0.15rem solid black;
+  border: 0.125rem solid black;
   stroke: black;
   border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  bottom: .4rem;
+  bottom: .5rem;
   left: 2.2rem;
   line-height: calc(1 + .1 / var(--font-body-scale));
 }
