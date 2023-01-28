@@ -206,6 +206,29 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "f0249db5-795d-4484-86d0-0b7f12535b00": {
+      "type": "rich-text",
+      "blocks": {
+        "45f0ce87-973b-4ecb-be53-a9339ca2c687": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis eros quis lobortis aliquam. Nam non sem ipsum. Aenean porta diam est, ac lobortis magna cursus sit amet. <br\/><br\/><a href=\"\/pages\/custom-n\" title=\"Custom (n)\"><em>All about custom pieces<\/em><\/a><\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "45f0ce87-973b-4ecb-be53-a9339ca2c687"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -218,6 +241,7 @@
     "5046cb9f-f2f0-4f59-95e0-81fa28aab110",
     "bc669f1a-31b5-43ea-8688-cbe4d20dac9f",
     "94c69ae8-25e0-4649-872b-a8204ab93a10",
-    "600361f3-b4c4-4b39-a4c2-152510393812"
+    "600361f3-b4c4-4b39-a4c2-152510393812",
+    "f0249db5-795d-4484-86d0-0b7f12535b00"
   ]
 }
