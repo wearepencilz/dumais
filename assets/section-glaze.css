@@ -263,8 +263,10 @@
 
 .glazes-info{
   grid-area: info;
+  width: 33.5%;
 }
 
 .glazes-images{
   grid-area: images;
+  width: 65%;
 }
