@@ -33,12 +33,14 @@
     {%- unless section.settings.title == blank -%}
       <div class="glazes-info title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
         <h2 class="title {{ section.settings.heading_size }}">
-          {{ section.settings.title | escape }}
+          {{ section.settings.title }}
         </h2>
-        {{ section.settings.description | escape }}
 
-        {{ section.settings.combinations | escape }}
-        {{ section.settings.descriptions-text | escape }}
+        <div class="rte">{{ section.settings.description }}</div>
+
+        {{ section.settings.combinations }}
+
+        <div class="rte">{{ section.settings.description-text }}</div>
 
 
       </div>
