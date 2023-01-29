@@ -69,7 +69,7 @@
             {%- if block.settings.image != blank -%}
               <div class="image-multicolumn-card__image-wrapper image-multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} image-multicolumn-card-spacing{% endif %}">
                 <div
-                  class="media media--transparent media--adapt"
+                  class="media media--transparent media--{{ section.settings.image_ratio }}"
                 >
                   {%- capture sizes -%}
                     (min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %}, (min-width:
