@@ -313,7 +313,7 @@
   grid-area: images;
   width: 67%;
   margin: 0 auto;
-  padding: 0rem 2.5rem;
+  padding: 2.5rem;
 }
 
 .glazes-images {
@@ -324,6 +324,7 @@
 .glazes-images.multicolumn-card-spacing{
   margin-left: 0;
   margin-right: 0;
+  padding-top: 0;
 }
 
 .glazes-images .multicolumn-card__info .rte p{
