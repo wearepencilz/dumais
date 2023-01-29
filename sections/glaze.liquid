@@ -16,15 +16,18 @@
   <div class="glazes-grid page-width section-{{ section.id }}-padding isolate grid grid--1-col-tablet-down grid--2-col-desktop">
     {%- unless section.settings.title == blank -%}
       <div class="glazes-info title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
-        <h2 class="title {{ section.settings.heading_size }}">
-          {{ section.settings.title }}
-        </h2>
 
-        <div class="rte">{{ section.settings.description }}</div>
+        <div class="glazes-info-main">
+          <h2 class="title {{ section.settings.heading_size }}">
+            {{ section.settings.title }}
+          </h2>
+          <div class="rte">{{ section.settings.description }}</div>
+        </div>
 
-        {{ section.settings.combinations }}
-
-        <div class="rte">{{ section.settings.combtext }}</div>
+        <div class="glazes-info-extra">
+          <p class="caption">{{ section.settings.combinations }}</p>
+          <div class="rte">{{ section.settings.combtext }}</div>
+        </div>
 
 
       </div>
