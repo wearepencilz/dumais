@@ -258,7 +258,7 @@
   border-bottom:1px solid black;
 }
 
-.glazes-wrapper:last-child{
+section:last-child .glazes-wrapper{
   border-bottom:0px solid black;
 }
 
