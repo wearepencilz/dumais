@@ -299,6 +299,11 @@
   align-self: end;
 }
 
+.glazes-info-extra p{
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
 .glazes-images{
   grid-area: images;
   width: 65%;
