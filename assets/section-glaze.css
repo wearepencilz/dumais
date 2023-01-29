@@ -339,3 +339,9 @@
   padding-left: 0;
   padding-bottom: 0;
 }
+
+@media screen and (max-width: 749px) {
+  .glazes-images, .glazes-info{
+    width: 100%;
+  }
+}
