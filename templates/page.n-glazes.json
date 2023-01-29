@@ -66,7 +66,7 @@
         "column_alignment": "left",
         "color_scheme": "background-2",
         "columns_mobile": "1",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     },
     "5939b579-946c-4a2f-afc4-a86a4d691a4d": {
