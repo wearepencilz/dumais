@@ -272,6 +272,9 @@
   grid-area: info;
   width: 33%;
   border-right: 1px solid black;
+
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .glazes-images{
