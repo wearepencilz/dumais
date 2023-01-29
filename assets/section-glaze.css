@@ -316,3 +316,10 @@
 .glazes-images{
   /* this grid always need to stay 2by2 */
 }
+
+.multicolumn-card__info .rte p{
+  font-family: pitch, monospace;
+  color: #717173;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
