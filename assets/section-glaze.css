@@ -289,6 +289,12 @@
   text-transform: uppercase;
 }
 
+.glazes-copy{
+  font-family: new-caledonia,serif;
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+
 .glazes-info-extra{
   align-self: end;
 }
