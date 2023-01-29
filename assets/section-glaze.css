@@ -275,6 +275,8 @@
 
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
+
+  row-gap: 0;
 }
 
 .glazes-images{
