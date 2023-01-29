@@ -286,6 +286,8 @@
 .glazes-title{
   font-family: pitch, monospace;
   text-transform: uppercase;
+
+  margin-top:0;
 }
 
 .glazes-copy{
