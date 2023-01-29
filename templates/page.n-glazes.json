@@ -15,7 +15,6 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_88.jpg",
-            "title": "",
             "text": "<p>Dipped Finch Lamp<\/p>",
             "link_label": "",
             "link": ""
@@ -25,7 +24,6 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_93.jpg",
-            "title": "",
             "text": "<p>Dipped Nomad Sconce<\/p>",
             "link_label": "",
             "link": ""
@@ -35,7 +33,6 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_94.jpg",
-            "title": "",
             "text": "<p>Dipped Bantam Lamp<\/p>",
             "link_label": "",
             "link": ""
@@ -45,7 +42,6 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_95.jpg",
-            "title": "",
             "text": "<p>Bottle-Green & Matte-Black Hudson Lamp<\/p>",
             "link_label": "",
             "link": ""
@@ -62,13 +58,12 @@
         "title": "Bottle Green",
         "description": "<p>This glaze takes its name from the black-green hue that’s achieved when multiple layers are applied to the clay’s surface. With one or two layers, the glaze creates a more brown finish. Bottle Green’s high-polished sheen is suited to pieces with multiple intersections, edges and joints, which allow the glaze to pool and feather when fired.<\/p>",
         "combinations": "Combinations",
-        "combtext": "<p>This is the text explaining the combinations<\/p>",
+        "combtext": "<p>We often combine a thick layer of Bottle Green with Matte-Black, as seen here in the Hudson and Sag Harbor lamps.<\/p>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_alignment": "left",
-        "background_style": "none",
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false
@@ -81,7 +76,6 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/4_98738f5f-1dc0-4ca1-91b4-cf86b68f61d1.jpg",
-            "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -91,7 +85,6 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/3_5f25b1f0-31e6-4772-b768-93e247c5a698.jpg",
-            "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -101,7 +94,6 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/5_5faceafa-644c-4127-b7da-482a8bef2a03.jpg",
-            "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -111,7 +103,6 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/2_684c485f-f917-4213-ba30-792848abdcf1.jpg",
-            "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -134,7 +125,6 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "primary",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false
