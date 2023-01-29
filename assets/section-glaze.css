@@ -344,4 +344,8 @@
   .glazes-images, .glazes-info{
     width: 100%;
   }
+
+  .glazes-info{
+    border-right: 0px;
+  }
 }
