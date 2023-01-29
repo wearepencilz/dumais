@@ -107,13 +107,23 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "4e842d50-d80f-4b11-b1fe-5915688b1b3c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_88.jpg",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--16834058092758__5939b579-946c-4a2f-afc4-a86a4d691a4d-1674995677761c1e4b-0",
         "template--16834058092758__5939b579-946c-4a2f-afc4-a86a4d691a4d-1674995677761c1e4b-1",
         "template--16834058092758__5939b579-946c-4a2f-afc4-a86a4d691a4d-1674995677761c1e4b-2",
-        "aa9754f8-ee55-4996-a839-56e8413ed3af"
+        "aa9754f8-ee55-4996-a839-56e8413ed3af",
+        "4e842d50-d80f-4b11-b1fe-5915688b1b3c"
       ],
       "settings": {
         "title": "Carriage Red",
