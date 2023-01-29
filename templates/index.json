@@ -87,14 +87,14 @@
           "type": "featured_collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/lighting-collectiono-image.webp",
-            "image_link": ""
+            "image_link": "shopify:\/\/pages\/lighting-n"
           }
         },
         "template--16833782251734__52f2e727-b1ce-444c-b0d5-b23b9f45cd1c-167501942530475a7e-1": {
           "type": "featured_collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/objects-collectiono-image.webp",
-            "image_link": ""
+            "image_link": "shopify:\/\/pages\/objects-n"
           }
         }
       },
