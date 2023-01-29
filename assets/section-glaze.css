@@ -312,7 +312,7 @@
 .glazes-images{
   grid-area: images;
   width: 67%;
-  margin: 1.5rem auto;
+  margin: 0rem 1.5rem;
 }
 
 .glazes-images {
