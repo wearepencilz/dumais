@@ -274,11 +274,18 @@
   grid-area: info;
   width: 33%;
   border-right: 1px solid black;
+  padding:2rem;
 
-  padding-bottom: 0 !important;
   margin-bottom: 0 !important;
 
+}
 
+.glazes-info-main{
+  align-self: start;
+}
+
+.glazes-info-extra{
+  align-self: end;
 }
 
 .glazes-images{
