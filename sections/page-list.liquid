@@ -41,7 +41,6 @@
           endif
         -%}
         {%- for block in section.blocks -%}
-        <!-- <a href="image_link"> -->
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
             class="collection-list__item grid__item{% if show_mobile_slider %} slider__slide{% endif %}{% if block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}"
@@ -50,6 +49,7 @@
           <div class="image-multicolumn-card content-container">
             {%- if block.settings.image != blank -%}
               <div class="image-multicolumn-card__image-wrapper image-multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} image-multicolumn-card-spacing{% endif %}">
+                <a href="#image_link">
                 <div
                   class="media media--transparent media--{{ section.settings.image_ratio }}"
                 >
@@ -67,6 +67,7 @@
                       class: 'image-multicolumn-card__image'
                   }}
                 </div>
+              </a>
               </div>
             {%- endif -%}
 
@@ -79,7 +80,6 @@
 
 
           </li>
-        <!-- </a> -->
 
 
         {%- endfor -%}
