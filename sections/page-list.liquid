@@ -49,7 +49,7 @@
           <div class="image-multicolumn-card content-container">
             {%- if block.settings.image != blank -%}
               <div class="image-multicolumn-card__image-wrapper image-multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} image-multicolumn-card-spacing{% endif %}">
-                <a href="{{ section.block.image_link }}">
+                <a href="{{ block.settings.image_link | escape }}">
 
                 <div
                   class="media media--transparent media--{{ section.settings.image_ratio }}"
