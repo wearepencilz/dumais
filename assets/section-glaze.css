@@ -258,6 +258,10 @@
   border-bottom:1px solid black;
 }
 
+.glazes-wrapper:last-child{
+  border-bottom:0px solid black;
+}
+
 .glazes-grid{
   grid-template-areas: "info images";
   grid-template-columns: 1fr 2fr;
