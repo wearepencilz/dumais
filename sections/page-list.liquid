@@ -48,8 +48,8 @@
           >
           <div class="image-multicolumn-card content-container">
             {%- if block.settings.image != blank -%}
-
               <div class="image-multicolumn-card__image-wrapper image-multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} image-multicolumn-card-spacing{% endif %}">
+                <a href="google.com">
 
                 <div
                   class="media media--transparent media--{{ section.settings.image_ratio }}"
@@ -58,7 +58,6 @@
                     (min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %}, (min-width:
                     750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %}, calc(100vw - 30px)
                   {%- endcapture -%}
-                  <a href="#image_link">
                   {{
                     block.settings.image
                     | image_url: width: 1420
@@ -68,8 +67,8 @@
                       widths: '275, 550, 710, 1420',
                       class: 'image-multicolumn-card__image'
                   }}
-                </a>
                 </div>
+                      </a>
               </div>
 
 
