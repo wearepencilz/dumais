@@ -342,7 +342,6 @@
 
 
 
-
 @media screen and (max-width: 945px) {
   .glazes-images, .glazes-info{
     width: 100%;
@@ -353,4 +352,9 @@
   }
 }
 
-/* @media screen and (max-width: 990px) { */
+@media screen and (max-width: 749px){
+
+  .grid--peek .grid__item{
+    width: calc(90% - var(--grid-mobile-horizontal-spacing) - 3rem);
+  }
+}
