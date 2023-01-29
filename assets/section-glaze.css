@@ -284,6 +284,11 @@
   align-self: start;
 }
 
+.glazes-title{
+  font-family: pitch, monospace;
+  text-transform: uppercase;
+}
+
 .glazes-info-extra{
   align-self: end;
 }
