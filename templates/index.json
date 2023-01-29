@@ -170,29 +170,25 @@
         "template--16833782251734__52f2e727-b1ce-444c-b0d5-b23b9f45cd1c-167501942530475a7e-0": {
           "type": "featured_collection",
           "settings": {
+            "page": "lighting-n"
           }
         },
         "template--16833782251734__52f2e727-b1ce-444c-b0d5-b23b9f45cd1c-167501942530475a7e-1": {
           "type": "featured_collection",
           "settings": {
-          }
-        },
-        "template--16833782251734__52f2e727-b1ce-444c-b0d5-b23b9f45cd1c-167501942530475a7e-2": {
-          "type": "featured_collection",
-          "settings": {
+            "page": "objects-n"
           }
         }
       },
       "block_order": [
         "template--16833782251734__52f2e727-b1ce-444c-b0d5-b23b9f45cd1c-167501942530475a7e-0",
-        "template--16833782251734__52f2e727-b1ce-444c-b0d5-b23b9f45cd1c-167501942530475a7e-1",
-        "template--16833782251734__52f2e727-b1ce-444c-b0d5-b23b9f45cd1c-167501942530475a7e-2"
+        "template--16833782251734__52f2e727-b1ce-444c-b0d5-b23b9f45cd1c-167501942530475a7e-1"
       ],
       "settings": {
         "title": "Collections",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
