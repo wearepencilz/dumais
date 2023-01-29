@@ -263,6 +263,9 @@
 .glazes-grid{
   grid-template-areas: "info images";
   grid-template-columns: 1fr 2fr;
+
+  padding: 0;
+  margin: 0;
 }
 
 .glazes-info{
@@ -274,4 +277,8 @@
 .glazes-images{
   grid-area: images;
   width: 65%;
+}
+
+.glazes-images{
+  /* this grid always need to stay 2by2 */
 }
