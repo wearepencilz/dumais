@@ -304,6 +304,10 @@
   line-height: 1.8rem;
 }
 
+.glazes-info-extra rte{
+  color: #717173;
+}
+
 .glazes-images{
   grid-area: images;
   width: 65%;
