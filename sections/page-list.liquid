@@ -41,7 +41,7 @@
           endif
         -%}
         {%- for block in section.blocks -%}
-        <a href="image_link">
+        <!-- <a href="image_link"> -->
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
             class="collection-list__item grid__item{% if show_mobile_slider %} slider__slide{% endif %}{% if block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}"
@@ -79,7 +79,7 @@
 
 
           </li>
-        </a>
+        <!-- </a> -->
 
 
         {%- endfor -%}
