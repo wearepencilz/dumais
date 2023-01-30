@@ -91,7 +91,7 @@
 
             <div class="image-multicolumn-card__info">
               {%- if block.settings.title != blank -%}
-                <a href="{{ block.settings.image_link | escape }}"><p>{{ block.settings.title | escape }}</p></a>
+                <a class="page-list-link" href="{{ block.settings.image_link | escape }}"><p>{{ block.settings.title | escape }}</p></a>
               {%- endif -%}
             </div>
 

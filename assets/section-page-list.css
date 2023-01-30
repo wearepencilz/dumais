@@ -75,3 +75,9 @@
 .page-list-wrapper{
   max-width: 1200px;
 }
+
+.page-list-link{
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+}
