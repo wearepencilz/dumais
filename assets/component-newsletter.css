@@ -43,7 +43,6 @@
 
 .newsletter-form__message--success {
   margin-top: 2rem;
-  font-family: pitch, monospaced;
 }
 
 @media screen and (min-width: 750px) {
