@@ -3131,5 +3131,7 @@ details-disclosure > details {
 }
 
 .shopify-policy__title h1{
-  font-style: italic;
+  font-family: pitch, monospace;
+  text-transform: uppercase;
+  font-size: 2rem;
 }
