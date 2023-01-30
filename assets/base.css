@@ -3156,3 +3156,7 @@ details-disclosure > details {
 .g-container p{
   display: none !important;
 }
+
+.globo-form-app{
+  background-color: none!important;
+}
