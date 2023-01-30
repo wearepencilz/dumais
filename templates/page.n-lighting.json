@@ -15,14 +15,14 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
+            "heading_size": "category__title"
           }
         },
         "6b5b1e33-d691-42f7-a050-c5c9e882b3c7": {
           "type": "heading",
           "settings": {
             "heading": "<p>We make lamps because we love interacting with light: the waning sun, the flip of a switch, the warm pool that floods a room. Whether that interaction is with a lamp, pendant, sconce or even a candle, it's part of a daily ritual, which is why we believe these pieces are an essential aspect of any room.<\/p>",
-            "heading_size": "h2"
+            "heading_size": "hxs"
           }
         }
       },
