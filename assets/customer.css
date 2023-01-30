@@ -47,11 +47,13 @@
 
 .customer h2.form__message {
   font-size: calc(var(--font-heading-scale) * 1.8rem);
+  font-family: pitch, monospace;
 }
 
 @media only screen and (min-width: 750px) {
   .customer h2.form__message {
     font-size: calc(var(--font-heading-scale) * 2.2rem);
+    font-family: pitch, monospace;
   }
 }
 
@@ -449,11 +451,14 @@
 
 :is(.account, .order) h1 {
   margin-bottom: 1rem;
+  font-family: pitch, monospace;
 }
 
 :is(.account, .order) h2 {
   margin-top: 4rem;
   margin-bottom: 1rem;
+  font-family: pitch, monospace;
+
 }
 
 @media screen and (min-width: 990px) {
