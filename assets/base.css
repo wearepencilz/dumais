@@ -2308,7 +2308,9 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .cart-count-bubble span{
-  font-weight: 800;
+  -webkit-text-stroke: 0.5px;
+  text-stroke:0.5px;
+  -moz-text-stroke:0.5px;
 }
 
 /* section-announcement-bar */
