@@ -3212,3 +3212,8 @@ details-disclosure > details {
 /* forms in general */
 
 input, textarea, select { font-family:inherit; }
+
+
+.home-image-banner{
+  border-bottom:1px solid black;
+}
