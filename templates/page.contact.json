@@ -32,10 +32,10 @@
     "d980092b-67ea-4a88-9534-c5ab76222f7f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "{%- style -%}\n .page-intro-section-wrapper{\n  border-bottom: 0px solid black;\n \n}\n{%- endstyle -%}",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
