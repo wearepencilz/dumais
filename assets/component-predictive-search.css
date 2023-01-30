@@ -15,6 +15,9 @@
     rgba(var(--color-shadow), var(--popup-shadow-opacity));
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+
+  border-radius: 4px;
+  border: 1px solid #efefef;
 }
 
 .predictive-search--search-template {
@@ -173,6 +176,8 @@ predictive-search[loading]
 
 .predictive-search__item-heading {
   margin: 0;
+  font-family: pitch;
+  letter-spacing: 0;
 }
 
 .predictive-search__item-query-result *:not(mark) {
