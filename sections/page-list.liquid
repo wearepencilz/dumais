@@ -60,7 +60,7 @@
                       style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
                     {% endif %}
                   >
-                  
+
                   {%- capture sizes -%}
                     (min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %}, (min-width:
                     750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %}, calc(100vw - 30px)
@@ -83,7 +83,7 @@
 
             <div class="image-multicolumn-card__info">
               {%- if block.settings.title != blank -%}
-                <h3 class="underline">{{ block.settings.title | escape }}</h3>
+                <p class="underline">{{ block.settings.title | escape }}</p>
               {%- endif -%}
             </div>
 
