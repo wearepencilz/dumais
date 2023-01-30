@@ -2,18 +2,10 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "db63037f-8556-476a-9c8d-7080bd12c883": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"globo-formbuilder\" data-id=\"MTA0NTY4\"><\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "d55197ba-860b-4b5f-a49d-3b9419c755f2": {
@@ -62,7 +54,6 @@
   },
   "order": [
     "main",
-    "db63037f-8556-476a-9c8d-7080bd12c883",
     "d55197ba-860b-4b5f-a49d-3b9419c755f2"
   ]
 }
