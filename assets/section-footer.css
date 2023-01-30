@@ -655,5 +655,5 @@ noscript .localization-selector.link {
 }
 
 .footer-block__details-content ul li{
-  margin-top:-10px;
+  -webkit-margin-before: 0px;
 }
