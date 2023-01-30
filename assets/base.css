@@ -3149,3 +3149,10 @@ details-disclosure > details {
   padding-top:50px !important;
   padding-bottom: 50px !important;
 }
+
+
+/* style the form */
+
+.g-container p{
+  display: none !important;
+}
