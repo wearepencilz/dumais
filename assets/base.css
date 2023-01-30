@@ -3145,7 +3145,7 @@ details-disclosure > details {
   font-size: 2rem;
 }
 
-.search-modal{
+.search-modal__content{
   padding-top:50px !important;
   padding-bottom: 50px !important;
 }
