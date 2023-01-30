@@ -767,3 +767,8 @@ text-transform:uppercase;
 .addresses form > div:nth-of-type(7) + div[id] {
   margin-top: 1.5rem;
 }
+
+.customer h2{
+  font-family: pitch,monospace;
+  text-transform:uppercase;
+}
