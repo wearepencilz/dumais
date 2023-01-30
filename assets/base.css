@@ -3157,9 +3157,7 @@ details-disclosure > details {
   display: none !important;
 }
 
-.globo-form-app{
-  background-color: pink !important;
-}
 .globo-form-id-104568 .globo-form-app{
-  background-color: pink !important;
+  background-color: none !important;
+  box-shadow: 0!important;
 }
