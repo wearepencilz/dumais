@@ -11,32 +11,16 @@
     "d55197ba-860b-4b5f-a49d-3b9419c755f2": {
       "type": "trade-form",
       "blocks": {
-        "template--16837377163478__d55197ba-860b-4b5f-a49d-3b9419c755f2-16751132044f04d7cd-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
         "template--16837377163478__d55197ba-860b-4b5f-a49d-3b9419c755f2-16751132044f04d7cd-1": {
           "type": "text",
           "settings": {
-            "text": "<p>To create a trade account, please complete the form below, including your current Resale Certificate.<br\/><br\/><\/p>",
+            "text": "<p>To create a trade account, please complete the form below, including your current Resale Certificate.<\/p>",
             "text_style": "body"
-          }
-        },
-        "template--16837377163478__d55197ba-860b-4b5f-a49d-3b9419c755f2-16751132044f04d7cd-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
           }
         }
       },
       "block_order": [
-        "template--16837377163478__d55197ba-860b-4b5f-a49d-3b9419c755f2-16751132044f04d7cd-0",
-        "template--16837377163478__d55197ba-860b-4b5f-a49d-3b9419c755f2-16751132044f04d7cd-1",
-        "template--16837377163478__d55197ba-860b-4b5f-a49d-3b9419c755f2-16751132044f04d7cd-2"
+        "template--16837377163478__d55197ba-860b-4b5f-a49d-3b9419c755f2-16751132044f04d7cd-1"
       ],
       "settings": {
         "height": "adapt",
