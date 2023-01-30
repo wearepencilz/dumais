@@ -13,14 +13,23 @@
       "blocks": {
         "template--16837377163478__d55197ba-860b-4b5f-a49d-3b9419c755f2-16751132044f04d7cd-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>To create a trade account, please complete the form below, including your current Resale Certificate.<\/p>",
             "text_style": "body"
           }
+        },
+        "3c216b81-cf30-4d9e-8eb9-38e766def8f6": {
+          "type": "heading",
+          "settings": {
+            "heading": "To create a trade account, please complete the form below, including your current Resale Certificate.",
+            "heading_size": "h2"
+          }
         }
       },
       "block_order": [
-        "template--16837377163478__d55197ba-860b-4b5f-a49d-3b9419c755f2-16751132044f04d7cd-1"
+        "template--16837377163478__d55197ba-860b-4b5f-a49d-3b9419c755f2-16751132044f04d7cd-1",
+        "3c216b81-cf30-4d9e-8eb9-38e766def8f6"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Dumais_Made_Trade.jpg",
