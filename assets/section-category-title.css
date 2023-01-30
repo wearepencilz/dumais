@@ -42,7 +42,7 @@
   }
 
   .rich-text__blocks {
-    max-width: 50rem;
+    max-width: 55%;
   }
 }
 
@@ -179,7 +179,7 @@
   /* .collection-hero--with-image .collection-hero__description {
     max-width: 100%;
   } */
-  
+
 }
 
 .collection-hero--with-image .collection-hero__title {
