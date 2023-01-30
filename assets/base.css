@@ -3207,3 +3207,8 @@ details-disclosure > details {
 .g-container p{
   font-size: 0 !important;
 }
+
+
+/* forms in general */
+
+input, textarea, select { font-family:inherit; }
