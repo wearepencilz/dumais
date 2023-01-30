@@ -3158,12 +3158,33 @@ details-disclosure > details {
 }
 
 .globo-form-id-104568 .globo-form-app{
-  background-color: none !important;
-  box-shadow: 0 !important;
-  -webkit-box-shadow: 0 !important;
+  background-color: #fff9f3 !important;
+  box-shadow: 0 0 0 0 !important
+  -webkit-box-shadow: 0 0 0 0 !important
 }
 
+.globo-form-app.boxed-layout{
+  padding: 0 !important;
+}
 
-.globo-form-id-104568 .globo-form-app{
-  background-color: red !important;
+.globo-form-app .globo-form-control input, .globo-form-app .globo-form-control textarea, .globo-form-app .globo-form-control select{
+  background-color: #fff9f3 !important;
+  box-shadow: 0 0 0 0 !important
+  -webkit-box-shadow: 0 0 0 0 !important
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.g-container .footer{
+  border-top: 0;
+}
+
+.globo-form-id-104568 .globo-form-app .footer button.submit, .globo-form-id-104568 .globo-form-app .footer button.checkout, .globo-form-id-104568 .globo-form-app .footer button.action.loading .spinner{
+  font-family: pitch, monospace !important;
+  border-radius: 4px;
+}
+
+.globo-form-id-104568 .globo-form-app .footer button.submit, .globo-form-id-104568 .globo-form-app .footer button.checkout, .globo-form-id-104568 .globo-form-app .footer button.action.loading .spinner{
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
 }
