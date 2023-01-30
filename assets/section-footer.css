@@ -653,3 +653,8 @@ noscript .localization-selector.link {
 .footer-block__details-content .list-menu__item--link{
   padding-bottom: 0;
 }
+
+.footer-block__details-content ul li{
+  margin:0 !important;
+  padding: 0 !important;
+}
