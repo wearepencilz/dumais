@@ -16,6 +16,7 @@
   .section-collection-list .page-width {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 0;
   }
 
   .section-collection-list .collection-list:not(.slider) {
@@ -23,9 +24,6 @@
     padding-right: 1.5rem;
   }
 
-  .section-collection-list .page-list-wrapper{
-    padding-top:0;
-  }
 }
 
 .collection-list__item:only-child {
