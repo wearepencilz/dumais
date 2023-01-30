@@ -657,5 +657,5 @@ noscript .localization-selector.link {
 .footer-block__details-content li{
   margin:0;
   padding: 0;
-  display: inline; 
+  display: block; 
 }
