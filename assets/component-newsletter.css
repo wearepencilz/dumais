@@ -12,6 +12,10 @@
   position: relative;
 }
 
+.newsletter-form .h2{
+  font-style: italic;
+}
+
 @media screen and (min-width: 750px) {
   .newsletter-form {
     align-items: flex-start;
