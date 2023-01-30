@@ -669,3 +669,7 @@ noscript .localization-selector.link {
 .footer-block--menu:first-child li:nth-child(4){
   margin-top: 1rem;
 }
+
+.footer-block--menu:nth-child(2) li:nth-child(3){
+  margin-top: 1rem;
+}
