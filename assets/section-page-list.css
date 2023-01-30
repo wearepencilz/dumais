@@ -76,7 +76,7 @@
   max-width: 1200px;
 }
 
-.page-list-wrapper.image-multicolumn-card__info p{
+.page-list-wrapper .image-multicolumn-card__info p{
   margin-top: 0.5rem;
 }
 
