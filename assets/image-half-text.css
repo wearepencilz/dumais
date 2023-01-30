@@ -413,6 +413,6 @@
 
 .trade-form-text p{
   font-size: 1.7rem;
-  font-family: pitch, monospace;
+  /* font-family: pitch, monospace; */
   line-height: 1.9rem;
 }
