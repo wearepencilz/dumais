@@ -768,7 +768,7 @@ text-transform:uppercase;
   margin-top: 1.5rem;
 }
 
-.customer h2{
+.customer ul h2{
   font-family: pitch,monospace;
   text-transform:uppercase;
 }
