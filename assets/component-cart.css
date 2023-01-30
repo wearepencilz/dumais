@@ -221,3 +221,8 @@ cart-items {
     gap: 1rem;
   }
 }
+
+.cart-title{
+  font-family: pitch, monospace;
+  text-transform: uppercase;
+}
