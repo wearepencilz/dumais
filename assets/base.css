@@ -3169,8 +3169,8 @@ details-disclosure > details {
 
 .globo-form-app .globo-form-control input, .globo-form-app .globo-form-control textarea, .globo-form-app .globo-form-control select{
   background-color: #fff9f3 !important;
-  box-shadow: 0 0 0 0 !important
-  -webkit-box-shadow: 0 0 0 0 !important
+  box-shadow: 0 0 0 0 !important;
+  -webkit-box-shadow: 0 0 0 0 !important;
   border-radius: 4px !important;
   border: 1px solid black !important;
 }
@@ -3190,11 +3190,6 @@ details-disclosure > details {
 }
 
 .globo-form-app.boxed-layout{
-  box-shadow: 0 0 0 0 !important
-  -webkit-box-shadow: 0 0 0 0 !important
-}
-
-.globo-form-app .boxed-layout{
-  box-shadow: 0 0 0 0 !important
-  -webkit-box-shadow: 0 0 0 0 !important
+  box-shadow: 0 0 0 0 !important;
+  -webkit-box-shadow: 0 0 0 0 !important;
 }
