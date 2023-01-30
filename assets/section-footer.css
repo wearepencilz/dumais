@@ -667,5 +667,5 @@ noscript .localization-selector.link {
 }
 
 .footer-block__details-content:first-child li:nth-child(4){
-  margin-top:100px;
+  margin-top: 1rem;
 }
