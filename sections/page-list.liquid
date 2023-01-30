@@ -48,11 +48,14 @@
           >
           <div class="image-multicolumn-card content-container">
             {%- if block.settings.image != blank -%}
+            {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
+              {% assign spaced_image = true %}
+            {% endif %}
               <div class="image-multicolumn-card__image-wrapper image-multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} image-multicolumn-card-spacing{% endif %}">
                 <a href="{{ block.settings.image_link | escape }}">
 
                 <div
-                  class="media media--transparent"
+                  class="media media--transparent media--{{ section.settings.image_ratio }}"
                 >
                   {%- capture sizes -%}
                     (min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %}, (min-width:
