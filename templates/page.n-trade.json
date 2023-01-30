@@ -22,7 +22,7 @@
           "type": "text",
           "settings": {
             "text": "<p>We regularly work with designers and architects to scale or adapt existing designs, or create completely new ones. If this is something you're interested in, let us know in the notes field when you set up your account  and we’ll get in touch. <\/p>",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         }
       },
