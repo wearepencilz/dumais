@@ -172,13 +172,14 @@
     margin-bottom: 2rem;
   }
 
-  .collection-hero__description {
+  /* .collection-hero__description {
     max-width: 55%;
-  }
+  } */
 
-  .collection-hero--with-image .collection-hero__description {
+  /* .collection-hero--with-image .collection-hero__description {
     max-width: 100%;
-  }
+  } */
+  
 }
 
 .collection-hero--with-image .collection-hero__title {
