@@ -3198,3 +3198,7 @@ details-disclosure > details {
   box-shadow: 0 0 0 0 !important;
   -webkit-box-shadow: 0 0 0 0 !important;
 }
+
+.globo-form-id-104568 .globo-form-app .footer button{
+  border: 0px !important;
+}
