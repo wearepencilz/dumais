@@ -10,6 +10,7 @@
     },
     "343851ab-feb3-4608-a89f-07a7d634b4c1": {
       "type": "image-half-text",
+      "disabled": true,
       "blocks": {
         "template--16833782186198__343851ab-feb3-4608-a89f-07a7d634b4c1-1675098919ae92c844-0": {
           "type": "heading",
@@ -75,7 +76,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/objects-collectiono-image.webp",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "padding_top": 36,
         "padding_bottom": 36
       }
