@@ -3126,7 +3126,7 @@ details-disclosure > details {
 /* Policies */
 
 .shopify-policy__container{
-  padding-top:5.5rem;
+  margin-top:5.5rem;
   padding-bottom: 7.5rem;
 }
 
