@@ -16,6 +16,8 @@
 .customer__title {
   margin-top: 0;
   font-family: pitch, monospace;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .customer form {
