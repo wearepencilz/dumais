@@ -3133,7 +3133,7 @@ details-disclosure > details {
 .shopify-policy__title{
   text-align: left;
   border-bottom:1px solid black;
-  padding-bottom:2.5rem;
+  margin-bottom:2.5rem;
 }
 
 .shopify-policy__title h1{
