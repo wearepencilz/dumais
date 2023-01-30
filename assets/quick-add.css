@@ -138,6 +138,7 @@ quick-add-modal .quick-add-hidden,
 quick-add-modal .product__modal-opener:not(.product__modal-opener--image),
 quick-add-modal .product__media-item:not(:first-child) {
   display: none !important;
+  height:0;
 }
 
 quick-add-modal .slider.slider--mobile {
