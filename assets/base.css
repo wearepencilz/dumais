@@ -3188,3 +3188,8 @@ details-disclosure > details {
   padding-top: 15px !important;
   padding-bottom: 15px !important;
 }
+
+.globo-form-app.boxed-layout{
+  box-shadow: 0 0 0 0 !important
+  -webkit-box-shadow: 0 0 0 0 !important
+}
