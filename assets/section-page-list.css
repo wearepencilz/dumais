@@ -59,3 +59,15 @@
 .collection-list-view-all {
   margin-top: 2rem;
 }
+
+
+
+.image-multicolumn-list__item.center .media--adapt,
+.image-multicolumn-list__item .media--adapt .image-multicolumn-card__image {
+  width: auto;
+}
+
+.image-multicolumn-list__item.center .media--adapt img {
+  left: 50%;
+  transform: translateX(-50%);
+}
