@@ -56,12 +56,6 @@
     "087ff8b0-df6b-42cd-bff0-9c686e01ab93": {
       "type": "page-intro-section",
       "blocks": {
-        "template--16833782186198__087ff8b0-df6b-42cd-bff0-9c686e01ab93-16750992892440aa63-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Contact Us"
-          }
-        },
         "template--16833782186198__087ff8b0-df6b-42cd-bff0-9c686e01ab93-16750992892440aa63-1": {
           "type": "text",
           "settings": {
@@ -70,11 +64,10 @@
         }
       },
       "block_order": [
-        "template--16833782186198__087ff8b0-df6b-42cd-bff0-9c686e01ab93-16750992892440aa63-0",
         "template--16833782186198__087ff8b0-df6b-42cd-bff0-9c686e01ab93-16750992892440aa63-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/objects-collectiono-image.webp",
+        "image": "shopify:\/\/shop_images\/contact.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "padding_top": 36,
