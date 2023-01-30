@@ -22,6 +22,10 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+
+  .section-collection-list .page-list-wrapper{
+    padding-top:0;
+  }
 }
 
 .collection-list__item:only-child {
