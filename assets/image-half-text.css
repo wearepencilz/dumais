@@ -411,7 +411,7 @@
   max-height: 100%;
 }
 
-.trade-form-text{
+.trade-form-text p{
   font-size: 1.8rem;
   font-family: pitch, monospace;
   line-height: 2rem;
