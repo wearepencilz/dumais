@@ -3217,3 +3217,8 @@ input, textarea, select { font-family:inherit; }
 .home-image-banner{
   border-bottom:1px solid black;
 }
+@media screen and (max-width: 750px) {
+  .home-arrow-down{
+    bottom:8rem;
+  }
+}
