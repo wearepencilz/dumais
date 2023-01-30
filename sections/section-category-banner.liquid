@@ -1,3 +1,4 @@
+{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
 {{ 'component-collection-hero.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
@@ -46,25 +47,13 @@
 
 {% schema %}
 {
-  "name": "Test",
+  "name": "t:sections.main-collection-banner.name",
   "tag": "section",
   "class": "section",
-  "disabled_on": {
-    "groups": ["header"]
-  },
   "settings": [
     {
       "type": "paragraph",
-      "name": "t:sections.newsletter.blocks.paragraph.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "richtext",
-          "id": "text",
-          "default": "<p>Be the first to know about new collections and exclusive offers.</p>",
-          "label": "t:sections.newsletter.blocks.paragraph.settings.paragraph.label"
-        }
-      ]
+      "content": "t:sections.main-collection-banner.settings.paragraph.content"
     },
     {
       "type": "checkbox",
@@ -106,16 +95,6 @@
       ],
       "default": "background-1",
       "label": "t:sections.all.colors.label"
-    }
-  ],
-  "presets": [
-    {
-      "name": "TEST",
-      "blocks": [
-        {
-          "type": "paragraph"
-        }
-      ]
     }
   ]
 }

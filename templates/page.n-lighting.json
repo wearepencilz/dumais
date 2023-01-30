@@ -8,6 +8,37 @@
         "padding_bottom": 28
       }
     },
+    "56cd623c-88be-48cd-881f-e4a7511815f1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16836563894486__56cd623c-88be-48cd-881f-e4a7511815f1-1675088160cdb0a683-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "6b5b1e33-d691-42f7-a050-c5c9e882b3c7": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>We make lamps because we love interacting with light: the waning sun, the flip of a switch, the warm pool that floods a room. Whether that interaction is with a lamp, pendant, sconce or even a candle, it's part of a daily ritual, which is why we believe these pieces are an essential aspect of any room.<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--16836563894486__56cd623c-88be-48cd-881f-e4a7511815f1-1675088160cdb0a683-0",
+        "6b5b1e33-d691-42f7-a050-c5c9e882b3c7"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "2c1c3622-da57-4260-82c2-3d61c88c6a9d": {
       "type": "collection-list",
       "blocks": {
@@ -58,6 +89,7 @@
   },
   "order": [
     "main",
+    "56cd623c-88be-48cd-881f-e4a7511815f1",
     "2c1c3622-da57-4260-82c2-3d61c88c6a9d"
   ]
 }
