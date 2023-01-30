@@ -71,3 +71,7 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+.page-list-wrapper{
+  max-width: 1200px;
+}
