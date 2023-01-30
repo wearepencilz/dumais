@@ -74,12 +74,9 @@
                       widths: '275, 550, 710, 1420',
                       class: 'image-multicolumn-card__image'
                   }}
-                </div>
-                      </a>
-              </div>
-
-
-            {%- endif -%}
+                  </div>
+                  </div>
+                  {%- endif -%}
 
             <div class="image-multicolumn-card__info">
               {%- if block.settings.title != blank -%}
@@ -147,6 +144,32 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+
+  {
+    "type": "select",
+    "id": "image_width",
+    "options": [
+      {
+        "value": "third",
+        "label": "t:sections.multicolumn.settings.image_width.options__1.label"
+      },
+      {
+        "value": "half",
+        "label": "t:sections.multicolumn.settings.image_width.options__2.label"
+      },
+      {
+        "value": "two-thirds",
+        "label": "Two Thirds"
+      },
+      {
+        "value": "full",
+        "label": "t:sections.multicolumn.settings.image_width.options__3.label"
+      }
+    ],
+    "default": "full",
+    "label": "t:sections.multicolumn.settings.image_width.label"
+  },
+
     {
       "type": "select",
       "id": "image_ratio",
