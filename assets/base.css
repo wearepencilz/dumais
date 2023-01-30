@@ -3172,7 +3172,7 @@ details-disclosure > details {
   box-shadow: 0 0 0 0 !important;
   -webkit-box-shadow: 0 0 0 0 !important;
   border-radius: 4px !important;
-  border: 1px solid black !important;
+  border: 1px solid #B5BBC2 !important;
 }
 
 .g-container .footer{
