@@ -15,7 +15,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
+            "heading_size": "category__title"
           }
         },
         "6b5b1e33-d691-42f7-a050-c5c9e882b3c7": {
