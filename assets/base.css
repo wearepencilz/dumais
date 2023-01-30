@@ -3125,6 +3125,11 @@ details-disclosure > details {
 
 /* Policies */
 
+.shopify-policy__container{
+  padding-top:2.5rem;
+  padding-bottom: 7.5rem;
+}
+
 .shopify-policy__title{
   text-align: left;
   border-bottom:1px solid black;
