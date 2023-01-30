@@ -95,3 +95,25 @@
 .rich-text__blocks.right .rich-text__buttons {
   justify-content: flex-end;
 }
+
+/* Adds for Category title rte variant */
+
+.category__title{
+  margin-top: 5.5rem;
+  margin-bottom: 1.5rem;
+  font-family: pitch, monospace;
+  text-transform: uppercase;
+}
+
+.category__title + .category__description {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  line-height: calc(1 + 0.5 / var(--font-body-scale));
+  margin:0 auto;
+}
+
+.category__description{
+  font-family: new-caledonia, serif;
+  font-weight: 400 !important;
+}
