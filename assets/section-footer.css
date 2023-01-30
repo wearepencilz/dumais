@@ -445,7 +445,8 @@ noscript .localization-selector.link {
   }
 
   .footer-block__details-content > p,
-  .footer-block__details-content > li {
+  .footer-block__details-content > li,
+  .footer-block__details-content > a {
     padding: 0;
   }
 
@@ -483,8 +484,8 @@ noscript .localization-selector.link {
 
 @media screen and (max-width: 989px) {
   .footer-block__details-content .list-menu__item--link {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
   }
 }
 
