@@ -3125,6 +3125,6 @@ details-disclosure > details {
 
 /* Policies */
 
-.shopify-policy__title{
+.shopify-policy__title h1{
   font-style: italic;
 }
