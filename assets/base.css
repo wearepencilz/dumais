@@ -3120,3 +3120,11 @@ details-disclosure > details {
 .color-background-4{
   background-color: #E5E5EB !important;
 }
+
+
+
+/* Policies */
+
+.shopify-policy__title{
+  font-style: italic;
+}
