@@ -270,16 +270,32 @@
 }
 
 .small-offset{
-  margin-top: 20vh;
+  margin-top: 0vh;
 }
 
 .medium-offset{
-  margin-top: 30vh;
+  margin-top: 0vh;
 }
 
 .large-offset{
-  margin-top: 40vh;
+  margin-top: 0vh;
 }
+
+
+@media screen and (min-width: 750px){
+  .small-offset{
+    margin-top: 20vh;
+  }
+
+  .medium-offset{
+    margin-top: 30vh;
+  }
+
+  .large-offset{
+    margin-top: 40vh;
+  }
+}
+
 
 @media screen and (min-width: 990px){
   .image-multicolumn-list{
