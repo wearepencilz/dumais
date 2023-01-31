@@ -1531,7 +1531,7 @@ a.product__text {
 }
 
 .view-glazes-wrapper:nth-child(2){
-  display: none;
+  /* display: none; */
 }
 
 .view-glazes{
