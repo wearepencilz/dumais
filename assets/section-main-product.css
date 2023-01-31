@@ -1530,7 +1530,7 @@ a.product__text {
   margin-bottom: 1rem;
 }
 
-.view-glazes-wrapper:nth-last-child{
+.view-glazes-wrapper:nth-child(3){
   display: none;
 }
 
