@@ -21,13 +21,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>A balance of <br\/>form and function<br\/><\/strong><em>Tactile pieces revealing character<br\/>the longer you live with them <\/em><br\/><\/p>",
+            "heading": "<p><strong>A balance of <br\/>form and function<\/strong><br\/><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "d95e15a0-5143-4c49-b3e0-2739fb834d18": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><em>Tactile pieces revealing character<br\/>the longer you live with them <\/em><\/p>",
             "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "heading"
+        "heading",
+        "d95e15a0-5143-4c49-b3e0-2739fb834d18"
       ],
       "settings": {
         "desktop_content_position": "center",
