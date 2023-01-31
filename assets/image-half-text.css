@@ -11,6 +11,14 @@
   background-color: #FFF9F3;
 }
 
+
+$media screen and (min-width: 750px) {
+  .image-half-text-wrapper{
+    height: 85vh;
+    max-height: 85vh;
+  }
+}
+
 .image-half-text .grid {
   margin-bottom: 0;
 }
