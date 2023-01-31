@@ -21,7 +21,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>A balance of form and function<br\/><\/strong><em>Tactile pieces revealing character the longer you live with them <\/em><br\/><\/p>",
+            "heading": "<p><em><strong>A balance of form and function<br\/><\/strong><\/em><em>Tactile pieces revealing character<br\/>the longer you live with them <\/em><br\/><\/p>",
             "heading_size": "h1"
           }
         }
