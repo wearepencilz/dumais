@@ -25,11 +25,20 @@
 }
 
 .image-half-text__media {
-  min-height: 85vh;
-  height: 85vh;
+  min-height: 45vh;
+  height: 45vh;
   padding: 0 !important;
   overflow: hidden;
 }
+
+@media screen and (min-width: 750px) {
+  .image-half-text__media {
+    min-height: 85vh;
+    height: 85vh;
+  }
+}
+
+
 
 .image-half-text__media--small {
   /* height: 19.4rem; */
