@@ -427,7 +427,7 @@
   line-height: 1.9rem;
 }
 
-@media screen and (min-width: 750px){
+@media screen and (max-width: 750px){
   .image-half-text__content {
     padding: 2rem calc(2rem / var(--font-body-scale)) 5rem;
   }
