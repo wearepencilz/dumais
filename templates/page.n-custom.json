@@ -12,7 +12,7 @@
         "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We regularly create custom pieces for private and commercial clients. Some are after an existing design in a different finish, while others want something entirely individual. Our studio in Litchfield, Connecticut, is a fully functioning one, so as long as it fits inside our kiln, we'd be happy to create something for you.<\/p>"
+            "text": "<p>We regularly create custom pieces for private and commercial clients. Some are after an existing design in a different finish, while others want something entirely individual. Our studio in Litchfield, Connecticut, is a fully functioning one, so as long as what you’re after fits inside our kiln, we'd be happy to create it for you.<\/p>"
           }
         },
         "55ad08a3-f28a-44f6-8b34-04a6575d2363": {
@@ -48,7 +48,7 @@
         "c1e4ff2c-3815-4d08-8456-2ae52647b008": {
           "type": "heading",
           "settings": {
-            "heading": "<p>If you can't find what you're looking for or if you want to create something entirely individual, we'd be happy to produce a custom piece for you. This can be done in one of three ways:<\/p>",
+            "heading": "<p>A custom piece is a collaboration. Its an opportunity to invite you into our world as well as better understand yours—how you live, how you’d like to live, what you’re drawn to, and, ultimately, how the piece will be used. <br\/><br\/>This can be done in one of two ways (even if you don’t have an exact idea of you want):<\/p>",
             "heading_size": "h2"
           }
         }
@@ -125,14 +125,14 @@
         "template--16834058191062__b34cb4bd-53d1-41ec-b530-7f7802677de2-1674686338e13c3f54-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>How it works<\/p>",
+            "heading": "<p>How we do it<\/p>",
             "heading_size": "hxs"
           }
         },
         "022953f1-1cbf-4c1a-9f01-08b044f4eae9": {
           "type": "heading",
           "settings": {
-            "heading": "<p>While the process behind creating a custom piece depends on  its design and complexity, you can expect the following for any Dumais Made item that's made especially for you.<\/p>",
+            "heading": "<p>While the process behind creating a custom piece depends on its design and complexity, you can expect the following for any Dumais Made item that's made especially for you.<\/p>",
             "heading_size": "h2"
           }
         }
@@ -223,9 +223,9 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 100,
         "padding_bottom": 100
       }
     }
