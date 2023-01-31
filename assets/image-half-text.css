@@ -437,12 +437,12 @@
 
 @media screen and (max-width: 750px){
   .image-half-text__content {
-    padding: 2rem calc(2rem / var(--font-body-scale)) 5rem;
+    padding: 2rem calc(0rem / var(--font-body-scale)) 5rem;
   }
 
   .image-half-text__text p{
-    /* line-height: 2rem;
-    font-size: 1.7rem; */
+    line-height: 2.2rem;
+    font-size: 2rem;
   }
 }
 
