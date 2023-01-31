@@ -1530,6 +1530,10 @@ a.product__text {
   margin-bottom: 1rem;
 }
 
+.view-glazes-wrapper:nth-child(2){
+  display: none;
+}
+
 .view-glazes{
   font-size: 1.35rem;
   color: #7E7E80;
