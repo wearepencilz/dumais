@@ -3220,6 +3220,6 @@ input, textarea, select { font-family:inherit; }
 
 @media screen and (max-width: 750px) {
   .home-arrow-down{
-    bottom: 8rem !important;
+    bottom: 4rem !important;
   }
 }
