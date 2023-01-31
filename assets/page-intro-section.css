@@ -67,11 +67,16 @@
   height: 100%;
   justify-content: center;
   align-self: center;
-  padding: 4rem calc(4rem / var(--font-body-scale)) 5rem;
+  padding: 4rem calc(1rem / var(--font-body-scale)) 5rem;
   position: relative;
   z-index: 1;
 }
 
+@media screen and (min-width: 750px) {
+  .page-intro-section__content {
+    padding: 4rem calc(4rem / var(--font-body-scale)) 5rem;
+  }
+}
 
 .page-intro-section__media-item{
   max-width: 85vh;
