@@ -3226,6 +3226,6 @@ input, textarea, select { font-family:inherit; }
 
 /* homepage rte fix */
 
-.rich-text__blocks> h2+h2 {
-margin-top: 1rem;
+.rich-text__blocks>h2+h2 {
+margin-top: 1rem !important;
 }
