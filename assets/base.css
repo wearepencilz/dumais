@@ -3223,3 +3223,9 @@ input, textarea, select { font-family:inherit; }
     bottom: 2rem !important;
   }
 }
+
+/* homepage rte fix */
+
+.rich-text__blocks> h2+h2 {
+margin-top: 1rem;
+}
