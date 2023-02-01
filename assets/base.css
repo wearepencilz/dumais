@@ -3229,3 +3229,7 @@ input, textarea, select { font-family:inherit; }
 .rich-text__blocks>h2+h2 {
 margin-top: 1rem !important;
 }
+
+.product-count{
+  display:none;
+}
