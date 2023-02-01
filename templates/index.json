@@ -21,7 +21,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><em>A balance of form and function<br\/><\/em><\/p>",
+            "heading": "<p>A balance of <em>form<\/em> and <em>function<br\/><\/em><\/p>",
             "heading_size": "h2"
           }
         },
