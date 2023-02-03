@@ -3216,6 +3216,7 @@ input, textarea, select { font-family:inherit; }
 
 .home-image-banner-section{
   border-bottom:1px solid black;
+  margin-top: 35px;
 }
 
 @media screen and (max-width: 750px) {
