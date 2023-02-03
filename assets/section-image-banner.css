@@ -436,10 +436,3 @@
 .banner__box > * + .banner__buttons {
   margin-top: 2rem;
 }
-
-
-@media screen and (min-width: 750px) {
-  .home-image-banner-section {
-    /* min-height: 67.5vh !important; */
-  }
-}
