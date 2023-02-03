@@ -24,7 +24,7 @@
         "19aa202c-2b8b-45c4-a23f-029152d4ae88"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/aboit.jpg",
+        "image": "shopify:\/\/shop_images\/about-1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -60,7 +60,7 @@
         "template--16835143008470__4c18da40-819f-4acb-b37f-c57a4cda99ac-167477091001995863-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about-5.jpg",
+            "image": "shopify:\/\/shop_images\/about-n-1.jpg",
             "text": "<p>A custom Mug Lamp in our guest room..<\/p>",
             "image_offset": "no-offset"
           }
@@ -96,7 +96,7 @@
         "template--16835143008470__7f6c913e-0f3e-4882-91b1-b416afbc4806-1674774004bae033a6-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about-4.jpg",
+            "image": "shopify:\/\/shop_images\/about-n-3.jpg",
             "text": "<p>A custom Mug Lamp in our guest room..<\/p>",
             "image_offset": "no-offset"
           }
@@ -104,7 +104,7 @@
         "template--16835143008470__7f6c913e-0f3e-4882-91b1-b416afbc4806-1674774004bae033a6-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about-3.jpg",
+            "image": "shopify:\/\/shop_images\/about-n-2.jpg",
             "text": "<p>A custom Mug Lamp in our guest room..<\/p>",
             "image_offset": "medium-offset"
           }
@@ -141,7 +141,7 @@
         "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about-2.jpg",
+            "image": "shopify:\/\/shop_images\/about-n-4.jpg",
             "text": "<p>A custom Mug Lamp in our guest room..<\/p>",
             "image_offset": "no-offset"
           }
@@ -149,7 +149,7 @@
         "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about-6.jpg",
+            "image": "shopify:\/\/shop_images\/about-n-5.jpg",
             "text": "<p>A custom Mug Lamp in our guest room..<\/p>",
             "image_offset": "small-offset"
           }
@@ -186,7 +186,7 @@
         "template--16835143008470__600361f3-b4c4-4b39-a4c2-152510393812-16747810769e45c926-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about-7.jpg",
+            "image": "shopify:\/\/shop_images\/about-n-6.jpg",
             "text": "<p>Pair text with an image<\/p>",
             "image_offset": "no-offset"
           }
