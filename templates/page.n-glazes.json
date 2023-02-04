@@ -754,23 +754,8 @@
         "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-1": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-2": {
-          "type": "column",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-3": {
-          "type": "column",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/sea-1_900x_jpg.webp",
+            "text": "<p>Sea & Navy Small Thira Lamp<\/p><p><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -778,9 +763,7 @@
       },
       "block_order": [
         "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-0",
-        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-1",
-        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-2",
-        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-3"
+        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-1"
       ],
       "settings": {
         "title": "Sea",
