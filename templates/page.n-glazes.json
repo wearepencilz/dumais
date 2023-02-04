@@ -409,7 +409,8 @@
         "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-1": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Lincoln_Matte-Black_Dipped_900x_jpg.webp",
+            "text": "<p>Dipped Matte-Black Lincoln Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
