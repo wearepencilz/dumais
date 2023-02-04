@@ -625,19 +625,86 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "7f972546-c12d-4629-8197-9b0e0a694d62": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_900x_jpg.webp",
+            "text": "<p>Ochre & Parchment Gowanus Lamp<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--16834058092758__17eab40e-fe13-4b70-b1a1-9525b853a8bb-167552411649bf7293-0",
         "template--16834058092758__17eab40e-fe13-4b70-b1a1-9525b853a8bb-167552411649bf7293-1",
         "template--16834058092758__17eab40e-fe13-4b70-b1a1-9525b853a8bb-167552411649bf7293-2",
-        "template--16834058092758__17eab40e-fe13-4b70-b1a1-9525b853a8bb-167552411649bf7293-3"
+        "template--16834058092758__17eab40e-fe13-4b70-b1a1-9525b853a8bb-167552411649bf7293-3",
+        "7f972546-c12d-4629-8197-9b0e0a694d62"
       ],
       "settings": {
         "title": "Ochre",
         "description": "<p>Ochre is one of our original glazes and an enduring favorite. Thinner applications reveal more of the clay’s character, giving the glaze a rich golden color and satin finish. However, when poured or dipped multiple times, Ochre becomes almost khaki in color, with a warm, metallic undertone.<\/p>",
         "combinations": "Combinations",
         "combtext": "<p>This glaze works well as a base for more neutral shades such as Chalk and Parchment, which can be seen on the poured Hirsch pendant and dipped Gowanus lamp. In both instances, Ochre gives these glazes a bit of warmth.<\/p>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true
+      }
+    },
+    "ed4dbe3f-8d85-4963-9be7-13d900d4b89f": {
+      "type": "glaze",
+      "blocks": {
+        "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-0": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-1": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-2": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-3": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-0",
+        "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-1",
+        "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-2",
+        "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-3"
+      ],
+      "settings": {
+        "title": "Glaze Name",
+        "description": "<p>This is the main glaze description<\/p>",
+        "combinations": "Combinations",
+        "combtext": "<p>This is the text explaining the combinations<\/p>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -660,6 +727,7 @@
     "306e96f9-d9b0-4b35-a4c9-3e728ac4de69",
     "deba554d-0b65-43e8-8c23-f6de03022f16",
     "b74ceaa3-cc12-422d-9dcf-5398fb985a97",
-    "17eab40e-fe13-4b70-b1a1-9525b853a8bb"
+    "17eab40e-fe13-4b70-b1a1-9525b853a8bb",
+    "ed4dbe3f-8d85-4963-9be7-13d900d4b89f"
   ]
 }
