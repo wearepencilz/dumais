@@ -696,13 +696,23 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "77259e1f-01c4-443a-9c0f-7a4ed91fccb1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/parchment-3_900x_jpg.webp",
+            "text": "<p>Parchment & Ochre Ledner Lamp<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-0",
         "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-1",
         "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-2",
-        "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-3"
+        "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-3",
+        "77259e1f-01c4-443a-9c0f-7a4ed91fccb1"
       ],
       "settings": {
         "title": "Parchment",
