@@ -172,7 +172,10 @@
             </ul>
 
             {%- if paginate.pages > 1 -%}
-              {% render 'pagination', paginate: paginate, anchor: '' %}
+            {% comment %}
+		          {% render 'pagination', paginate: paginate, anchor: '' %}
+		        {% endcomment %}
+		         {% render 'eg-infinite-pagination', paginate: paginate %}
             {%- endif -%}
           </div>
         {%- endif -%}
