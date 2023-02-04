@@ -471,7 +471,8 @@
         "template--16834058092758__deba554d-0b65-43e8-8c23-f6de03022f16-167552411649bf7293-0": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/mushroom-1_900x_jpg.webp",
+            "text": "<p>Mushroom Cereal Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
