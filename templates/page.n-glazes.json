@@ -322,6 +322,77 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true
       }
+    },
+    "a7959cef-6d82-4121-acc7-fc6d850b80fd": {
+      "type": "glaze",
+      "blocks": {
+        "template--16834058092758__a7959cef-6d82-4121-acc7-fc6d850b80fd-167552411649bf7293-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Santiago_Sconce_Ochre_s_1728x_900x_jpg_ec79284e-b5a4-4a12-ad3a-07a6280cc167.webp",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__a7959cef-6d82-4121-acc7-fc6d850b80fd-167552411649bf7293-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_2e689689-dd23-42f8-809d-369f0ebc68b1_900x_jpg.webp",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__a7959cef-6d82-4121-acc7-fc6d850b80fd-167552411649bf7293-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_3574aea4-46a3-4a94-8761-ddabfba27630_900x_jpg.webp",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__a7959cef-6d82-4121-acc7-fc6d850b80fd-167552411649bf7293-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_9e671b8b-fa73-4115-b506-fe1168af6e6b_900x_jpg.webp",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2f3fece7-98ca-4d7d-a2b8-04ce64b5e969": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_31a15a47-2a4f-419c-b36d-a877ee130bde_900x_jpg.webp",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058092758__a7959cef-6d82-4121-acc7-fc6d850b80fd-167552411649bf7293-0",
+        "template--16834058092758__a7959cef-6d82-4121-acc7-fc6d850b80fd-167552411649bf7293-1",
+        "template--16834058092758__a7959cef-6d82-4121-acc7-fc6d850b80fd-167552411649bf7293-2",
+        "template--16834058092758__a7959cef-6d82-4121-acc7-fc6d850b80fd-167552411649bf7293-3",
+        "2f3fece7-98ca-4d7d-a2b8-04ce64b5e969"
+      ],
+      "settings": {
+        "title": "Lichen",
+        "description": "<p>Lichen, like its mutualistic namesake, is a fascinating composite. Interspersed in the glaze are flecks of copper that, when fired, oxidize to create grey-green mottling across the clay’s surface. Thinner applications of the glaze are more seafoam in color (they’re also more uniform), while thicker applications are more grey blue. The mottled pattern, like nature, is unpredictable, so we recommend this glaze is used in isolation on simple textures.<\/p>",
+        "combinations": "",
+        "combtext": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true
+      }
     }
   },
   "order": [
@@ -330,6 +401,7 @@
     "5939b579-946c-4a2f-afc4-a86a4d691a4d",
     "742b0eae-0551-4f95-ab5e-62ab02a86497",
     "46b3eaee-366a-45e3-84dd-2502e941465c",
-    "5e08c545-612e-4c02-bb2d-1237f76a10f8"
+    "5e08c545-612e-4c02-bb2d-1237f76a10f8",
+    "a7959cef-6d82-4121-acc7-fc6d850b80fd"
   ]
 }
