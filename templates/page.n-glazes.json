@@ -393,6 +393,63 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true
       }
+    },
+    "306e96f9-d9b0-4b35-a4c9-3e728ac4de69": {
+      "type": "glaze",
+      "blocks": {
+        "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-0": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-1": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-2": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-3": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-0",
+        "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-1",
+        "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-2",
+        "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-3"
+      ],
+      "settings": {
+        "title": "Matte-Black",
+        "description": "<p>Our Matte-Black glaze has an earthen quality that intensifies the thicker that it is applied. In thinner applications, it possesses a satin-like finish that accentuates textures – even subtle ones. The more it’s layered, however, the more it becomes volcanic: matte, textured and intensely black.<\/p>",
+        "combinations": "Combinations",
+        "combtext": "<p>This glaze works best in contrast. In contrast to more lustrous finishes, as seen in the Mattituck and Sag Harbor lamp. <\/p><p>In contrast to lighter shades like in the dipped New Preston lamp and in the graphic compositions of the poured Hutton lamp. And even in contrast with itself, when both thick and thin applications are employed.<\/p>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true
+      }
     }
   },
   "order": [
@@ -402,6 +459,7 @@
     "742b0eae-0551-4f95-ab5e-62ab02a86497",
     "46b3eaee-366a-45e3-84dd-2502e941465c",
     "5e08c545-612e-4c02-bb2d-1237f76a10f8",
-    "a7959cef-6d82-4121-acc7-fc6d850b80fd"
+    "a7959cef-6d82-4121-acc7-fc6d850b80fd",
+    "306e96f9-d9b0-4b35-a4c9-3e728ac4de69"
   ]
 }
