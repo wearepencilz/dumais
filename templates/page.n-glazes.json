@@ -295,7 +295,8 @@
         "template--16834058092758__5e08c545-612e-4c02-bb2d-1237f76a10f8-167552411649bf7293-3": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Truro_Lead_Matte-Black_r_900x_a90b61c6-59fe-4040-b961-649aec011503.jpg",
+            "text": "<p>Lead & Matte-Black Truro Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
