@@ -804,7 +804,8 @@
         "template--16834058092758__805ae172-8fc1-4480-b85e-2e4f175e2f3d-167552411649bf7293-0": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/verd-1_900x_jpg.webp",
+            "text": "<p>Dipped Verdrigris Liberty Vase<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -812,7 +813,8 @@
         "template--16834058092758__805ae172-8fc1-4480-b85e-2e4f175e2f3d-167552411649bf7293-1": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/verd-2_900x_8ded1171-c467-4f36-81e5-9ecfcc425060.jpg",
+            "text": "<p>Dipped Verdigris New Preston Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -820,7 +822,8 @@
         "template--16834058092758__805ae172-8fc1-4480-b85e-2e4f175e2f3d-167552411649bf7293-2": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Firefly_Pendant_2_Verdigris_Poured_353de08f-0f00-425e-a5bd-85d609c19389_900x_jpg.webp",
+            "text": "<p>Poured Verdigris Firefly Pendant<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -828,7 +831,8 @@
         "template--16834058092758__805ae172-8fc1-4480-b85e-2e4f175e2f3d-167552411649bf7293-3": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/verd-3_900x_jpg.webp",
+            "text": "<p>Poured Verdigris Truro Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
