@@ -682,7 +682,8 @@
         "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-2": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Walworth_Parchment_Dipped_900x_jpg.webp",
+            "text": "<p>Dipped Parchment Walworth Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -690,7 +691,8 @@
         "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-3": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/parchment-2_900x_jpg.webp",
+            "text": "<p>Dipped Parchment Mug Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
