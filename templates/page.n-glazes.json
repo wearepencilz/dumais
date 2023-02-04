@@ -836,13 +836,23 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "53168ad6-7731-4d95-bced-e0e1d490d71d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Poured_Firefly_Lantern_Verdigris_900x_jpg_154407d7-2b9f-4e99-8be3-9074a4f5f08d.webp",
+            "text": "<p>Poured Firefly Lantern <\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--16834058092758__805ae172-8fc1-4480-b85e-2e4f175e2f3d-167552411649bf7293-0",
         "template--16834058092758__805ae172-8fc1-4480-b85e-2e4f175e2f3d-167552411649bf7293-1",
         "template--16834058092758__805ae172-8fc1-4480-b85e-2e4f175e2f3d-167552411649bf7293-2",
-        "template--16834058092758__805ae172-8fc1-4480-b85e-2e4f175e2f3d-167552411649bf7293-3"
+        "template--16834058092758__805ae172-8fc1-4480-b85e-2e4f175e2f3d-167552411649bf7293-3",
+        "53168ad6-7731-4d95-bced-e0e1d490d71d"
       ],
       "settings": {
         "title": "Verdigris",
