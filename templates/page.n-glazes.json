@@ -129,11 +129,69 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true
       }
+    },
+    "742b0eae-0551-4f95-ab5e-62ab02a86497": {
+      "type": "glaze",
+      "blocks": {
+        "template--16834058092758__742b0eae-0551-4f95-ab5e-62ab02a86497-167552411649bf7293-0": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__742b0eae-0551-4f95-ab5e-62ab02a86497-167552411649bf7293-1": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__742b0eae-0551-4f95-ab5e-62ab02a86497-167552411649bf7293-2": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__742b0eae-0551-4f95-ab5e-62ab02a86497-167552411649bf7293-3": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058092758__742b0eae-0551-4f95-ab5e-62ab02a86497-167552411649bf7293-0",
+        "template--16834058092758__742b0eae-0551-4f95-ab5e-62ab02a86497-167552411649bf7293-1",
+        "template--16834058092758__742b0eae-0551-4f95-ab5e-62ab02a86497-167552411649bf7293-2",
+        "template--16834058092758__742b0eae-0551-4f95-ab5e-62ab02a86497-167552411649bf7293-3"
+      ],
+      "settings": {
+        "title": "Chalk",
+        "description": "<p>Chalk is a crisp, matte-white glaze that evokes the depth and texture of limewash. A go-to of ours, it captures the subtleties of our clay finishes incredibly well, as it is almost translucent in thinner applications. Further layers create a more opaque effect.<\/p>",
+        "combinations": "Combinations",
+        "combtext": "<p>The versatility of this glaze lends itself to a variety of combinations. We often use it as a clean contrast to our darker and more satin glazes, as seen on the Turnier vase. <\/p><p>It also plays well with others, when overlapped it creates an intensely glossy finish.<\/p>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "color_scheme": "background-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true
+      }
     }
   },
   "order": [
     "main",
     "bc767dd0-f536-495d-b584-6066549ab95b",
-    "5939b579-946c-4a2f-afc4-a86a4d691a4d"
+    "5939b579-946c-4a2f-afc4-a86a4d691a4d",
+    "742b0eae-0551-4f95-ab5e-62ab02a86497"
   ]
 }
