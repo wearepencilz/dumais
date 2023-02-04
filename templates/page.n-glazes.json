@@ -705,6 +705,15 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "7ab580f3-fded-4936-894f-238481c536d6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_Hutton_Matte-Black_Parchment_Poured_900x_14edd7c6-ba35-44bb-848c-487eb9f0720a.jpg",
+            "text": "<p>Parchment & Matte-Black Hutton Lamp<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -712,7 +721,8 @@
         "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-1",
         "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-2",
         "template--16834058092758__ed4dbe3f-8d85-4963-9be7-13d900d4b89f-167552411649bf7293-3",
-        "77259e1f-01c4-443a-9c0f-7a4ed91fccb1"
+        "77259e1f-01c4-443a-9c0f-7a4ed91fccb1",
+        "7ab580f3-fded-4936-894f-238481c536d6"
       ],
       "settings": {
         "title": "Parchment",
