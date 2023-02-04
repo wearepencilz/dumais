@@ -432,13 +432,23 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "eb8a8031-43da-4732-8c18-61d8a96fb5d2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New_Preston_Matte-Black_Parchment_900x_jpg.webp",
+            "text": "<p>Matte-Black & Parchment New Preston Lamp<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-0",
         "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-1",
         "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-2",
-        "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-3"
+        "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-3",
+        "eb8a8031-43da-4732-8c18-61d8a96fb5d2"
       ],
       "settings": {
         "title": "Matte-Black",
