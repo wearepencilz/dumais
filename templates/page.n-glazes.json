@@ -532,7 +532,8 @@
         "template--16834058092758__b74ceaa3-cc12-422d-9dcf-5398fb985a97-167552411649bf7293-0": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/New_Preston_Navy_s_900x_jpg.webp",
+            "text": "<p>Dipped Navy New Preston Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -540,7 +541,8 @@
         "template--16834058092758__b74ceaa3-cc12-422d-9dcf-5398fb985a97-167552411649bf7293-1": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Clermont_Navy_Dipped_-_new_format_900x_jpg.webp",
+            "text": "<p>Dipped Clermont Navy<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -548,7 +550,8 @@
         "template--16834058092758__b74ceaa3-cc12-422d-9dcf-5398fb985a97-167552411649bf7293-2": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Small_Thira_Hide_Navy_-s_6de0f288-c8fe-470b-af45-7b81a77edd26_900x_jpg.webp",
+            "text": "<p>Navy & Hide Small Thira Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -556,7 +559,8 @@
         "template--16834058092758__b74ceaa3-cc12-422d-9dcf-5398fb985a97-167552411649bf7293-3": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Mattituck_Matte-Black_Navy_900x_jpg_b6f61a3d-ac51-4511-8640-8d75a837fb1e.webp",
+            "text": "<p>Navy & Matte-Black Mattituck Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
