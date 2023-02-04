@@ -197,7 +197,8 @@
         "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-0": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Cistern_Hide_-_s_900x_jpg.webp",
+            "text": "<p>Poured Hide Cistern Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -205,7 +206,8 @@
         "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-1": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Hanover_Hide_900x_jpg.webp",
+            "text": "<p>Dipped Hide Hanover Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -213,7 +215,8 @@
         "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-2": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Small_Thira_Hide_Navy_-s_900x_jpg.webp",
+            "text": "<p>Hide & Navy Small Thira Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -221,7 +224,17 @@
         "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-3": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Madeline_Matte-Black_Hide_900x_jpg.webp",
+            "text": "<p>Hide & Matte-Black Madeline Lamp<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "78af8071-d5ba-4464-aff7-31eb1187da5b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Turnier_Lead_Hide_900x_jpg.webp",
+            "text": "<p>Hide & Lead Turnier Lamp<\/p><p><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -231,7 +244,8 @@
         "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-0",
         "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-1",
         "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-2",
-        "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-3"
+        "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-3",
+        "78af8071-d5ba-4464-aff7-31eb1187da5b"
       ],
       "settings": {
         "title": "Hide",
