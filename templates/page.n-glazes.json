@@ -145,7 +145,8 @@
         "template--16834058092758__742b0eae-0551-4f95-ab5e-62ab02a86497-167552411649bf7293-1": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Finch_Chalk_Dipped_2_900x_22cec3db-90bf-4a8f-9c58-c9c8525845dd.jpg",
+            "text": "<p>Dipped Chalk Finch Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -153,7 +154,8 @@
         "template--16834058092758__742b0eae-0551-4f95-ab5e-62ab02a86497-167552411649bf7293-2": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Turnier_Chalk_Lead_900x_88a77581-1175-4c6c-8be4-3c09fa9b5dd7.jpg",
+            "text": "<p>Chalk & Lead Turnier Vase<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -161,7 +163,8 @@
         "template--16834058092758__742b0eae-0551-4f95-ab5e-62ab02a86497-167552411649bf7293-3": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Small_Thira_Chalk_Hide_-s_900x_ecae260e-fe67-46a7-812b-4606668dac8f.jpg",
+            "text": "<p>Chalk & Hide Small Thira Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
