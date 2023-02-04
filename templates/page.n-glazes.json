@@ -418,7 +418,8 @@
         "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-2": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Mattituck_Matte-Black_Navy_900x_jpg.webp",
+            "text": "<p>Matte-Black & Navy Mattituck Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -426,7 +427,8 @@
         "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-3": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Hutton_Matte-Black_Parchment_-2_900x_e5235a1b-176a-46f1-816b-6b864d6a484b.jpg",
+            "text": "<p>Matte-Black & Parchment Hudson Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
