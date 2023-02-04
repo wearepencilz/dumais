@@ -745,7 +745,8 @@
         "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-0": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/sea-2_900x_jpg.webp",
+            "text": "<p>Poured Sea Pitcher<\/p>",
             "link_label": "",
             "link": ""
           }
