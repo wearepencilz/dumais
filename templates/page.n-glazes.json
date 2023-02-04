@@ -759,11 +759,29 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "36a30e02-52ae-4366-ac66-ac9e69af631f": {
+          "type": "column",
+          "settings": {
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "79b4ecdb-3fae-4bde-821a-ea8243ed4afe": {
+          "type": "column",
+          "settings": {
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-0",
-        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-1"
+        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-1",
+        "36a30e02-52ae-4366-ac66-ac9e69af631f",
+        "79b4ecdb-3fae-4bde-821a-ea8243ed4afe"
       ],
       "settings": {
         "title": "Sea",
