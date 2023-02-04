@@ -190,12 +190,70 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true
       }
+    },
+    "46b3eaee-366a-45e3-84dd-2502e941465c": {
+      "type": "glaze",
+      "blocks": {
+        "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-0": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-1": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-2": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-3": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-0",
+        "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-1",
+        "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-2",
+        "template--16834058092758__46b3eaee-366a-45e3-84dd-2502e941465c-167552411649bf7293-3"
+      ],
+      "settings": {
+        "title": "Hide",
+        "description": "<p>Hide is a nod to the leather-like finish that is created with thicker applications of the glaze. On textured surfaces and edges, this matte-satin glaze intensifies, burnishing its buff tone to a warm umber. It also contains a subtle fleck, which shimmers gently under direct light<\/p>",
+        "combinations": "Combinations",
+        "combtext": "<p>Like Chalk, this glaze lends itself to a variety of combinations. Hide’s matte warmth pairs perfectly with darker finishes (see our Madeline lamp and Turnier lamp above). <\/p><p>It also overlaps well, intensifying the other glaze, which can be seen on the small Thira lamp.<\/p>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true
+      }
     }
   },
   "order": [
     "main",
     "bc767dd0-f536-495d-b584-6066549ab95b",
     "5939b579-946c-4a2f-afc4-a86a4d691a4d",
-    "742b0eae-0551-4f95-ab5e-62ab02a86497"
+    "742b0eae-0551-4f95-ab5e-62ab02a86497",
+    "46b3eaee-366a-45e3-84dd-2502e941465c"
   ]
 }
