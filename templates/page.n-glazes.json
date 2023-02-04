@@ -875,7 +875,8 @@
         "template--16834058092758__445e8890-1aa5-4a6d-a073-41ff8284b895-167552411649bf7293-0": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/walnut-1_900x_jpg.webp",
+            "text": "<p>Dipped Walnut Thira Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
