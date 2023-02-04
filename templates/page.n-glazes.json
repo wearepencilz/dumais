@@ -261,6 +261,66 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true
       }
+    },
+    "5e08c545-612e-4c02-bb2d-1237f76a10f8": {
+      "type": "glaze",
+      "blocks": {
+        "template--16834058092758__5e08c545-612e-4c02-bb2d-1237f76a10f8-167552411649bf7293-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Turnier_Lead_Hide_20e96a12-7bed-46a6-8ce2-251354a9561a_900x_jpg.webp",
+            "text": "<p>Lead & Hide Turnier Lamp<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__5e08c545-612e-4c02-bb2d-1237f76a10f8-167552411649bf7293-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Houston_Lead_900x_jpg.webp",
+            "text": "<p>Dipped Lead Houston Lamp<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__5e08c545-612e-4c02-bb2d-1237f76a10f8-167552411649bf7293-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Patrick_Lead_Dipped_smaller_25fbe4f1-63ca-428a-b415-dae9aa9da633_900x_jpg.webp",
+            "text": "<p>Dipped Lead Patrick Sconce<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__5e08c545-612e-4c02-bb2d-1237f76a10f8-167552411649bf7293-3": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058092758__5e08c545-612e-4c02-bb2d-1237f76a10f8-167552411649bf7293-0",
+        "template--16834058092758__5e08c545-612e-4c02-bb2d-1237f76a10f8-167552411649bf7293-1",
+        "template--16834058092758__5e08c545-612e-4c02-bb2d-1237f76a10f8-167552411649bf7293-2",
+        "template--16834058092758__5e08c545-612e-4c02-bb2d-1237f76a10f8-167552411649bf7293-3"
+      ],
+      "settings": {
+        "title": "Lead",
+        "description": "<p>With its depth and sheen, this glaze often gets confused for cast metal. We like to use Lead on textured surfaces, as, when fired, it accentuates the clay’s surface through an interplay of matte and satin finishes.<\/p>",
+        "combinations": "Combinations",
+        "combtext": "<p>Lead’s graphite color is deceptive, especially when combined with other glazes. When paired with parchment, for instance, it creates a bottle green hue. With a thin overlap of Ochre, it becomes an intensely shiny aubergine. <\/p><p>It also works well with Matte-Black, creating a burnished overlap that contrasts Matte-Black’s pumice-like texture.<\/p>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true
+      }
     }
   },
   "order": [
@@ -268,6 +328,7 @@
     "bc767dd0-f536-495d-b584-6066549ab95b",
     "5939b579-946c-4a2f-afc4-a86a4d691a4d",
     "742b0eae-0551-4f95-ab5e-62ab02a86497",
-    "46b3eaee-366a-45e3-84dd-2502e941465c"
+    "46b3eaee-366a-45e3-84dd-2502e941465c",
+    "5e08c545-612e-4c02-bb2d-1237f76a10f8"
   ]
 }
