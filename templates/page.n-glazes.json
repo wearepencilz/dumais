@@ -318,7 +318,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_alignment": "left",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "columns_mobile": "2",
         "swipe_on_mobile": true
       }
@@ -460,7 +460,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_alignment": "left",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "columns_mobile": "2",
         "swipe_on_mobile": true
       }
@@ -525,6 +525,63 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true
       }
+    },
+    "b74ceaa3-cc12-422d-9dcf-5398fb985a97": {
+      "type": "glaze",
+      "blocks": {
+        "template--16834058092758__b74ceaa3-cc12-422d-9dcf-5398fb985a97-167552411649bf7293-0": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__b74ceaa3-cc12-422d-9dcf-5398fb985a97-167552411649bf7293-1": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__b74ceaa3-cc12-422d-9dcf-5398fb985a97-167552411649bf7293-2": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__b74ceaa3-cc12-422d-9dcf-5398fb985a97-167552411649bf7293-3": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058092758__b74ceaa3-cc12-422d-9dcf-5398fb985a97-167552411649bf7293-0",
+        "template--16834058092758__b74ceaa3-cc12-422d-9dcf-5398fb985a97-167552411649bf7293-1",
+        "template--16834058092758__b74ceaa3-cc12-422d-9dcf-5398fb985a97-167552411649bf7293-2",
+        "template--16834058092758__b74ceaa3-cc12-422d-9dcf-5398fb985a97-167552411649bf7293-3"
+      ],
+      "settings": {
+        "title": "Navy",
+        "description": "<p>This glaze behaves similarly to our Bottle Green glaze. A thin dip or pour of Navy is translucent, giving the piece a denim-like color. Thicker applications of Navy result in a black blue, which, under artificial or direct sunlight, reveals an ultramarine sheen.<\/p>",
+        "combinations": "Combinations",
+        "combtext": "<p>Navy can be combined with many glazes. Overlapping Hide and Navy creates an intense gradient. Combining Matte-Black and Navy intensifies the former’s sheen and density. <\/p><p>And pairing Sea and Navy reveals something completely different when fired: a redolent gold. <\/p>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "color_scheme": "background-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true
+      }
     }
   },
   "order": [
@@ -536,6 +593,7 @@
     "5e08c545-612e-4c02-bb2d-1237f76a10f8",
     "a7959cef-6d82-4121-acc7-fc6d850b80fd",
     "306e96f9-d9b0-4b35-a4c9-3e728ac4de69",
-    "deba554d-0b65-43e8-8c23-f6de03022f16"
+    "deba554d-0b65-43e8-8c23-f6de03022f16",
+    "b74ceaa3-cc12-422d-9dcf-5398fb985a97"
   ]
 }
