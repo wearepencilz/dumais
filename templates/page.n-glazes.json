@@ -884,20 +884,21 @@
         "template--16834058092758__445e8890-1aa5-4a6d-a073-41ff8284b895-167552411649bf7293-1": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/walnut-1_1080x_86d51300-354f-4af2-ab39-4b8c908f733d_900x_jpg.webp",
+            "text": "<p>Walnut & Chalk Can Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "template--16834058092758__445e8890-1aa5-4a6d-a073-41ff8284b895-167552411649bf7293-2": {
+        "b8b4ca52-d86a-43a1-abc2-2de8b779b4ab": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "template--16834058092758__445e8890-1aa5-4a6d-a073-41ff8284b895-167552411649bf7293-3": {
+        "eb63c50e-d161-4136-9596-9c88253aeafa": {
           "type": "column",
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -909,8 +910,8 @@
       "block_order": [
         "template--16834058092758__445e8890-1aa5-4a6d-a073-41ff8284b895-167552411649bf7293-0",
         "template--16834058092758__445e8890-1aa5-4a6d-a073-41ff8284b895-167552411649bf7293-1",
-        "template--16834058092758__445e8890-1aa5-4a6d-a073-41ff8284b895-167552411649bf7293-2",
-        "template--16834058092758__445e8890-1aa5-4a6d-a073-41ff8284b895-167552411649bf7293-3"
+        "b8b4ca52-d86a-43a1-abc2-2de8b779b4ab",
+        "eb63c50e-d161-4136-9596-9c88253aeafa"
       ],
       "settings": {
         "title": "Walnut",
