@@ -136,7 +136,8 @@
         "template--16834058092758__742b0eae-0551-4f95-ab5e-62ab02a86497-167552411649bf7293-0": {
           "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Barragan_Chalk_900x_aa9ca1d0-000a-40af-9b25-16a166b2becc.jpg",
+            "text": "<p>Dipped Chalk Barragan Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
