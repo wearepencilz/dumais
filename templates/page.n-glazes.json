@@ -738,6 +738,63 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true
       }
+    },
+    "639d6375-1f5f-4aa1-80e9-c3a854db3de6": {
+      "type": "glaze",
+      "blocks": {
+        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-0": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-1": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-2": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-3": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-0",
+        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-1",
+        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-2",
+        "template--16834058092758__639d6375-1f5f-4aa1-80e9-c3a854db3de6-167552411649bf7293-3"
+      ],
+      "settings": {
+        "title": "Sea",
+        "description": "<p>Sea is a new glaze for us. Incredibly matte, this glaze behaves like the sea, hence the name. In thicker applications, like on the Can lamp, it fires as a light blue, much like the water reflecting the sky’s azure. While in thinner applications, Sea possesses a green-ish brown tint, as seen on the Handle pitcher.<\/p>",
+        "combinations": "Combinations",
+        "combtext": "<p>Sea is a sensitive glaze, even its position in the kiln can influence the final color, so we’re experimenting with different pairings at the moment to determine what works best.<\/p><p>Currently, we’re captivated by the combination of Sea and Navy, which results in an intense ochre that feathers from matte to shine.<\/p>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true
+      }
     }
   },
   "order": [
@@ -752,6 +809,7 @@
     "deba554d-0b65-43e8-8c23-f6de03022f16",
     "b74ceaa3-cc12-422d-9dcf-5398fb985a97",
     "17eab40e-fe13-4b70-b1a1-9525b853a8bb",
-    "ed4dbe3f-8d85-4963-9be7-13d900d4b89f"
+    "ed4dbe3f-8d85-4963-9be7-13d900d4b89f",
+    "639d6375-1f5f-4aa1-80e9-c3a854db3de6"
   ]
 }
