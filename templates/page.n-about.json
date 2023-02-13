@@ -96,7 +96,7 @@
         "template--16835143008470__7f6c913e-0f3e-4882-91b1-b416afbc4806-1674774004bae033a6-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about-3-1.jpg",
+            "image": "shopify:\/\/shop_images\/about-n-9.jpg",
             "text": "<p>A custom Mug Lamp in our guest room..<\/p>",
             "image_offset": "no-offset"
           }
@@ -131,6 +131,42 @@
       "settings": {
         "arrow_position": "right",
         "arrow_orientation": "point-left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8b1b2a47-5c11-4753-9b9a-fbd2e322ad22": {
+      "type": "image-multicolumn",
+      "blocks": {
+        "template--16835143008470__8b1b2a47-5c11-4753-9b9a-fbd2e322ad22-1676291597a83045cc-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/About_Team_Image_3.jpg",
+            "text": "<p>Pair text with an image to focus on your chosen product<\/p>",
+            "image_offset": "no-offset"
+          }
+        }
+      },
+      "block_order": [
+        "template--16835143008470__8b1b2a47-5c11-4753-9b9a-fbd2e322ad22-1676291597a83045cc-0"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "079fb80a-0cec-4096-bac2-b31fcaa3d643": {
+      "type": "arrow-spacer",
+      "settings": {
+        "arrow_position": "left",
+        "arrow_orientation": "point-right",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -239,6 +275,8 @@
     "b77e9ce7-fbf6-4a57-8b19-e139fe0ea1df",
     "7f6c913e-0f3e-4882-91b1-b416afbc4806",
     "5046cb9f-f2f0-4f59-95e0-81fa28aab110",
+    "8b1b2a47-5c11-4753-9b9a-fbd2e322ad22",
+    "079fb80a-0cec-4096-bac2-b31fcaa3d643",
     "bc669f1a-31b5-43ea-8688-cbe4d20dac9f",
     "94c69ae8-25e0-4649-872b-a8204ab93a10",
     "600361f3-b4c4-4b39-a4c2-152510393812",
