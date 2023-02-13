@@ -13,7 +13,7 @@
         "19aa202c-2b8b-45c4-a23f-029152d4ae88": {
           "type": "caption",
           "settings": {
-            "caption": "A custom Mug Lamp in our guest room..",
+            "caption": "Kevin, left, and Charlie, right, at Dumais Made’s Litchfield studio.",
             "text_style": "subtitle",
             "text_size": "small"
           }
@@ -61,7 +61,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/about-n-1.jpg",
-            "text": "<p>A custom Mug Lamp in our guest room..<\/p>",
+            "text": "<p>Charlie checking a batch of glazed mirrors. While the studio is a collaborative effort, all pieces are glazed and finished by Charlie.<\/p>",
             "image_offset": "no-offset"
           }
         }
@@ -97,7 +97,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/about-n-9.jpg",
-            "text": "<p>A custom Mug Lamp in our guest room..<\/p>",
+            "text": "",
             "image_offset": "no-offset"
           }
         },
@@ -105,7 +105,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/about-n-2.jpg",
-            "text": "<p>A custom Mug Lamp in our guest room..<\/p>",
+            "text": "<p>Slab is where Dumais Made started. Here, [role] [name] joins two sides of a [model] lamp.<\/p>",
             "image_offset": "medium-offset"
           }
         }
@@ -142,7 +142,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/About_Team_Image_3.jpg",
-            "text": "<p>Pair text with an image to focus on your chosen product<\/p>",
+            "text": "<p>Hayley (left) and [name] (right), the studio’s coordinator and [role], respectively.<\/p>",
             "image_offset": "no-offset"
           }
         }
