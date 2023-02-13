@@ -28,7 +28,7 @@
         "55ad08a3-f28a-44f6-8b34-04a6575d2363"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/custom_5f21dd87-ad14-47ff-adcf-d0174abdc5c1.jpg",
+        "image": "shopify:\/\/shop_images\/custom-intro-1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "padding_top": 36,
@@ -72,7 +72,7 @@
         "template--16834057896150__0f10338b-9075-4c4f-b90a-52066609d5ea-1674603800d2f39697-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/illu-1.png",
+            "image": "shopify:\/\/shop_images\/Adapting_Image-2.jpg",
             "title": "Adapting an existing piece",
             "text": "<p>Using an existing Dumais Made design, we work together to select from our current textures and glazes to develop a style that suits. We're also able to alter the scale of a piece, but please check if this is feasible first.<br\/><br\/><\/p><ul><li>An existing Dumais Made design<\/li><li>Adapted using our existing textures and glazes<\/li><li>Made in approx. 6 to 8 weeks<\/li><\/ul>",
             "link_label": "",
@@ -82,7 +82,7 @@
         "template--16834057896150__0f10338b-9075-4c4f-b90a-52066609d5ea-1674603800d2f39697-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/illu-2.png",
+            "image": "shopify:\/\/shop_images\/Adapting_Image.jpg",
             "title": "Creating a completely custom piece",
             "text": "<p>A completely custom Dumais Made piece begins with a conversation. We then send sketches and renderings, share glazes and texture samples, and even create a physical mock-up before the final design is produced.<br\/><br\/><\/p><ul><li>A unique design<\/li><li>Rendered in custom textures and glazes<\/li><li>Made in approx. 10 to 14 weeks<\/li><\/ul>",
             "link_label": "",
