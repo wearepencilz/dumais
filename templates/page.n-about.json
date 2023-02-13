@@ -178,7 +178,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/about-n-4.jpg",
-            "text": "<p>A custom Mug Lamp in our guest room..<\/p>",
+            "text": "<p>[Name], the studio’s [role], carefully preparing the parts of a [model] lamp.<\/p>",
             "image_offset": "no-offset"
           }
         },
