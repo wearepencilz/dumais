@@ -61,7 +61,7 @@
         "template--16833782251734__52f2e727-b1ce-444c-b0d5-b23b9f45cd1c-167501942530475a7e-0": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/lighting-2.jpg",
+            "image": "shopify:\/\/shop_images\/shop-lighting-2.jpg",
             "image_link": "shopify:\/\/pages\/lighting-n",
             "title": "Shop Lighting"
           }
@@ -69,7 +69,7 @@
         "template--16833782251734__52f2e727-b1ce-444c-b0d5-b23b9f45cd1c-167501942530475a7e-1": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/objects-collectiono-image.webp",
+            "image": "shopify:\/\/shop_images\/shop-objects-2.jpg",
             "image_link": "shopify:\/\/pages\/objects-n",
             "title": "Shop Objects"
           }
