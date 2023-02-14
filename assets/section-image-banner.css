@@ -129,7 +129,7 @@
 @media screen and (min-width: 1650px) {
 
   .banner--large:not(.banner--adapt) {
-    min-height: 85rem;
+    min-height: 75vh;
   }
 }  
 
