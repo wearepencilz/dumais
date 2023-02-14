@@ -368,5 +368,6 @@
   max-height: calc(100vh - 45px);
   border-bottom: 1px solid black;
   height:auto;
+  padding-bottom:5rem;
 }
 
