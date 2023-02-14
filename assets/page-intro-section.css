@@ -365,7 +365,7 @@
 
 .page-intro-section-wrapper{
   background-color: #fff9f3;
-  min-height: calc(60vw - 45px);
+  min-height: calc(80vw - 45px);
   border-bottom: 1px solid black;
   height: auto;
   max-height: calc(100vh - 95px);
