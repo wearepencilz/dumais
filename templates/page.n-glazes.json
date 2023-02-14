@@ -15,7 +15,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_88.jpg",
-            "text": "<p>Dipped Finch Lamp<\/p>",
+            "text": "<p>Dipped Bottle Green Finch Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -24,7 +24,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_93.jpg",
-            "text": "<p>Dipped Nomad Sconce<\/p>",
+            "text": "<p>Dipped Bottle Nomad Sconce<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -76,7 +76,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/4_98738f5f-1dc0-4ca1-91b4-cf86b68f61d1.jpg",
-            "text": "",
+            "text": "<p>Dipped Carriage Red Hanover Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -85,7 +85,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/3_5f25b1f0-31e6-4772-b768-93e247c5a698.jpg",
-            "text": "",
+            "text": "<p>Dipped Carriage Red Clermont Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -94,7 +94,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/5_5faceafa-644c-4127-b7da-482a8bef2a03.jpg",
-            "text": "",
+            "text": "<p>Poured Carriage Red Madeline Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -103,7 +103,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/2_684c485f-f917-4213-ba30-792848abdcf1.jpg",
-            "text": "",
+            "text": "<p>Dipped Carriage Red Madeline vase<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -330,7 +330,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Santiago_Sconce_Ochre_s_1728x_900x_jpg_ec79284e-b5a4-4a12-ad3a-07a6280cc167.webp",
-            "text": "",
+            "text": "<p>Dipped Lichen Hanover Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -339,7 +339,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/5_2e689689-dd23-42f8-809d-369f0ebc68b1_900x_jpg.webp",
-            "text": "",
+            "text": "<p>Dipped Lichen Prospect Heights Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -348,7 +348,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/4_3574aea4-46a3-4a94-8761-ddabfba27630_900x_jpg.webp",
-            "text": "",
+            "text": "<p>Dipped Lichen Prospect Heights Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -357,7 +357,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/2_9e671b8b-fa73-4115-b506-fe1168af6e6b_900x_jpg.webp",
-            "text": "",
+            "text": "<p>Dipped Lichen Wainscot Lamp<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -366,7 +366,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/3_31a15a47-2a4f-419c-b36d-a877ee130bde_900x_jpg.webp",
-            "text": "",
+            "text": "<p>Dipped Lichen Hutton Mirror<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -805,7 +805,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/verd-1_900x_jpg.webp",
-            "text": "<p>Dipped Verdrigris Liberty Vase<\/p>",
+            "text": "<p>Dipped Verdigris Liberty Vase<\/p>",
             "link_label": "",
             "link": ""
           }
