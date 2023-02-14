@@ -105,7 +105,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/about-n-2.jpg",
-            "text": "<p>Slab is where Dumais Made started. Here, [role] [name] joins two sides of a [model] lamp.<\/p>",
+            "text": "<p>It starts with slabs. Here, assistant and builder, Samantha joins two sides of a Truro Lamp.<\/p>",
             "image_offset": "medium-offset"
           }
         }
@@ -142,7 +142,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/About_Team_Image_3.jpg",
-            "text": "<p>Hayley (left) and [name] (right), the studio’s coordinator and [role], respectively.<\/p>",
+            "text": "<p>Hayley (left) and Alex (right) the studio’s coordinator and sales director respectively.<\/p>",
             "image_offset": "no-offset"
           }
         }
@@ -178,7 +178,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/about-n-4.jpg",
-            "text": "<p>[Name], the studio’s [role], carefully preparing the parts of a [model] lamp.<\/p>",
+            "text": "<p>Claire, the studio’s production coordinator carefully preparing the parts of a Washington Lamp.<\/p>",
             "image_offset": "no-offset"
           }
         },
