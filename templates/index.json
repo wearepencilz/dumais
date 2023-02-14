@@ -3,7 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/main-new_7cbf0121-5415-4629-9ddf-4ad055525bed.jpg",
+        "image": "shopify:\/\/shop_images\/banner-image.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
