@@ -368,7 +368,7 @@
   min-height: calc(60vw - 45px);
   border-bottom: 1px solid black;
   height: auto;
-  max-height: calc(100vh - 95px);
+  max-height: calc(90vh - 95px);
   padding-bottom:65px;
 }
 
