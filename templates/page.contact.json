@@ -21,6 +21,9 @@
       "block_order": [
         "template--16833782186198__087ff8b0-df6b-42cd-bff0-9c686e01ab93-16750992892440aa63-1"
       ],
+      "custom_css": [
+        ".page-intro-section-wrapper {max-height: none !important;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/contact.jpg",
         "height": "adapt",
