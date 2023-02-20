@@ -62,7 +62,7 @@
           "type": "featured_collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/shop-lighting-2.jpg",
-            "image_link": "shopify:\/\/pages\/lighting-n",
+            "image_link": "shopify:\/\/pages\/lighting",
             "title": "Shop Lighting"
           }
         },
