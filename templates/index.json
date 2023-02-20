@@ -70,7 +70,7 @@
           "type": "featured_collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/shop-objects-2.jpg",
-            "image_link": "shopify:\/\/pages\/objects-n",
+            "image_link": "shopify:\/\/pages\/objects",
             "title": "Shop Objects"
           }
         }
