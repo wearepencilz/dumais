@@ -3234,3 +3234,9 @@ margin-top: 1rem !important;
 .product-count{
   display:none;
 }
+
+/* form fix */
+
+.globo-form-app .message.success{
+display: none !important;
+}
