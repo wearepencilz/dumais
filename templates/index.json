@@ -91,6 +91,35 @@
         "padding_bottom": 100
       }
     },
+    "91c0df98-2899-4305-a6bd-dae2cd5c7ef8": {
+      "type": "page-intro-section",
+      "disabled": true,
+      "blocks": {
+        "template--16833782251734__91c0df98-2899-4305-a6bd-dae2cd5c7ef8-1678358933b3689a95-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The headlione of the section"
+          }
+        },
+        "template--16833782251734__91c0df98-2899-4305-a6bd-dae2cd5c7ef8-1678358933b3689a95-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16833782251734__91c0df98-2899-4305-a6bd-dae2cd5c7ef8-1678358933b3689a95-0",
+        "template--16833782251734__91c0df98-2899-4305-a6bd-dae2cd5c7ef8-1678358933b3689a95-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-03-09_at_10.46.33.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "ae31aab5-db35-4f7e-9272-43fe5e5eb537": {
       "type": "k-newsletter",
       "blocks": {
@@ -117,6 +146,23 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "1678358495ad87d821": {
+      "type": "apps",
+      "blocks": {
+        "46ce6f1d-7bfe-49ad-b8cf-596a716029d2": {
+          "type": "shopify:\/\/apps\/powerful-contact-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"xxxx\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "46ce6f1d-7bfe-49ad-b8cf-596a716029d2"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -124,6 +170,8 @@
     "rich_text",
     "6a149845-4a58-45e1-a2b9-fe9d41161640",
     "52f2e727-b1ce-444c-b0d5-b23b9f45cd1c",
-    "ae31aab5-db35-4f7e-9272-43fe5e5eb537"
+    "91c0df98-2899-4305-a6bd-dae2cd5c7ef8",
+    "ae31aab5-db35-4f7e-9272-43fe5e5eb537",
+    "1678358495ad87d821"
   ]
 }
