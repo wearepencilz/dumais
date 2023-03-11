@@ -93,6 +93,7 @@
     },
     "c2aab0b7-7fc4-4972-aa08-37e076a275b7": {
       "type": "featured",
+      "disabled": true,
       "blocks": {
         "template--16833782251734__c2aab0b7-7fc4-4972-aa08-37e076a275b7-1678541118fc56ca82-0": {
           "type": "heading",
@@ -119,7 +120,7 @@
         "31e1a619-ee36-4776-a3df-7e02703d6fce"
       ],
       "custom_css": [
-        ".page-intro-section-wrapper {border-bottom: 0px; border-top: 1px solid black; display:none;}"
+        ".page-intro-section-wrapper {border-bottom: 0px; border-top: 1px solid black;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Screenshot_2023-03-09_at_10.46.33.png",
