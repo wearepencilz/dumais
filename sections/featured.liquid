@@ -1,12 +1,227 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{{ 'page-intro-section.css' | asset_url | stylesheet_tag }}
+{{ 'component-rte.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="page-intro-section-wrapper">
+<div class="page-intro-section page-width section-{{ section.id }}-padding">
+  <div class="page-intro-section__grid grid grid--gapless">
+
+    <div class="page-intro-section__text-item">
+      <div
+        id="ImageWithText--{{ section.id }}"
+        class="page-intro-section__content content-container"
+      >
+        {%- for block in section.blocks -%}
+          {% case block.type %}
+            {%- when 'heading' -%}
+              <h2 class="page-intro-section__heading" {{ block.shopify_attributes }}>
+                {{ block.settings.heading | escape }}
+              </h2>
+            {%- when 'text' -%}
+              <div class="page-intro-section__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                {{ block.settings.text }}
+              </div>
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    </div>
+
+    <div class="page-intro-section__media-item">
+      <div
+        class="page-intro-section__media gradient global-media-settings {% if section.settings.image != blank %}media{% else %}page-intro-section__media--placeholder placeholder{% endif %}"
+        {% if section.settings.height == 'adapt' and section.settings.image != blank %}
+          style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
+        {% endif %}
+      >
+        {%- if section.settings.image != blank -%}
+          {%- capture sizes -%}
+            (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+            (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+          {%- endcapture -%}
+          {{
+            section.settings.image
+            | image_url: width: 1500
+            | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1070, 1500'
+          }}
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+      </div>
+
+      {%- for block in section.blocks -%}
+        {% case block.type %}
+
+        {%- when 'caption' -%}
+          <p
+            class="page-intro-section__text page-intro-section__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+            {{ block.shopify_attributes }}
+          >
+            {{ block.settings.caption | escape }}
+          </p>
+
+        {%- endcase -%}
+      {%- endfor -%}
+
+    </div>
+
+
+  </div>
+</div>
+</div>
+
+{% schema %}
+{
+  "name": "Feat. Prod/Coll",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Select the image for the section"
+    },
+    {
+      "type": "select",
+      "id": "height",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.image-with-text.settings.height.options__1.label"
+        },
+        {
+          "value": "small",
+          "label": "t:sections.image-with-text.settings.height.options__2.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.image-with-text.settings.height.options__3.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.image-with-text.settings.height.options__4.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.image-with-text.settings.height.label"
+    },
+    {
+      "type": "select",
+      "id": "desktop_image_width",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__1.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__2.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__3.label"
+        }
+      ],
+      "default": "medium",
+      "label": "t:sections.image-with-text.settings.desktop_image_width.label",
+      "info": "t:sections.image-with-text.settings.desktop_image_width.info"
+    },
+    {
+      "type": "header",
+      "content": "Mobile layout"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "Headline",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "The headlione of the section",
+          "label": "Section Headline"
+        }
+      ]
+    },
+    {
+      "type": "caption",
+      "name": "Image Caption",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "caption",
+          "default": "Add a caption",
+          "label": "Image Caption"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Section Copy",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "label": "Section Copy"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Feat. Prod/Coll",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
