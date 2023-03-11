@@ -98,7 +98,7 @@
         "template--16833782251734__c2aab0b7-7fc4-4972-aa08-37e076a275b7-1678541118fc56ca82-0": {
           "type": "heading",
           "settings": {
-            "heading": "The headlione of the section"
+            "heading": "Ultramarine Collection"
           }
         },
         "template--16833782251734__c2aab0b7-7fc4-4972-aa08-37e076a275b7-1678541118fc56ca82-1": {
@@ -106,21 +106,28 @@
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
+        },
+        "31e1a619-ee36-4776-a3df-7e02703d6fce": {
+          "type": "url",
+          "settings": {
+            "product_link": "shopify:\/\/collections\/new-collection"
+          }
         }
       },
       "block_order": [
         "template--16833782251734__c2aab0b7-7fc4-4972-aa08-37e076a275b7-1678541118fc56ca82-0",
-        "template--16833782251734__c2aab0b7-7fc4-4972-aa08-37e076a275b7-1678541118fc56ca82-1"
+        "template--16833782251734__c2aab0b7-7fc4-4972-aa08-37e076a275b7-1678541118fc56ca82-1",
+        "31e1a619-ee36-4776-a3df-7e02703d6fce"
       ],
       "custom_css": [
-        ".page-intro-section-wrapper {border-bottom: 0px;}"
+        ".page-intro-section-wrapper {border-bottom: 0px; border-top: 1px solid black;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Screenshot_2023-03-09_at_10.46.33.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 100
       }
     },
     "ae31aab5-db35-4f7e-9272-43fe5e5eb537": {
