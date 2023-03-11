@@ -61,6 +61,8 @@
         {%- endif -%}
       </div>
 
+      <p> {{ block.settings.link | escape }}</p>
+
       {%- for block in section.blocks -%}
         {% case block.type %}
 
@@ -196,6 +198,20 @@
         }
       ]
     },
+
+            {
+          "type": "url",
+          "name": "Link to Prod / Coll",
+          "settings":[{
+          "type": "url",
+          "id": "product_link",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+          }
+            ]    
+
+        },
+
+    
     {
       "type": "text",
       "name": "Section Copy",
@@ -217,6 +233,9 @@
         {
           "type": "heading"
         },
+       {
+          "type": "url"
+        },        
         {
           "type": "text"
         }
