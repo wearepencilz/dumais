@@ -937,13 +937,20 @@
           "settings": {
             "product_link": "shopify:\/\/products\/sample-kit"
           }
+        },
+        "bd89b91e-fbdc-4cc5-a6db-e1990b2f0319": {
+          "type": "caption",
+          "settings": {
+            "caption": "Order your set"
+          }
         }
       },
       "block_order": [
         "template--16834058092758__1b6f39d7-2a00-47a3-8291-10bfe77bd2a5-16785447304be1bcbb-0",
         "template--16834058092758__1b6f39d7-2a00-47a3-8291-10bfe77bd2a5-16785447304be1bcbb-1",
         "template--16834058092758__1b6f39d7-2a00-47a3-8291-10bfe77bd2a5-16785447304be1bcbb-2",
-        "c6767696-eac0-4821-9bb1-24c02c1ee886"
+        "c6767696-eac0-4821-9bb1-24c02c1ee886",
+        "bd89b91e-fbdc-4cc5-a6db-e1990b2f0319"
       ],
       "custom_css": [
         ".page-intro-section-wrapper {border-bottom: 0px; border-top: 0px solid black; background-color: #fbfbff;}"
