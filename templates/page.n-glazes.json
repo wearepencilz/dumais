@@ -945,6 +945,9 @@
         "template--16834058092758__1b6f39d7-2a00-47a3-8291-10bfe77bd2a5-16785447304be1bcbb-2",
         "c6767696-eac0-4821-9bb1-24c02c1ee886"
       ],
+      "custom_css": [
+        ".page-intro-section-wrapper {border-bottom: 0px; border-top: 0px solid black; background-color: #fbfbff;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/September_28_2022_232.jpg",
         "height": "adapt",
