@@ -3250,6 +3250,7 @@ display: none !important;
 
 .featured-section-caption p{
   font-size:16px !important;
+  margin-top: 0.5rem;
 }
 
 .featured-section-wrapper{
