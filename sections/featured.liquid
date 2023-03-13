@@ -70,7 +70,7 @@
         {% case block.type %}
 
         {%- when 'caption' -%}
-          <a href="{{ block.settings.product_link | escape }}">
+          <a class="featured-section-caption" href="{{ block.settings.product_link | escape }}">
           <p
             class="page-intro-section__text page-intro-section__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
             {{ block.shopify_attributes }}
