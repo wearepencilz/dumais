@@ -3245,6 +3245,8 @@ display: none !important;
 .featured-section-caption{
   text-decoration:none;
   color:black;
+  font-style: italic;
+  font-size:16px;
 }
 
 .featured-section-wrapper{
