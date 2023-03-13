@@ -912,6 +912,7 @@
     },
     "1b6f39d7-2a00-47a3-8291-10bfe77bd2a5": {
       "type": "featured",
+      "disabled": true,
       "blocks": {
         "template--16834058092758__1b6f39d7-2a00-47a3-8291-10bfe77bd2a5-16785447304be1bcbb-0": {
           "type": "heading",
@@ -939,7 +940,6 @@
         },
         "bd89b91e-fbdc-4cc5-a6db-e1990b2f0319": {
           "type": "caption",
-          "disabled": true,
           "settings": {
             "caption": "Order your set"
           }
