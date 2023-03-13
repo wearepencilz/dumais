@@ -3245,4 +3245,6 @@ display: none !important;
 .featured-section-caption{
   text-decoration:none;
   color:black;
+
+  margin-bottom:3em;
 }
