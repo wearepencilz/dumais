@@ -3240,3 +3240,9 @@ margin-top: 1rem !important;
 .globo-form-app .message.success{
 display: none !important;
 }
+
+
+.featured-section-caption{
+  text-decoration:none;
+  color:black;
+}

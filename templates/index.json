@@ -112,15 +112,22 @@
           "settings": {
             "product_link": "shopify:\/\/collections\/new-collection"
           }
+        },
+        "1e77e1ac-6564-43f8-9ac1-f2f6d4cfdced": {
+          "type": "caption",
+          "settings": {
+            "caption": "Explore the new collection"
+          }
         }
       },
       "block_order": [
         "template--16833782251734__c2aab0b7-7fc4-4972-aa08-37e076a275b7-1678541118fc56ca82-0",
         "template--16833782251734__c2aab0b7-7fc4-4972-aa08-37e076a275b7-1678541118fc56ca82-1",
-        "31e1a619-ee36-4776-a3df-7e02703d6fce"
+        "31e1a619-ee36-4776-a3df-7e02703d6fce",
+        "1e77e1ac-6564-43f8-9ac1-f2f6d4cfdced"
       ],
       "custom_css": [
-        ".page-intro-section-wrapper {border-bottom: 0px; border-top: 1px solid black; background-color: #fbfbff;}"
+        ".page-intro-section-wrapper {border-bottom: 0px; border-top: 1px solid black; \/* background-color: #fbfbff; *\/}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Screenshot_2023-03-09_at_10.46.33.png",
