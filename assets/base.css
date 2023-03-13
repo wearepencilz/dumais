@@ -3245,6 +3245,8 @@ display: none !important;
 .featured-section-caption{
   text-decoration:none;
   color:black;
+}
 
-  margin-bottom:3em;
+.featured-section-wrapper{
+  max-height:100% !important;
 }
