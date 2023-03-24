@@ -912,12 +912,11 @@
     },
     "1b6f39d7-2a00-47a3-8291-10bfe77bd2a5": {
       "type": "featured",
-      "disabled": true,
       "blocks": {
         "template--16834058092758__1b6f39d7-2a00-47a3-8291-10bfe77bd2a5-16785447304be1bcbb-0": {
           "type": "heading",
           "settings": {
-            "heading": "All glazes"
+            "heading": "Everything's better IRL"
           }
         },
         "template--16834058092758__1b6f39d7-2a00-47a3-8291-10bfe77bd2a5-16785447304be1bcbb-1": {
@@ -929,7 +928,7 @@
         "template--16834058092758__1b6f39d7-2a00-47a3-8291-10bfe77bd2a5-16785447304be1bcbb-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Glazes are temperamental beings, and, while we try to capture them as best as possible, they're really best viewed in real life. Thankfully, we've put together a handy glazes kit for those who like holding things in their hand.<\/p>"
           }
         },
         "c6767696-eac0-4821-9bb1-24c02c1ee886": {
