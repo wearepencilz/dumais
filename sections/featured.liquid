@@ -42,6 +42,7 @@
     <div class="page-intro-section__media-item">
               {%- for block in section.blocks -%}
       <a href="{{ block.settings.product_link | escape }}">
+                        {%- endfor -%}
       <div
         class="page-intro-section__media gradient global-media-settings {% if section.settings.image != blank %}media{% else %}page-intro-section__media--placeholder placeholder{% endif %}"
         {% if section.settings.height == 'adapt' and section.settings.image != blank %}
@@ -63,7 +64,6 @@
         {%- endif -%}
       </div>
       </a>
-                        {%- endfor -%}
 
 
       {%- for block in section.blocks -%}
