@@ -44,56 +44,39 @@
         "padding_bottom": 52
       }
     },
-    "47ceb3ad-7159-442c-9275-f70d3f7436df": {
-      "type": "slideshow",
+    "96762dfe-0343-448e-bfb2-df68af3514c0": {
+      "type": "collage",
       "blocks": {
-        "template--16880504471766__47ceb3ad-7159-442c-9275-f70d3f7436df-168087645885b5339e-0": {
-          "type": "slide",
+        "template--16880504471766__96762dfe-0343-448e-bfb2-df68af3514c0-1680876493000b4aa7-0": {
+          "type": "image",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
           }
         },
-        "template--16880504471766__47ceb3ad-7159-442c-9275-f70d3f7436df-168087645885b5339e-1": {
-          "type": "slide",
+        "eb28fc25-4784-402a-a981-e42bddc22a79": {
+          "type": "image",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+          }
+        },
+        "f99e8aa0-5fcb-4c34-ab5f-f423e425dadd": {
+          "type": "image",
+          "settings": {
           }
         }
       },
       "block_order": [
-        "template--16880504471766__47ceb3ad-7159-442c-9275-f70d3f7436df-168087645885b5339e-0",
-        "template--16880504471766__47ceb3ad-7159-442c-9275-f70d3f7436df-168087645885b5339e-1"
+        "template--16880504471766__96762dfe-0343-448e-bfb2-df68af3514c0-1680876493000b4aa7-0",
+        "eb28fc25-4784-402a-a981-e42bddc22a79",
+        "f99e8aa0-5fcb-4c34-ab5f-f423e425dadd"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "heading": "Preview of ICFF products",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -101,6 +84,6 @@
     "b5312627-67aa-4640-8117-4a6d2dca5640",
     "main",
     "3f3bbccc-88b5-4c43-8651-13fde18c35bd",
-    "47ceb3ad-7159-442c-9275-f70d3f7436df"
+    "96762dfe-0343-448e-bfb2-df68af3514c0"
   ]
 }
