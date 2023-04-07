@@ -1,49 +1,5 @@
 {
   "sections": {
-    "b5312627-67aa-4640-8117-4a6d2dca5640": {
-      "type": "page-intro-section",
-      "blocks": {
-        "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "icff 2023"
-          }
-        },
-        "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-0",
-        "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-1"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
-    "3f3bbccc-88b5-4c43-8651-13fde18c35bd": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-TtewNB\"><\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "96762dfe-0343-448e-bfb2-df68af3514c0": {
       "type": "collage",
       "blocks": {
@@ -78,12 +34,88 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "bf11ecf4-e193-4260-82b2-eb804c321a33": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16880504471766__bf11ecf4-e193-4260-82b2-eb804c321a33-168087618759e02ed6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Get notified when our ICFF products are live<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16880504471766__bf11ecf4-e193-4260-82b2-eb804c321a33-168087618759e02ed6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16880504471766__bf11ecf4-e193-4260-82b2-eb804c321a33-168087618759e02ed6-0",
+        "template--16880504471766__bf11ecf4-e193-4260-82b2-eb804c321a33-168087618759e02ed6-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "3f3bbccc-88b5-4c43-8651-13fde18c35bd": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-TtewNB\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "b5312627-67aa-4640-8117-4a6d2dca5640": {
+      "type": "page-intro-section",
+      "disabled": true,
+      "blocks": {
+        "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "icff 2023"
+          }
+        },
+        "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-0",
+        "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
-    "b5312627-67aa-4640-8117-4a6d2dca5640",
-    "main",
+    "96762dfe-0343-448e-bfb2-df68af3514c0",
+    "bf11ecf4-e193-4260-82b2-eb804c321a33",
     "3f3bbccc-88b5-4c43-8651-13fde18c35bd",
-    "96762dfe-0343-448e-bfb2-df68af3514c0"
+    "b5312627-67aa-4640-8117-4a6d2dca5640",
+    "main"
   ]
 }
