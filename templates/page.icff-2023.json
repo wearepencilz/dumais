@@ -1,5 +1,28 @@
 {
   "sections": {
+    "8d508c01-db35-47d1-a2e7-d4d0761fb96a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16880504471766__8d508c01-db35-47d1-a2e7-d4d0761fb96a-1683301466eba354b4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Come see us at ICFF + WantedDesign Manhattan May 21-23<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16880504471766__8d508c01-db35-47d1-a2e7-d4d0761fb96a-1683301466eba354b4-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
     "96762dfe-0343-448e-bfb2-df68af3514c0": {
       "type": "collage",
       "blocks": {
@@ -28,7 +51,7 @@
         "f99e8aa0-5fcb-4c34-ab5f-f423e425dadd"
       ],
       "settings": {
-        "heading": "Come see us at ICFF + WantedDesign Manhattan May 21-23",
+        "heading": "",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "column",
@@ -187,6 +210,7 @@
     }
   },
   "order": [
+    "8d508c01-db35-47d1-a2e7-d4d0761fb96a",
     "96762dfe-0343-448e-bfb2-df68af3514c0",
     "b60a441b-4412-4100-8f59-60b149e209b7",
     "bf11ecf4-e193-4260-82b2-eb804c321a33",
