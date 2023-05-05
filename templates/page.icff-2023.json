@@ -74,6 +74,40 @@
         "padding_bottom": 52
       }
     },
+    "277e339a-36b8-4326-a692-c014ebb5d2e6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>More about WantedDesign Manhattan here<\/p>"
+          }
+        },
+        "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "https:\/\/icff.com\/fair\/wanted-design-manhattan-home\/",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-1",
+        "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
     "b5312627-67aa-4640-8117-4a6d2dca5640": {
       "type": "page-intro-section",
       "disabled": true,
@@ -115,6 +149,7 @@
     "96762dfe-0343-448e-bfb2-df68af3514c0",
     "bf11ecf4-e193-4260-82b2-eb804c321a33",
     "3f3bbccc-88b5-4c43-8651-13fde18c35bd",
+    "277e339a-36b8-4326-a692-c014ebb5d2e6",
     "b5312627-67aa-4640-8117-4a6d2dca5640",
     "main"
   ]
