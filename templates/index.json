@@ -2,6 +2,7 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/main-new.jpg",
         "image_overlay_opacity": 0,
@@ -17,6 +18,7 @@
     },
     "rich_text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -48,7 +50,6 @@
     },
     "46cee888-1d96-435e-9338-1fa7212fedc5": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/hero.jpg",
         "image_overlay_opacity": 0,
@@ -64,7 +65,6 @@
     },
     "cd1f84d4-6a47-47e9-ab0c-7c860176e259": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--16833782251734__cd1f84d4-6a47-47e9-ab0c-7c860176e259-1683301466eba354b4-0": {
           "type": "heading",
