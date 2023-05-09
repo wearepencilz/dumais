@@ -6,7 +6,7 @@
         "template--16880504471766__8d508c01-db35-47d1-a2e7-d4d0761fb96a-1683301466eba354b4-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Come see us at ICFF + WantedDesign Manhattan May 21-23<\/p>",
+            "heading": "<p>Come see us at ICFF + WantedDesign Manhattan May 21-23, Booth W1251.<\/p>",
             "heading_size": "h1"
           }
         }
@@ -105,7 +105,7 @@
         "template--16880504471766__bf11ecf4-e193-4260-82b2-eb804c321a33-168087618759e02ed6-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Sign up to receive previews of our new collections for WantedDesign Manhattan.<\/p>",
+            "heading": "<p>Sign up to receive previews of our new collections for ICFF + WantedDesign Manhattan.<\/p>",
             "heading_size": "h1"
           }
         },
@@ -207,62 +207,6 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "c48162be-e579-4acc-8db2-1f5403f06a0f": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--16880504471766__c48162be-e579-4acc-8db2-1f5403f06a0f-1683562083474b4ef3-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/shop-objects-2.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16880504471766__c48162be-e579-4acc-8db2-1f5403f06a0f-1683562083474b4ef3-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-09_at_10.46.33.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16880504471766__c48162be-e579-4acc-8db2-1f5403f06a0f-1683562083474b4ef3-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/shop-lighting-2.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16880504471766__c48162be-e579-4acc-8db2-1f5403f06a0f-1683562083474b4ef3-0",
-        "template--16880504471766__c48162be-e579-4acc-8db2-1f5403f06a0f-1683562083474b4ef3-1",
-        "template--16880504471766__c48162be-e579-4acc-8db2-1f5403f06a0f-1683562083474b4ef3-2"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -273,7 +217,6 @@
     "3f3bbccc-88b5-4c43-8651-13fde18c35bd",
     "277e339a-36b8-4326-a692-c014ebb5d2e6",
     "b5312627-67aa-4640-8117-4a6d2dca5640",
-    "main",
-    "c48162be-e579-4acc-8db2-1f5403f06a0f"
+    "main"
   ]
 }
