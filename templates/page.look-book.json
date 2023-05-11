@@ -94,11 +94,37 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "3486dacd-c4de-4edc-be4e-8f5276d5bc38": {
+      "type": "lookbook-section-1",
+      "blocks": {
+        "template--16896431325398__3486dacd-c4de-4edc-be4e-8f5276d5bc38-16838392868e253e1f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-09_at_10.46.33.png",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link": "",
+            "column_width": "7"
+          }
+        }
+      },
+      "block_order": [
+        "template--16896431325398__3486dacd-c4de-4edc-be4e-8f5276d5bc38-16838392868e253e1f-0"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "grid_align": "right",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "9c122172-8945-4fa7-acb2-3f37d16af7b9",
-    "ef9d65fd-5538-4aa7-893c-88fb52bbfe40"
+    "ef9d65fd-5538-4aa7-893c-88fb52bbfe40",
+    "3486dacd-c4de-4edc-be4e-8f5276d5bc38"
   ]
 }
