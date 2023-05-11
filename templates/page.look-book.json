@@ -84,32 +84,25 @@
         "template--16896431325398__1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5-1683845372fabde4d2-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/August_15_2022_178.jpg",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link": "",
-            "column_width": "1"
+            "column_width": "4"
           }
         },
         "template--16896431325398__1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5-1683845372fabde4d2-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Dumais_December_2020_24_d321ba0a-89df-46dc-9735-674066c92378.jpg",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link": "",
-            "column_width": "1"
-          }
-        },
-        "template--16896431325398__1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5-1683845372fabde4d2-2": {
-          "type": "column",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link": "",
-            "column_width": "1"
+            "column_width": "4"
           }
         }
       },
       "block_order": [
         "template--16896431325398__1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5-1683845372fabde4d2-0",
-        "template--16896431325398__1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5-1683845372fabde4d2-1",
-        "template--16896431325398__1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5-1683845372fabde4d2-2"
+        "template--16896431325398__1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5-1683845372fabde4d2-1"
       ],
       "settings": {
         "image_width": "full",
