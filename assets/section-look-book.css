@@ -255,6 +255,7 @@ p{
   display: flex;
   gap: 10px; /* add some gap between the grid items */
   list-style:none;
+   flex-wrap: wrap;
 }
 
 .lb-grid-align-left{
