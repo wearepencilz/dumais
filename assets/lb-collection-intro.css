@@ -394,11 +394,6 @@
   max-height: 100%;
 }
 
-.trade-form-text p{
-  font-size: 1.4rem;
-  /* font-family: pitch, monospace; */
-  line-height: 1.6rem;
-}
 
 @media screen and (max-width: 750px){
   .image-half-text__content {
@@ -416,10 +411,10 @@
 }
 
 .image-half-text__text p{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   font-family: pitch, monospace;
  text-align: justify;
       text-justify: inter-word;
 
-  line-height: 1.9rem;
+  line-height: 1.8rem;
 }
