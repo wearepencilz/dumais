@@ -255,3 +255,10 @@
   font-size: 1.8rem;
   line-height: 2.25rem;
 }
+
+.lb-grid{
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
