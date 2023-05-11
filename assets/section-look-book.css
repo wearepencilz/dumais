@@ -298,3 +298,26 @@ p{
 .lb-grid-span-8 {
   flex-basis: 100%;
 }
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .lb-grid {
+    justify-content: space-between; /* align the grid items to be spread evenly */
+  }
+
+  .item {
+    flex-basis: 100%; /* each item takes up the full width on mobile */
+  }
+
+  /* if the .grid element has only two children, set both to 50% on tablet */
+  .lb-grid > .item:nth-child(1):nth-last-child(2),
+  .lb-grid > .item:nth-child(2):nth-last-child(1) {
+    flex-basis: 50%;
+  }
+
+  /* if there are 3 elements and 2 of them take up 25% on desktop, set both to 50% on mobile */
+  .lb-grid > .item:nth-child(1):nth-last-child(3),
+  .lb-grid > .item:nth-child(2):nth-last-child(2) {
+    flex-basis: 50%;
+  }
+}
