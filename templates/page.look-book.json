@@ -14,10 +14,10 @@
         "template--16896431325398__9c122172-8945-4fa7-acb2-3f37d16af7b9-16838313647c0b541a-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/August_15_2022_214.jpg",
+            "image": "shopify:\/\/shop_images\/Floor_Lamps_Mirrors_45_e4cdba59-1180-4955-838b-d8de93fd5c16.jpg",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link": "",
-            "column_width": "1"
+            "column_width": "2"
           }
         },
         "template--16896431325398__9c122172-8945-4fa7-acb2-3f37d16af7b9-16838313647c0b541a-1": {
@@ -35,7 +35,7 @@
             "image": "shopify:\/\/shop_images\/August_15_2022_224.jpg",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review. <a href=\"\/products\/aelius-mirror\" title=\"Aelius Mirror\">Product Name<\/a><\/p>",
             "link": "shopify:\/\/products\/aelius-mirror-1",
-            "column_width": "2"
+            "column_width": "4"
           }
         }
       },
