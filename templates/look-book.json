@@ -1,0 +1,285 @@
+{
+  "sections": {
+    "5f0cf666-b52f-4a07-a3c8-b92d2e85726c": {
+      "type": "image-half-text",
+      "blocks": {
+        "1846eb49-e4ad-4f13-aa3d-343923c0c3b8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dumais Made is a ceramics studio based in Litchfield, Connecticut, specializing in handmade lamps, objects, and accessories. <br\/><br\/>Founded by Charlie and Kevin Dumais in 2017, the studio began as a hobby, a small series of lamps conceived by Charlie outside his work as lighting designer. Inspired by modernist sculpture and rendered in muted colors and natural textures, these simple, straightforward pieces explored the rituals around living with light.<br\/><br\/>Over the past six years, Dumais Made has grown and evolved. A team of six now produces lamps, pendants, sconces, tables, mirrors and other accessories. And, while styles have become more playful and techniques more refined—a reflection of this artistic collective—each piece (overseen by Charlie from start to finish) remains true to the first: a tactile object that reveals its character the longer you live with it.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "19aa202c-2b8b-45c4-a23f-029152d4ae88": {
+          "type": "caption",
+          "settings": {
+            "caption": "Kevin, left, and Charlie, right, at Dumais Made’s Litchfield studio.",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        }
+      },
+      "block_order": [
+        "1846eb49-e4ad-4f13-aa3d-343923c0c3b8",
+        "19aa202c-2b8b-45c4-a23f-029152d4ae88"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-1-1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "2ebfd7b0-654e-4a66-9b52-0ffc5fa2d19e": {
+      "type": "arrow-spacer",
+      "settings": {
+        "arrow_position": "right",
+        "arrow_orientation": "point-left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "4c18da40-819f-4acb-b37f-c57a4cda99ac": {
+      "type": "image-multicolumn",
+      "blocks": {
+        "template--16835143008470__4c18da40-819f-4acb-b37f-c57a4cda99ac-167477091001995863-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-n-1.jpg",
+            "text": "<p>Charlie checking a batch of glazed mirrors. While the studio is a collaborative effort, all pieces are glazed and finished by Charlie.<\/p>",
+            "image_offset": "no-offset"
+          }
+        }
+      },
+      "block_order": [
+        "template--16835143008470__4c18da40-819f-4acb-b37f-c57a4cda99ac-167477091001995863-0"
+      ],
+      "settings": {
+        "image_width": "two-thirds",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "b77e9ce7-fbf6-4a57-8b19-e139fe0ea1df": {
+      "type": "arrow-spacer",
+      "settings": {
+        "arrow_position": "left",
+        "arrow_orientation": "point-right",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7f6c913e-0f3e-4882-91b1-b416afbc4806": {
+      "type": "image-multicolumn",
+      "blocks": {
+        "template--16835143008470__7f6c913e-0f3e-4882-91b1-b416afbc4806-1674774004bae033a6-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-n-9.jpg",
+            "text": "",
+            "image_offset": "no-offset"
+          }
+        },
+        "template--16835143008470__7f6c913e-0f3e-4882-91b1-b416afbc4806-1674774004bae033a6-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-n-2.jpg",
+            "text": "<p>It starts with slabs. Here, assistant and builder, Samantha joins two sides of a Truro Lamp.<\/p>",
+            "image_offset": "medium-offset"
+          }
+        }
+      },
+      "block_order": [
+        "template--16835143008470__7f6c913e-0f3e-4882-91b1-b416afbc4806-1674774004bae033a6-0",
+        "template--16835143008470__7f6c913e-0f3e-4882-91b1-b416afbc4806-1674774004bae033a6-1"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "5046cb9f-f2f0-4f59-95e0-81fa28aab110": {
+      "type": "arrow-spacer",
+      "settings": {
+        "arrow_position": "right",
+        "arrow_orientation": "point-left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8b1b2a47-5c11-4753-9b9a-fbd2e322ad22": {
+      "type": "image-multicolumn",
+      "blocks": {
+        "template--16835143008470__8b1b2a47-5c11-4753-9b9a-fbd2e322ad22-1676291597a83045cc-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/About_Team_Image_3.jpg",
+            "text": "<p>Hayley (left) and Alex (right) the studio’s coordinator and sales director respectively.<\/p>",
+            "image_offset": "no-offset"
+          }
+        }
+      },
+      "block_order": [
+        "template--16835143008470__8b1b2a47-5c11-4753-9b9a-fbd2e322ad22-1676291597a83045cc-0"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "079fb80a-0cec-4096-bac2-b31fcaa3d643": {
+      "type": "arrow-spacer",
+      "settings": {
+        "arrow_position": "left",
+        "arrow_orientation": "point-right",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "bc669f1a-31b5-43ea-8688-cbe4d20dac9f": {
+      "type": "image-multicolumn",
+      "blocks": {
+        "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-n-4.jpg",
+            "text": "<p>Claire, the studio’s production coordinator carefully preparing the parts of a Washington Lamp.<\/p>",
+            "image_offset": "no-offset"
+          }
+        },
+        "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-n-5.jpg",
+            "text": "",
+            "image_offset": "small-offset"
+          }
+        }
+      },
+      "block_order": [
+        "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-0",
+        "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-1"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "94c69ae8-25e0-4649-872b-a8204ab93a10": {
+      "type": "arrow-spacer",
+      "settings": {
+        "arrow_position": "right",
+        "arrow_orientation": "point-left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "600361f3-b4c4-4b39-a4c2-152510393812": {
+      "type": "image-multicolumn",
+      "blocks": {
+        "template--16835143008470__600361f3-b4c4-4b39-a4c2-152510393812-16747810769e45c926-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dumais_Furniture_2023_161.jpg",
+            "text": "",
+            "image_offset": "no-offset"
+          }
+        }
+      },
+      "block_order": [
+        "template--16835143008470__600361f3-b4c4-4b39-a4c2-152510393812-16747810769e45c926-2"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "f0249db5-795d-4484-86d0-0b7f12535b00": {
+      "type": "rich-text",
+      "blocks": {
+        "45f0ce87-973b-4ecb-be53-a9339ca2c687": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>If you can’t find what you’re looking for, we’d be happy to create something for you. Whether it’s adapting an existing design or producing a completely custom piece, it’s an opportunity to invite you into our world, share how we work and make something that you’ll interact with every day.<br\/><br\/><a href=\"\/pages\/custom-n\" title=\"Custom (n)\"><em>Find out more<\/em><\/a><\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "45f0ce87-973b-4ecb-be53-a9339ca2c687"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "5f0cf666-b52f-4a07-a3c8-b92d2e85726c",
+    "2ebfd7b0-654e-4a66-9b52-0ffc5fa2d19e",
+    "main",
+    "4c18da40-819f-4acb-b37f-c57a4cda99ac",
+    "b77e9ce7-fbf6-4a57-8b19-e139fe0ea1df",
+    "7f6c913e-0f3e-4882-91b1-b416afbc4806",
+    "5046cb9f-f2f0-4f59-95e0-81fa28aab110",
+    "8b1b2a47-5c11-4753-9b9a-fbd2e322ad22",
+    "079fb80a-0cec-4096-bac2-b31fcaa3d643",
+    "bc669f1a-31b5-43ea-8688-cbe4d20dac9f",
+    "94c69ae8-25e0-4649-872b-a8204ab93a10",
+    "600361f3-b4c4-4b39-a4c2-152510393812",
+    "f0249db5-795d-4484-86d0-0b7f12535b00"
+  ]
+}
