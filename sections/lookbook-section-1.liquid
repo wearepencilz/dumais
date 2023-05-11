@@ -66,7 +66,7 @@
 
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
-            class="column-width-{{ block.settings.column_width }} multicolumn-list__item lb-grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}"
+            class="lb-grid-span-{{ block.settings.column_width }} multicolumn-list__item lb-grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}"
             {{ block.shopify_attributes }}
           >
             <div class="multicolumn-card content-container">
