@@ -327,6 +327,7 @@ p{
     flex-basis: 50%;
     margin: 0;
     padding: 5px;
+    margin-bottom:1rem;
   }
 
   /* if there are 3 elements and 2 of them take up 25% on desktop, set both to 50% on mobile */
