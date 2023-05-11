@@ -305,7 +305,7 @@ p{
     justify-content: space-between; /* align the grid items to be spread evenly */
   }
 
-  .item {
+  .lb-grid-item {
     flex-basis: 100%; /* each item takes up the full width on mobile */
   }
 
@@ -316,8 +316,8 @@ p{
   }
 
   /* if there are 3 elements and 2 of them take up 25% on desktop, set both to 50% on mobile */
-  .lb-grid > .item:nth-child(1):nth-last-child(3),
-  .lb-grid > .item:nth-child(2):nth-last-child(2) {
+  .lb-grid > .lb-grid-item:nth-child(1):nth-last-child(3),
+  .lb-grid > .lb-grid-item:nth-child(2):nth-last-child(2) {
     flex-basis: 50%;
   }
 }
