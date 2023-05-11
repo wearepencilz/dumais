@@ -395,9 +395,9 @@
 }
 
 .trade-form-text p{
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   /* font-family: pitch, monospace; */
-  line-height: 1.9rem;
+  line-height: 1.8rem;
 }
 
 @media screen and (max-width: 750px){
