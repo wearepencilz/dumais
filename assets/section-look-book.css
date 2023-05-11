@@ -310,7 +310,8 @@ p{
 @media screen and (max-width: 768px) {
   .lb-grid {
     justify-content: space-between; /* align the grid items to be spread evenly */
-    margin: -5px;
+    margin:0;
+    padding:0;
   }
 
   .lb-grid-item {
