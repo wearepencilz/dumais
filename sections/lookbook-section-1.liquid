@@ -94,7 +94,7 @@
                         widths: '275, 550, 710, 1420',
                         class: 'multicolumn-card__image'
                     }}
-                {%- if section.settings.image == blank -%}
+                {%- if section.settings.image != blank -%}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
                   </div>
