@@ -1,4 +1,6 @@
 .image-half-text-wrapper{
+  width: 100vw;
+  max-width: 100vw;
 
   /* height: 85vh;
   max-height: 85vh; */
@@ -27,10 +29,6 @@
 }
 
 
-
-.image-half-text__media--large {
-  height: 43.5rem;
-}
 
 @media screen and (min-width: 750px) {
   .image-half-text__media--small {
