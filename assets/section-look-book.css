@@ -325,7 +325,7 @@ p{
   .lb-grid > .item:nth-child(2):nth-last-child(1) {
     flex-basis: 50%;
     margin: 0;
-    padding: 0;
+    padding: 5px;
   }
 
   /* if there are 3 elements and 2 of them take up 25% on desktop, set both to 50% on mobile */
@@ -333,6 +333,6 @@ p{
   .lb-grid > .lb-grid-item:nth-child(2):nth-last-child(2) {
     flex-basis: 50%;
     margin: 0;
-    padding: 0;
+    padding: 5px;
   }
 }
