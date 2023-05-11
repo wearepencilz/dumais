@@ -253,9 +253,15 @@ p{
 
 .lb-grid {
   display: flex;
-  gap: 10px; /* add some gap between the grid items */
   list-style:none;
    flex-wrap: wrap;
+  margin: -10px;
+}
+
+.lb-grid-item{
+    flex-grow: 0;
+  flex-shrink: 0;
+  padding: 10px;
 }
 
 .lb-grid-align-left{
