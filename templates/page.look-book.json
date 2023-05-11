@@ -77,11 +77,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5": {
+      "type": "lookbook-section-1",
+      "blocks": {
+        "template--16896431325398__1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5-1683845372fabde4d2-0": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link": "",
+            "column_width": "1"
+          }
+        },
+        "template--16896431325398__1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5-1683845372fabde4d2-1": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link": "",
+            "column_width": "1"
+          }
+        },
+        "template--16896431325398__1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5-1683845372fabde4d2-2": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link": "",
+            "column_width": "1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16896431325398__1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5-1683845372fabde4d2-0",
+        "template--16896431325398__1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5-1683845372fabde4d2-1",
+        "template--16896431325398__1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5-1683845372fabde4d2-2"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "grid_align": "left",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "9c122172-8945-4fa7-acb2-3f37d16af7b9",
-    "3486dacd-c4de-4edc-be4e-8f5276d5bc38"
+    "3486dacd-c4de-4edc-be4e-8f5276d5bc38",
+    "1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5"
   ]
 }
