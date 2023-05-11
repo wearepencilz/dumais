@@ -259,7 +259,7 @@ p{
 }
 
 .lb-grid-item{
-    flex-grow: 0;
+  flex-grow: 0;
   flex-shrink: 0;
   padding: 10px;
 }
@@ -317,6 +317,7 @@ p{
     flex-basis: 100%; /* each item takes up the full width on mobile */
     flex-basis: calc(100% - 5px);
     padding: 5px;
+    gap:5px;
   }
 
   /* if the .grid element has only two children, set both to 50% on tablet */
