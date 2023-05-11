@@ -8,6 +8,33 @@
         "padding_bottom": 28
       }
     },
+    "088f7544-fa0a-4bfe-b8e7-7c7d5797cee0": {
+      "type": "lb-collection-intro",
+      "blocks": {
+        "template--16896431325398__088f7544-fa0a-4bfe-b8e7-7c7d5797cee0-16838465326394b42a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Collection 1<br\/>It began as you’d expect. The Paul Bert Flea Market in Paris. Fabulous things. Abounding inspiration. The return home and the eventual rumination on a single piece, a small wall hanging made of rectilinear clay paillettes carefully tied together. This is followed by flipping through favorite books and seeing the similarities in the textures and tactility of Anni Albers’s tapestries, which leads to Josef’s tessellating fireplaces and Eileen Gray’s graphic screens.This collection is a tribute to these individuals. Composed of two folding screens, two tables, a pair of sconces, and a lamp, it is a study of order and relation, a study of design as Josef Albers would say. Patterns were developed, applied to the different pieces, and then mixed and remixed to achieve the most pleasing combinations. And, in a first for the studio, blackened steel was introduced, its smooth delicacy heightening the character of the clay.Together, these pieces speak to one another through their playful contrasts, as well as their ultramarine interiors. Separately, they stand on their own (quite literally in the case of the table and screen), unpretentious objects that will be at home in spaces for years to come.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16896431325398__088f7544-fa0a-4bfe-b8e7-7c7d5797cee0-16838465326394b42a-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "9c122172-8945-4fa7-acb2-3f37d16af7b9": {
       "type": "lookbook-section-1",
       "blocks": {
@@ -116,6 +143,7 @@
   },
   "order": [
     "main",
+    "088f7544-fa0a-4bfe-b8e7-7c7d5797cee0",
     "9c122172-8945-4fa7-acb2-3f37d16af7b9",
     "3486dacd-c4de-4edc-be4e-8f5276d5bc38",
     "1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5"
