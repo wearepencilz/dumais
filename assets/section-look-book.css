@@ -258,9 +258,16 @@
 
 .lb-grid {
   display: flex;
-  justify-content: flex-end; /* align the grid to the right */
   gap: 10px; /* add some gap between the grid items */
   list-style:none;
+}
+
+.lb-grid-align-left{
+  justify-content: flex-start; /* align the grid to the right */
+}
+
+.lb-grid-align-right{
+  justify-content: flex-end; /* align the grid to the right */
 }
 
 
