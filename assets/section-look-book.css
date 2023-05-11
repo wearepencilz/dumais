@@ -29,12 +29,6 @@
   width: 50%;
 }
 
-.multicolumn-list__item.center
-  .multicolumn-card__image-wrapper:not(.multicolumn-card__image-wrapper--full-width),
-.multicolumn-list__item:only-child {
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .multicolumn .button {
   margin-top: 1.5rem;
@@ -52,9 +46,6 @@
   padding: 0;
 }
 
-.multicolumn-list__item:only-child {
-  max-width: 72rem;
-}
 
 .multicolumn-list__item--empty {
   display: none;
