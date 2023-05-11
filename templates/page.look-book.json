@@ -15,9 +15,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/August_15_2022_214.jpg",
-            "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
             "link": "",
             "column_width": "1"
           }
@@ -26,9 +24,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/August_15_2022_213.jpg",
-            "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
             "link": "",
             "column_width": "2"
           }
@@ -37,10 +33,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/August_15_2022_224.jpg",
-            "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": "",
+            "link": "shopify:\/\/products\/aelius-mirror-1",
             "column_width": "2"
           }
         }
@@ -52,7 +46,6 @@
       ],
       "settings": {
         "title": "Multicolumn",
-        "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
