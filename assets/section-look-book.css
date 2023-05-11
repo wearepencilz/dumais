@@ -315,7 +315,7 @@ p{
 
   .lb-grid-item {
     flex-basis: 100%; /* each item takes up the full width on mobile */
-    flex-basis: calc(100% - 10px);
+    flex-basis: calc(100% - 5px);
     padding: 5px;
   }
 
