@@ -418,5 +418,8 @@
 .image-half-text__text p{
     font-size: 1.7rem;
   font-family: pitch, monospace;
+ text-align: justify;
+      text-justify: inter-word;
+
   line-height: 1.9rem;
 }
