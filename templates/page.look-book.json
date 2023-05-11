@@ -53,48 +53,6 @@
         "padding_bottom": 36
       }
     },
-    "ef9d65fd-5538-4aa7-893c-88fb52bbfe40": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__ef9d65fd-5538-4aa7-893c-88fb52bbfe40-168383889597ec702d-0": {
-          "type": "column",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link": "",
-            "column_width": "6"
-          }
-        },
-        "template--16896431325398__ef9d65fd-5538-4aa7-893c-88fb52bbfe40-168383889597ec702d-1": {
-          "type": "column",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link": "",
-            "column_width": "1"
-          }
-        },
-        "template--16896431325398__ef9d65fd-5538-4aa7-893c-88fb52bbfe40-168383889597ec702d-2": {
-          "type": "column",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link": "",
-            "column_width": "1"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__ef9d65fd-5538-4aa7-893c-88fb52bbfe40-168383889597ec702d-0",
-        "template--16896431325398__ef9d65fd-5538-4aa7-893c-88fb52bbfe40-168383889597ec702d-1",
-        "template--16896431325398__ef9d65fd-5538-4aa7-893c-88fb52bbfe40-168383889597ec702d-2"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "left",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "3486dacd-c4de-4edc-be4e-8f5276d5bc38": {
       "type": "lookbook-section-1",
       "blocks": {
@@ -124,7 +82,6 @@
   "order": [
     "main",
     "9c122172-8945-4fa7-acb2-3f37d16af7b9",
-    "ef9d65fd-5538-4aa7-893c-88fb52bbfe40",
     "3486dacd-c4de-4edc-be4e-8f5276d5bc38"
   ]
 }
