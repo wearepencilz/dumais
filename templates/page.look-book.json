@@ -730,7 +730,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/lamp-c3-1.jpg",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p><em>Dyad #1 Table Lamp in Parchment<\/em><\/p>",
             "link": "",
             "column_width": "4"
           }
@@ -739,7 +739,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/lamp-c3-2.jpg",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p><em>Dyad #2 Table Lamp in Parchment<\/em><\/p>",
             "link": "",
             "column_width": "2"
           }
@@ -748,7 +748,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/lamp-c3-process.jpg",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p><em>The Dyad and Tetrad pieces are composed of a kit of parts that are fired separately and then stacked one on top of the other to create their totemic forms.<\/em><\/p>",
             "link": "",
             "column_width": "2"
           }
