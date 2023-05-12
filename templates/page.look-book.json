@@ -143,6 +143,9 @@
     },
     "27ec7d79-7dda-4a72-b354-f75b4c8e5394": {
       "type": "arrow-spacer",
+      "custom_css": [
+        ".arrow-wrapper{background-color:#ffffff;}"
+      ],
       "settings": {
         "arrow_position": "center",
         "arrow_orientation": "point-right",
