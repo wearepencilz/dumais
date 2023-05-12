@@ -140,6 +140,34 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "aab1327d-8941-4e11-8a82-579c7e517530": {
+      "type": "lb-collection-intro",
+      "blocks": {
+        "template--16896431325398__aab1327d-8941-4e11-8a82-579c7e517530-1683849994cb631645-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>COLLECTION 2<br\/><br\/>Each of our pieces is shaped by hand. The clay is cut and cajoled, coated and corded. It’s why they vary slightly, their character the product of the day’s temperament. Yet, few pieces are designed to be handled regularly. They sit handsomely on surfaces, but are rarely picked up, turned over, and explored.<br\/><br\/>The desire to create something that formed part of a personal routine, something precious, led us to the French ceramicist and jewelry designer Mithé Espelt and, ultimately, the creation of this collection. Born in 1923, Espelt is known for her mirrors, boxes, and jewelry — small, whimsical treasures to be used as part of the everyday act of dressing.<br\/><br\/>Our mirrors and tables are a nod to her carved geometries, employing the studio’s signature slab technique to create a series of inlaid patterns. They also take Espelt’s combination of color and gilt and render it in decidedly Dumais Made shades (think rich and patinated rather than bright and radiant). The result? Precious, everyday objects that add shimmer to daily life. <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16896431325398__aab1327d-8941-4e11-8a82-579c7e517530-1683849994cb631645-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/August_16_2022_55_efacd414-7aeb-417a-84a4-5d1a4c50552b.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -147,6 +175,7 @@
     "088f7544-fa0a-4bfe-b8e7-7c7d5797cee0",
     "9c122172-8945-4fa7-acb2-3f37d16af7b9",
     "3486dacd-c4de-4edc-be4e-8f5276d5bc38",
-    "1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5"
+    "1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5",
+    "aab1327d-8941-4e11-8a82-579c7e517530"
   ]
 }
