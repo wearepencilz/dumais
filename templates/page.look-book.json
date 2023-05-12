@@ -793,7 +793,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/lamp-c3-4.jpg",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p><em>From left to right: the Triad Floor Lamp in Matte-Black and Bottle Green, the Dyad #1 Vase in Matte-Black, and the Tetrad Floor Lamp in Parchment and Chalk<\/em><\/p>",
             "link": "",
             "column_width": "4"
           }
@@ -802,7 +802,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/lamp-c3-5.jpg",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p><em>Triad Floor Lamp in Matte-Black and Bottle Green<\/em><\/p>",
             "link": "",
             "column_width": "4"
           }
