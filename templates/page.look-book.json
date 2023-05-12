@@ -576,6 +576,46 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "39a52e72-3aaf-4dee-a345-771f616955c1": {
+      "type": "arrow-spacer",
+      "custom_css": [
+        ".arrow-wrapper {background-color: #ffffff; padding: 2rem 0; border-bottom: 1px solid black;}",
+        ".arrow {display: none;}"
+      ],
+      "settings": {
+        "arrow_position": "left",
+        "arrow_orientation": "point-left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "27e213bc-58f6-4e69-a929-302c1f203b10": {
+      "type": "lb-collection-intro",
+      "blocks": {
+        "template--16896431325398__27e213bc-58f6-4e69-a929-302c1f203b10-1683849994cb631645-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>COLLECTION 3<br\/><br\/>The power of an introduction is not to be underestimated. For the Californian sculptor JB Blunk, it was a chance meeting with Isamu Noguchi, who subsequently introduced him to the renowned Japanese potters Kitaōji Rosanjin and Kaneshige Toyo, as well as surrealist painter and eventual patron Gordon Onslow-Ford. All influential figures that shifted his creative perspective.<br\/><br\/>For us, it was the introduction to Blunk’s work by a close friend and client. Everything Blunk did, from his wood burl sculptures to his cups and plates, to the house he built for his family, sought to express the spirit of the material that he was working with. If a pot decided to buckle as it dried, he left it. If a wood burl curved a certain way as it was carved, he embraced it.<br\/><br\/>The lamps and vases that form this collection are an homage to Blunk’s approach. Pendants and torchieres in rich, deep glazes, look as if they’ve experienced a beautiful wobble while on the wheel. While the totemic floor and table lamps, with their repeating kit of parts, have been glazed to enhance the clay’s subtle textures. Figurative yet abstract, they are a new way of looking at our familiar forms.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16896431325398__27e213bc-58f6-4e69-a929-302c1f203b10-1683849994cb631645-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -596,6 +636,8 @@
     "1b371977-dc05-4e8f-bbb8-4f75b6930c56",
     "563a263e-986c-4474-a00f-0f1ce461d5de",
     "955ff7ac-77ad-44a0-b851-22ed65319720",
-    "1d51e179-7169-44a6-8d56-d1a1d5911e5a"
+    "1d51e179-7169-44a6-8d56-d1a1d5911e5a",
+    "39a52e72-3aaf-4dee-a345-771f616955c1",
+    "27e213bc-58f6-4e69-a929-302c1f203b10"
   ]
 }
