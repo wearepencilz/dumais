@@ -767,6 +767,41 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "30ffc5d4-6f8f-4baf-acf4-24184af314c1": {
+      "type": "lookbook-section-1",
+      "blocks": {
+        "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lamp-c3-3-process.jpg",
+            "text": "<p><em>The glaze is repeatedly poured over the lamp’s surface to build up the pebbled texture, which is created by flecks of copper oxidizing in the kiln. <\/em><\/p>",
+            "link": "",
+            "column_width": "2"
+          }
+        },
+        "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lamp-c3-3.jpg",
+            "text": "<p><em>Blunk Table Lamp in Lichen<\/em><\/p>",
+            "link": "",
+            "column_width": "5"
+          }
+        }
+      },
+      "block_order": [
+        "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-0",
+        "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-1"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "grid_align": "right",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -793,6 +828,7 @@
     "2d479ab1-31d5-42a3-adfa-4549ad3f3a19",
     "3d4b5043-751b-46ac-bd21-60065a44633c",
     "d7952b57-3d7b-4051-a1c6-21f686322ef5",
-    "fda1113f-df69-454a-bee0-29a68e405687"
+    "fda1113f-df69-454a-bee0-29a68e405687",
+    "30ffc5d4-6f8f-4baf-acf4-24184af314c1"
   ]
 }
