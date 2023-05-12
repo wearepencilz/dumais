@@ -580,7 +580,7 @@
     "39a52e72-3aaf-4dee-a345-771f616955c1": {
       "type": "arrow-spacer",
       "custom_css": [
-        ".arrow-wrapper {background-color: #ffffff; padding: 2rem 0; border-bottom: 1px solid black; margin-bottom: 4rem;}",
+        ".arrow-wrapper {background-color: #ffffff; padding: 2rem 0; border-bottom: 1px solid black; margin-bottom: 6rem;}",
         ".arrow {display: none;}"
       ],
       "settings": {
