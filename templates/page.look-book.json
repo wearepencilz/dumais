@@ -341,6 +341,41 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "f33f18b2-962a-426c-9360-cdc2a364ab8d": {
+      "type": "lookbook-section-1",
+      "blocks": {
+        "template--16896431325398__f33f18b2-962a-426c-9360-cdc2a364ab8d-16838826679f88d577-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/August_22_2022_199.jpg",
+            "text": "<p><em>Lagon Hand Mirror in Cracked Gold and Navy<\/em><\/p>",
+            "link": "",
+            "column_width": "3"
+          }
+        },
+        "template--16896431325398__f33f18b2-962a-426c-9360-cdc2a364ab8d-16838826679f88d577-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/September_28_2022_272_279f41fc-d792-452c-9075-6a32481bd7bb.jpg",
+            "text": "<p><em>Ray Hand Mirror in Mushroom and Cracked Gold <\/em><\/p>",
+            "link": "",
+            "column_width": "3"
+          }
+        }
+      },
+      "block_order": [
+        "template--16896431325398__f33f18b2-962a-426c-9360-cdc2a364ab8d-16838826679f88d577-0",
+        "template--16896431325398__f33f18b2-962a-426c-9360-cdc2a364ab8d-16838826679f88d577-1"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "grid_align": "left",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -354,6 +389,7 @@
     "27ec7d79-7dda-4a72-b354-f75b4c8e5394",
     "aab1327d-8941-4e11-8a82-579c7e517530",
     "6a4a299f-b533-4cac-a4d0-9e3e928df349",
-    "3486dacd-c4de-4edc-be4e-8f5276d5bc38"
+    "3486dacd-c4de-4edc-be4e-8f5276d5bc38",
+    "f33f18b2-962a-426c-9360-cdc2a364ab8d"
   ]
 }
