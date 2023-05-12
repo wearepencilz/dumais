@@ -697,6 +697,31 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "d7952b57-3d7b-4051-a1c6-21f686322ef5": {
+      "type": "lookbook-section-1",
+      "blocks": {
+        "template--16896431325398__d7952b57-3d7b-4051-a1c6-21f686322ef5-16838826679f88d577-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/multiple.jpg",
+            "text": "<p><em>From left to right, the Dyad #1 Table Lamp in Parchment, the Dyad #2 Table Lamp in Parchment, the Dyad #2 Vase in Chalk, and the Tetrad Floor Lamp in Parchment and Chalk.<\/em><\/p>",
+            "link": "",
+            "column_width": "7"
+          }
+        }
+      },
+      "block_order": [
+        "template--16896431325398__d7952b57-3d7b-4051-a1c6-21f686322ef5-16838826679f88d577-0"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "grid_align": "right",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -721,6 +746,7 @@
     "39a52e72-3aaf-4dee-a345-771f616955c1",
     "27e213bc-58f6-4e69-a929-302c1f203b10",
     "2d479ab1-31d5-42a3-adfa-4549ad3f3a19",
-    "3d4b5043-751b-46ac-bd21-60065a44633c"
+    "3d4b5043-751b-46ac-bd21-60065a44633c",
+    "d7952b57-3d7b-4051-a1c6-21f686322ef5"
   ]
 }
