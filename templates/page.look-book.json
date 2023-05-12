@@ -141,6 +141,15 @@
         "padding_bottom": 36
       }
     },
+    "27ec7d79-7dda-4a72-b354-f75b4c8e5394": {
+      "type": "arrow-spacer",
+      "settings": {
+        "arrow_position": "center",
+        "arrow_orientation": "point-right",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "aab1327d-8941-4e11-8a82-579c7e517530": {
       "type": "lb-collection-intro",
       "blocks": {
@@ -176,6 +185,7 @@
     "9c122172-8945-4fa7-acb2-3f37d16af7b9",
     "3486dacd-c4de-4edc-be4e-8f5276d5bc38",
     "1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5",
+    "27ec7d79-7dda-4a72-b354-f75b4c8e5394",
     "aab1327d-8941-4e11-8a82-579c7e517530"
   ]
 }
