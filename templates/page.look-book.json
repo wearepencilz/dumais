@@ -376,6 +376,76 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "8ee35bbc-260d-4fee-9696-0448099c8344": {
+      "type": "lookbook-section-1",
+      "blocks": {
+        "template--16896431325398__8ee35bbc-260d-4fee-9696-0448099c8344-16838826679f88d577-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/September_28_2022_306_f305f122-9e29-4986-8784-b36db93cd5f5.jpg",
+            "text": "<p><em>Cuzco Hand Mirror in Cracked Gold and Navy<\/em><\/p>",
+            "link": "",
+            "column_width": "3"
+          }
+        },
+        "template--16896431325398__8ee35bbc-260d-4fee-9696-0448099c8344-16838826679f88d577-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/August_15_2022_211_1a7dcf39-5cba-47a5-8531-0fa9b559ce60.jpg",
+            "text": "<p><em>Ouvéa Wall Mirror in Parchment and Cracked Gold<\/em><\/p>",
+            "link": "",
+            "column_width": "4"
+          }
+        }
+      },
+      "block_order": [
+        "template--16896431325398__8ee35bbc-260d-4fee-9696-0448099c8344-16838826679f88d577-0",
+        "template--16896431325398__8ee35bbc-260d-4fee-9696-0448099c8344-16838826679f88d577-1"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "grid_align": "right",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8a9083f1-24c6-4581-bd5c-4b126d41173e": {
+      "type": "lookbook-section-1",
+      "blocks": {
+        "template--16896431325398__8a9083f1-24c6-4581-bd5c-4b126d41173e-16838826679f88d577-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/August_22_2022_205.jpg",
+            "text": "<p><em>Anemone Wall Mirror in Parchment and Cracked Gold<\/em><\/p>",
+            "link": "",
+            "column_width": "3"
+          }
+        },
+        "template--16896431325398__8a9083f1-24c6-4581-bd5c-4b126d41173e-16838826679f88d577-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/August_15_2022_214.jpg",
+            "text": "<p><em>Rayons Wall Mirror in Sienna and Cracked Gold<\/em><\/p>",
+            "link": "",
+            "column_width": "3"
+          }
+        }
+      },
+      "block_order": [
+        "template--16896431325398__8a9083f1-24c6-4581-bd5c-4b126d41173e-16838826679f88d577-0",
+        "template--16896431325398__8a9083f1-24c6-4581-bd5c-4b126d41173e-16838826679f88d577-1"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "grid_align": "left",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -390,6 +460,8 @@
     "aab1327d-8941-4e11-8a82-579c7e517530",
     "6a4a299f-b533-4cac-a4d0-9e3e928df349",
     "3486dacd-c4de-4edc-be4e-8f5276d5bc38",
-    "f33f18b2-962a-426c-9360-cdc2a364ab8d"
+    "f33f18b2-962a-426c-9360-cdc2a364ab8d",
+    "8ee35bbc-260d-4fee-9696-0448099c8344",
+    "8a9083f1-24c6-4581-bd5c-4b126d41173e"
   ]
 }
