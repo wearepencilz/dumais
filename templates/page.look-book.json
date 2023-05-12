@@ -481,12 +481,22 @@
             "image": "shopify:\/\/shop_images\/tables-2.jpg",
             "text": "<p><em>Four Helene Side Tables feature in the collection, each with a unique surface treatment.<\/em><\/p>",
             "link": "",
-            "column_width": "7"
+            "column_width": "6"
+          }
+        },
+        "d7c0ca64-37aa-4c0f-94a0-63d11980b3c1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/t-d.jpg",
+            "text": "<p><em>Helene Side Table in Carriage Red and Cracked Gold<\/em><\/p>",
+            "link": "",
+            "column_width": "2"
           }
         }
       },
       "block_order": [
-        "template--16896431325398__563a263e-986c-4474-a00f-0f1ce461d5de-16838826679f88d577-0"
+        "template--16896431325398__563a263e-986c-4474-a00f-0f1ce461d5de-16838826679f88d577-0",
+        "d7c0ca64-37aa-4c0f-94a0-63d11980b3c1"
       ],
       "settings": {
         "image_width": "full",
