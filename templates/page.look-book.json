@@ -513,7 +513,7 @@
         "template--16896431325398__955ff7ac-77ad-44a0-b851-22ed65319720-16838826679f88d577-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/August_22_2022_203.jpg",
+            "image": "shopify:\/\/shop_images\/lamp-1-detail.jpg",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link": "",
             "column_width": "2"
@@ -522,7 +522,7 @@
         "template--16896431325398__955ff7ac-77ad-44a0-b851-22ed65319720-16838826679f88d577-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/August_22_2022_201.jpg",
+            "image": "shopify:\/\/shop_images\/lamp-1.jpg",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link": "",
             "column_width": "5"
@@ -548,7 +548,7 @@
         "template--16896431325398__1d51e179-7169-44a6-8d56-d1a1d5911e5a-16838826679f88d577-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/August_22_2022_76.jpg",
+            "image": "shopify:\/\/shop_images\/lamp-2.jpg",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link": "",
             "column_width": "5"
@@ -557,7 +557,7 @@
         "template--16896431325398__1d51e179-7169-44a6-8d56-d1a1d5911e5a-16838826679f88d577-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/August_22_2022_81.jpg",
+            "image": "shopify:\/\/shop_images\/lamp-2-detail.jpg",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link": "",
             "column_width": "2"
