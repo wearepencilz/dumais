@@ -788,11 +788,31 @@
             "link": "",
             "column_width": "5"
           }
+        },
+        "e3dc537c-c864-4dbd-b4a6-21eddf753298": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lamp-c3-4.jpg",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link": "",
+            "column_width": "4"
+          }
+        },
+        "919b6fde-7481-486d-ae55-28ed961ca31d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lamp-c3-5.jpg",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link": "",
+            "column_width": "4"
+          }
         }
       },
       "block_order": [
         "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-0",
-        "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-1"
+        "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-1",
+        "e3dc537c-c864-4dbd-b4a6-21eddf753298",
+        "919b6fde-7481-486d-ae55-28ed961ca31d"
       ],
       "settings": {
         "image_width": "full",
