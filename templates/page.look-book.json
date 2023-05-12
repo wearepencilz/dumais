@@ -272,31 +272,6 @@
         "padding_bottom": 36
       }
     },
-    "3486dacd-c4de-4edc-be4e-8f5276d5bc38": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__3486dacd-c4de-4edc-be4e-8f5276d5bc38-16838392868e253e1f-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-09_at_10.46.33.png",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link": "",
-            "column_width": "6"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__3486dacd-c4de-4edc-be4e-8f5276d5bc38-16838392868e253e1f-0"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "right",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "6a4a299f-b533-4cac-a4d0-9e3e928df349": {
       "type": "lookbook-section-1",
       "blocks": {
@@ -341,6 +316,31 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "3486dacd-c4de-4edc-be4e-8f5276d5bc38": {
+      "type": "lookbook-section-1",
+      "blocks": {
+        "template--16896431325398__3486dacd-c4de-4edc-be4e-8f5276d5bc38-16838392868e253e1f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-09_at_10.46.33.png",
+            "text": "<p><em>Hanging from top to bottom: the Flammes Hand Mirror in Cracked Gold and Chalk, the Perles Hand Mirror in Cracked Gold, and the Flammes Hand Mirror in Cracked Gold. A Perles Hand Mirror in Cracked Gold and Lead rests on a book of Pablo Picasso’s linogravures. <\/em><\/p>",
+            "link": "",
+            "column_width": "7"
+          }
+        }
+      },
+      "block_order": [
+        "template--16896431325398__3486dacd-c4de-4edc-be4e-8f5276d5bc38-16838392868e253e1f-0"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "grid_align": "right",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -353,7 +353,7 @@
     "727e0a25-236e-4b9f-bc68-682507b60924",
     "27ec7d79-7dda-4a72-b354-f75b4c8e5394",
     "aab1327d-8941-4e11-8a82-579c7e517530",
-    "3486dacd-c4de-4edc-be4e-8f5276d5bc38",
-    "6a4a299f-b533-4cac-a4d0-9e3e928df349"
+    "6a4a299f-b533-4cac-a4d0-9e3e928df349",
+    "3486dacd-c4de-4edc-be4e-8f5276d5bc38"
   ]
 }
