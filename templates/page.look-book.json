@@ -186,26 +186,46 @@
         "padding_bottom": 36
       }
     },
-    "3486dacd-c4de-4edc-be4e-8f5276d5bc38": {
+    "727e0a25-236e-4b9f-bc68-682507b60924": {
       "type": "lookbook-section-1",
       "blocks": {
-        "template--16896431325398__3486dacd-c4de-4edc-be4e-8f5276d5bc38-16838392868e253e1f-0": {
+        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-09_at_10.46.33.png",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/web-Dumais_March_1_2023_142.jpg",
+            "text": "<p>Left, the Capsule Side Table in Mushroom with Ultramarine interior. Right, the Capsule Side Table in dipped Parchment.<\/p>",
             "link": "",
-            "column_width": "6"
+            "column_width": "4"
+          }
+        },
+        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/August_15_2022_214.jpg",
+            "text": "<p>Each side table is assembled from two pieces that are fired separately and then joined after glazing.<\/p>",
+            "link": "",
+            "column_width": "2"
+          }
+        },
+        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/August_15_2022_182.jpg",
+            "text": "<p>Detail of the Parchment glaze, which gives the table a more everyday finish.<\/p>",
+            "link": "",
+            "column_width": "2"
           }
         }
       },
       "block_order": [
-        "template--16896431325398__3486dacd-c4de-4edc-be4e-8f5276d5bc38-16838392868e253e1f-0"
+        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-0",
+        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-1",
+        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-2"
       ],
       "settings": {
         "image_width": "full",
         "image_ratio": "adapt",
-        "grid_align": "right",
+        "grid_align": "left",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -252,41 +272,66 @@
         "padding_bottom": 36
       }
     },
-    "727e0a25-236e-4b9f-bc68-682507b60924": {
+    "3486dacd-c4de-4edc-be4e-8f5276d5bc38": {
       "type": "lookbook-section-1",
       "blocks": {
-        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-0": {
+        "template--16896431325398__3486dacd-c4de-4edc-be4e-8f5276d5bc38-16838392868e253e1f-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/web-Dumais_March_1_2023_142.jpg",
-            "text": "<p>Left, the Capsule Side Table in Mushroom with Ultramarine interior. Right, the Capsule Side Table in dipped Parchment.<\/p>",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-03-09_at_10.46.33.png",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link": "",
-            "column_width": "4"
-          }
-        },
-        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/August_15_2022_214.jpg",
-            "text": "<p>Each side table is assembled from two pieces that are fired separately and then joined after glazing.<\/p>",
-            "link": "",
-            "column_width": "2"
-          }
-        },
-        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/August_15_2022_182.jpg",
-            "text": "<p>Detail of the Parchment glaze, which gives the table a more everyday finish.<\/p>",
-            "link": "",
-            "column_width": "2"
+            "column_width": "6"
           }
         }
       },
       "block_order": [
-        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-0",
-        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-1",
-        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-2"
+        "template--16896431325398__3486dacd-c4de-4edc-be4e-8f5276d5bc38-16838392868e253e1f-0"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "grid_align": "right",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6a4a299f-b533-4cac-a4d0-9e3e928df349": {
+      "type": "lookbook-section-1",
+      "blocks": {
+        "template--16896431325398__6a4a299f-b533-4cac-a4d0-9e3e928df349-16838826679f88d577-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LincolnLamp2_c5fe1147-fd6f-4885-901b-9f73953d418a.jpg",
+            "text": "<p>A sketch of the Cuzco Hand Mirror.<\/p>",
+            "link": "",
+            "column_width": "2"
+          }
+        },
+        "template--16896431325398__6a4a299f-b533-4cac-a4d0-9e3e928df349-16838826679f88d577-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/August_22_2022_198.1.jpg",
+            "text": "<p>Three small boxes made by Espelt between 1966 and 1976. Their patterns, which Espelt typically embossed or carved onto the piece, were the starting point for the collection’s in-laid medallions.<\/p>",
+            "link": "",
+            "column_width": "2"
+          }
+        },
+        "template--16896431325398__6a4a299f-b533-4cac-a4d0-9e3e928df349-16838826679f88d577-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dumais_December_2020_26_df8bc8d4-ba80-4a82-b6b7-047f4537f77f.jpg",
+            "text": "<p>Two wall mirrors by Mithé Espelt c. 1958: ‘Barrettes’, on the left, and ‘Oval’, on the right.<\/p>",
+            "link": "",
+            "column_width": "4"
+          }
+        }
+      },
+      "block_order": [
+        "template--16896431325398__6a4a299f-b533-4cac-a4d0-9e3e928df349-16838826679f88d577-0",
+        "template--16896431325398__6a4a299f-b533-4cac-a4d0-9e3e928df349-16838826679f88d577-1",
+        "template--16896431325398__6a4a299f-b533-4cac-a4d0-9e3e928df349-16838826679f88d577-2"
       ],
       "settings": {
         "image_width": "full",
@@ -305,9 +350,10 @@
     "1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5",
     "6d259591-db0d-4d09-9591-908211e8d00a",
     "d76f4e2a-71b9-420c-95e8-7d9d9739b428",
-    "3486dacd-c4de-4edc-be4e-8f5276d5bc38",
+    "727e0a25-236e-4b9f-bc68-682507b60924",
     "27ec7d79-7dda-4a72-b354-f75b4c8e5394",
     "aab1327d-8941-4e11-8a82-579c7e517530",
-    "727e0a25-236e-4b9f-bc68-682507b60924"
+    "3486dacd-c4de-4edc-be4e-8f5276d5bc38",
+    "6a4a299f-b533-4cac-a4d0-9e3e928df349"
   ]
 }
