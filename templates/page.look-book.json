@@ -198,20 +198,20 @@
             "column_width": "4"
           }
         },
-        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-1": {
+        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/August_15_2022_214.jpg",
-            "text": "<p>Each side table is assembled from two pieces that are fired separately and then joined after glazing.<\/p>",
+            "image": "shopify:\/\/shop_images\/table-detail.jpg",
+            "text": "<p>Detail of the Parchment glaze, which gives the table a more everyday finish.<\/p>",
             "link": "",
             "column_width": "2"
           }
         },
-        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-2": {
+        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/August_15_2022_182.jpg",
-            "text": "<p>Detail of the Parchment glaze, which gives the table a more everyday finish.<\/p>",
+            "image": "shopify:\/\/shop_images\/table-making.jpg",
+            "text": "<p>Each side table is assembled from two pieces that are fired separately and then joined after glazing.<\/p>",
             "link": "",
             "column_width": "2"
           }
@@ -219,8 +219,8 @@
       },
       "block_order": [
         "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-0",
-        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-1",
-        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-2"
+        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-2",
+        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-1"
       ],
       "settings": {
         "image_width": "full",
