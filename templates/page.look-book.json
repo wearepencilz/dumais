@@ -145,7 +145,7 @@
       "type": "arrow-spacer",
       "custom_css": [
         ".arrow-wrapper {background-color: #ffffff; padding: 2rem 0; border-bottom: 1px solid black;}",
-        ".arrow{display:none;}"
+        ".arrow {display: none;}"
       ],
       "settings": {
         "arrow_position": "center",
@@ -169,7 +169,7 @@
         "template--16896431325398__aab1327d-8941-4e11-8a82-579c7e517530-1683849994cb631645-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/August_16_2022_55_efacd414-7aeb-417a-84a4-5d1a4c50552b.jpg",
+        "image": "shopify:\/\/shop_images\/image_140.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
