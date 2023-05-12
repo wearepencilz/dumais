@@ -39,20 +39,20 @@
     "9c122172-8945-4fa7-acb2-3f37d16af7b9": {
       "type": "lookbook-section-1",
       "blocks": {
-        "template--16896431325398__9c122172-8945-4fa7-acb2-3f37d16af7b9-16838313647c0b541a-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/c-1-i-3pg.jpg",
-            "text": "<p>Josef’s ‘Upward’ (1926), made from sandblasted, flashed glass which was then back painted. This ultramarine undercoating finds its way into the collection’s screens, lamps, and tables.<\/p>",
-            "link": "",
-            "column_width": "2"
-          }
-        },
         "template--16896431325398__9c122172-8945-4fa7-acb2-3f37d16af7b9-16838313647c0b541a-0": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/c-1-i-4pg.jpg",
             "text": "<p>A necklace by Anni Albers made from found objects. Anni’s use of everyday items in her jewelry, such as aluminum washers, clips, drain strainers, and ball chains, served as inspiration for the collection’s metalwork.<\/p>",
+            "link": "",
+            "column_width": "2"
+          }
+        },
+        "template--16896431325398__9c122172-8945-4fa7-acb2-3f37d16af7b9-16838313647c0b541a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/c-1-i-3pg.jpg",
+            "text": "<p>Josef’s ‘Upward’ (1926), made from sandblasted, flashed glass which was then back painted. This ultramarine undercoating finds its way into the collection’s screens, lamps, and tables.<\/p>",
             "link": "",
             "column_width": "2"
           }
@@ -68,8 +68,8 @@
         }
       },
       "block_order": [
-        "template--16896431325398__9c122172-8945-4fa7-acb2-3f37d16af7b9-16838313647c0b541a-1",
         "template--16896431325398__9c122172-8945-4fa7-acb2-3f37d16af7b9-16838313647c0b541a-0",
+        "template--16896431325398__9c122172-8945-4fa7-acb2-3f37d16af7b9-16838313647c0b541a-1",
         "template--16896431325398__9c122172-8945-4fa7-acb2-3f37d16af7b9-16838313647c0b541a-2"
       ],
       "settings": {
@@ -90,16 +90,16 @@
             "image": "shopify:\/\/shop_images\/folding-screen-2_c3f2a089-d403-46a5-a1db-fc0925447a29.jpg",
             "text": "<p><em>Tall Cassette Folding Screen in Hide and Ultramarine<\/em><\/p>",
             "link": "",
-            "column_width": "4"
+            "column_width": "6"
           }
         },
         "template--16896431325398__1d3d4bb2-9751-48a2-8af4-e0ee32c2e0b5-1683845372fabde4d2-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/folding-screen-1_f8190e31-7169-4eb8-a796-2b1a39d402b1.jpg",
-            "text": "<p>Short Cassette Folding Screen in Chalk and Ultramarine<\/p>",
+            "image": "shopify:\/\/shop_images\/screen-detail.jpg",
+            "text": "<p><em>Each ceramic panel slots individually into the blackened steel frame, allowing the overall composition to vary from screen to screen.<\/em><\/p>",
             "link": "",
-            "column_width": "4"
+            "column_width": "2"
           }
         }
       },
@@ -119,13 +119,13 @@
     "6d259591-db0d-4d09-9591-908211e8d00a": {
       "type": "lookbook-section-1",
       "blocks": {
-        "template--16896431325398__6d259591-db0d-4d09-9591-908211e8d00a-16838826679f88d577-0": {
+        "4dcc8ab1-ccc1-479f-b2d8-83b1a9e9c57e": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_143.jpg",
-            "text": "<p><em>The design of the sconces signals the fins found on the tiles of the Cassette Folding Screens.<\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/folding-screen-1_4f03869d-fa07-4c23-ae97-76e7331e94a7.jpg",
+            "text": "<p><em>Short Cassette Folding Screen in Chalk and Ultramarine<\/em><\/p>",
             "link": "",
-            "column_width": "2"
+            "column_width": "4"
           }
         },
         "template--16896431325398__6d259591-db0d-4d09-9591-908211e8d00a-16838826679f88d577-1": {
@@ -139,7 +139,7 @@
         }
       },
       "block_order": [
-        "template--16896431325398__6d259591-db0d-4d09-9591-908211e8d00a-16838826679f88d577-0",
+        "4dcc8ab1-ccc1-479f-b2d8-83b1a9e9c57e",
         "template--16896431325398__6d259591-db0d-4d09-9591-908211e8d00a-16838826679f88d577-1"
       ],
       "settings": {
