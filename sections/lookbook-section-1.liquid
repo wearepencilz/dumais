@@ -82,8 +82,8 @@
                     {% endif %}
                   >
                     {%- capture sizes -%}
-                      (min-width: 2500px) {% if section.blocks.size <= 2 %}2500px{% else %}1700px{% endif %}, (min-width:
-                      1700px) {% if section.blocks.size == 1 %}1700px{% else %}1700px{% endif %}, calc(100vw - 30px)
+                      (min-width: 2500px) {% if section.blocks.size <= 2 %}2500px{% else %}2500px{% endif %}, (min-width:
+                      2500px) {% if section.blocks.size == 1 %}2500px{% else %}2500px{% endif %}, calc(100vw - 30px)
                     {%- endcapture -%}
                     {{
                       block.settings.image
