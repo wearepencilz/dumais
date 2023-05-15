@@ -82,8 +82,8 @@
                     {% endif %}
                   >
                     {%- capture sizes -%}
-                      (min-width: 1990px) {% if section.blocks.size <= 2 %}1420px{% else %}1100px{% endif %}, (min-width:
-                      1500px) {% if section.blocks.size == 1 %}1420px{% else %}1100px{% endif %}, calc(100vw - 30px)
+                      (min-width: 1990px) {% if section.blocks.size <= 2 %}1700px{% else %}1700px{% endif %}, (min-width:
+                      1700px) {% if section.blocks.size == 1 %}1700px{% else %}1700px{% endif %}, calc(100vw - 30px)
                     {%- endcapture -%}
                     {{
                       block.settings.image
@@ -91,7 +91,7 @@
                       | image_tag:
                         loading: 'lazy',
                         sizes: sizes,
-                        widths: '1420, 1700, 2200, 2500',
+                        widths: '1700, 2200, 2500',
                         class: 'multicolumn-card__image'
                     }}
 
