@@ -179,6 +179,15 @@
     "727e0a25-236e-4b9f-bc68-682507b60924": {
       "type": "lookbook-section-1",
       "blocks": {
+        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tables.jpg",
+            "text": "<p>Left, the <a href=\"\/products\/capsule-side-table-limited-edition\" title=\"Capsule Side Table Limited Edition\">Capsule Side Table<\/a> in Mushroom with Ultramarine interior. Right, the <a href=\"\/products\/capsule-side-table\" title=\"Capsule Side Table\">Capsule Side Table<\/a> in dipped Parchment.<\/p>",
+            "link": "",
+            "column_width": "4"
+          }
+        },
         "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-2": {
           "type": "column",
           "settings": {
@@ -196,21 +205,12 @@
             "link": "",
             "column_width": "2"
           }
-        },
-        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/tables.jpg",
-            "text": "<p>Left, the Capsule Side Table in Mushroom with Ultramarine interior. Right, the Capsule Side Table in dipped Parchment.<\/p>",
-            "link": "",
-            "column_width": "4"
-          }
         }
       },
       "block_order": [
+        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-0",
         "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-2",
-        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-1",
-        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-0"
+        "template--16896431325398__727e0a25-236e-4b9f-bc68-682507b60924-16838826679f88d577-1"
       ],
       "settings": {
         "image_width": "full",
