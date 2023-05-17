@@ -314,7 +314,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/mirrors.jpg",
-            "text": "<p><em>Hanging from top to bottom: the Flammes Hand Mirror in Cracked Gold and Chalk, the Perles Hand Mirror in Cracked Gold, and the Flammes Hand Mirror in Cracked Gold. A Perles Hand Mirror in Cracked Gold and Lead rests on a book of Pablo Picasso’s linogravures. <\/em><\/p>",
+            "text": "<p><em>Hanging from top to bottom: the <\/em><a href=\"\/products\/flammes-hand-mirror\" title=\"Flammes Hand Mirror #1\"><em>Flammes Hand Mirror<\/em><\/a><em> in Cracked Gold and Chalk, the <\/em><a href=\"\/products\/perles-hand-mirror\" title=\"Perles Hand Mirror\"><em>Perles Hand Mirror<\/em><\/a><em> in Cracked Gold, and the <\/em><a href=\"\/products\/flammes-hand-mirror-3\" title=\"Flammes Hand Mirror #2\"><em>Flammes Hand Mirror<\/em><\/a><em> in Cracked Gold. A Perles Hand Mirror in Cracked Gold and Lead rests on a book of Pablo Picasso’s linogravures. <\/em><\/p>",
             "link": "",
             "column_width": "7"
           }
@@ -339,7 +339,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/m-1.jpg",
-            "text": "<p><em>Lagon Hand Mirror in Cracked Gold and Navy<\/em><\/p>",
+            "text": "<p><a href=\"\/products\/lagon-hand-mirror-4\" title=\"Lagon Hand Mirror #3\"><em>Lagon Hand Mirror<\/em><\/a><em> in Cracked Gold and Navy<\/em><\/p>",
             "link": "",
             "column_width": "3"
           }
@@ -383,7 +383,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/m-4.jpg",
-            "text": "<p><em>Ouvéa Wall Mirror in Parchment and Cracked Gold<\/em><\/p>",
+            "text": "<p><a href=\"\/products\/ouvea-wall-mirror\" title=\"Ouvéa Wall Mirror\"><em>Ouvéa Wall Mirror<\/em><\/a><em> in Parchment and Cracked Gold<\/em><\/p>",
             "link": "",
             "column_width": "4"
           }
@@ -409,7 +409,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/m-6.jpg",
-            "text": "<p><em>Cirque Wall Mirror in Verdigris. Here, layers of glaze are repeatedly hand-painted onto each medallion to achieve the difference in color.<\/em><\/p>",
+            "text": "<p><a href=\"\/products\/cirque-wall-mirror\" title=\"Cirque Wall Mirror\"><em>Cirque Wall Mirror<\/em><\/a><em> in Verdigris. Here, layers of glaze are repeatedly hand-painted onto each medallion to achieve the difference in color.<\/em><\/p>",
             "link": "",
             "column_width": "3"
           }
@@ -418,7 +418,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/m-5.jpg",
-            "text": "<p><em>Anemone Wall Mirror in Parchment and Cracked Gold<\/em><\/p>",
+            "text": "<p><a href=\"\/products\/anemone-wall-mirror\" title=\"Anemone Wall Mirror\"><em>Anemone Wall Mirror<\/em><\/a><em> in Parchment and Cracked Gold<\/em><\/p>",
             "link": "",
             "column_width": "3"
           }
@@ -444,7 +444,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/m-7.jpg",
-            "text": "<p><em>Rayons Wall Mirror in Sienna and Cracked Gold<\/em><\/p>",
+            "text": "<p><a href=\"\/products\/rayons-wall-mirror\" title=\"Rayons Wall Mirror\"><em>Rayons Wall Mirror<\/em><\/a><em> in Sienna and Cracked Gold<\/em><\/p>",
             "link": "",
             "column_width": "3"
           }
@@ -453,7 +453,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/m-8.jpg",
-            "text": "<p><em>Monaco Wall Mirror in Cracked Gold<\/em><\/p>",
+            "text": "<p><a href=\"\/products\/monaco-wall-mirror\" title=\"Monaco Wall Mirror\"><em>Monaco Wall Mirror<\/em><\/a><em> in Cracked Gold<\/em><\/p>",
             "link": "",
             "column_width": "3"
           }
@@ -479,7 +479,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/tables-2.jpg",
-            "text": "<p><em>Four Helene Side Tables feature in the collection, each with a unique surface treatment.<\/em><\/p>",
+            "text": "<p><em>Four Helene Side Tables feature in the collection, each with a unique surface treatment. From left to right, <\/em><a href=\"\/products\/helene-side-table-4\" title=\"Helene Side Table #4\"><em>Helene Side Table<\/em><\/a><em> in Carriage Red and Cracked Gold, <\/em><a href=\"\/products\/helene-side-table-2\" title=\"Helene Side Table #2\"><em>Helene Side Table<\/em><\/a><em> in Cracked Gold, <\/em><a href=\"\/products\/helene-side-table-1\" title=\"Helene Side Table #1\"><em>Helene Side Table<\/em><\/a><em> in Lichen, and <\/em><a href=\"\/products\/helene-side-table-3\" title=\"Helene Side Table #3\"><em>Helene Side Table<\/em><\/a><em> in Lichen and Cracked Gold.<\/em><\/p>",
             "link": "",
             "column_width": "6"
           }
@@ -488,7 +488,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/t-d.jpg",
-            "text": "<p><em>Helene Side Table in Carriage Red and Cracked Gold<\/em><\/p>",
+            "text": "<p><em>Detail of the Carriage Red and Cracked Gold glaze.<\/em><\/p>",
             "link": "",
             "column_width": "2"
           }
@@ -514,7 +514,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/lamp-1-detail.jpg",
-            "text": "<p><em>Detail of the Cracked Gold and Sienna glaze<\/em><\/p>",
+            "text": "<p><em>Detail of the Cracked Gold and Sienna glaze.<\/em><\/p>",
             "link": "",
             "column_width": "2"
           }
@@ -523,7 +523,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/lamp-1.jpg",
-            "text": "<p><em>Grace Table Lamp in Cracked Gold. The top of the lamp is glazed in Sienna, which pairs with the rust linen shade.<\/em><\/p>",
+            "text": "<p><a href=\"\/products\/grace-table-lamp-2\" title=\"Grace Table Lamp #2\"><em>Grace Table Lamp<\/em><\/a><em> in Cracked Gold. The top of the lamp is glazed in Sienna, which pairs with the rust linen shade.<\/em><\/p>",
             "link": "",
             "column_width": "5"
           }
@@ -549,7 +549,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/lamp-2.jpg",
-            "text": "<p><em>Grace Table Lamp in Cracked Gold. This time, however, both the top of the lamp and the shade are rendered in Ultramarine.<\/em><\/p>",
+            "text": "<p><a href=\"\/products\/grace-table-lamp-1\" title=\"Grace Table Lamp #1\"><em>Grace Table Lamp<\/em><\/a><em> in Cracked Gold. This time, however, both the top of the lamp and the shade are rendered in Ultramarine.<\/em><\/p>",
             "link": "",
             "column_width": "5"
           }
