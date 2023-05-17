@@ -670,7 +670,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/pendants.jpg",
-            "text": "<p><em>Bizen Pendant in Verdigris<\/em><\/p>",
+            "text": "<p><a href=\"\/products\/bizen-pendant\" title=\"Bizen Pendant\"><em>Bizen Pendant<\/em><\/a><em> in Verdigris<\/em><\/p>",
             "link": "",
             "column_width": "4"
           }
@@ -679,7 +679,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/vases.jpg",
-            "text": "<p><em>From left to right, the Bizen Vase in Verdigris, the Bizen Torchiere in Matte-Black and Lead, and the Bizen Torchiere in Walnut and Chalk.<\/em><\/p>",
+            "text": "<p><em>From left to right, the Bizen Vase in Verdigris, the <\/em><a href=\"\/products\/bizen-torchiere-2\" title=\"Bizen Torchiere #2\"><em>Bizen Torchiere<\/em><\/a><em> in Matte-Black and Lead, and the <\/em><a href=\"\/products\/bizen-torchiere-1\" title=\"Bizen Torchiere #1\"><em>Bizen Torchiere<\/em><\/a><em> in Walnut and Chalk.<\/em><\/p>",
             "link": "",
             "column_width": "4"
           }
