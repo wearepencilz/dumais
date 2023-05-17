@@ -123,7 +123,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_162.jpg",
-            "text": "<p><em>Radiator Sconces, fraternal twins glazed in a combination of Walnut and Ochre<\/em><\/p>",
+            "text": "<p><a href=\"\/products\/radiator-sconce-1\" title=\"Radiator Sconce #1\"><em>Radiator Sconce #1<\/em><\/a><em> and <\/em><a href=\"\/products\/radiator-sconce-2\" title=\"Radiator Sconce #2\"><em>Radiator Sconce #2<\/em><\/a><em>, fraternal twins glazed in a combination of Walnut and Ochre<\/em><\/p>",
             "link": "",
             "column_width": "4"
           }
@@ -135,7 +135,7 @@
       "settings": {
         "image_width": "full",
         "image_ratio": "adapt",
-        "grid_align": "right",
+        "grid_align": "left",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -144,33 +144,33 @@
     "d76f4e2a-71b9-420c-95e8-7d9d9739b428": {
       "type": "lookbook-section-1",
       "blocks": {
-        "template--16896431325398__d76f4e2a-71b9-420c-95e8-7d9d9739b428-16838826679f88d577-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_94.jpg",
-            "text": "<p><em>Quadrangle Table Lamp in Parchment and Ultramarine<\/em><\/p>",
-            "link": "",
-            "column_width": "4"
-          }
-        },
         "template--16896431325398__d76f4e2a-71b9-420c-95e8-7d9d9739b428-16838826679f88d577-1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_101.jpg",
-            "text": "<p>Another version of the Quadrangle Table Lamp, this time glazed in Matte-Black.<\/p>",
+            "text": "<p><a href=\"\/products\/qaudrangle-table-lamp-2\" title=\"Qaudrangle Table Lamp #2\">Quadrangle Table Lamp<\/a> in Matte-Black.<\/p>",
             "link": "",
             "column_width": "2"
+          }
+        },
+        "template--16896431325398__d76f4e2a-71b9-420c-95e8-7d9d9739b428-16838826679f88d577-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_94.jpg",
+            "text": "<p><a href=\"\/products\/qaudrangle-table-lamp-1\" title=\"Qaudrangle Table Lamp #1\"><em>Quadrangle Table Lamp<\/em><\/a><em> in Parchment and Ultramarine<\/em><\/p>",
+            "link": "",
+            "column_width": "4"
           }
         }
       },
       "block_order": [
-        "template--16896431325398__d76f4e2a-71b9-420c-95e8-7d9d9739b428-16838826679f88d577-0",
-        "template--16896431325398__d76f4e2a-71b9-420c-95e8-7d9d9739b428-16838826679f88d577-1"
+        "template--16896431325398__d76f4e2a-71b9-420c-95e8-7d9d9739b428-16838826679f88d577-1",
+        "template--16896431325398__d76f4e2a-71b9-420c-95e8-7d9d9739b428-16838826679f88d577-0"
       ],
       "settings": {
         "image_width": "full",
         "image_ratio": "adapt",
-        "grid_align": "left",
+        "grid_align": "right",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
