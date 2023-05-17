@@ -771,6 +771,15 @@
     "30ffc5d4-6f8f-4baf-acf4-24184af314c1": {
       "type": "lookbook-section-1",
       "blocks": {
+        "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lamp-c3-3.jpg",
+            "text": "<p><a href=\"\/products\/blunk-table-lamp\" title=\"Blunk Table Lamp\"><em>Blunk Table Lamp<\/em><\/a><em> in Lichen<\/em><\/p>",
+            "link": "",
+            "column_width": "5"
+          }
+        },
         "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-0": {
           "type": "column",
           "settings": {
@@ -780,20 +789,11 @@
             "column_width": "2"
           }
         },
-        "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lamp-c3-3.jpg",
-            "text": "<p><em>Blunk Table Lamp in Lichen<\/em><\/p>",
-            "link": "",
-            "column_width": "5"
-          }
-        },
         "e3dc537c-c864-4dbd-b4a6-21eddf753298": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/lamp-c3-4.jpg",
-            "text": "<p><em>From left to right: the Triad Floor Lamp in Matte-Black and Bottle Green, the Dyad #1 Vase in Matte-Black, and the Tetrad Floor Lamp in Parchment and Chalk<\/em><\/p>",
+            "text": "<p><em>From left to right: the <\/em><a href=\"\/products\/triad-floor-lamp\" title=\"Triad Floor Lamp\"><em>Triad Floor Lamp<\/em><\/a><em> in Matte-Black and Bottle Green, the Dyad #1 Vase in Matte-Black, and the <\/em><a href=\"\/products\/tetrad-floor-lamp\" title=\"Tetrad Floor Lamp\"><em>Tetrad Floor Lamp<\/em><\/a><em> in Parchment and Chalk<\/em><\/p>",
             "link": "",
             "column_width": "4"
           }
@@ -809,8 +809,8 @@
         }
       },
       "block_order": [
-        "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-0",
         "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-1",
+        "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-0",
         "e3dc537c-c864-4dbd-b4a6-21eddf753298",
         "919b6fde-7481-486d-ae55-28ed961ca31d"
       ],
