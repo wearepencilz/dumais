@@ -802,7 +802,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/lamp-c3-5.jpg",
-            "text": "<p><em>Triad Floor Lamp in Matte-Black and Bottle Green<\/em><\/p>",
+            "text": "<p><a href=\"\/products\/triad-floor-lamp\" title=\"Triad Floor Lamp\"><em>Triad Floor Lamp<\/em><\/a><em> in Matte-Black and Bottle Green<\/em><\/p>",
             "link": "",
             "column_width": "4"
           }
