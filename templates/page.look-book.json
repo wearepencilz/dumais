@@ -88,7 +88,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/screens-charlie_8b81a24b-3452-4bc2-beeb-72dafae00226.jpg",
-            "text": "<p><em>The Tall Cassette Folding Screen measures 68 inches tall, while the Short Cassette Folding Screen measures 50 inches tall. Both measure 68 inches wide.<\/em><\/p>",
+            "text": "<p><em>The <\/em><a href=\"\/products\/tall-cassette-folding-screen\" title=\"Tall Cassette Folding Screen\"><em>Tall Cassette Folding Screen<\/em><\/a><em> measures 68 inches tall, while the <\/em><a href=\"\/products\/short-cassette-folding-screen-1\" title=\"Short Cassette Folding Screen\"><em>Short Cassette Folding Screen<\/em><\/a><em> measures 50 inches tall. Both measure 68 inches wide.<\/em><\/p>",
             "link": "",
             "column_width": "6"
           }
