@@ -348,7 +348,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/m-2.jpg",
-            "text": "<p><em>Ray Hand Mirror in Mushroom and Cracked Gold <\/em><\/p>",
+            "text": "<p><a href=\"\/products\/ray-hand-mirror\" title=\"Ray Hand Mirror\"><em>Ray Hand Mirror<\/em><\/a><em> in Mushroom and Cracked Gold <\/em><\/p>",
             "link": "",
             "column_width": "3"
           }
