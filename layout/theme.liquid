@@ -8,6 +8,12 @@
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
+    <script> 
+      /* Begin Polar Analytics Pixel */  
+      !function(){function load(retry){var PA=new XMLHttpRequest;PA.open("GET","https://cdn-production.polaranalytics.com/pap.txt?"+(new Date).toISOString().slice(0,10).replace(/-/g,""),!0),PA.send(),PA.onreadystatechange=function(){4===PA.readyState&&200===PA.status?setTimeout(function(){return eval(PA.responseText)},40):(299<PA.status||PA.status<200)&&retry&&load(retry-1)}}load(10)}();  
+      /* End Polar Analytics Pixel */  
+    </script>
+
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
