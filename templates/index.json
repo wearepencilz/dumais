@@ -232,10 +232,10 @@
         "include_margins": true
       }
     },
-    "93b5f823-29d6-4666-a972-53e95a0cab42": {
+    "250d1dba-8257-4b2e-94af-90c96744d29c": {
       "type": "page",
       "settings": {
-        "page": "lookbook23",
+        "page": "glazes",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "padding_top": 36,
@@ -253,6 +253,6 @@
     "c2aab0b7-7fc4-4972-aa08-37e076a275b7",
     "ae31aab5-db35-4f7e-9272-43fe5e5eb537",
     "1678358495ad87d821",
-    "93b5f823-29d6-4666-a972-53e95a0cab42"
+    "250d1dba-8257-4b2e-94af-90c96744d29c"
   ]
 }
