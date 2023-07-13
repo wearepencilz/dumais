@@ -61,8 +61,36 @@
         "padding_bottom": 80
       }
     },
+    "36c26a4b-0512-494d-a8ff-3edc09a4fe63": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "From the Collection #1, 2023",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You might also like",
         "heading_size": "h2",
@@ -81,6 +109,7 @@
   },
   "order": [
     "main",
+    "36c26a4b-0512-494d-a8ff-3edc09a4fe63",
     "related-products"
   ]
 }
