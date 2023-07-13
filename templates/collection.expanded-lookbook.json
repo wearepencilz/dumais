@@ -25,10 +25,144 @@
         "padding_top": 36,
         "padding_bottom": 100
       }
+    },
+    "b1e0c7b1-c8b6-4e21-aae5-445c292592d9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16924426535126__b1e0c7b1-c8b6-4e21-aae5-445c292592d9-16892798776b2fad20-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>A study of design, as Josef Albers would say<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16924426535126__b1e0c7b1-c8b6-4e21-aae5-445c292592d9-16892798776b2fad20-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It began as you’d expect. The Paul Bert Flea Market in Paris. Fabulous things. Abounding inspiration. The return home and the eventual rumination on a single piece, a small wall hanging made of rectilinear clay paillettes carefully tied together. This is followed by flipping through favorite books and seeing the similarities in the textures and tactility of Anni Albers’s tapestries, which leads to Josef’s tessellating fireplaces and Eileen Gray’s graphic screens.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16924426535126__b1e0c7b1-c8b6-4e21-aae5-445c292592d9-16892798776b2fad20-0",
+        "template--16924426535126__b1e0c7b1-c8b6-4e21-aae5-445c292592d9-16892798776b2fad20-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "73dc61a6-2f49-45db-9916-a12bbaeb4c4c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16924426535126__73dc61a6-2f49-45db-9916-a12bbaeb4c4c-1689279880ad127bf4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Josef’s ‘Upward’ (1926), made from sandblasted, flashed glass which was then back painted. This ultramarine undercoating finds its way into the collection’s screens, lamps, and tables.<\/em><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16924426535126__73dc61a6-2f49-45db-9916-a12bbaeb4c4c-1689279880ad127bf4-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_385.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f172852a-fb68-4db0-9836-5b2ccd1e67f1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16924426535126__f172852a-fb68-4db0-9836-5b2ccd1e67f1-1689279880ad127bf4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>One of several maquettes for a brick fireplace that Josef Albers designed for a house in Bethany, CT.<\/em><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16924426535126__f172852a-fb68-4db0-9836-5b2ccd1e67f1-1689279880ad127bf4-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/c-1-i-1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d660d8d2-d479-4898-aee5-2fc9559be70b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16924426535126__d660d8d2-d479-4898-aee5-2fc9559be70b-1689279880ad127bf4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16924426535126__d660d8d2-d479-4898-aee5-2fc9559be70b-1689279880ad127bf4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16924426535126__d660d8d2-d479-4898-aee5-2fc9559be70b-1689279880ad127bf4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Behind the scene",
+            "button_link": "shopify:\/\/pages\/lookbook23"
+          }
+        }
+      },
+      "block_order": [
+        "template--16924426535126__d660d8d2-d479-4898-aee5-2fc9559be70b-1689279880ad127bf4-0",
+        "template--16924426535126__d660d8d2-d479-4898-aee5-2fc9559be70b-1689279880ad127bf4-1",
+        "template--16924426535126__d660d8d2-d479-4898-aee5-2fc9559be70b-1689279880ad127bf4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_332.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "b1e0c7b1-c8b6-4e21-aae5-445c292592d9",
+    "73dc61a6-2f49-45db-9916-a12bbaeb4c4c",
+    "f172852a-fb68-4db0-9836-5b2ccd1e67f1",
+    "d660d8d2-d479-4898-aee5-2fc9559be70b"
   ]
 }
