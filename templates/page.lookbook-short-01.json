@@ -221,606 +221,75 @@
         "padding_bottom": 36
       }
     },
-    "27ec7d79-7dda-4a72-b354-f75b4c8e5394": {
-      "type": "arrow-spacer",
-      "custom_css": [
-        ".arrow-wrapper {background-color: #ffffff; padding: 2rem 0; border-bottom: 1px solid black; margin-bottom: 6rem;}",
-        ".arrow {display: none;}"
-      ],
+    "c4e11c35-1039-4088-b1ef-1d2eaa7d5f2d": {
+      "type": "featured-collection",
       "settings": {
-        "arrow_position": "center",
-        "arrow_orientation": "point-right",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "Shop the full Collection #1",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "collection-1-2023",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
-    "aab1327d-8941-4e11-8a82-579c7e517530": {
-      "type": "lb-collection-intro",
+    "ec478967-97df-4e5f-a1a6-c5c230f6312c": {
+      "type": "image-with-text",
       "blocks": {
-        "template--16896431325398__aab1327d-8941-4e11-8a82-579c7e517530-1683849994cb631645-1": {
+        "template--16924426633430__ec478967-97df-4e5f-a1a6-c5c230f6312c-1689279880ad127bf4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "See the other Collections",
+            "heading_size": "h1"
+          }
+        },
+        "template--16924426633430__ec478967-97df-4e5f-a1a6-c5c230f6312c-1689279880ad127bf4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>COLLECTION 2<br\/><br\/>Each of our pieces is shaped by hand. The clay is cut and cajoled, coated and corded. It’s why they vary slightly, their character the product of the day’s temperament. Yet, few pieces are designed to be handled regularly. They sit handsomely on surfaces, but are rarely picked up, turned over, and explored.<br\/><br\/>The desire to create something that formed part of a personal routine, something precious, led us to the French ceramicist and jewelry designer Mithé Espelt and, ultimately, the creation of this collection. Born in 1923, Espelt is known for her mirrors, boxes, and jewelry — small, whimsical treasures to be used as part of the everyday act of dressing.<br\/><br\/>Our mirrors and tables are a nod to her carved geometries, employing the studio’s signature slab technique to create a series of inlaid patterns. They also take Espelt’s combination of color and gilt and render it in decidedly Dumais Made shades (think rich and patinated rather than bright and radiant). The result? Precious, everyday objects that add shimmer to daily life. <\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "text_style": "body"
           }
+        },
+        "template--16924426633430__ec478967-97df-4e5f-a1a6-c5c230f6312c-1689279880ad127bf4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Collection #2",
+            "button_link": "shopify:\/\/pages\/lookbook23"
+          }
         }
       },
       "block_order": [
-        "template--16896431325398__aab1327d-8941-4e11-8a82-579c7e517530-1683849994cb631645-1"
+        "template--16924426633430__ec478967-97df-4e5f-a1a6-c5c230f6312c-1689279880ad127bf4-0",
+        "template--16924426633430__ec478967-97df-4e5f-a1a6-c5c230f6312c-1689279880ad127bf4-1",
+        "template--16924426633430__ec478967-97df-4e5f-a1a6-c5c230f6312c-1689279880ad127bf4-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/collection-2intro.jpg",
+        "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_177.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "6a4a299f-b533-4cac-a4d0-9e3e928df349": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__6a4a299f-b533-4cac-a4d0-9e3e928df349-16838826679f88d577-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/c-2-i-3.jpg",
-            "text": "<p><em>A few of Espelt’s first mirrors (c. 1948) in her signature gold gilt.<\/em><\/p>",
-            "link": "",
-            "column_width": "2"
-          }
-        },
-        "template--16896431325398__6a4a299f-b533-4cac-a4d0-9e3e928df349-16838826679f88d577-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/c-2-ref-1.jpg",
-            "text": "<p>Three small boxes made by Espelt between 1966 and 1976. Their patterns, which Espelt typically embossed or carved onto the piece, were the starting point for the collection’s in-laid medallions.<\/p>",
-            "link": "",
-            "column_width": "2"
-          }
-        },
-        "template--16896431325398__6a4a299f-b533-4cac-a4d0-9e3e928df349-16838826679f88d577-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/c-2-ref-2_ed1613dd-e21b-4010-9390-9226e53db625.jpg",
-            "text": "<p>Two wall mirrors by Mithé Espelt c. 1958: ‘Barrettes’, on the left, and ‘Oval’, on the right.<\/p>",
-            "link": "",
-            "column_width": "4"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__6a4a299f-b533-4cac-a4d0-9e3e928df349-16838826679f88d577-0",
-        "template--16896431325398__6a4a299f-b533-4cac-a4d0-9e3e928df349-16838826679f88d577-1",
-        "template--16896431325398__6a4a299f-b533-4cac-a4d0-9e3e928df349-16838826679f88d577-2"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "left",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "3486dacd-c4de-4edc-be4e-8f5276d5bc38": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__3486dacd-c4de-4edc-be4e-8f5276d5bc38-16838392868e253e1f-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mirrors.jpg",
-            "text": "<p><em>Hanging from top to bottom: the <\/em><a href=\"\/products\/flammes-hand-mirror\" title=\"Flammes Hand Mirror #1\"><em>Flammes Hand Mirror<\/em><\/a><em> in Cracked Gold and Chalk, the <\/em><a href=\"\/products\/perles-hand-mirror\" title=\"Perles Hand Mirror\"><em>Perles Hand Mirror<\/em><\/a><em> in Cracked Gold, and the <\/em><a href=\"\/products\/flammes-hand-mirror-3\" title=\"Flammes Hand Mirror #2\"><em>Flammes Hand Mirror<\/em><\/a><em> in Cracked Gold. A Perles Hand Mirror in Cracked Gold and Lead rests on a book of Pablo Picasso’s linogravures. <\/em><\/p>",
-            "link": "",
-            "column_width": "7"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__3486dacd-c4de-4edc-be4e-8f5276d5bc38-16838392868e253e1f-0"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "right",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "f33f18b2-962a-426c-9360-cdc2a364ab8d": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__f33f18b2-962a-426c-9360-cdc2a364ab8d-16838826679f88d577-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/m-1.jpg",
-            "text": "<p><a href=\"\/products\/lagon-hand-mirror-4\" title=\"Lagon Hand Mirror #3\"><em>Lagon Hand Mirror<\/em><\/a><em> in Cracked Gold and Navy<\/em><\/p>",
-            "link": "",
-            "column_width": "3"
-          }
-        },
-        "template--16896431325398__f33f18b2-962a-426c-9360-cdc2a364ab8d-16838826679f88d577-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/m-2.jpg",
-            "text": "<p><a href=\"\/products\/ray-hand-mirror\" title=\"Ray Hand Mirror\"><em>Ray Hand Mirror<\/em><\/a><em> in Mushroom and Cracked Gold <\/em><\/p>",
-            "link": "",
-            "column_width": "3"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__f33f18b2-962a-426c-9360-cdc2a364ab8d-16838826679f88d577-0",
-        "template--16896431325398__f33f18b2-962a-426c-9360-cdc2a364ab8d-16838826679f88d577-1"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "left",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "8ee35bbc-260d-4fee-9696-0448099c8344": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__8ee35bbc-260d-4fee-9696-0448099c8344-16838826679f88d577-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/m-d.jpg",
-            "text": "<p><em>A detail of the Ouvéa Wall Mirror.<\/em><\/p>",
-            "link": "",
-            "column_width": "3"
-          }
-        },
-        "template--16896431325398__8ee35bbc-260d-4fee-9696-0448099c8344-16838826679f88d577-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/m-4.jpg",
-            "text": "<p><a href=\"\/products\/ouvea-wall-mirror\" title=\"Ouvéa Wall Mirror\"><em>Ouvéa Wall Mirror<\/em><\/a><em> in Parchment and Cracked Gold<\/em><\/p>",
-            "link": "",
-            "column_width": "4"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__8ee35bbc-260d-4fee-9696-0448099c8344-16838826679f88d577-0",
-        "template--16896431325398__8ee35bbc-260d-4fee-9696-0448099c8344-16838826679f88d577-1"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "right",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "8a9083f1-24c6-4581-bd5c-4b126d41173e": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__8a9083f1-24c6-4581-bd5c-4b126d41173e-16838826679f88d577-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/m-6.jpg",
-            "text": "<p><a href=\"\/products\/cirque-wall-mirror\" title=\"Cirque Wall Mirror\"><em>Cirque Wall Mirror<\/em><\/a><em> in Verdigris. Here, layers of glaze are repeatedly hand-painted onto each medallion to achieve the difference in color.<\/em><\/p>",
-            "link": "",
-            "column_width": "3"
-          }
-        },
-        "template--16896431325398__8a9083f1-24c6-4581-bd5c-4b126d41173e-16838826679f88d577-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/m-5.jpg",
-            "text": "<p><a href=\"\/products\/anemone-wall-mirror\" title=\"Anemone Wall Mirror\"><em>Anemone Wall Mirror<\/em><\/a><em> in Parchment and Cracked Gold<\/em><\/p>",
-            "link": "",
-            "column_width": "3"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__8a9083f1-24c6-4581-bd5c-4b126d41173e-16838826679f88d577-0",
-        "template--16896431325398__8a9083f1-24c6-4581-bd5c-4b126d41173e-16838826679f88d577-1"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "left",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1b371977-dc05-4e8f-bbb8-4f75b6930c56": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__1b371977-dc05-4e8f-bbb8-4f75b6930c56-16838826679f88d577-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/m-7.jpg",
-            "text": "<p><a href=\"\/products\/rayons-wall-mirror\" title=\"Rayons Wall Mirror\"><em>Rayons Wall Mirror<\/em><\/a><em> in Sienna and Cracked Gold<\/em><\/p>",
-            "link": "",
-            "column_width": "3"
-          }
-        },
-        "template--16896431325398__1b371977-dc05-4e8f-bbb8-4f75b6930c56-16838826679f88d577-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/m-8.jpg",
-            "text": "<p><a href=\"\/products\/monaco-wall-mirror\" title=\"Monaco Wall Mirror\"><em>Monaco Wall Mirror<\/em><\/a><em> in Cracked Gold<\/em><\/p>",
-            "link": "",
-            "column_width": "3"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__1b371977-dc05-4e8f-bbb8-4f75b6930c56-16838826679f88d577-0",
-        "template--16896431325398__1b371977-dc05-4e8f-bbb8-4f75b6930c56-16838826679f88d577-1"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "right",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "563a263e-986c-4474-a00f-0f1ce461d5de": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__563a263e-986c-4474-a00f-0f1ce461d5de-16838826679f88d577-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/tables-2.jpg",
-            "text": "<p><em>Four Helene Side Tables feature in the collection, each with a unique surface treatment. From left to right, <\/em><a href=\"\/products\/helene-side-table-4\" title=\"Helene Side Table #4\"><em>Helene Side Table<\/em><\/a><em> in Carriage Red and Cracked Gold, <\/em><a href=\"\/products\/helene-side-table-2\" title=\"Helene Side Table #2\"><em>Helene Side Table<\/em><\/a><em> in Cracked Gold, <\/em><a href=\"\/products\/helene-side-table-1\" title=\"Helene Side Table #1\"><em>Helene Side Table<\/em><\/a><em> in Lichen, and <\/em><a href=\"\/products\/helene-side-table-3\" title=\"Helene Side Table #3\"><em>Helene Side Table<\/em><\/a><em> in Lichen and Cracked Gold.<\/em><\/p>",
-            "link": "",
-            "column_width": "6"
-          }
-        },
-        "d7c0ca64-37aa-4c0f-94a0-63d11980b3c1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/t-d.jpg",
-            "text": "<p><em>Detail of the Carriage Red and Cracked Gold glaze.<\/em><\/p>",
-            "link": "",
-            "column_width": "2"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__563a263e-986c-4474-a00f-0f1ce461d5de-16838826679f88d577-0",
-        "d7c0ca64-37aa-4c0f-94a0-63d11980b3c1"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "left",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "955ff7ac-77ad-44a0-b851-22ed65319720": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__955ff7ac-77ad-44a0-b851-22ed65319720-16838826679f88d577-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lamp-1-detail.jpg",
-            "text": "<p><em>Detail of the Cracked Gold and Sienna glaze.<\/em><\/p>",
-            "link": "",
-            "column_width": "2"
-          }
-        },
-        "template--16896431325398__955ff7ac-77ad-44a0-b851-22ed65319720-16838826679f88d577-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lamp-1.jpg",
-            "text": "<p><a href=\"\/products\/grace-table-lamp-2\" title=\"Grace Table Lamp #2\"><em>Grace Table Lamp<\/em><\/a><em> in Cracked Gold. The top of the lamp is glazed in Sienna, which pairs with the rust linen shade.<\/em><\/p>",
-            "link": "",
-            "column_width": "5"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__955ff7ac-77ad-44a0-b851-22ed65319720-16838826679f88d577-0",
-        "template--16896431325398__955ff7ac-77ad-44a0-b851-22ed65319720-16838826679f88d577-1"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "right",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1d51e179-7169-44a6-8d56-d1a1d5911e5a": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__1d51e179-7169-44a6-8d56-d1a1d5911e5a-16838826679f88d577-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lamp-2.jpg",
-            "text": "<p><a href=\"\/products\/grace-table-lamp-1\" title=\"Grace Table Lamp #1\"><em>Grace Table Lamp<\/em><\/a><em> in Cracked Gold. This time, however, both the top of the lamp and the shade are rendered in Ultramarine.<\/em><\/p>",
-            "link": "",
-            "column_width": "5"
-          }
-        },
-        "template--16896431325398__1d51e179-7169-44a6-8d56-d1a1d5911e5a-16838826679f88d577-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lamp-2-detail.jpg",
-            "text": "<p><em>Detail of the Cracked Gold and Ultramarine glaze.<\/em><\/p>",
-            "link": "",
-            "column_width": "2"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__1d51e179-7169-44a6-8d56-d1a1d5911e5a-16838826679f88d577-0",
-        "template--16896431325398__1d51e179-7169-44a6-8d56-d1a1d5911e5a-16838826679f88d577-1"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "left",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "39a52e72-3aaf-4dee-a345-771f616955c1": {
-      "type": "arrow-spacer",
-      "custom_css": [
-        ".arrow-wrapper {background-color: #ffffff; padding: 2rem 0; border-bottom: 1px solid black; margin-bottom: 6rem;}",
-        ".arrow {display: none;}"
-      ],
-      "settings": {
-        "arrow_position": "left",
-        "arrow_orientation": "point-left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "27e213bc-58f6-4e69-a929-302c1f203b10": {
-      "type": "lb-collection-intro",
-      "blocks": {
-        "template--16896431325398__27e213bc-58f6-4e69-a929-302c1f203b10-1683849994cb631645-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>COLLECTION 3<br\/><br\/>The power of an introduction is not to be underestimated. For the Californian sculptor JB Blunk, it was a chance meeting with Isamu Noguchi, who subsequently introduced him to the renowned Japanese potters Kitaōji Rosanjin and Kaneshige Toyo, as well as surrealist painter and eventual patron Gordon Onslow-Ford. All influential figures that shifted his creative perspective.<br\/><br\/>For us, it was the introduction to Blunk’s work by a close friend and client. Everything Blunk did, from his wood burl sculptures to his cups and plates, to the house he built for his family, sought to express the spirit of the material that he was working with. If a pot decided to buckle as it dried, he left it. If a wood burl curved a certain way as it was carved, he embraced it.<br\/><br\/>The lamps and vases that form this collection are an homage to Blunk’s approach. Pendants and torchieres in rich, deep glazes, look as if they’ve experienced a beautiful wobble while on the wheel. While the totemic floor and table lamps, with their repeating kit of parts, have been glazed to enhance the clay’s subtle textures. Figurative yet abstract, they are a new way of looking at our familiar forms.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__27e213bc-58f6-4e69-a929-302c1f203b10-1683849994cb631645-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/c-3-intro.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "2d479ab1-31d5-42a3-adfa-4549ad3f3a19": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__2d479ab1-31d5-42a3-adfa-4549ad3f3a19-16838826679f88d577-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/c-i-5.jpg",
-            "text": "<p><em>JB Blunk honing his craft at the studio of Living National Treasure, Toyo Kaneshige, in 1952.<\/em><\/p>",
-            "link": "",
-            "column_width": "2"
-          }
-        },
-        "template--16896431325398__2d479ab1-31d5-42a3-adfa-4549ad3f3a19-16838826679f88d577-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/c-i-2.jpg",
-            "text": "<p><em>Three views on ‘Column #5’ (1982), a sculpture made from redwood that has been stained black with shoe polish.<\/em><\/p>",
-            "link": "",
-            "column_width": "2"
-          }
-        },
-        "template--16896431325398__2d479ab1-31d5-42a3-adfa-4549ad3f3a19-16838826679f88d577-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/c-i-1.jpg",
-            "text": "<p><em>Two of Blunk’s ceramics from 1953, both highlighting the natural textures and aberrations that he preserved in his pieces.<\/em><\/p>",
-            "link": "",
-            "column_width": "4"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__2d479ab1-31d5-42a3-adfa-4549ad3f3a19-16838826679f88d577-0",
-        "template--16896431325398__2d479ab1-31d5-42a3-adfa-4549ad3f3a19-16838826679f88d577-1",
-        "template--16896431325398__2d479ab1-31d5-42a3-adfa-4549ad3f3a19-16838826679f88d577-2"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "left",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "3d4b5043-751b-46ac-bd21-60065a44633c": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__3d4b5043-751b-46ac-bd21-60065a44633c-16838826679f88d577-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pendants.jpg",
-            "text": "<p><a href=\"\/products\/bizen-pendant\" title=\"Bizen Pendant\"><em>Bizen Pendant<\/em><\/a><em> in Verdigris<\/em><\/p>",
-            "link": "",
-            "column_width": "4"
-          }
-        },
-        "template--16896431325398__3d4b5043-751b-46ac-bd21-60065a44633c-16838826679f88d577-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vases.jpg",
-            "text": "<p><em>From left to right, the Bizen Vase in Verdigris, the <\/em><a href=\"\/products\/bizen-torchiere-2\" title=\"Bizen Torchiere #2\"><em>Bizen Torchiere<\/em><\/a><em> in Matte-Black and Lead, and the <\/em><a href=\"\/products\/bizen-torchiere-1\" title=\"Bizen Torchiere #1\"><em>Bizen Torchiere<\/em><\/a><em> in Walnut and Chalk.<\/em><\/p>",
-            "link": "",
-            "column_width": "4"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__3d4b5043-751b-46ac-bd21-60065a44633c-16838826679f88d577-0",
-        "template--16896431325398__3d4b5043-751b-46ac-bd21-60065a44633c-16838826679f88d577-1"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "left",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "d7952b57-3d7b-4051-a1c6-21f686322ef5": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__d7952b57-3d7b-4051-a1c6-21f686322ef5-16838826679f88d577-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/multiple.jpg",
-            "text": "<p><em>From left to right, the <\/em><a href=\"\/products\/dyad-table-lamp-1\" title=\"Dyad Table Lamp #1\"><em>Dyad #1 Table Lamp<\/em><\/a><em> in Parchment, the <\/em><a href=\"\/products\/dyad-table-lamp-2\" title=\"Dyad Table Lamp #2\"><em>Dyad #2 Table Lam<\/em><\/a><em>p in Parchment, the Dyad #2 Vase in Chalk, and the <\/em><a href=\"\/products\/tetrad-floor-lamp\" title=\"Tetrad Floor Lamp\"><em>Tetrad Floor Lamp<\/em><\/a><em> in Parchment and Chalk.<\/em><\/p>",
-            "link": "",
-            "column_width": "7"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__d7952b57-3d7b-4051-a1c6-21f686322ef5-16838826679f88d577-0"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "right",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "fda1113f-df69-454a-bee0-29a68e405687": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__fda1113f-df69-454a-bee0-29a68e405687-16838826679f88d577-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lamp-c3-process.jpg",
-            "text": "<p><em>The Dyad and Tetrad pieces are composed of a kit of parts that are fired separately and then stacked one on top of the other to create their totemic forms.<\/em><\/p>",
-            "link": "",
-            "column_width": "4"
-          }
-        },
-        "template--16896431325398__fda1113f-df69-454a-bee0-29a68e405687-16838826679f88d577-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lamp-c3-1.jpg",
-            "text": "<p><a href=\"\/products\/dyad-table-lamp-1\" title=\"Dyad Table Lamp #1\"><em>Dyad #1 Table Lamp<\/em><\/a><em> in Parchment<\/em><\/p>",
-            "link": "",
-            "column_width": "2"
-          }
-        },
-        "template--16896431325398__fda1113f-df69-454a-bee0-29a68e405687-16838826679f88d577-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lamp-c3-2.jpg",
-            "text": "<p><a href=\"\/products\/dyad-table-lamp-2\" title=\"Dyad Table Lamp #2\"><em>Dyad #2 Table Lamp<\/em><\/a><em> in Parchment<\/em><\/p>",
-            "link": "",
-            "column_width": "2"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__fda1113f-df69-454a-bee0-29a68e405687-16838826679f88d577-2",
-        "template--16896431325398__fda1113f-df69-454a-bee0-29a68e405687-16838826679f88d577-0",
-        "template--16896431325398__fda1113f-df69-454a-bee0-29a68e405687-16838826679f88d577-1"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "left",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "30ffc5d4-6f8f-4baf-acf4-24184af314c1": {
-      "type": "lookbook-section-1",
-      "blocks": {
-        "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lamp-c3-3.jpg",
-            "text": "<p><a href=\"\/products\/blunk-table-lamp\" title=\"Blunk Table Lamp\"><em>Blunk Table Lamp<\/em><\/a><em> in Lichen<\/em><\/p>",
-            "link": "",
-            "column_width": "5"
-          }
-        },
-        "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lamp-c3-3-process.jpg",
-            "text": "<p><em>The Lichen glaze is repeatedly poured over the lamp’s surface to build up the pebbled texture, which is created by flecks of copper oxidizing in the kiln. <\/em><\/p>",
-            "link": "",
-            "column_width": "2"
-          }
-        },
-        "e3dc537c-c864-4dbd-b4a6-21eddf753298": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lamp-c3-4.jpg",
-            "text": "<p><em>From left to right: the <\/em><a href=\"\/products\/triad-floor-lamp\" title=\"Triad Floor Lamp\"><em>Triad Floor Lamp<\/em><\/a><em> in Matte-Black and Bottle Green, the Dyad #1 Vase in Matte-Black, and the <\/em><a href=\"\/products\/tetrad-floor-lamp\" title=\"Tetrad Floor Lamp\"><em>Tetrad Floor Lamp<\/em><\/a><em> in Parchment and Chalk<\/em><\/p>",
-            "link": "",
-            "column_width": "4"
-          }
-        },
-        "919b6fde-7481-486d-ae55-28ed961ca31d": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lamp-c3-5.jpg",
-            "text": "<p><a href=\"\/products\/triad-floor-lamp\" title=\"Triad Floor Lamp\"><em>Triad Floor Lamp<\/em><\/a><em> in Matte-Black and Bottle Green<\/em><\/p>",
-            "link": "",
-            "column_width": "4"
-          }
-        }
-      },
-      "block_order": [
-        "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-1",
-        "template--16896431325398__30ffc5d4-6f8f-4baf-acf4-24184af314c1-1683896370e9922eb2-0",
-        "e3dc537c-c864-4dbd-b4a6-21eddf753298",
-        "919b6fde-7481-486d-ae55-28ed961ca31d"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "grid_align": "right",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
@@ -832,23 +301,7 @@
     "6d259591-db0d-4d09-9591-908211e8d00a",
     "d76f4e2a-71b9-420c-95e8-7d9d9739b428",
     "727e0a25-236e-4b9f-bc68-682507b60924",
-    "27ec7d79-7dda-4a72-b354-f75b4c8e5394",
-    "aab1327d-8941-4e11-8a82-579c7e517530",
-    "6a4a299f-b533-4cac-a4d0-9e3e928df349",
-    "3486dacd-c4de-4edc-be4e-8f5276d5bc38",
-    "f33f18b2-962a-426c-9360-cdc2a364ab8d",
-    "8ee35bbc-260d-4fee-9696-0448099c8344",
-    "8a9083f1-24c6-4581-bd5c-4b126d41173e",
-    "1b371977-dc05-4e8f-bbb8-4f75b6930c56",
-    "563a263e-986c-4474-a00f-0f1ce461d5de",
-    "955ff7ac-77ad-44a0-b851-22ed65319720",
-    "1d51e179-7169-44a6-8d56-d1a1d5911e5a",
-    "39a52e72-3aaf-4dee-a345-771f616955c1",
-    "27e213bc-58f6-4e69-a929-302c1f203b10",
-    "2d479ab1-31d5-42a3-adfa-4549ad3f3a19",
-    "3d4b5043-751b-46ac-bd21-60065a44633c",
-    "d7952b57-3d7b-4051-a1c6-21f686322ef5",
-    "fda1113f-df69-454a-bee0-29a68e405687",
-    "30ffc5d4-6f8f-4baf-acf4-24184af314c1"
+    "c4e11c35-1039-4088-b1ef-1d2eaa7d5f2d",
+    "ec478967-97df-4e5f-a1a6-c5c230f6312c"
   ]
 }
