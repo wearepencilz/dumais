@@ -14,19 +14,19 @@
         "template--16833782218966__f89ac943-fdea-4404-bf9f-b17f8506b93c-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "collection-1-2023"
           }
         },
         "template--16833782218966__f89ac943-fdea-4404-bf9f-b17f8506b93c-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "collection-1-2023"
           }
         },
         "template--16833782218966__f89ac943-fdea-4404-bf9f-b17f8506b93c-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "collection-1-2023"
           }
         }
       },
@@ -36,7 +36,7 @@
         "template--16833782218966__f89ac943-fdea-4404-bf9f-b17f8506b93c-featured_collection-3"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "Our latest collections",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
