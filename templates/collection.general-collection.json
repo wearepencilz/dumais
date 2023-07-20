@@ -32,8 +32,9 @@
         "template--16927600771286__9927c78f-c50b-4582-a2cb-f916954ed106-column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_332.jpg",
             "title": "Collection #1, 2023",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Inspired by Josef Alber & Anni Alber<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -41,8 +42,9 @@
         "template--16927600771286__9927c78f-c50b-4582-a2cb-f916954ed106-column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_49_c3c7fef3-93f0-4447-a757-f6c4a8b81f31.jpg",
             "title": "Collection #2, 2023",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Inspired by Mithé Espelt<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -50,8 +52,9 @@
         "template--16927600771286__9927c78f-c50b-4582-a2cb-f916954ed106-column-3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/c-3-intro.jpg",
             "title": "Collection #3, 2023",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Inspired by JB Blunk<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -63,12 +66,12 @@
         "template--16927600771286__9927c78f-c50b-4582-a2cb-f916954ed106-column-3"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "See our latest collections",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
