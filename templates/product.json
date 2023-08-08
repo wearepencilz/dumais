@@ -63,6 +63,7 @@
     },
     "36c26a4b-0512-494d-a8ff-3edc09a4fe63": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "From the Collection #1, 2023",
         "heading_size": "h2",
