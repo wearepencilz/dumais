@@ -57,22 +57,20 @@
     },
     "a9648925-98b5-4f17-a52e-0fa8a7d375b8": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--16833782251734__a9648925-98b5-4f17-a52e-0fa8a7d375b8-column-1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_332.jpg",
-            "title": "Collection #1, 2023",
-            "text": "<p>Inspired by Josef Alber & Anni Alber<\/p>",
-            "link_label": "View Collection",
+            "title": "",
+            "text": "",
+            "link_label": "View Collection #1",
             "link": "shopify:\/\/collections\/collection-1-2023"
           }
         },
         "template--16833782251734__a9648925-98b5-4f17-a52e-0fa8a7d375b8-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_49_e4bb931e-5a66-43a1-8b81-3c9d5abf7d88.jpg",
             "title": "Collection #2, 2023",
             "text": "<p>Inspired by Mithé Espelt<\/p>",
             "link_label": "",
@@ -114,7 +112,6 @@
     },
     "ae30e3d3-33fd-41d1-b998-081140660176": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--16833782251734__ae30e3d3-33fd-41d1-b998-081140660176-heading-1": {
           "type": "heading",
@@ -143,6 +140,7 @@
         "template--16833782251734__ae30e3d3-33fd-41d1-b998-081140660176-text-1",
         "template--16833782251734__ae30e3d3-33fd-41d1-b998-081140660176-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_207.jpg",
         "height": "medium",
