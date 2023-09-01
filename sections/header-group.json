@@ -4,6 +4,20 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "blocks": {
+        "8bfa3b26-7818-4bda-8fb4-f633ac195ce7": {
+          "type": "announcement",
+          "settings": {
+            "text": "The Summer Sale | Save 50% on In-Stock",
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8bfa3b26-7818-4bda-8fb4-f633ac195ce7"
+      ],
       "settings": {
       }
     },
