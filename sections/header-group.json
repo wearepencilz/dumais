@@ -11,12 +11,22 @@
             "text": "The Summer Sale | Save 50% on In-Stock",
             "text_alignment": "center",
             "color_scheme": "background-1",
+            "link": "shopify:\/\/collections\/in-stock"
+          }
+        },
+        "970c63ec-5324-47d4-9a05-8545e3ed919c": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
             "link": ""
           }
         }
       },
       "block_order": [
-        "8bfa3b26-7818-4bda-8fb4-f633ac195ce7"
+        "8bfa3b26-7818-4bda-8fb4-f633ac195ce7",
+        "970c63ec-5324-47d4-9a05-8545e3ed919c"
       ],
       "settings": {
       }
