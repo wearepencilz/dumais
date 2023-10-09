@@ -31,10 +31,16 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/web-Dumais_March_1_2023_142.jpg"
           }
+        },
+        "a871cbbb-5614-412d-9945-7a8c2b9c3719": {
+          "type": "image",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "f99e8aa0-5fcb-4c34-ab5f-f423e425dadd"
+        "f99e8aa0-5fcb-4c34-ab5f-f423e425dadd",
+        "a871cbbb-5614-412d-9945-7a8c2b9c3719"
       ],
       "settings": {
         "heading": "",
