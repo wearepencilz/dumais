@@ -6,7 +6,7 @@
         "template--16880504471766__8d508c01-db35-47d1-a2e7-d4d0761fb96a-1683301466eba354b4-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Come see us at ICFF + WantedDesign Manhattan May 21-23, Booth W1251.<\/p>",
+            "heading": "<p>Experience Our 2023 Collections at Shoppe Object High Point.<\/p>",
             "heading_size": "h1"
           }
         }
@@ -26,18 +26,6 @@
     "96762dfe-0343-448e-bfb2-df68af3514c0": {
       "type": "collage",
       "blocks": {
-        "template--16880504471766__96762dfe-0343-448e-bfb2-df68af3514c0-1680876493000b4aa7-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/web-Dumais_Made_Folding_Screen_5.jpg"
-          }
-        },
-        "eb28fc25-4784-402a-a981-e42bddc22a79": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/web-Dumais_Made_Torchiere_1.jpg"
-          }
-        },
         "f99e8aa0-5fcb-4c34-ab5f-f423e425dadd": {
           "type": "image",
           "settings": {
@@ -46,13 +34,11 @@
         }
       },
       "block_order": [
-        "template--16880504471766__96762dfe-0343-448e-bfb2-df68af3514c0-1680876493000b4aa7-0",
-        "eb28fc25-4784-402a-a981-e42bddc22a79",
         "f99e8aa0-5fcb-4c34-ab5f-f423e425dadd"
       ],
       "settings": {
         "heading": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
@@ -63,31 +49,6 @@
     },
     "b60a441b-4412-4100-8f59-60b149e209b7": {
       "type": "collage",
-      "blocks": {
-        "template--16880504471766__b60a441b-4412-4100-8f59-60b149e209b7-1683300104befb7290-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/web-Dumais_Made_Side_Table_3.jpg"
-          }
-        },
-        "9b875b8a-07a5-4c12-ada8-fb07aaec175b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/web-Dumais_Made_Portal_Mirror_1.jpg"
-          }
-        },
-        "9ff830d9-c1ec-44c5-81fd-4f1303682b6a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/web-Dumais_March_1_2023_321.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "template--16880504471766__b60a441b-4412-4100-8f59-60b149e209b7-1683300104befb7290-0",
-        "9b875b8a-07a5-4c12-ada8-fb07aaec175b",
-        "9ff830d9-c1ec-44c5-81fd-4f1303682b6a"
-      ],
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -105,14 +66,14 @@
         "template--16880504471766__bf11ecf4-e193-4260-82b2-eb804c321a33-168087618759e02ed6-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Sign up to receive previews of our new collections for ICFF + WantedDesign Manhattan.<\/p>",
+            "heading": "<p>Sign up for news and collection previews.<\/p>",
             "heading_size": "h1"
           }
         },
         "template--16880504471766__bf11ecf4-e193-4260-82b2-eb804c321a33-168087618759e02ed6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>WantedDesign Manhattan takes place in conjunction with the International Contemporary Furniture Fair (ICFF) at the Javits Center. The next edition will be held May 21-23, 2023.<\/p>"
+            "text": "<p><em>Visit us at<\/em><br\/>Historic Market Square, Third Floor<br\/>Showrooms MS 330, 348<br\/>SO Booth 1317\/1319<\/p>"
           }
         }
       },
@@ -174,7 +135,6 @@
     },
     "b5312627-67aa-4640-8117-4a6d2dca5640": {
       "type": "page-intro-section",
-      "disabled": true,
       "blocks": {
         "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-0": {
           "type": "heading",
@@ -193,6 +153,7 @@
         "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-0",
         "template--16834058191062__b5312627-67aa-4640-8117-4a6d2dca5640-1674677405316e6cf5-1"
       ],
+      "disabled": true,
       "settings": {
         "height": "adapt",
         "desktop_image_width": "medium",
