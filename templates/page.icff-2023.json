@@ -120,7 +120,7 @@
         "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-1": {
           "type": "text",
           "settings": {
-            "text": "<p>More about WantedDesign Manhattan here<\/p>"
+            "text": ""
           }
         },
         "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-2": {
@@ -139,6 +139,7 @@
         "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-1",
         "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-2"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
