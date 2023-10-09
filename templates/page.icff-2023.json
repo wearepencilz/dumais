@@ -108,10 +108,10 @@
     "3f3bbccc-88b5-4c43-8651-13fde18c35bd": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-TtewNB\"><\/div>",
+        "custom_liquid": "<div class=\"klaviyo-form-XSSdvu\"><\/div>",
         "color_scheme": "background-1",
         "padding_top": 0,
-        "padding_bottom": 20
+        "padding_bottom": 0
       }
     },
     "277e339a-36b8-4326-a692-c014ebb5d2e6": {
