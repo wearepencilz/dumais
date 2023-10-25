@@ -38,7 +38,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/process-illustration.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "large",
         "padding_top": 36,
         "padding_bottom": 36
       }
