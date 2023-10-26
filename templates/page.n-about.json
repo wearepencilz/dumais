@@ -150,6 +150,7 @@
       "block_order": [
         "template--16835143008470__8b1b2a47-5c11-4753-9b9a-fbd2e322ad22-1676291597a83045cc-0"
       ],
+      "disabled": true,
       "settings": {
         "image_width": "full",
         "image_ratio": "adapt",
@@ -162,26 +163,9 @@
         "padding_bottom": 36
       }
     },
-    "079fb80a-0cec-4096-bac2-b31fcaa3d643": {
-      "type": "arrow-spacer",
-      "settings": {
-        "arrow_position": "left",
-        "arrow_orientation": "point-right",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "bc669f1a-31b5-43ea-8688-cbe4d20dac9f": {
       "type": "image-multicolumn",
       "blocks": {
-        "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/about-n-4.jpg",
-            "text": "<p>Claire, the studio’s production coordinator carefully preparing the parts of a Washington Lamp.<\/p>",
-            "image_offset": "no-offset"
-          }
-        },
         "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-1": {
           "type": "column",
           "settings": {
@@ -189,11 +173,19 @@
             "text": "",
             "image_offset": "small-offset"
           }
+        },
+        "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-n-4.jpg",
+            "text": "<p>Claire, the studio’s production coordinator carefully preparing the parts of a Washington Lamp.<\/p>",
+            "image_offset": "no-offset"
+          }
         }
       },
       "block_order": [
-        "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-0",
-        "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-1"
+        "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-1",
+        "template--16835143008470__bc669f1a-31b5-43ea-8688-cbe4d20dac9f-16747810769e45c926-0"
       ],
       "settings": {
         "image_width": "full",
@@ -207,8 +199,18 @@
         "padding_bottom": 100
       }
     },
+    "079fb80a-0cec-4096-bac2-b31fcaa3d643": {
+      "type": "arrow-spacer",
+      "settings": {
+        "arrow_position": "left",
+        "arrow_orientation": "point-right",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "94c69ae8-25e0-4649-872b-a8204ab93a10": {
       "type": "arrow-spacer",
+      "disabled": true,
       "settings": {
         "arrow_position": "right",
         "arrow_orientation": "point-left",
@@ -276,8 +278,8 @@
     "7f6c913e-0f3e-4882-91b1-b416afbc4806",
     "5046cb9f-f2f0-4f59-95e0-81fa28aab110",
     "8b1b2a47-5c11-4753-9b9a-fbd2e322ad22",
-    "079fb80a-0cec-4096-bac2-b31fcaa3d643",
     "bc669f1a-31b5-43ea-8688-cbe4d20dac9f",
+    "079fb80a-0cec-4096-bac2-b31fcaa3d643",
     "94c69ae8-25e0-4649-872b-a8204ab93a10",
     "600361f3-b4c4-4b39-a4c2-152510393812",
     "f0249db5-795d-4484-86d0-0b7f12535b00"
