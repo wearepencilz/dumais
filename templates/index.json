@@ -277,10 +277,10 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/ColumnEdition2Lamp6_cfb6255d-cdbe-43a0-803e-406bed86d113.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-right",
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
         "show_text_box": true,
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "color_scheme": "background-2",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
