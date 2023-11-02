@@ -25,6 +25,13 @@
           "settings": {
           }
         },
+        "f76da53f-246e-4baf-9776-d00e047558cd": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.lead_times | metafield_text }}",
+            "text_style": "uppercase"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -43,6 +50,7 @@
         "price",
         "caption",
         "description",
+        "f76da53f-246e-4baf-9776-d00e047558cd",
         "variant_picker",
         "buy_buttons"
       ],
@@ -114,7 +122,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h5>MATERIALS<\/h5>",
+            "text": "<h5>MATERIALS<\/h5><h5>Ceramic, Antique brass, Linen<\/h5>",
             "link_label": "",
             "link": ""
           }
@@ -123,7 +131,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h5>BULB<\/h5>",
+            "text": "<h5>BULB<\/h5><h5>75-watt frosted incandescent bulb included (120 volt, E26 base, A19 shape)<\/h5>",
             "link_label": "",
             "link": ""
           }
@@ -136,12 +144,22 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "adaf8a00-df2d-48b9-bdcf-df8f80cc96a6": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>LEAD TIMES<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--17062181142742__976ba69d-70b9-4b33-9e34-6b7dabed5f77-column-1",
         "template--17062181142742__976ba69d-70b9-4b33-9e34-6b7dabed5f77-column-2",
-        "template--17062181142742__976ba69d-70b9-4b33-9e34-6b7dabed5f77-column-3"
+        "template--17062181142742__976ba69d-70b9-4b33-9e34-6b7dabed5f77-column-3",
+        "adaf8a00-df2d-48b9-bdcf-df8f80cc96a6"
       ],
       "settings": {
         "title": "",
@@ -151,7 +169,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
