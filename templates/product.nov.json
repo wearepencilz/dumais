@@ -140,16 +140,17 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h5>OVERALL DIMENSIONS<\/h5>",
+            "text": "<h5>OVERALL DIMENSIONS<\/h5><h5>8.5\" D x 18.5\" H<br\/><\/h5>",
             "link_label": "",
             "link": ""
           }
         },
         "adaf8a00-df2d-48b9-bdcf-df8f80cc96a6": {
           "type": "column",
+          "disabled": true,
           "settings": {
-            "title": "Column",
-            "text": "<p>LEAD TIMES<\/p>",
+            "title": "",
+            "text": "<h5>LEAD TIMES<\/h5>",
             "link_label": "",
             "link": ""
           }
