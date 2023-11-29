@@ -11,14 +11,21 @@
     "087ff8b0-df6b-42cd-bff0-9c686e01ab93": {
       "type": "page-intro-section",
       "blocks": {
+        "d37e6280-721a-4fac-a78c-dcdcaa94c1fe": {
+          "type": "heading",
+          "settings": {
+            "heading": "SHOWROOM"
+          }
+        },
         "template--16833782186198__087ff8b0-df6b-42cd-bff0-9c686e01ab93-16750992892440aa63-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Contact Us<br\/><a href=\"mailto:info@dumaismade.com\" target=\"_blank\" title=\"mailto:info@dumaismade.com\">studio@dumaismade.com<\/a><br\/><br\/><br\/>Custom Pieces<br\/><a href=\"mailto:custom@dumaismade.com\" target=\"_blank\" title=\"mailto:custom@dumaismade.com\">custom@dumaismade.com<\/a><br\/><br\/><br\/>Follow us<br\/><a href=\"https:\/\/www.instagram.com\/dumais_made\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/dumais_made\/\">@dumais_made<\/a><\/p><p><br\/><\/p><p>931 Bantam Road<br\/>Bantam, CT 06750<br\/>+1-860-361-6830<\/p>"
+            "text": "<p><em>Visiting Address<br\/><\/em>931 Bantam Road<br\/>Bantam, CT 06750<\/p><p><em>Phone<br\/><\/em>+1-860-361-6830<\/p><p><em>General Inquiries<br\/><\/em><a href=\"mailto:studio@dumaismade.com\" target=\"_blank\" title=\"mailto:studio@dumaismade.com\">studio@dumaismade.com<\/a><\/p><p><em>Custom Inquiries<br\/><\/em><a href=\"mailto:custom@dumaismade.com\" target=\"_blank\" title=\"mailto:custom@dumaismade.com\">custom@dumaismade.com<\/a><\/p><p><em>Follow<br\/><\/em>@dumais_made<\/p>"
           }
         }
       },
       "block_order": [
+        "d37e6280-721a-4fac-a78c-dcdcaa94c1fe",
         "template--16833782186198__087ff8b0-df6b-42cd-bff0-9c686e01ab93-16750992892440aa63-1"
       ],
       "custom_css": [
@@ -40,11 +47,40 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "18fae9d0-80e7-462e-b545-bf5e95d62304": {
+      "type": "page-intro-section",
+      "blocks": {
+        "template--16833782186198__18fae9d0-80e7-462e-b545-bf5e95d62304-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "The headlione of the section"
+          }
+        },
+        "template--16833782186198__18fae9d0-80e7-462e-b545-bf5e95d62304-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Visiting Address<br\/><\/em>931 Bantam Road<br\/>Bantam, CT 06750<\/p><p><em>Phone<br\/><\/em>+1-860-361-6830<\/p><p><em>General Inquiries<br\/><\/em><a href=\"mailto:studio@dumaismade.com\" target=\"_blank\" title=\"mailto:studio@dumaismade.com\">studio@dumaismade.com<\/a><\/p><p><em>Custom Inquiries<br\/><\/em><a href=\"mailto:custom@dumaismade.com\" target=\"_blank\" title=\"mailto:custom@dumaismade.com\">custom@dumaismade.com<\/a><\/p><p><em>Follow<br\/><\/em>@dumais_made<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16833782186198__18fae9d0-80e7-462e-b545-bf5e95d62304-heading-1",
+        "template--16833782186198__18fae9d0-80e7-462e-b545-bf5e95d62304-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "087ff8b0-df6b-42cd-bff0-9c686e01ab93",
-    "d980092b-67ea-4a88-9534-c5ab76222f7f"
+    "d980092b-67ea-4a88-9534-c5ab76222f7f",
+    "18fae9d0-80e7-462e-b545-bf5e95d62304"
   ]
 }
