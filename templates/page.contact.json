@@ -32,7 +32,7 @@
         ".page-intro-section-wrapper {max-height: none !important;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/contact.jpg",
+        "image": "shopify:\/\/shop_images\/231116_Contact_Visit_Us.v2.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "padding_top": 36,
@@ -53,14 +53,15 @@
       "blocks": {
         "template--16833782186198__18fae9d0-80e7-462e-b545-bf5e95d62304-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "The headlione of the section"
+            "heading": ""
           }
         },
         "template--16833782186198__18fae9d0-80e7-462e-b545-bf5e95d62304-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Visiting Address<br\/><\/em>931 Bantam Road<br\/>Bantam, CT 06750<\/p><p><em>Phone<br\/><\/em>+1-860-361-6830<\/p><p><em>General Inquiries<br\/><\/em><a href=\"mailto:studio@dumaismade.com\" target=\"_blank\" title=\"mailto:studio@dumaismade.com\">studio@dumaismade.com<\/a><\/p><p><em>Custom Inquiries<br\/><\/em><a href=\"mailto:custom@dumaismade.com\" target=\"_blank\" title=\"mailto:custom@dumaismade.com\">custom@dumaismade.com<\/a><\/p><p><em>Follow<br\/><\/em>@dumais_made<\/p>"
+            "text": "<p><em>General Inquiries<br\/><\/em><a href=\"mailto:studio@dumaismade.com\" target=\"_blank\" title=\"mailto:studio@dumaismade.com\">studio@dumaismade.com<\/a><\/p><p><em>Custom Inquiries<br\/><\/em><a href=\"mailto:custom@dumaismade.com\" target=\"_blank\" title=\"mailto:custom@dumaismade.com\">custom@dumaismade.com<\/a><\/p><p><em>Follow<br\/><\/em>@dumais_made<\/p>"
           }
         }
       },
@@ -68,11 +69,10 @@
         "template--16833782186198__18fae9d0-80e7-462e-b545-bf5e95d62304-heading-1",
         "template--16833782186198__18fae9d0-80e7-462e-b545-bf5e95d62304-text-1"
       ],
-      "disabled": true,
       "settings": {
         "height": "adapt",
         "desktop_image_width": "medium",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     }
