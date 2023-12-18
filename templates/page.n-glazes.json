@@ -233,6 +233,7 @@
         },
         "78af8071-d5ba-4464-aff7-31eb1187da5b": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Turnier_Lead_Hide_900x_jpg.webp",
             "text": "<p>Hide & Lead Turnier Lamp<\/p><p><\/p>",
@@ -338,6 +339,7 @@
         },
         "template--16834058092758__a7959cef-6d82-4121-acc7-fc6d850b80fd-167552411649bf7293-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/5_2e689689-dd23-42f8-809d-369f0ebc68b1_900x_jpg.webp",
             "text": "<p>Dipped Lichen Prospect Heights Lamp<\/p>",
@@ -418,6 +420,7 @@
         },
         "template--16834058092758__306e96f9-d9b0-4b35-a4c9-3e728ac4de69-167552411649bf7293-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Mattituck_Matte-Black_Navy_900x_jpg.webp",
             "text": "<p>Matte-Black & Navy Mattituck Lamp<\/p>",
@@ -630,6 +633,7 @@
         },
         "7f972546-c12d-4629-8197-9b0e0a694d62": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/5_900x_jpg.webp",
             "text": "<p>Ochre & Parchment Gowanus Lamp<\/p>",
@@ -805,6 +809,7 @@
       "blocks": {
         "template--16834058092758__805ae172-8fc1-4480-b85e-2e4f175e2f3d-167552411649bf7293-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/verd-1_900x_jpg.webp",
             "text": "<p>Dipped Verdigris Liberty Vase<\/p>",
