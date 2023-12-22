@@ -232,7 +232,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/231220_Process_DM_Studio_2.jpg",
             "caption": "",
-            "heading": "A modernist take on ceramic lighting and furniture.",
+            "heading": "<em>A modernist take on ceramic lighting and furniture.<\/em>",
             "text": "<h6><a href=\"\/products\/portal-mirror\" title=\"Portal Mirror\">THE PORTAL MIRROR &gt;<\/a><\/h6>",
             "button_label": "",
             "button_link": ""
@@ -266,7 +266,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/231220_Glaze_DM_Studio_2.jpg",
             "caption": "",
-            "heading": "Handmade with care and delight in Litchfield.",
+            "heading": "<em>Handmade with care and delight in Litchfield.<\/em>",
             "text": "<h6><a href=\"\/products\/dyad-floor-lamp\" title=\"Dyad Floor Lamp\">THE DYAD FLOOR LAMP &gt;<\/a><\/h6>",
             "button_label": "",
             "button_link": ""
@@ -283,7 +283,7 @@
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "image_layout": "alternate-right",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
@@ -300,7 +300,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/231220_Bizen_3.jpg",
             "caption": "",
-            "heading": "For illuminating the everyday, in-between moments.",
+            "heading": "<em>For illuminating the everyday, in-between moments.<\/em>",
             "text": "<h6><a href=\"\/products\/bizen-pendant\" title=\"Bizen Pendant\">THE BIZEN PENDANT &gt;<\/a><\/h6>",
             "button_label": "",
             "button_link": ""
@@ -317,11 +317,11 @@
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "image_layout": "alternate-left",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 52
       }
