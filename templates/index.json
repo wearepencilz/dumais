@@ -111,7 +111,7 @@
           "type": "featured_collection",
           "settings": {
             "image": "shopify:\/\/shop_images\/231221_Mirror.jpg",
-            "image_link": "",
+            "image_link": "shopify:\/\/collections\/mirrors",
             "title": "Mirrors >"
           }
         }
@@ -311,7 +311,7 @@
         "template--16833782251734__7a545dbc-cb3d-48da-923a-aa305fed98d9-row-1"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
