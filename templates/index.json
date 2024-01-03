@@ -253,7 +253,7 @@
         "image_layout": "alternate-left",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -287,7 +287,7 @@
         "image_layout": "alternate-right",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
