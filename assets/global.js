@@ -795,6 +795,7 @@ class VariantSelects extends HTMLElement {
   constructor() {
     super();
     this.addEventListener('change', this.onVariantChange);
+    this.replaceVariants();
   }
 
   onVariantChange() {
@@ -950,7 +951,7 @@ class VariantSelects extends HTMLElement {
       if (text) addButtonText.textContent = text;
     } else {
       addButton.removeAttribute('disabled');
-      addButtonText.textContent = window.variantStrings.addToCart;
+      if (!addButton.dataset.made) {addButtonText.textContent = window.variantStrings.addToCart;}
     }
 
     if (!modifyClass) return;
@@ -974,6 +975,59 @@ class VariantSelects extends HTMLElement {
   getVariantData() {
     this.variantData = this.variantData || JSON.parse(this.querySelector('[type="application/json"]').textContent);
     return this.variantData;
+  }
+
+  replaceVariants() {
+    var VariantSelect = this
+    this.querySelectorAll('select.select__select').forEach(function (el) {
+      const customSelect = document.createElement('div'),
+            customActive = document.createElement('div'),
+            select = el,
+            container = select.parentElement;
+        var customOptions = [];
+  
+        select.classList.add('s-hidden');
+        customSelect.classList.add('CustomSelect');
+        customActive.classList.add('CustomActive','select__select');
+        container.appendChild(customSelect);
+        container.appendChild(customActive);
+
+        Array.from(select.options).forEach(function(option) {
+          if (option.value) {
+            let customOption = document.createElement('div');
+            customOption.classList.add('SelectOption','select__select');
+            customOption.dataset.option = option.value;
+            customOption.innerHTML = option.value;
+            customOptions.push(customOption);
+            customSelect.appendChild(customOption);
+          }
+          if(option.selected) {
+            customActive.dataset.option = option.value;
+            customActive.innerHTML = option.value;
+          }
+        })
+
+        container.addEventListener("click",function(trigger) {
+          if(trigger.target === customActive ) {
+            customActive.classList.toggle('s-hidden');
+            container.classList.toggle('is-open');
+          } else if (trigger.target.classList.contains('SelectOption')) {
+            select.value = trigger.target.innerHTML
+            select.querySelector(`option[value="${trigger.target.innerHTML}"]`).selected = true;
+            customActive.dataset.option = trigger.target.innerHTML;
+            customActive.innerHTML = trigger.target.innerHTML;
+            VariantSelect.dispatchEvent(new Event('change'));
+            container.classList.toggle('is-open');
+            customActive.classList.toggle('s-hidden');
+          }
+        })
+        document.addEventListener("click",function(trigger) {
+          if (trigger.target !== customActive && !trigger.target.classList.contains('SelectOption') && container.classList.contains('is-open')) {
+            customActive.classList.toggle('s-hidden');
+            container.classList.toggle('is-open');
+          }
+        })
+    })
   }
 }
 

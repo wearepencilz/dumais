@@ -193,11 +193,16 @@ variant-selects {
 }
 
 .product-form__input label{
-  display: none;
+  font-size: 1.35rem;
+  color: #7E7E80;
 }
 
 .product-form__input--dropdown {
   margin-bottom: 0.75rem;
+}
+
+.product-form__input--dropdown:last-of-type {
+  margin-bottom: 3rem;
 }
 
 .product-form__input .form__label {
@@ -297,7 +302,8 @@ fieldset.product-form__input .form__label {
   box-shadow: none;
 }
 
-.product-form__input .select {
+.product-form__input .select,
+.view-glazes-wrapper {
   max-width: 25rem;
 }
 
@@ -305,6 +311,9 @@ fieldset.product-form__input .form__label {
   margin-bottom: 0.75rem;
   /* border: 1px solid black; */
   background: #FBFBFF;
+}
+.product-form__submit .MTP__date {
+  font-size: 1.35rem;
 }
 
 .product-form__submit:hover{
@@ -1517,7 +1526,8 @@ a.product__text {
     max-width: 44rem !important;
 }
 
-.product-form__input .select {
+.product-form__input .select,
+.view-glazes-wrapper {
     max-width: 44rem !important;
     background: #FBFBFF;
 }
@@ -1528,10 +1538,7 @@ a.product__text {
 
 .view-glazes-wrapper{
   margin-bottom: 1rem;
-}
-
-.view-glazes-wrapper:nth-child(4){
-  display: none;
+  text-align: right;
 }
 
 .view-glazes{
@@ -1542,4 +1549,25 @@ a.product__text {
 
 .view-glazes:hover{
   color: black;
+}
+
+.product__availabilities--wrapper {
+  max-width: 450px;
+  padding-bottom: 2.5rem;
+}
+.product__availabilities--label {
+  font-size: 1.35rem;
+  color: #7e7e80;
+}
+.product__availabilities--notify {
+  font-size: 1.35rem;
+  background-color: #ededed;
+  padding: 8px;
+}
+.product__availabilities--notify:first-child {
+  margin-right: 15px;
+}
+.product__availabilities--notify.active {
+  background-color: black;
+  color: white;
 }

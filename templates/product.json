@@ -13,6 +13,11 @@
           "settings": {
           }
         },
+        "delivery_time_Qz9bHa": {
+          "type": "delivery_time",
+          "settings": {
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -22,6 +27,11 @@
         },
         "description": {
           "type": "description",
+          "settings": {
+          }
+        },
+        "availability_bYfynA": {
+          "type": "availability",
           "settings": {
           }
         },
@@ -41,8 +51,10 @@
       "block_order": [
         "title",
         "price",
+        "delivery_time_Qz9bHa",
         "caption",
         "description",
+        "availability_bYfynA",
         "variant_picker",
         "buy_buttons"
       ],

@@ -36,10 +36,131 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "custom-options": {
+      "type": "custom-options-group",
+      "blocks": {
+        "ed6dfd62-40f0-48e8-b52b-434b6cc1eb5b": {
+          "type": "text",
+          "settings": {
+            "text": "Verdigris glaze",
+            "swatchImage": "shopify:\/\/shop_images\/2312_Verdigris.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "db54c423-e02b-4aa9-bdc1-20dcb8b129d8": {
+          "type": "text",
+          "settings": {
+            "text": "Bottle Green glaze",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "9a6bd1df-e2b2-4470-8750-420e7db56c38": {
+          "type": "text",
+          "settings": {
+            "text": "Carriage-red glaze",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "afffdf4f-6709-416d-8f1d-16123ded8f55": {
+          "type": "text",
+          "settings": {
+            "text": "Chalk glaze",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "9bda10bb-1870-48d9-81e2-98f8a560393b": {
+          "type": "text",
+          "settings": {
+            "text": "Hide glaze",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "746c2bae-155f-42f8-8591-dbc7c21707f6": {
+          "type": "text",
+          "settings": {
+            "text": "Lead glaze",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "7aeffd4b-b319-4319-b3c5-d9750ad70053": {
+          "type": "text",
+          "settings": {
+            "text": "Matte-black glaze",
+            "swatchImage": "shopify:\/\/shop_images\/2312_Matte_Black.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "b459890a-67b5-44e0-87ac-8e745b8d25f4": {
+          "type": "text",
+          "settings": {
+            "text": "Mushroom glaze",
+            "swatchImage": "shopify:\/\/shop_images\/2312_Mushroom.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "e8816437-7d11-4406-b39f-59fe0cf45cab": {
+          "type": "text",
+          "settings": {
+            "text": "Navy glaze",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "163b279e-c59f-4815-9e7c-b2e5d04aa76d": {
+          "type": "text",
+          "settings": {
+            "text": "Ochre glaze",
+            "swatchImage": "shopify:\/\/shop_images\/2312_Ochre.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "73b7e841-1919-41dc-a0b1-d5a21fd3ecc0": {
+          "type": "text",
+          "settings": {
+            "text": "Parchment glaze",
+            "swatchImage": "shopify:\/\/shop_images\/2312_Parchment.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "12ac63be-c44a-4221-baa4-ee4a881b6243": {
+          "type": "text",
+          "settings": {
+            "text": "Sea glaze",
+            "swatchImage": "shopify:\/\/shop_images\/2312_Sea.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "709b98dc-69a1-4ca2-8e41-affc4646fae3": {
+          "type": "text",
+          "settings": {
+            "text": "Walnut glaze",
+            "swatchImage": "shopify:\/\/shop_images\/2312_Walnut.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        }
+      },
+      "block_order": [
+        "ed6dfd62-40f0-48e8-b52b-434b6cc1eb5b",
+        "db54c423-e02b-4aa9-bdc1-20dcb8b129d8",
+        "9a6bd1df-e2b2-4470-8750-420e7db56c38",
+        "afffdf4f-6709-416d-8f1d-16123ded8f55",
+        "9bda10bb-1870-48d9-81e2-98f8a560393b",
+        "746c2bae-155f-42f8-8591-dbc7c21707f6",
+        "7aeffd4b-b319-4319-b3c5-d9750ad70053",
+        "b459890a-67b5-44e0-87ac-8e745b8d25f4",
+        "e8816437-7d11-4406-b39f-59fe0cf45cab",
+        "163b279e-c59f-4815-9e7c-b2e5d04aa76d",
+        "73b7e841-1919-41dc-a0b1-d5a21fd3ecc0",
+        "12ac63be-c44a-4221-baa4-ee4a881b6243",
+        "709b98dc-69a1-4ca2-8e41-affc4646fae3"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "custom-options"
   ]
 }

@@ -45,6 +45,9 @@
           <button
             type="submit"
             name="add"
+            {%- if product.metafields.custom.made_to_order_time and product.metafields.custom.avl_inventory == false -%}
+            data-made="{{ product.metafields.custom.made_to_order_time }}"
+            {% endif %}
             class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
             {% if product.selected_or_first_available_variant.available == false
               or product.selected_or_first_available_variant.quantity_rule.min
@@ -60,7 +63,13 @@
                 -%}
                   {{ 'products.product.sold_out' | t }}
                 {%- else -%}
+                {%- if product.metafields.custom.made_to_order_time and product.metafields.custom.avl_inventory == false -%}
+                  <span>MADE TO ORDER</span>
+                  <br>
+                  <span class="MTP__date">{{ product.metafields.custom.made_to_order_time }}</span>
+                {%- else -%}
                   {{ 'products.product.add_to_cart' | t }}
+                {%- endif -%}
                 {%- endif -%}
               {%- else -%}
                 {{ 'products.product.sold_out' | t }}

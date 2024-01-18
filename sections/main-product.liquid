@@ -313,6 +313,33 @@
               <a class="view-glazes" href="pages/glazes-1">View all glazes</a>
             </div> -->
               {% render 'product-variant-picker', block: block, product: product %}
+            {%- when 'availability' -%}
+
+              {%- if product.metafields.custom.made_to_order_time != blank and product.metafields.custom.avl_inventory == true or product.metafields.custom.avl_inventory == false -%}
+              <div class="product__availabilities--wrapper">
+                <span class="product__availabilities--label">Availabilities:</span>
+                <div class="product__availabilities--status">
+                    <span class="product__availabilities--notify {%- if product.metafields.custom.avl_inventory %} active{%- endif -%}">IN STOCK - READY TO SHIP</span>
+                    <span class="product__availabilities--notify {%- unless product.metafields.custom.avl_inventory %} active{%- endunless -%}">MADE TO ORDER</span>
+                </div>
+              </div>
+              {%- endif -%}
+            {%- when 'delivery_time' -%}
+              {%- liquid
+                for tag in product.tags
+                  if tag contains 'main_collection'
+                    assign collectionHandle = tag | split: ':' | last
+                    assign collectionProduct = collections[collectionHandle]
+                  endif
+                endfor
+
+                assign bottomTier = collectionProduct.metafields.custom.delivery_time.value
+                assign upperTier = collectionProduct.metafields.custom.lead_times_upper_tier.value
+              -%}
+
+              {% if bottomTier or upperTier %}
+                <small>Handmade to order. Ships in {{ bottomTier }}{% if bottomTier and upperTier %}-{% endif %}{{ upperTier }} weeks.</small>
+              {% endif %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true -%}
             {%- when 'rating' -%}
@@ -720,6 +747,20 @@
           ],
           "default": "button",
           "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.label"
+        }
+      ]
+    },
+    {
+      "type": "delivery_time",
+      "name": "Delivery time"
+    },
+    {
+      "type": "availability",
+      "name": "Availability indicator",
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "This blocks requires Inventory availability and Made to order time metafields to be properly set up in order to render the availability values"
         }
       ]
     },

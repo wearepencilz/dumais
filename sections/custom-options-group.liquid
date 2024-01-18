@@ -1,0 +1,108 @@
+<style>
+  .select {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+  }
+
+  .select.is-open {
+    grid-template-rows: 1fr;
+  }
+  .select:has(.CustomSelect) .icon-caret {
+    top: 22px;
+    transition: rotate 0.4s ease-out;
+  }
+  .select.is-open .icon-caret {
+    rotate: 180deg;
+  }
+
+  .CustomSelect {
+    overflow: hidden;
+  }
+
+  .select:not(.is-open) .SelectOption,
+  .select:not(.is-open) .SelectOption::before {
+    opacity: 0;
+  }
+
+  .CustomActive:hover, .SelectOption:hover {
+    filter: brightness(85%);
+  }
+
+  .CustomActive, .SelectOption {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background: #FBFBFF;
+    opacity: 1;
+    transition: all .4s ease-out;;
+  }
+
+  {% for block in section.blocks %}
+    {%- if block.settings.swatchImage != blank -%}
+    .CustomActive[data-option="{{ block.settings.text }}"]::before,
+    .SelectOption[data-option="{{ block.settings.text }}"]::before {
+      content: '';
+      display: block;
+      width: 35px;
+      height: 35px;
+      margin-right: 10px;
+      background-image:url({{ block.settings.swatchImage | img_url: '60x60' }});
+      border-radius: 100%;
+    }
+    {%- else -%}
+    .CustomActive[data-option="{{ block.settings.text }}"]::before,
+    .SelectOption[data-option="{{ block.settings.text }}"]::before {
+      content: '';
+      display: block;
+      width: 35px;
+      height: 35px;
+      margin-right: 10px;
+      background: {{ block.settings.swatchColors }};
+      border-radius: 100%;
+    }
+    {%- endif -%}
+  {% endfor %}
+
+  *.s-hidden {
+    visibility: hidden;
+    display: none;
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Custom Variant swatches",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "text",
+        "name": "Variant",
+        "settings": [
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Option name",
+            "default": "Verdigris glaze",
+            "info": "Exact match is required, including capitalization."
+          },
+          {
+            "type": "image_picker",
+            "id": "swatchImage",
+            "label": "Swatch as Image"
+          },
+          {
+            "type": "paragraph",
+            "content": "Swatch uses the image if one is set instead of the color setting"
+          },
+          {
+            "type": "color_background",
+            "id": "swatchColors",
+            "label": "Swatch as Color",
+            "default": "#ff0000"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
