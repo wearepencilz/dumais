@@ -2,13 +2,56 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "087ff8b0-df6b-42cd-bff0-9c686e01ab93": {
+      "type": "page-intro-section",
+      "blocks": {
+        "d37e6280-721a-4fac-a78c-dcdcaa94c1fe": {
+          "type": "heading",
+          "settings": {
+            "heading": "SHOWROOM"
+          }
+        },
+        "template--16833782186198__087ff8b0-df6b-42cd-bff0-9c686e01ab93-16750992892440aa63-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Visiting Addresss<br\/><\/em>931 Bantam Road <br\/>Bantam, CT 06750<\/p><p><\/p><p><\/p><p>Monday - Friday<em><br\/><\/em>9am - 5pm<br\/><br\/><\/p><p><em>Telephone<br\/><\/em>+1-860-361-6830<br\/><br\/><\/p><p><em>Inquiries<br\/><\/em><a href=\"mailto:studio@dumaismade.com\" target=\"_blank\" title=\"mailto:studio@dumaismade.com\">studio@dumaismade.com<\/a><br\/><br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d37e6280-721a-4fac-a78c-dcdcaa94c1fe",
+        "template--16833782186198__087ff8b0-df6b-42cd-bff0-9c686e01ab93-16750992892440aa63-1"
+      ],
+      "custom_css": [
+        ".page-intro-section-wrapper {max-height: none !important;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/231116_Contact_Visit_Us.v2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "d980092b-67ea-4a88-9534-c5ab76222f7f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- style -%}\n .page-intro-section-wrapper{\n  border-bottom: 0px solid black;\n \n}\n{%- endstyle -%}",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "087ff8b0-df6b-42cd-bff0-9c686e01ab93",
+    "d980092b-67ea-4a88-9534-c5ab76222f7f"
   ]
 }
