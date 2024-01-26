@@ -1878,6 +1878,11 @@
         "inventory": {
           "name": "Inventory status",
           "settings": {
+            "show_inventory_availability": {
+              "label": "Show inventory availability",
+              "label2": "Informative Text",
+              "no_bb": "Disable informative text border"
+            },
             "text_style": {
               "label": "Text style",
               "options__1": {

@@ -921,12 +921,22 @@ class VariantSelects extends HTMLElement {
         const skuDestination = document.getElementById(`Sku-${this.dataset.section}`);
         const inventorySource = html.getElementById(`Inventory-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const inventoryDestination = document.getElementById(`Inventory-${this.dataset.section}`);
+        const ATCButtonSource = html.getElementById(`product-form-ATC-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
+        const ATCButtonDestination = document.getElementById(`product-form-ATC-${this.dataset.section}`);
 
         if (source && destination) destination.innerHTML = source.innerHTML;
         if (inventorySource && inventoryDestination) inventoryDestination.innerHTML = inventorySource.innerHTML;
         if (skuSource && skuDestination) {
           skuDestination.innerHTML = skuSource.innerHTML;
           skuDestination.classList.toggle('visibility-hidden', skuSource.classList.contains('visibility-hidden'));
+        }
+        if(ATCButtonSource && ATCButtonDestination) {
+          if (ATCButtonSource.dataset.made) {
+            ATCButtonDestination.setAttribute('data-made', ATCButtonSource.dataset.made)
+            ATCButtonDestination.innerHTML = ATCButtonSource.innerHTML;
+          } else if (ATCButtonDestination.dataset.made) {
+            ATCButtonDestination.removeAttribute('data-made')
+          }
         }
 
         const price = document.getElementById(`price-${this.dataset.section}`);
@@ -1012,10 +1022,10 @@ class VariantSelects extends HTMLElement {
             customActive.classList.toggle('s-hidden');
             container.classList.toggle('is-open');
           } else if (trigger.target.classList.contains('SelectOption')) {
-            select.value = trigger.target.innerHTML
-            select.querySelector(`option[value="${trigger.target.innerHTML}"]`).selected = true;
-            customActive.dataset.option = trigger.target.innerHTML;
-            customActive.innerHTML = trigger.target.innerHTML;
+            select.value = trigger.target.dataset.option
+            select.querySelector(`option[value="${trigger.target.dataset.option}"]`).selected = true;
+            customActive.dataset.option = trigger.target.dataset.option;
+            customActive.innerHTML = trigger.target.dataset.option;
             VariantSelect.dispatchEvent(new Event('change'));
             container.classList.toggle('is-open');
             customActive.classList.toggle('s-hidden');

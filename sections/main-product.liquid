@@ -117,52 +117,100 @@
                 {%- endform -%}
               </div>
             {%- when 'inventory' -%}
-              <p
-                class="product__inventory no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
-                {{ block.shopify_attributes }}
-                id="Inventory-{{ section.id }}"
-                role="status"
-              >
-                {%- if product.selected_or_first_available_variant.inventory_management == 'shopify' -%}
-                  {%- if product.selected_or_first_available_variant.inventory_quantity > 0 -%}
-                    {%- if product.selected_or_first_available_variant.inventory_quantity <= block.settings.inventory_threshold -%}
-                      <svg width="15" height="15" aria-hidden="true">
-                        <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(238,148,65, 0.3)"/>
-                        <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(238,148,65)"/>
-                      </svg>
-                      {%- if block.settings.show_inventory_quantity -%}
-                        {{- 'products.product.inventory_low_stock_show_count' | t: quantity: product.selected_or_first_available_variant.inventory_quantity -}}
+              {%- liquid
+                for tag in product.tags
+                  if tag contains 'main_collection'
+                    assign collectionHandle = tag | split: ':' | last
+                  endif
+                endfor
+                if collectionHandle
+                  assign collectionProduct = collections[collectionHandle]
+                else
+                  assign collectionProduct = product.collections[0]
+                endif
+
+                assign bottomTier = collectionProduct.metafields.custom.delivery_time.value
+                assign upperTier = collectionProduct.metafields.custom.lead_times_upper_tier.value
+              -%}
+              {%- if block.settings.stock_shipping or bottomTier or upperTier -%}
+                <div class="product__description rte {%- if block.settings.no_bb %} no_bb{%- endif -%}">
+                  {% if bottomTier or upperTier %}
+                    <p>Made to order in {{ bottomTier }}{% if bottomTier and upperTier %}-{% endif %}{{ upperTier }} weeks.</p>
+                  {% endif %}
+                  <p>{{ block.settings.stock_shipping }}</p>
+                </div>
+              {%- endif -%}
+              
+              <div id="Inventory-{{ section.id }}">
+                {%- liquid
+                  if product.selected_or_first_available_variant.available
+                    if product.selected_or_first_available_variant.inventory_quantity > 0
+                        assign variant_order_status = true
+                    else
+                      assign variant_order_status = false
+                    endif
+                  else
+                    assign variant_order_status = false
+                    assign availability_string = 'SOLD OUT'
+                  endif
+                -%}
+
+                {%- if block.settings.en_availability -%}
+                <div class="product__availabilities--wrapper">
+                  <span class="product__availabilities--label">Availabilities:</span>
+                  <div class="product__availabilities--status">
+                      <span class="product__availabilities--notify {%- if variant_order_status %} active{%- endif -%}">IN STOCK - READY TO SHIP</span>
+                      <span class="product__availabilities--notify {%- unless variant_order_status %} active{%- endunless -%}">{{ availability_string | default: 'MADE TO ORDER' }}</span>
+                  </div>
+                </div>
+                {%- endif -%}
+
+                <p
+                  class="product__inventory no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
+                  {{ block.shopify_attributes }}
+                  role="status"
+                >
+                  {%- if product.selected_or_first_available_variant.inventory_management == 'shopify' -%}
+                    {%- if product.selected_or_first_available_variant.inventory_quantity > 0 -%}
+                      {%- if product.selected_or_first_available_variant.inventory_quantity <= block.settings.inventory_threshold -%}
+                        <svg width="15" height="15" aria-hidden="true">
+                          <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(238,148,65, 0.3)"/>
+                          <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(238,148,65)"/>
+                        </svg>
+                        {%- if block.settings.show_inventory_quantity -%}
+                          {{- 'products.product.inventory_low_stock_show_count' | t: quantity: product.selected_or_first_available_variant.inventory_quantity -}}
+                        {%- else -%}
+                          {{- 'products.product.inventory_low_stock' | t -}}
+                        {%- endif -%}
                       {%- else -%}
-                        {{- 'products.product.inventory_low_stock' | t -}}
+                        <svg width="15" height="15" aria-hidden="true">
+                          <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(62,214,96, 0.3)"/>
+                          <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(62,214,96)"/>
+                        </svg>
+                        {%- if block.settings.show_inventory_quantity -%}
+                          {{- 'products.product.inventory_in_stock_show_count' | t: quantity: product.selected_or_first_available_variant.inventory_quantity -}}
+                        {%- else -%}
+                            {{- 'products.product.inventory_in_stock' | t -}}
+                        {%- endif -%}
                       {%- endif -%}
                     {%- else -%}
-                      <svg width="15" height="15" aria-hidden="true">
-                        <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(62,214,96, 0.3)"/>
-                        <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(62,214,96)"/>
-                      </svg>
-                      {%- if block.settings.show_inventory_quantity -%}
-                        {{- 'products.product.inventory_in_stock_show_count' | t: quantity: product.selected_or_first_available_variant.inventory_quantity -}}
+                      {%- if product.selected_or_first_available_variant.inventory_policy == 'continue' -%}
+                        <svg width="15" height="15" aria-hidden="true">
+                          <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(238,148,65, 0.3)"/>
+                          <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(238,148,65)"/>
+                        </svg>
+                        {{- 'products.product.inventory_out_of_stock_continue_selling' | t -}}
                       {%- else -%}
-                          {{- 'products.product.inventory_in_stock' | t -}}
+                        <svg width="15" height="15" aria-hidden="true">
+                          <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(200,200,200, 0.3)"/>
+                          <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(200,200,200)"/>
+                        </svg>
+                        {{- 'products.product.inventory_out_of_stock' | t -}}
                       {%- endif -%}
-                    {%- endif -%}
-                  {%- else -%}
-                    {%- if product.selected_or_first_available_variant.inventory_policy == 'continue' -%}
-                      <svg width="15" height="15" aria-hidden="true">
-                        <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(62,214,96, 0.3)"/>
-                        <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(62,214,96)"/>
-                      </svg>
-                      {{- 'products.product.inventory_out_of_stock_continue_selling' | t -}}
-                    {%- else -%}
-                      <svg width="15" height="15" aria-hidden="true">
-                        <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(200,200,200, 0.3)"/>
-                        <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(200,200,200)"/>
-                      </svg>
-                      {{- 'products.product.inventory_out_of_stock' | t -}}
                     {%- endif -%}
                   {%- endif -%}
-                {%- endif -%}
-              </p>
+                </p>
+              </div>
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
@@ -313,33 +361,6 @@
               <a class="view-glazes" href="pages/glazes-1">View all glazes</a>
             </div> -->
               {% render 'product-variant-picker', block: block, product: product %}
-            {%- when 'availability' -%}
-
-              {%- if product.metafields.custom.made_to_order_time != blank and product.metafields.custom.avl_inventory == true or product.metafields.custom.avl_inventory == false -%}
-              <div class="product__availabilities--wrapper">
-                <span class="product__availabilities--label">Availabilities:</span>
-                <div class="product__availabilities--status">
-                    <span class="product__availabilities--notify {%- if product.metafields.custom.avl_inventory %} active{%- endif -%}">IN STOCK - READY TO SHIP</span>
-                    <span class="product__availabilities--notify {%- unless product.metafields.custom.avl_inventory %} active{%- endunless -%}">MADE TO ORDER</span>
-                </div>
-              </div>
-              {%- endif -%}
-            {%- when 'delivery_time' -%}
-              {%- liquid
-                for tag in product.tags
-                  if tag contains 'main_collection'
-                    assign collectionHandle = tag | split: ':' | last
-                    assign collectionProduct = collections[collectionHandle]
-                  endif
-                endfor
-
-                assign bottomTier = collectionProduct.metafields.custom.delivery_time.value
-                assign upperTier = collectionProduct.metafields.custom.lead_times_upper_tier.value
-              -%}
-
-              {% if bottomTier or upperTier %}
-                <small>Handmade to order. Ships in {{ bottomTier }}{% if bottomTier and upperTier %}-{% endif %}{{ upperTier }} weeks.</small>
-              {% endif %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true -%}
             {%- when 'rating' -%}
@@ -685,6 +706,33 @@
       "limit": 1,
       "settings": [
         {
+          "type": "header",
+          "content": "Variant availability indicator"
+        },
+        {
+          "type": "checkbox",
+          "id": "en_availability",
+          "label": "t:sections.main-product.blocks.inventory.settings.show_inventory_availability.label",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "stock_shipping",
+          "label": "t:sections.main-product.blocks.inventory.settings.show_inventory_availability.label",
+          "default": "In-stock items will ship within 7 to 10 business days unless otherwise noted at time of order."
+        },
+        {
+          "type": "checkbox",
+          "id": "no_bb",
+          "label": "t:sections.main-product.blocks.inventory.settings.show_inventory_availability.no_bb",
+          "default": false
+        },
+        
+        {
+          "type": "header",
+          "content": "Variant inventory indicator"
+        },
+        {
           "type": "select",
           "id": "text_style",
           "options": [
@@ -747,20 +795,6 @@
           ],
           "default": "button",
           "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.label"
-        }
-      ]
-    },
-    {
-      "type": "delivery_time",
-      "name": "Delivery time"
-    },
-    {
-      "type": "availability",
-      "name": "Availability indicator",
-      "settings": [
-        {
-          "type": "paragraph",
-          "content": "This blocks requires Inventory availability and Made to order time metafields to be properly set up in order to render the availability values"
         }
       ]
     },

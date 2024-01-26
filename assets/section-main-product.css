@@ -382,6 +382,11 @@ fieldset.product-form__input .form__label {
   border-bottom: 1px solid black;
 }
 
+.product__description:has(+ .product__description),
+.product__description.no_bb {
+  border-bottom: none;
+}
+
 .product__text {
   margin-bottom: 0;
 }
@@ -1553,7 +1558,12 @@ a.product__text {
 
 .product__availabilities--wrapper {
   max-width: 450px;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.product__availabilities--wrapper + .product__inventory {
+  margin: 0;
+  padding-bottom: 1.5rem;
 }
 .product__availabilities--label {
   font-size: 1.35rem;
