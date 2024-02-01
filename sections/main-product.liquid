@@ -134,10 +134,10 @@
               -%}
               {%- if block.settings.stock_shipping or bottomTier or upperTier -%}
                 <div class="product__description rte {%- if block.settings.no_bb %} no_bb{%- endif -%}">
-                  {% if bottomTier or upperTier %}
-                    <p>Made to order in {{ bottomTier }}{% if bottomTier and upperTier %}-{% endif %}{{ upperTier }} weeks.</p>
-                  {% endif %}
-                  <p>{{ block.settings.stock_shipping }}</p>
+                  <p>
+                  {%- if bottomTier or upperTier %}Made to order in {{ bottomTier }}{% if bottomTier and upperTier %}-{% endif %}{{ upperTier }} weeks. {% endif -%}
+                  {{ block.settings.stock_shipping -}}
+                  </p>
                 </div>
               {%- endif -%}
               
