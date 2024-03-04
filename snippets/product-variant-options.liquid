@@ -5,7 +5,7 @@
   - product: {Object} product object.
   - option: {Object} current product_option object.
   - block: {Object} block object.
-
+  - img_background: {Array} img sources if select with images
 
   Usage:
   {% render 'product-variant-options',
@@ -68,6 +68,9 @@
       value="{{ value | escape }}"
       {% if option.selected_value == value %}
         selected="selected"
+      {% endif %}
+      {% if img_background[forloop.index0] %}
+        data-option-img = "{{img_background[forloop.index0]}}"
       {% endif %}
     >
       {% if option_disabled -%}

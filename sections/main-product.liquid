@@ -307,14 +307,20 @@
                 block: block,
                 share_link: share_url
               %}
-
+              
+            {%- when 'details_and_download' -%}
+              {% render 'details-and-download', block: block, product: product %}
             {%- when 'variant_picker' -%}
             <!-- <div class="view-glazes-wrapper">
               <a class="view-glazes" href="pages/glazes-1">View all glazes</a>
             </div> -->
               {% render 'product-variant-picker', block: block, product: product %}
+            {%- when 'text-with-bg' -%}
+              {%- render 'text-with-bg', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true -%}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true -%}
+            {%- when 'buy_buttons_qty' -%}
+              {%- render 'buy-buttons-qty', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true -%}
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid
@@ -616,6 +622,44 @@
       ]
     },
     {
+      "type": "text-with-bg",
+      "name": "Text block with bg color",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Text block",
+          "label": "Text block with background color"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "body",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__1.label"
+            },
+            {
+              "value": "subtitle",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__2.label"
+            },
+            {
+              "value": "uppercase",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__3.label"
+            }
+          ],
+          "default": "body",
+          "label": "t:sections.main-product.blocks.text.settings.text_style.label"
+        },
+        {
+          "type": "color",
+          "id": "text_bg_color",
+          "default": "#D9D9D9",
+          "label": "Background color"
+        }
+      ]
+    },
+    {
       "type": "title",
       "name": "t:sections.main-product.blocks.title.name",
       "limit": 1
@@ -720,12 +764,45 @@
           ],
           "default": "button",
           "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "picker_with_imgs",
+          "default": false,
+          "label": "Show options with images"
         }
       ]
     },
     {
       "type": "buy_buttons",
       "name": "t:sections.main-product.blocks.buy_buttons.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_dynamic_checkout",
+          "default": true,
+          "label": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.label",
+          "info": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.info"
+        }
+      ]
+    },
+    {
+      "type": "details_and_download",
+      "name": "Details and Download Link",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Details and Downloads",
+          "label": "Details and Downloads text"
+        }
+      ]
+    },
+    {
+      "type": "buy_buttons_qty",
+      "name": "Buy buttons with quantity",
       "limit": 1,
       "settings": [
         {

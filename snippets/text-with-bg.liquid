@@ -1,0 +1,18 @@
+<p
+class="product__text product__text-with-background-color-{{ block.id }} {% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
+{{ block.shopify_attributes }}
+>
+    {{- block.settings.text -}}
+</p>
+
+<style>
+.product__text-with-background-color-{{ block.id }} {
+    background-color: {{ block.settings.text_bg_color }};
+    max-width: 44rem !important;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+</style>

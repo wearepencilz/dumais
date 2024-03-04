@@ -1,0 +1,136 @@
+{% if product.metafields.custom.details or product.metafields.custom.certified_image or product.metafields.custom.downloadable_file or product.metafields.custom.downloadable_file_text %}
+
+    <link rel="stylesheet" href="{{ 'details-and-download.css' | asset_url }}" media="print" onload="this.media='all'">
+    <noscript>{{ 'details-and-download.css' | asset_url | stylesheet_tag }}</noscript>
+
+    {%- style -%}
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 1.5 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 1.5 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 1.5 | round: 0  }}px
+        padding-bottom: {{ section.settings.padding_bottom | times: 1.5 | round: 0  }}px;
+        }
+    }
+    {%- endstyle -%}
+
+    <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
+        <div id="Detail-and-download-section" class="details-and-download content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+            <div class="details-and-download__wrapper {% if section.settings.full_width %} page-width{% endif %}">
+                {% if product.metafields.custom.details %}
+                    <div class="detail-container">
+                        <p class="detail-title">Details</p>
+                        <div class="detail-content">{{ product.metafields.custom.details | metafield_tag }}</div>
+                    </div>
+                {% endif %}
+                {% if product.metafields.custom.certified_image or product.metafields.custom.downloadable_file or product.metafields.custom.downloadable_file_text %}
+                    <div class="download-container">
+                        {% if product.metafields.custom.downloadable_file and product.metafields.custom.downloadable_file_text %}
+                            <p class="download-title">Download</p>
+                            <a target="_blank" class="download-content" href="{{ product.metafields.custom.downloadable_file.value.url }}" download>{{ product.metafields.custom.downloadable_file_text }}</a>
+                        {% endif %}
+                        
+                        {% if product.metafields.custom.certified_image %}
+                            <div class="certified-image">
+                                <img
+                                    src="{{ product.metafields.custom.certified_image | image_url: width: 140 }}"
+                                    alt="{{ product.metafields.custom.certified_image.alt | escape | default: "Certified Image" }}"
+                                    width="70"
+                                    height="{{ 70 | divided_by: product.metafields.custom.certified_image.aspect_ratio | ceil }}"
+                                    loading="lazy"
+                                >
+                                </div>
+                        {% endif %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endif %}
+{% schema %}
+{
+  "name": "Details and Download",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "background-3",
+          "label": "Background 3"
+        },
+
+        {
+          "value": "background-4",
+          "label": "Background 4"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "default": true,
+      "label": "t:sections.rich-text.settings.full_width.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "presets": [
+    {
+      "name": "Details and Download"
+    }
+  ]
+}
+{% endschema %}

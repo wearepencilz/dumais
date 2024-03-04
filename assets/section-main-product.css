@@ -748,6 +748,23 @@ a.product__text {
   box-shadow: none;
 }
 
+.product-form__buttons-with-qty {
+  display: flex;
+  gap: 5px;
+}
+
+.product-form__buttons-with-qty .quantity {
+  width: calc(12rem / var(--font-body-scale) + var(--inputs-border-width) * 2)
+}
+
+.product-form__buttons-with-qty .product-form__input {
+  flex: auto;
+}
+
+.product-form__buttons-with-qty .product-form__submit {
+  height: calc(4.5rem + var(--buttons-border-width)* 2);
+}
+
 /* outline styling for Windows High Contrast Mode */
 @media (forced-colors: active) {
   .product__media-toggle:focus-visible,
@@ -1524,6 +1541,14 @@ a.product__text {
 
 .product-form__input .select select{
     background: #FBFBFF;
+}
+
+.product-form__input .select select.select-with-images {
+  background-repeat: no-repeat!important;
+  padding-left: 40px!important;
+  background-size: auto 50%!important;
+  background-position-y: center!important;
+  background-position-x: 9px!important;
 }
 
 .view-glazes-wrapper{

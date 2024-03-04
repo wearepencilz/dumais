@@ -9,6 +9,19 @@
     Usage:
     {% render 'product-variant-picker', block: block, product: product %}
 {% endcomment %}
+
+{% if block.settings.picker_with_imgs and product.metafields.custom.variant_picker_images.value.count > 0 %}
+  <script src="{{ 'picker_with_imgs.js' | asset_url }}" defer="defer"></script>
+  {% for img in product.metafields.custom.variant_picker_images.value %}
+    {% assign imgUrl = img | image_url %}
+    {% assign imgString = imgString | append: imgUrl %}
+    {% unless forloop.last %}
+      {% assign imgString = imgString | append: ", " %}
+    {% endunless %}
+  {% endfor %}
+  {% assign imgArray = imgString | split: ", " %}
+{% endif %}
+
 {%- unless product.has_only_default_variant -%}
   {%- if block.settings.picker_type == 'button' -%}
     <variant-radios
@@ -46,11 +59,16 @@
           <div class="select">
             <select
               id="Option-{{ section.id }}-{{ forloop.index0 }}"
-              class="select__select"
+              class="select__select {% if forloop.index0 == 0 and block.settings.picker_with_imgs %} select-with-images{% endif %}"
+              {% if forloop.index0 == 0 and block.settings.picker_with_imgs %} style = 'background: url("{{ imgArray[0] }}")'{% endif %}
               name="options[{{ option.name | escape }}]"
               form="{{ product_form_id }}"
             >
-              {% render 'product-variant-options', product: product, option: option, block: block %}
+              {% if forloop.index0 == 0 and block.settings.picker_with_imgs %} 
+                {% render 'product-variant-options', product: product, option: option, block: block, img_background: imgArray %}
+              {% else %}
+                {% render 'product-variant-options', product: product, option: option, block: block %}
+              {% endif %}
             </select>
             {% render 'icon-caret' %}
           </div>
