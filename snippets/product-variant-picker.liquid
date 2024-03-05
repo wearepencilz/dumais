@@ -10,10 +10,11 @@
     {% render 'product-variant-picker', block: block, product: product %}
 {% endcomment %}
 
-{% if block.settings.picker_with_imgs and product.metafields.custom.variant_picker_images.value.count > 0 %}
+{% if block.settings.picker_with_imgs %}
   <script src="{{ 'picker_with_imgs.js' | asset_url }}" defer="defer"></script>
+  {{ 'picker_with_imgs.css' | asset_url | stylesheet_tag }}
   {% for img in product.metafields.custom.variant_picker_images.value %}
-    {% assign imgUrl = img | image_url %}
+    {% assign imgUrl = img | image_url: width: 20 %}
     {% assign imgString = imgString | append: imgUrl %}
     {% unless forloop.last %}
       {% assign imgString = imgString | append: ", " %}
@@ -52,27 +53,34 @@
       {{ block.shopify_attributes }}
     >
       {%- for option in product.options_with_values -%}
-        <div class="product-form__input product-form__input--dropdown">
+        <div class="product-form__input product-form__input--dropdown"
+          {% if forloop.index0 == 0 and block.settings.picker_with_imgs and block.settings.picker_type == 'dropdown'  %} style="display: none;" {% endif %}
+        >
           <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
             {{ option.name }}
           </label>
           <div class="select">
             <select
               id="Option-{{ section.id }}-{{ forloop.index0 }}"
-              class="select__select {% if forloop.index0 == 0 and block.settings.picker_with_imgs %} select-with-images{% endif %}"
-              {% if forloop.index0 == 0 and block.settings.picker_with_imgs %} style = 'background: url("{{ imgArray[0] }}")'{% endif %}
+              class="select__select {% if forloop.index0 == 0 and block.settings.picker_with_imgs %} hidden-select-with-imgs{% endif %}"
               name="options[{{ option.name | escape }}]"
               form="{{ product_form_id }}"
             >
-              {% if forloop.index0 == 0 and block.settings.picker_with_imgs %} 
-                {% render 'product-variant-options', product: product, option: option, block: block, img_background: imgArray %}
-              {% else %}
-                {% render 'product-variant-options', product: product, option: option, block: block %}
-              {% endif %}
+              {% render 'product-variant-options', product: product, option: option, block: block %}
             </select>
             {% render 'icon-caret' %}
           </div>
         </div>
+
+        {% if forloop.index0 == 0 and block.settings.picker_with_imgs and block.settings.picker_type == 'dropdown'  %} 
+          <div class="select-with-imgs-selected">
+            <img src="{{ imgArray[0] }}" width ="20px" height ="20px" loading="lazy">
+            <span id="selectedValueTitle">{{option.values[0]}}</span>
+            {% render 'icon-caret' %}</div>
+          <div class="select-with-imgs-items">
+            {% render 'product-variant-options-imgs', product: product, option: option, block: block, img_background: imgArray %}
+          </div>
+        {% endif %}
 
         <div class="view-glazes-wrapper">
           <a class="view-glazes" href="../pages/glazes-1">View all glazes</a>

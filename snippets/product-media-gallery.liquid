@@ -11,6 +11,10 @@
   {% render 'product-media-gallery', is_duplicate: true %}
 {% endcomment %}
 
+{% if section.settings.gallery_layout == 'controlled_slider' %}
+  {{ 'controlled_slider.css' | asset_url | stylesheet_tag }}
+{% endif %}
+
 {%- liquid
   if section.settings.hide_variants and variant_images.size == product.media.size
     assign single_media_visible = true
@@ -61,7 +65,7 @@
     {%- endunless -%}
     <ul
       id="Slider-Gallery-{{ section.id }}{{ id_append }}"
-      class="product__media-list contains-media grid grid--peek list-unstyled slider slider--mobile"
+      class="product__media-list contains-media grid grid--peek list-unstyled slider {% if section.settings.gallery_layout == 'controlled_slider' %}controlled_slider slider--everywhere{% else %}slider--mobile{% endif %}"
       role="list"
     >
       {%- if product.selected_or_first_available_variant.featured_media != null -%}

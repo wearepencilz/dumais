@@ -1,18 +1,4 @@
-{% comment %}
-  Renders product variant options
 
-  Accepts:
-  - product: {Object} product object.
-  - option: {Object} current product_option object.
-  - block: {Object} block object.
-
-  Usage:
-  {% render 'product-variant-options',
-    product: product,
-    option: option,
-    block: block
-  %}
-{% endcomment %}
 {%- liquid
   assign variants_available_arr = product.variants | map: 'available'
   assign variants_option1_arr = product.variants | map: 'option1'
@@ -43,37 +29,18 @@
       endcase
     endfor
   -%}
-
-  {%- if block.settings.picker_type == 'button' -%}
-    <input
-      type="radio"
-      id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
-      name="{{ option.name }}"
-      value="{{ value | escape }}"
-      form="{{ product_form_id }}"
-      {% if option.selected_value == value %}
-        checked
-      {% endif %}
-      {% if option_disabled %}
-        class="disabled"
-      {% endif %}
-    >
-    <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-      {{ value -}}
-      <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
-    </label>
-  {%- elsif block.settings.picker_type == 'dropdown' -%}
-    <option
+    <div
+      class="select-with-imgs-option"
       value="{{ value | escape }}"
       {% if option.selected_value == value %}
         selected="selected"
       {% endif %}
     >
-      {% if option_disabled -%}
-        {{- 'products.product.value_unavailable' | t: option_value: value -}}
-      {%- else -%}
-        {{- value -}}
-      {%- endif %}
-    </option>
-  {%- endif -%}
+        {% if img_background[forloop.index0] %}
+            <img src="{{ img_background[forloop.index0] }}" width ="20px" height ="20px" loading="lazy">
+        {% endif %}
+      
+      <span>{% if option_disabled -%}{{- 'products.product.value_unavailable' | t: option_value: value -}}{%- else -%}{{- value -}}{%- endif %}</span>
+        
+    </div>
 {%- endfor -%}

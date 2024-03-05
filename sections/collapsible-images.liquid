@@ -1,5 +1,4 @@
 {% if product.metafields.custom.aditional_images.value.count > 0 %}
-  <script src="{{ 'picker_with_imgs.js' | asset_url }}" defer="defer"></script>
   {% for img in product.metafields.custom.aditional_images.value %}
     {% assign imgUrl = img | image_url %}
     {% assign imgString = imgString | append: imgUrl %}
