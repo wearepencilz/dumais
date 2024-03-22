@@ -384,12 +384,20 @@
 
 .glaze--container {
   display: flex;
+  justify-content: flex-end;
   height: 16px;
   gap: 4px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
+
+@media only screen and (min-width: 460px) {
+  .glaze--container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+}
+
 
 .glaze--icon {
   display: block;
