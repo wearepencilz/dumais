@@ -1,0 +1,57 @@
+
+
+.details-and-download .detail-title {
+  font-size: 21px;
+}
+
+.details-and-download .detail-content {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.details-and-download .download-container {
+  margin-top: 5rem;
+}
+
+.details-and-download .download-content {
+  font-size: 14px;
+  border: 1px solid #7E7E80;
+  text-decoration: none;
+  color: var(--co);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20em;
+  border-radius: 3px;
+  color: #3F3F40;
+  padding: 5px 15px;
+  position: relative;
+}
+
+
+.details-and-download .download-content::after {
+  content: url(download-2-icon.svg);
+  position: absolute;
+  right: 15px;
+}
+
+.details-and-download .certified-image {
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 750px) {
+  .details-and-download .detail-container {
+      max-width: 45%;
+      width: calc(45% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+  
+  .details-and-download .download-container {
+      max-width: 40%;
+      width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+
+  .details-and-download .details-and-download__wrapper {
+      display: flex;
+      justify-content: space-between;
+  }
+}

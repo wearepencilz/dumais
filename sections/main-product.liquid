@@ -1,7 +1,7 @@
-<div class="main-product-wrapper">
+<div class="main-product-wrapper isolate gradient color-{{ section.settings.color_scheme }} {%- if section.settings.no_bb %} no_bb{%- endif -%}">
 <section
   id="MainProduct-{{ section.id }}"
-  class="page-width section-{{ section.id }}-padding main-product"
+  class="page-width section-{{ section.id }}-padding main-product {%- if template.suffix == "second-template" %} page-width-desktop{%- endif -%}"
   data-section="{{ section.id }}"
 >
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
@@ -100,14 +100,16 @@
                 -%}
               </div>
               {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
-                <div class="product__tax caption rte">
-                  {%- if shop.taxes_included -%}
-                    {{ 'products.product.include_taxes' | t }}
-                  {%- endif -%}
-                  {%- if shop.shipping_policy.body != blank -%}
-                    {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                  {%- endif -%}
-                </div>
+                {%- if block.settings.show_policies -%}
+                  <div class="product__tax caption rte">
+                    {%- if shop.taxes_included -%}
+                      {{ 'products.product.include_taxes' | t }}
+                    {%- endif -%}
+                    {%- if shop.shipping_policy.body != blank -%}
+                      {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
               {%- endif -%}
               <div {{ block.shopify_attributes }}>
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
@@ -217,6 +219,49 @@
                   {{ product.description }}
                 </div>
               {%- endif -%}
+            {%- when 'meta_description' -%}
+              {%- if product.metafields.custom.description != blank -%}
+                <div class="product__description no_bb rte quick-add-hidden" {{ block.shopify_attributes }}>
+                <p><em><strong>
+                  {{ product.metafields.custom.description }}
+                </strong></em></p>
+                </div>
+              {%- endif -%}
+            {%- when 'meta_details' -%}
+              {%- if product.metafields.custom.details != blank -%}
+                <div class="product__description no_bb rte quick-add-hidden" {{ block.shopify_attributes }}>
+                  <a href="#Detail-and-download-section" class="section-anchor">
+                    <span>Details & Downloads</span>
+                    {%- render 'icon-caret' -%}
+                  </a>
+                </div>
+              {%- endif -%}
+            {%- when "meta_cMade" -%}
+              {%- liquid
+                for tag in product.tags
+                  if tag contains 'main_collection'
+                    assign collectionHandle = tag | split: ':' | last
+                  endif
+                endfor
+                if collectionHandle
+                  assign collectionProduct = collections[collectionHandle]
+                else
+                  assign collectionProduct = product.collections[0]
+                endif
+
+                assign bottomTier = collectionProduct.metafields.custom.delivery_time.value
+                assign upperTier = collectionProduct.metafields.custom.lead_times_upper_tier.value
+              -%}
+              {%- if block.settings.stock_shipping or bottomTier or upperTier -%}
+                <p 
+                  class="product__boxed-text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
+                  {{ block.shopify_attributes }}
+                  style="background-color: {{ block.settings.text_bg_color }};"
+                >
+                  {%- if bottomTier or upperTier %}Made to order in {{ bottomTier }}{% if bottomTier and upperTier %}-{% endif %}{{ upperTier }} weeks. {% endif -%}
+                </p>
+              {%- endif -%}
+                
             {%- when 'sku' -%}
               <p
                 class="product__sku no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
@@ -363,6 +408,8 @@
               {% render 'product-variant-picker', block: block, product: product %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true -%}
+            {%- when 'buy_buttons_qty' -%}
+              {%- render 'buy-buttons-qty', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true -%}
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid
@@ -671,7 +718,14 @@
     {
       "type": "price",
       "name": "t:sections.main-product.blocks.price.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_policies",
+          "label": "t:sections.main-product.blocks.price.policies"
+        }
+      ]
     },
     {
       "type": "sku",
@@ -809,6 +863,85 @@
           "default": true,
           "label": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.label",
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.info"
+        },
+        {
+          "type": "checkbox",
+          "id": "e_made",
+          "default": false,
+          "label": "t:sections.main-product.blocks.buy_buttons.settings.e_made.label",
+          "info": "t:sections.main-product.blocks.buy_buttons.settings.e_made.info"
+        }
+      ]
+    },
+    {
+      "type": "buy_buttons_qty",
+      "name": "Buy buttons with quantity",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_dynamic_checkout",
+          "default": true,
+          "label": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.label",
+          "info": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.info"
+        },
+        {
+          "type": "richtext",
+          "id": "extra_txt",
+          "label": "t:sections.main-product.blocks.buy_buttons.settings.extra_txt"
+        }
+      ]
+    },
+    {
+      "type": "meta_details",
+      "name": "t:sections.main-product.blocks.description.meta_details",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Renders a Scroll-to link, that only works when the section Details and Download is on the same page"
+        }
+      ]
+    },
+    {
+      "type": "meta_description",
+      "name": "t:sections.main-product.blocks.description.meta_name",
+      "limit": 1
+    },
+    {
+      "type": "meta_cMade",
+      "name": "t:sections.main-product.blocks.description.meta_cMade",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Text content is pulled from the collection metafield. use product tag main_collection:collection-handle to select the product's made to order time, otherwise it'll default to the first collection available at the product's collections"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "body",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__1.label"
+            },
+            {
+              "value": "subtitle",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__2.label"
+            },
+            {
+              "value": "uppercase",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__3.label"
+            }
+          ],
+          "default": "body",
+          "label": "t:sections.main-product.blocks.text.settings.text_style.label"
+        },
+        {
+          "type": "color",
+          "id": "text_bg_color",
+          "default": "#D9D9D9",
+          "label": "Background color"
         }
       ]
     },
@@ -1975,10 +2108,53 @@
   ],
   "settings": [
     {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "background-3",
+          "label": "Background 3"
+        },
+
+        {
+          "value": "background-4",
+          "label": "Background 4"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-2",
+      "label": "t:sections.all.colors.label"
+    },
+    {
       "type": "checkbox",
       "id": "enable_sticky_info",
       "default": true,
       "label": "t:sections.main-product.settings.enable_sticky_info.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "no_bb",
+      "default": false,
+      "label": "t:sections.main-product.settings.no_bb.label"
     },
     {
       "type": "header",
@@ -1992,6 +2168,10 @@
         {
           "value": "small",
           "label": "t:sections.main-product.settings.media_size.options__1.label"
+        },
+        {
+          "value": "balanced",
+          "label": "t:sections.main-product.settings.media_size.options__b.label"
         },
         {
           "value": "medium",
@@ -2047,6 +2227,10 @@
         {
           "value": "thumbnail_slider",
           "label": "t:sections.main-product.settings.gallery_layout.options__4.label"
+        },
+        {
+          "value": "arrows",
+          "label": "t:sections.main-product.settings.gallery_layout.options__5.label"
         }
       ],
       "default": "stacked",

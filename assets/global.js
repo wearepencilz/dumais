@@ -585,7 +585,7 @@ class SliderComponent extends HTMLElement {
     this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
     if (this.sliderItemsToShow.length < 2) return;
     this.sliderItemOffset = this.sliderItemsToShow[1].offsetLeft - this.sliderItemsToShow[0].offsetLeft;
-    this.slidesPerPage = Math.floor((this.slider.clientWidth - this.sliderItemsToShow[0].offsetLeft) / this.sliderItemOffset);
+    this.slidesPerPage = Math.round((this.slider.clientWidth - this.sliderItemsToShow[0].offsetLeft) / this.sliderItemOffset);
     this.totalPages = this.sliderItemsToShow.length - this.slidesPerPage + 1;
     this.update();
   }
@@ -604,8 +604,8 @@ class SliderComponent extends HTMLElement {
     this.currentPage = Math.round(this.slider.scrollLeft / this.sliderItemOffset) + 1;
 
     if (this.currentPageElement && this.pageTotalElement) {
-      this.currentPageElement.textContent = this.currentPage;
-      this.pageTotalElement.textContent = this.totalPages;
+      this.currentPageElement.textContent = (this.currentPage).toLocaleString(undefined, {minimumIntegerDigits: 2});
+      this.pageTotalElement.textContent = (this.totalPages).toLocaleString(undefined, {minimumIntegerDigits: 2});
     }
 
     if (this.currentPage != previousPage) {

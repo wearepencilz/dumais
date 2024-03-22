@@ -740,6 +740,10 @@
           "label": "Enable quick add button",
           "info": "Optimal with popup or drawer cart type."
         },
+        "show_glazes": {
+          "label": "Show glazes icons",
+          "info": "Use Glaze icons product metafield for items without glaze variants."
+        },
         "header_mobile": {
           "content": "Mobile Layout"
         },
@@ -1873,7 +1877,8 @@
           "name": "Title"
         },
         "price": {
-          "name": "Price"
+          "name": "Price",
+          "policies": "Show store's product related policies"
         },
         "inventory": {
           "name": "Inventory status",
@@ -1927,14 +1932,22 @@
             "show_dynamic_checkout": {
               "label": "Show dynamic checkout buttons",
               "info": "Using the payment methods available on your store, customers see their preferred option, like PayPal or Apple Pay. [Learn more](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
-            }
+            },
+            "e_made": {
+              "label": "Show made to order timing on ATC button",
+              "info": "Using the collection metafield and this setting you can enable the replacement of the ATC string to made to order when the selected variant is out of stock and the variant is permited to continue selling"
+            },            
+            "extra_txt": "ATC extra text string"
           }
         },
         "pickup_availability": {
           "name": "Pickup availability"
         },
         "description": {
-          "name": "Description"
+          "name": "Description",
+          "meta_name": "Metafield description",
+          "meta_details": "Metafield details & downloads anchor",
+          "meta_cMade": "Metafield Made to order text block"
         },
         "sku": {
           "name": "SKU",
@@ -2246,6 +2259,9 @@
         "enable_sticky_info": {
           "label": "Enable sticky content on desktop"
         },
+        "no_bb": {
+          "label": "Disable bottom border"
+        },
         "gallery_layout": {
           "label": "Desktop layout",
           "options__1": {
@@ -2259,6 +2275,9 @@
           },
           "options__4": {
             "label": "Thumbnail carousel"
+          },
+          "options__5": {
+            "label": "Arrow buttons "
           }
         },
         "constrain_to_viewport": {
@@ -2269,6 +2288,9 @@
           "info": "Media is automatically optimized for mobile.",
           "options__1": {
             "label": "Small"
+          },
+          "options__b": {
+            "label": "Balanced"
           },
           "options__2": {
             "label": "Medium"

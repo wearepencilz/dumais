@@ -46,7 +46,7 @@
             type="submit"
             name="add"
             id="product-form-ATC-{{ section.id }}"
-            {%- if product.selected_or_first_available_variant.available and product.selected_or_first_available_variant.inventory_quantity <= 0 -%}
+            {%- if product.selected_or_first_available_variant.available and product.selected_or_first_available_variant.inventory_quantity <= 0 and block.settings.e_made -%}
             data-made="true"
             {% endif %}
             class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
