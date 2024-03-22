@@ -8,7 +8,7 @@ html {
   border-bottom: 1px solid black;
 }
 
-.main-product:not(.page-width-desktop){
+.main-product:not(.page-width-tablet){
   max-width:1200px;
   background-color: #FBFBFF;
 }
