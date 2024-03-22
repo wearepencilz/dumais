@@ -1,7 +1,7 @@
 <div class="main-product-wrapper isolate gradient color-{{ section.settings.color_scheme }} {%- if section.settings.no_bb %} no_bb{%- endif -%}">
 <section
   id="MainProduct-{{ section.id }}"
-  class="page-width section-{{ section.id }}-padding main-product {%- if template.suffix == "second-template" %} page-width-desktop{%- endif -%}"
+  class="page-width section-{{ section.id }}-padding main-product {%- if template.suffix == "second-template" %} page-width-tablet{%- endif -%}"
   data-section="{{ section.id }}"
 >
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
