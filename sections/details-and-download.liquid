@@ -1,36 +1,42 @@
-{% if product.metafields.custom.details or product.metafields.custom.certified_image or product.metafields.custom.downloadable_file or product.metafields.custom.downloadable_file_text %}
+{% if product.metafields.custom.certified_image or product.metafields.custom.downloadable_file %}
 
     <link rel="stylesheet" href="{{ 'details-and-download.css' | asset_url }}" media="print" onload="this.media='all'">
     <noscript>{{ 'details-and-download.css' | asset_url | stylesheet_tag }}</noscript>
 
     {%- style -%}
-    .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top | times: 1.5 | round: 0 }}px;
-        padding-bottom: {{ section.settings.padding_bottom | times: 1.5 | round: 0 }}px;
-    }
-
-    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+      }
+  
+      @media screen and (min-width: 750px) {
         .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top | times: 1.5 | round: 0  }}px
-        padding-bottom: {{ section.settings.padding_bottom | times: 1.5 | round: 0  }}px;
+          padding-top: {{ section.settings.padding_top }}px;
+          padding-bottom: {{ section.settings.padding_bottom }}px;
         }
-    }
+      }
     {%- endstyle -%}
 
-    <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-        <div id="Detail-and-download-section" class="details-and-download content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
-            <div class="details-and-download__wrapper {% if section.settings.full_width %} page-width{% endif %}">
-                {% if product.metafields.custom.details %}
-                    <div class="detail-container">
-                        <p class="detail-title">Details</p>
-                        <div class="detail-content">{{ product.metafields.custom.details | metafield_tag }}</div>
-                    </div>
-                {% endif %}
-                {% if product.metafields.custom.certified_image or product.metafields.custom.downloadable_file or product.metafields.custom.downloadable_file_text %}
+    <div class="isolate color-{{ section.settings.color_scheme }} gradient">
+        <div id="Detail-and-download-section" class="details-and-download page-width page-width-tablet content-container section-{{ section.id }}-padding">
+            <div class="details-and-download__wrapper">
+                <div class="detail-container">
+                    <p class="detail-title">Details</p>
+                    <div class="detail-content">{{ product.description }}</div>
+                </div>
+                {% if product.metafields.custom.downloadable_file %}
                     <div class="download-container">
-                        {% if product.metafields.custom.downloadable_file and product.metafields.custom.downloadable_file_text %}
+                        {% if product.metafields.custom.downloadable_file %}
                             <p class="download-title">Download</p>
-                            <a target="_blank" class="download-content" href="{{ product.metafields.custom.downloadable_file.value.url }}" download>{{ product.metafields.custom.downloadable_file_text }}</a>
+                            <a target="_blank" class="download-content" href="{{ product.metafields.custom.downloadable_file.value.url }}" download>
+                              <span>{{ product.metafields.custom.downloadable_file_text | default: 'Product sheet'  }}</span>
+                              <svg class="icon icon-download" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 1V10.5" stroke="currentColor" stroke-linecap="round"/>
+                                <path d="M1 13L8 13" stroke="currentColor" stroke-linecap="round"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.85463 6.14689C8.80819 6.10033 8.75301 6.06339 8.69226 6.03818C8.63152 6.01297 8.5664 6 8.50063 6C8.43486 6 8.36974 6.01297 8.309 6.03818C8.24825 6.06339 8.19308 6.10033 8.14663 6.14689L4.50063 9.79389L0.854632 6.14689C0.760745 6.05301 0.633407 6.00026 0.500632 6.00026C0.367856 6.00026 0.240518 6.05301 0.146632 6.14689C0.052745 6.24078 0 6.36812 0 6.50089C0 6.63367 0.052745 6.76101 0.146632 6.85489L4.14663 10.8549C4.19308 10.9015 4.24825 10.9384 4.309 10.9636C4.36974 10.9888 4.43486 11.0018 4.50063 11.0018C4.5664 11.0018 4.63152 10.9888 4.69227 10.9636C4.75301 10.9384 4.80819 10.9015 4.85463 10.8549L8.85463 6.85489C8.90119 6.80845 8.93814 6.75327 8.96334 6.69253C8.98855 6.63178 9.00152 6.56666 9.00152 6.50089C9.00152 6.43513 8.98855 6.37001 8.96334 6.30926C8.93814 6.24851 8.90119 6.19334 8.85463 6.14689Z" fill="currentColor"/>
+                              </svg>
+
+                            </a>
                         {% endif %}
                         
                         {% if product.metafields.custom.certified_image %}
@@ -55,8 +61,8 @@
   "name": "Details and Download",
   "tag": "section",
   "class": "section",
-  "disabled_on": {
-    "groups": ["header", "footer"]
+  "enabled_on": {
+    "templates": ["product"]
   },
   "settings": [
     {
@@ -95,12 +101,6 @@
       ],
       "default": "background-1",
       "label": "t:sections.all.colors.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "full_width",
-      "default": true,
-      "label": "t:sections.rich-text.settings.full_width.label"
     },
     {
       "type": "header",

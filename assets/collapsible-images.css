@@ -32,14 +32,3 @@
 .page-width-collapsible-images .accordion summary:hover .accordion__title {
   text-decoration: none;
 }
-
-.page-width-collapsible-images .accordion .accordion__content .collapsible-images-container {
-  display: flex;
-  gap: 15px;
-}
-
-@media screen and (min-width: 750px) {
-  .page-width.page-width-collapsible-images {
-    padding: 0px 5rem;
-  }
-}

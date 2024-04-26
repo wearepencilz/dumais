@@ -15,14 +15,14 @@
         "template--16924426535126__b1e0c7b1-c8b6-4e21-aae5-445c292592d9-16892798776b2fad20-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>A study of design, as Josef Albers would say<\/p>",
+            "heading": "<p>A study of design, as Josef Albers would say</p>",
             "heading_size": "h1"
           }
         },
         "template--16924426535126__b1e0c7b1-c8b6-4e21-aae5-445c292592d9-16892798776b2fad20-1": {
           "type": "text",
           "settings": {
-            "text": "<p>It began as you’d expect. The Paul Bert Flea Market in Paris. Fabulous things. Abounding inspiration. The return home and the eventual rumination on a single piece, a small wall hanging made of rectilinear clay paillettes carefully tied together. This is followed by flipping through favorite books and seeing the similarities in the textures and tactility of Anni Albers’s tapestries, which leads to Josef’s tessellating fireplaces and Eileen Gray’s graphic screens.<\/p>"
+            "text": "<p>It began as you’d expect. The Paul Bert Flea Market in Paris. Fabulous things. Abounding inspiration. The return home and the eventual rumination on a single piece, a small wall hanging made of rectilinear clay paillettes carefully tied together. This is followed by flipping through favorite books and seeing the similarities in the textures and tactility of Anni Albers’s tapestries, which leads to Josef’s tessellating fireplaces and Eileen Gray’s graphic screens.</p>"
           }
         }
       },
@@ -63,9 +63,9 @@
         "template--16924426535126__d21f83f6-5f15-4181-be1e-d45d17c278c8-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/c-2-i-3.jpg",
+            "image": "shopify://shop_images/c-2-i-3.jpg",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -73,9 +73,9 @@
         "template--16924426535126__d21f83f6-5f15-4181-be1e-d45d17c278c8-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/t-d.jpg",
+            "image": "shopify://shop_images/t-d.jpg",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -83,9 +83,9 @@
         "template--16924426535126__d21f83f6-5f15-4181-be1e-d45d17c278c8-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/lamp-c3-3-process.jpg",
+            "image": "shopify://shop_images/lamp-c3-3-process.jpg",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -119,10 +119,10 @@
         "template--16924426535126__92ae9772-10bb-4508-ab85-f1971e0abe4f-row-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_49_ff7c1e7a-7912-432a-80c5-f9d47eef9038.jpg",
+            "image": "shopify://shop_images/Dumais_ICF_2023_49_ff7c1e7a-7912-432a-80c5-f9d47eef9038.jpg",
             "caption": "Collection #2",
             "heading": "Inspired by XYZ",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -130,10 +130,10 @@
         "template--16924426535126__92ae9772-10bb-4508-ab85-f1971e0abe4f-row-2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_251.jpg",
+            "image": "shopify://shop_images/Dumais_ICF_2023_251.jpg",
             "caption": "Collection #3",
             "heading": "Inspired by XYZ",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -161,7 +161,6 @@
     },
     "d660d8d2-d479-4898-aee5-2fc9559be70b": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--16924426535126__d660d8d2-d479-4898-aee5-2fc9559be70b-1689279880ad127bf4-0": {
           "type": "heading",
@@ -173,7 +172,7 @@
         "template--16924426535126__d660d8d2-d479-4898-aee5-2fc9559be70b-1689279880ad127bf4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         },
@@ -181,7 +180,7 @@
           "type": "button",
           "settings": {
             "button_label": "Behind the scene",
-            "button_link": "shopify:\/\/pages\/lookbook23"
+            "button_link": "shopify://pages/lookbook23"
           }
         }
       },
@@ -190,8 +189,9 @@
         "template--16924426535126__d660d8d2-d479-4898-aee5-2fc9559be70b-1689279880ad127bf4-1",
         "template--16924426535126__d660d8d2-d479-4898-aee5-2fc9559be70b-1689279880ad127bf4-2"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_332.jpg",
+        "image": "shopify://shop_images/Dumais_ICF_2023_332.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

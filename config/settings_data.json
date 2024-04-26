@@ -1,8 +1,8 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/dumais-made-logo.png",
+    "logo": "shopify://shop_images/dumais-made-logo.png",
     "logo_width": 50,
-    "favicon": "shopify:\/\/shop_images\/MASTER_D_Logo_07fe04a3-ec8e-44cb-a1be-db7895505cae.png",
+    "favicon": "shopify://shop_images/MASTER_D_Logo_07fe04a3-ec8e-44cb-a1be-db7895505cae.png",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
     "gradient_accent_1": "",
@@ -18,7 +18,7 @@
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
-    "page_width": 1300,
+    "page_width": 1000,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 20,
     "spacing_grid_vertical": 20,
@@ -150,19 +150,19 @@
     ],
     "blocks": {
       "6279071938380501511": {
-        "type": "shopify:\/\/apps\/powerful-contact-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "type": "shopify://apps/powerful-contact-form-builder/blocks/app-embed/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
         "disabled": false,
         "settings": {
         }
       },
       "6858403126979251294": {
-        "type": "shopify:\/\/apps\/eu-gdpr-cookies-notification\/blocks\/omega-cookies-notification\/13cba824-a338-452e-9b8e-c83046a79f21",
+        "type": "shopify://apps/eu-gdpr-cookies-notification/blocks/omega-cookies-notification/13cba824-a338-452e-9b8e-c83046a79f21",
         "disabled": false,
         "settings": {
         }
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }

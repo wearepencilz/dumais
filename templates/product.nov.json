@@ -25,13 +25,6 @@
           "settings": {
           }
         },
-        "f76da53f-246e-4baf-9776-d00e047558cd": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.custom.lead_times | metafield_text }}",
-            "text_style": "uppercase"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -50,7 +43,6 @@
         "price",
         "caption",
         "description",
-        "f76da53f-246e-4baf-9776-d00e047558cd",
         "variant_picker",
         "buy_buttons"
       ],
@@ -122,7 +114,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h5>MATERIALS<\/h5><h5>Ceramic, Antique brass, Linen<\/h5>",
+            "text": "<h5>MATERIALS</h5><h5>Ceramic, Antique brass, Linen</h5>",
             "link_label": "",
             "link": ""
           }
@@ -131,7 +123,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h5>BULB<\/h5><h5>75-watt frosted incandescent bulb included (120 volt, E26 base, A19 shape)<\/h5>",
+            "text": "<h5>BULB</h5><h5>75-watt frosted incandescent bulb included (120 volt, E26 base, A19 shape)</h5>",
             "link_label": "",
             "link": ""
           }
@@ -140,7 +132,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h5>OVERALL DIMENSIONS<\/h5><h5>8.5\" D x 18.5\" H<br\/><\/h5>",
+            "text": "<h5>OVERALL DIMENSIONS</h5><h5>8.5\" D x 18.5\" H<br/></h5>",
             "link_label": "",
             "link": ""
           }
@@ -150,7 +142,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<h5>LEAD TIMES<\/h5>",
+            "text": "<h5>LEAD TIMES</h5>",
             "link_label": "",
             "link": ""
           }

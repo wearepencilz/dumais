@@ -11,7 +11,7 @@
             "text": "The Summer Sale | 50% Off In-Stock Applied at Checkout",
             "text_alignment": "center",
             "color_scheme": "background-1",
-            "link": "shopify:\/\/collections\/in-stock"
+            "link": "shopify://collections/in-stock"
           }
         }
       },
@@ -36,10 +36,128 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "custom-options": {
+      "type": "custom-options-group",
+      "blocks": {
+        "ed6dfd62-40f0-48e8-b52b-434b6cc1eb5b": {
+          "type": "text",
+          "settings": {
+            "text": "Verdigris glaze",
+            "swatchImage": "shopify://shop_images/Verdigris_Glaze_thumb_3a496fe4-8a57-4677-8f7b-e7e042d2b83d.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "db54c423-e02b-4aa9-bdc1-20dcb8b129d8": {
+          "type": "text",
+          "settings": {
+            "text": "Bottle Green glaze",
+            "swatchImage": "shopify://shop_images/Bottle_Green_Glaze_thumb_16acba0e-e0a3-49d8-a252-bed0b8becc59.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "afffdf4f-6709-416d-8f1d-16123ded8f55": {
+          "type": "text",
+          "settings": {
+            "text": "Chalk glaze",
+            "swatchImage": "shopify://shop_images/Chalk_Glaze_thumb_5845d8b8-d47e-4d59-9c08-402d29eee4c9.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "9bda10bb-1870-48d9-81e2-98f8a560393b": {
+          "type": "text",
+          "settings": {
+            "text": "Hide glaze",
+            "swatchImage": "shopify://shop_images/Hide_Glaze_thumb_a5babdfe-4b37-4012-b044-dec8d6fea899.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "746c2bae-155f-42f8-8591-dbc7c21707f6": {
+          "type": "text",
+          "settings": {
+            "text": "Lead glaze",
+            "swatchImage": "shopify://shop_images/Lead_Glaze_thumb_a7e6a7d6-193e-493f-b233-78eaf579483e.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "7aeffd4b-b319-4319-b3c5-d9750ad70053": {
+          "type": "text",
+          "settings": {
+            "text": "Matte-black glaze",
+            "swatchImage": "shopify://shop_images/2312_Matte_Black.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "b459890a-67b5-44e0-87ac-8e745b8d25f4": {
+          "type": "text",
+          "settings": {
+            "text": "Mushroom glaze",
+            "swatchImage": "shopify://shop_images/Mushroom_Glaze_thumb_e4f09792-4bf6-475e-9d53-740bb17811c1.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "text_GmUrpr": {
+          "type": "text",
+          "settings": {
+            "text": "Verdigris glaze",
+            "swatchImage": "shopify://shop_images/Verdigris_Glaze_thumb_5e990a82-79ff-46da-9fa4-e2ce9c111765.jpg",
+            "swatchColors": "#ff0000"
+          }
+        },
+        "163b279e-c59f-4815-9e7c-b2e5d04aa76d": {
+          "type": "text",
+          "settings": {
+            "text": "Ochre glaze",
+            "swatchImage": "shopify://shop_images/Ochre_Glaze_thumb_5572cf35-65ff-4679-9ebe-b9f00451b46a.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "73b7e841-1919-41dc-a0b1-d5a21fd3ecc0": {
+          "type": "text",
+          "settings": {
+            "text": "Parchment glaze",
+            "swatchImage": "shopify://shop_images/Parchment_Glaze_thumb_8a478f47-6538-4692-80c0-47c0a909f7f3.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "12ac63be-c44a-4221-baa4-ee4a881b6243": {
+          "type": "text",
+          "settings": {
+            "text": "Sea glaze",
+            "swatchImage": "shopify://shop_images/2312_Sea.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        },
+        "709b98dc-69a1-4ca2-8e41-affc4646fae3": {
+          "type": "text",
+          "settings": {
+            "text": "Walnut glaze",
+            "swatchImage": "shopify://shop_images/2312_Walnut.jpg",
+            "swatchColors": "#9E9E9E"
+          }
+        }
+      },
+      "block_order": [
+        "ed6dfd62-40f0-48e8-b52b-434b6cc1eb5b",
+        "db54c423-e02b-4aa9-bdc1-20dcb8b129d8",
+        "afffdf4f-6709-416d-8f1d-16123ded8f55",
+        "9bda10bb-1870-48d9-81e2-98f8a560393b",
+        "746c2bae-155f-42f8-8591-dbc7c21707f6",
+        "7aeffd4b-b319-4319-b3c5-d9750ad70053",
+        "b459890a-67b5-44e0-87ac-8e745b8d25f4",
+        "text_GmUrpr",
+        "163b279e-c59f-4815-9e7c-b2e5d04aa76d",
+        "73b7e841-1919-41dc-a0b1-d5a21fd3ecc0",
+        "12ac63be-c44a-4221-baa4-ee4a881b6243",
+        "709b98dc-69a1-4ca2-8e41-affc4646fae3"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "custom-options"
   ]
 }

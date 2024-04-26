@@ -11,67 +11,57 @@
         "price": {
           "type": "price",
           "settings": {
+            "show_policies": false
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "description": {
-          "type": "description",
+        "meta_description": {
+          "type": "meta_description",
           "settings": {
           }
         },
-        "details_and_download_MKAmhy": {
-          "type": "details_and_download",
+        "meta_details": {
+          "type": "meta_details",
           "settings": {
-            "title": "Details and Downloads"
           }
         },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "dropdown",
-            "picker_with_imgs": true
+            "picker_type": "dropdown"
           }
         },
-        "text_with_bg_zqTygg": {
-          "type": "text-with-bg",
+        "meta_c_made_PJfBfz": {
+          "type": "meta_cMade",
           "settings": {
-            "text": "Made to order in 12-14 weeks.",
             "text_style": "body",
             "text_bg_color": "#d9d9d9"
           }
         },
-        "buy_buttons_qty_dcihkt": {
+        "buy_buttons": {
           "type": "buy_buttons_qty",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": true,
+            "extra_txt": "<p>Lorem ipsum <a href=\"#\" title=\"#\">Inquire</a> amet, consectetur.</p>"
           }
         }
       },
       "block_order": [
         "title",
         "price",
-        "caption",
-        "description",
-        "details_and_download_MKAmhy",
+        "meta_description",
+        "meta_details",
         "variant_picker",
-        "text_with_bg_zqTygg",
-        "buy_buttons_qty_dcihkt"
-      ],
-      "custom_css": [
-        ".main-product-wrapper {border-bottom: none;}"
+        "meta_c_made_PJfBfz",
+        "buy_buttons"
       ],
       "settings": {
+        "color_scheme": "background-2",
         "enable_sticky_info": false,
-        "media_size": "small",
+        "no_bb": true,
+        "media_size": "balanced",
         "constrain_to_viewport": false,
         "media_fit": "contain",
-        "gallery_layout": "controlled_slider",
+        "gallery_layout": "arrows",
         "media_position": "left",
         "image_zoom": "hover",
         "mobile_thumbnails": "hide",
@@ -88,13 +78,11 @@
         "heading": "",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "layout": "none",
         "color_scheme": "background-2",
-        "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
         "padding_top": 36,
         "padding_bottom": 36,
-        "row_heading": "Aditional Images",
+        "row_heading": "Additional Images",
         "icon": "none"
       }
     },
@@ -102,7 +90,6 @@
       "type": "details-and-download",
       "settings": {
         "color_scheme": "background-2",
-        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -110,13 +97,12 @@
     "featured_collection_qD8qTW": {
       "type": "featured-collection",
       "custom_css": [
-        "p {font-size: 21px;}",
-        "@media screen and (min-width: 749px) {.collection__title {padding: 0 5rem; }}"
+        "p {font-size: 21px;}"
       ],
       "settings": {
         "title": "",
         "heading_size": "h2",
-        "description": "<p>You May Also Like<\/p>",
+        "description": "<p>You May Also Like</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "sconces",
@@ -132,36 +118,9 @@
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": true,
+        "show_glazes": true,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "36c26a4b-0512-494d-a8ff-3edc09a4fe63": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "From the Collection #1, 2023",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -190,7 +149,6 @@
     "collapsible_images_zF43QG",
     "details_and_download_CEYaka",
     "featured_collection_qD8qTW",
-    "36c26a4b-0512-494d-a8ff-3edc09a4fe63",
     "related-products"
   ]
 }
