@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product-copy",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_policies": false
+          }
+        },
+        "meta_description": {
+          "type": "meta_description",
+          "settings": {
+          }
+        },
+        "meta_details": {
+          "type": "meta_details",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "meta_c_made_PJfBfz": {
+          "type": "meta_cMade",
+          "settings": {
+            "text_style": "body",
+            "text_bg_color": "#d9d9d9"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons_qty",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "extra_txt": "<p>Lorem ipsum <a href=\"#\" title=\"#\">Inquire<\/a> amet, consectetur.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "meta_description",
+        "meta_details",
+        "variant_picker",
+        "meta_c_made_PJfBfz",
+        "buy_buttons"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "no_bb": true,
+        "media_size": "balanced",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "arrows",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 60,
+        "padding_bottom": 80
+      }
+    },
+    "collapsible_images_zF43QG": {
+      "type": "collapsible-images",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-2",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "row_heading": "Aditional Images",
+        "icon": "none"
+      }
+    },
+    "details_and_download_CEYaka": {
+      "type": "details-and-download",
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection_qD8qTW": {
+      "type": "featured-collection",
+      "custom_css": [
+        "p {font-size: 21px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "<p>You May Also Like<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sconces",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-2",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "show_glazes": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You might also like",
+        "heading_size": "h2",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 60,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_images_zF43QG",
+    "details_and_download_CEYaka",
+    "featured_collection_qD8qTW",
+    "related-products"
+  ]
+}

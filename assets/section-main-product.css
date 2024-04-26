@@ -103,6 +103,10 @@ html {
   min-height: 4.6rem;
 }
 
+.shopify-payment-button {
+  display: none !important;
+}
+
 .shopify-payment-button__button [role="button"].focused,
 .no-js .shopify-payment-button__button [role="button"]:focus {
   outline: .1rem solid rgba(var(--color-foreground),.5) !important;
