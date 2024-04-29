@@ -28,7 +28,6 @@
       "blocks": {
         "f99e8aa0-5fcb-4c34-ab5f-f423e425dadd": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/web-Dumais_March_1_2023_142.jpg"
           }
@@ -81,14 +80,14 @@
         "template--16880504471766__bf11ecf4-e193-4260-82b2-eb804c321a33-168087618759e02ed6-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Sign up for news and collection previews.<\/p>",
+            "heading": "<p>Visit 31 DAYS<\/p>",
             "heading_size": "h1"
           }
         },
         "template--16880504471766__bf11ecf4-e193-4260-82b2-eb804c321a33-168087618759e02ed6-1": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Visit us at<\/em><br\/>Historic Market Square, Third Floor<br\/>Showrooms MS 330, 348<br\/>SO Booth 1317\/1319<\/p>"
+            "text": "<p>195 Chrystie Street<br\/>Unit 102W<br\/>New York, New York<\/p>"
           }
         }
       },
