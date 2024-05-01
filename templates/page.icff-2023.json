@@ -10,16 +10,16 @@
             "heading_size": "h1"
           }
         },
-        "template--16880504471766__bf11ecf4-e193-4260-82b2-eb804c321a33-168087618759e02ed6-1": {
+        "text_GCkHnt": {
           "type": "text",
           "settings": {
-            "text": "<p>195 Chrystie Street<br\/>Unit 102W<br\/>New York, New York<\/p>"
+            "text": "<p>Charlie Dumais offers an intimate look into his creative practice with <em>31 DAYS, <\/em>on view during New York Design Week, May<em> 15-17.<\/em><br\/><\/p><p>Born from a resolution to return and recommit to creating, the exhibit represents the journey of reintegrating the  rituals of making back into daily life.<\/p>"
           }
         }
       },
       "block_order": [
         "template--16880504471766__bf11ecf4-e193-4260-82b2-eb804c321a33-168087618759e02ed6-0",
-        "template--16880504471766__bf11ecf4-e193-4260-82b2-eb804c321a33-168087618759e02ed6-1"
+        "text_GCkHnt"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -28,6 +28,49 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
+      }
+    },
+    "277e339a-36b8-4326-a692-c014ebb5d2e6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_aCQqAq": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>195 Chrystie Street<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unit 102W<br\/>New York, New York<br\/><\/p><p><a href=\"mailto:maia@dumaismade.com\" target=\"_blank\" title=\"Book an Appointment\">Book an Appointment<\/a><\/p>"
+          }
+        },
+        "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "https:\/\/icff.com\/fair\/wanted-design-manhattan-home\/",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_aCQqAq",
+        "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-1",
+        "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 52
       }
     },
     "96762dfe-0343-448e-bfb2-df68af3514c0": {
@@ -59,42 +102,6 @@
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 0
-      }
-    },
-    "277e339a-36b8-4326-a692-c014ebb5d2e6": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Learn more",
-            "button_link": "https:\/\/icff.com\/fair\/wanted-design-manhattan-home\/",
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-1",
-        "template--16880504471766__277e339a-36b8-4326-a692-c014ebb5d2e6-16832996557855ce25-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 52
       }
     },
     "3f3bbccc-88b5-4c43-8651-13fde18c35bd": {
@@ -145,8 +152,8 @@
   },
   "order": [
     "bf11ecf4-e193-4260-82b2-eb804c321a33",
-    "96762dfe-0343-448e-bfb2-df68af3514c0",
     "277e339a-36b8-4326-a692-c014ebb5d2e6",
+    "96762dfe-0343-448e-bfb2-df68af3514c0",
     "3f3bbccc-88b5-4c43-8651-13fde18c35bd",
     "b5312627-67aa-4640-8117-4a6d2dca5640",
     "main"
