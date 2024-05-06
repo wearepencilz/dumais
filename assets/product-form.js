@@ -51,7 +51,7 @@ if (!customElements.get('product-form')) {
             return;
           }
 
-          if (!this.error) publish(PUB_SUB_EVENTS.cartUpdate, {source: 'product-form'});
+          if (!this.error) publish(PUB_SUB_EVENTS.cartUpdate, { source: 'product-form' });
           this.error = false;
           const quickAddModal = this.closest('quick-add-modal');
           if (quickAddModal) {
@@ -78,6 +78,10 @@ if (!customElements.get('product-form')) {
       this.errorMessageWrapper = this.errorMessageWrapper || this.querySelector('.product-form__error-message-wrapper');
       if (!this.errorMessageWrapper) return;
       this.errorMessage = this.errorMessage || this.errorMessageWrapper.querySelector('.product-form__error-message');
+
+      setTimeout(() => {
+        window.location.href = "/cart";
+      }, 4000);
 
       this.errorMessageWrapper.toggleAttribute('hidden', !errorMessage);
 
