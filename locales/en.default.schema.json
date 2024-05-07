@@ -1933,11 +1933,25 @@
               "label": "Show dynamic checkout buttons",
               "info": "Using the payment methods available on your store, customers see their preferred option, like PayPal or Apple Pay. [Learn more](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
             },
+            "show_pickup_availability": {
+              "label": "Show Pickup availability",
+              "info": "This element is only rendered when the product is available for pickup. [Learn more](https://help.shopify.com/en/manual/shipping/setting-up-and-managing-your-shipping/local-methods/local-pickup)"
+            },
+            "show_inventory": {
+              "label": "Show inventory status",
+              "info": "Using the current available quantities of the product, an 'in stock' or 'made to order' text line will appear under the ATC buttons"
+            },
             "e_made": {
               "label": "Show made to order timing on ATC button",
               "info": "Using the collection metafield and this setting you can enable the replacement of the ATC string to made to order when the selected variant is out of stock and the variant is permited to continue selling"
-            },            
-            "extra_txt": "ATC extra text string"
+            },
+            "extra_txt": "ATC extra text string",
+            "extra_txt_alignment": {
+              "label": "Extra text alignment",
+              "options__label1": "Left",
+              "options__label2": "Center",
+              "options__label3": "Right"
+            }
           }
         },
         "pickup_availability": {
