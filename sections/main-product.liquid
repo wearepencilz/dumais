@@ -407,9 +407,21 @@
             </div> -->
               {% render 'product-variant-picker', block: block, product: product %}
             {%- when 'buy_buttons' -%}
-              {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true -%}
+              {%- render 'buy-buttons',
+                block: block,
+                product: product,
+                product_form_id: product_form_id,
+                show_pickup_availability: block.settings.show_pickup_availability
+                show_inventory: block.settings.show_inventory
+              -%}
             {%- when 'buy_buttons_qty' -%}
-              {%- render 'buy-buttons-qty', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true -%}
+              {%- render 'buy-buttons-qty',
+                block: block,
+                product: product,
+                product_form_id: product_form_id,
+                show_pickup_availability: block.settings.show_pickup_availability
+                show_inventory: block.settings.show_inventory
+              -%}
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid
@@ -860,9 +872,23 @@
         {
           "type": "checkbox",
           "id": "show_dynamic_checkout",
-          "default": true,
+          "default": false,
           "label": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.label",
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.info"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_pickup_availability",
+          "default": false,
+          "label": "t:sections.main-product.blocks.buy_buttons.settings.show_pickup_availability.label",
+          "info": "t:sections.main-product.blocks.buy_buttons.settings.show_pickup_availability.info"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_inventory",
+          "default": true,
+          "label": "t:sections.main-product.blocks.buy_buttons.settings.show_inventory.label",
+          "info": "t:sections.main-product.blocks.buy_buttons.settings.show_inventory.info"
         },
         {
           "type": "checkbox",
@@ -886,9 +912,43 @@
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.info"
         },
         {
+          "type": "checkbox",
+          "id": "show_pickup_availability",
+          "default": true,
+          "label": "t:sections.main-product.blocks.buy_buttons.settings.show_pickup_availability.label",
+          "info": "t:sections.main-product.blocks.buy_buttons.settings.show_pickup_availability.info"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_inventory",
+          "default": true,
+          "label": "t:sections.main-product.blocks.buy_buttons.settings.show_inventory.label",
+          "info": "t:sections.main-product.blocks.buy_buttons.settings.show_inventory.info"
+        },
+        {
           "type": "richtext",
           "id": "extra_txt",
           "label": "t:sections.main-product.blocks.buy_buttons.settings.extra_txt"
+        },
+        {
+          "type": "select",
+          "id": "extra_txt_alignment",
+          "label": "t:sections.main-product.blocks.buy_buttons.settings.extra_txt_alignment.label",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:sections.main-product.blocks.buy_buttons.settings.extra_txt_alignment.options__label1"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.main-product.blocks.buy_buttons.settings.extra_txt_alignment.options__label2"
+            },
+            {
+              "value": "right",
+              "label": "t:sections.main-product.blocks.buy_buttons.settings.extra_txt_alignment.options__label3"
+            }
+          ],
+          "default": "right"
         }
       ]
     },

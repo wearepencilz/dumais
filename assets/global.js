@@ -921,11 +921,14 @@ class VariantSelects extends HTMLElement {
         const skuDestination = document.getElementById(`Sku-${this.dataset.section}`);
         const inventorySource = html.getElementById(`Inventory-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const inventoryDestination = document.getElementById(`Inventory-${this.dataset.section}`);
+        const inventoryStatusSource = html.getElementById(`Inventory-status-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
+        const inventoryStatusDestination = document.getElementById(`Inventory-status-${this.dataset.section}`);
         const ATCButtonSource = html.getElementById(`product-form-ATC-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
         const ATCButtonDestination = document.getElementById(`product-form-ATC-${this.dataset.section}`);
 
         if (source && destination) destination.innerHTML = source.innerHTML;
         if (inventorySource && inventoryDestination) inventoryDestination.innerHTML = inventorySource.innerHTML;
+        if (inventoryStatusSource && inventoryStatusDestination) inventoryStatusDestination.innerHTML = inventoryStatusSource.innerHTML;
         if (skuSource && skuDestination) {
           skuDestination.innerHTML = skuSource.innerHTML;
           skuDestination.classList.toggle('visibility-hidden', skuSource.classList.contains('visibility-hidden'));
@@ -944,6 +947,7 @@ class VariantSelects extends HTMLElement {
         if (price) price.classList.remove('visibility-hidden');
 
         if (inventoryDestination) inventoryDestination.classList.toggle('visibility-hidden', inventorySource.innerText === '');
+        if (inventoryStatusDestination) inventoryStatusDestination.classList.toggle('visibility-hidden', inventoryStatusSource.innerText === '');
 
         this.toggleAddButton(!this.currentVariant.available, window.variantStrings.soldOut);
       });
