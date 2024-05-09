@@ -217,8 +217,42 @@
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                   {{ product.description }}
+
+                  {%- liquid
+                    for tag in product.tags
+                      if tag contains 'main_collection'
+                        assign collectionHandle = tag | split: ':' | last
+                      endif
+                    endfor
+                    if collectionHandle
+                      assign collectionProduct = collections[collectionHandle]
+                    else
+                      assign collectionProduct = product.collections[0]
+                    endif
+
+                    assign bottomTier = collectionProduct.metafields.custom.delivery_time.value
+                    assign upperTier = collectionProduct.metafields.custom.lead_times_upper_tier.value
+                  -%}
+                  
+                  {%- if collectionProduct.metafields.custom.lamping != blank -%}
+                    <p>LAMPING</p>
+                    <p>{{ collectionProduct.metafields.custom.lamping }}</p>
+                  {%- endif -%}
+                  {%- if product.metafields.custom.show_certificate -%}
+                    <p>CERTIFICATIONS</p>
+                    <p class="certification-image">- UL Listed
+                      {{ images['ul-certified.png'] | image_url: width: 35 | image_tag }}
+                    </p>
+                  {%- endif -%}
+                  
+                  {%- if bottomTier or upperTier -%}
+                    <p> Lead times </p>
+                    <p>- {% if bottomTier or upperTier %}Made to order in {{ bottomTier }}{% if bottomTier and upperTier %}-{% endif %}{{ upperTier }} weeks. {% endif %}</p>
+                  {%- endif -%}
+
                 </div>
               {%- endif -%}
+                
             {%- when 'meta_description' -%}
               {%- if product.metafields.custom.description != blank -%}
                 <div class="product__description no_bb rte quick-add-hidden" {{ block.shopify_attributes }}>
@@ -226,6 +260,46 @@
                   {{ product.metafields.custom.description }}
                 </strong></em></p>
                 </div>
+              {%- else -%}
+                {%- if product.description != blank -%}
+                  <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+                    {{ product.description }}
+                    
+                    {%- liquid
+                      for tag in product.tags
+                        if tag contains 'main_collection'
+                          assign collectionHandle = tag | split: ':' | last
+                        endif
+                      endfor
+                      if collectionHandle
+                        assign collectionProduct = collections[collectionHandle]
+                      else
+                        assign collectionProduct = product.collections[0]
+                      endif
+
+                      assign bottomTier = collectionProduct.metafields.custom.delivery_time.value
+                      assign upperTier = collectionProduct.metafields.custom.lead_times_upper_tier.value
+                    -%}
+                    
+                    {%- if collectionProduct.metafields.custom.lamping != blank -%}
+                      <p>LAMPING</p>
+                      <p>{{ collectionProduct.metafields.custom.lamping }}</p>
+                    {%- endif -%}
+                    {%- if product.metafields.custom.show_certificate -%}
+                      <p>CERTIFICATIONS</p>
+                      <p class="certification-image">- UL Listed
+                        {{ images['ul-certified.png'] | image_url: width: 35 | image_tag }}
+                      </p>
+                    {%- endif -%}
+                    
+                    {%- if bottomTier or upperTier -%}
+                      <p> Lead times </p>
+                      <p>- {% if bottomTier or upperTier %}Made to order in {{ bottomTier }}{% if bottomTier and upperTier %}-{% endif %}{{ upperTier }} weeks. {% endif %}</p>
+                    {%- endif -%}
+
+                  </div>
+                {%- endif -%}
+                
               {%- endif -%}
             {%- when 'meta_details' -%}
               {%- if product.metafields.custom.details != blank -%}
@@ -861,6 +935,26 @@
           ],
           "default": "button",
           "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.label"
+        },
+        {
+          "type": "select",
+          "id": "text_align",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "center",
+          "label": "Text Align"
         }
       ]
     },
@@ -928,7 +1022,8 @@
         {
           "type": "richtext",
           "id": "extra_txt",
-          "label": "t:sections.main-product.blocks.buy_buttons.settings.extra_txt"
+          "label": "t:sections.main-product.blocks.buy_buttons.settings.extra_txt",
+          "info": "t:sections.main-product.blocks.buy_buttons.settings.extra_txt_info"
         },
         {
           "type": "select",

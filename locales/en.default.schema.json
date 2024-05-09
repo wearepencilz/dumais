@@ -1946,6 +1946,7 @@
               "info": "Using the collection metafield and this setting you can enable the replacement of the ATC string to made to order when the selected variant is out of stock and the variant is permited to continue selling"
             },
             "extra_txt": "ATC extra text string",
+            "extra_txt_info": "Renders a customizable text line under the inventory status indicator",
             "extra_txt_alignment": {
               "label": "Extra text alignment",
               "options__label1": "Left",

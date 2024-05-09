@@ -67,30 +67,30 @@
                   {{ 'products.product.sold_out' | t }}
                 {%- else -%}
 
-                {%- if product.selected_or_first_available_variant.inventory_quantity <= 0 -%}
-                  {%- liquid
-                    for tag in product.tags
-                      if tag contains 'main_collection'
-                        assign collectionHandle = tag | split: ':' | last
+                  {%- if product.selected_or_first_available_variant.inventory_quantity <= 0 and block.settings.e_made -%}
+                    {%- liquid
+                      for tag in product.tags
+                        if tag contains 'main_collection'
+                          assign collectionHandle = tag | split: ':' | last
+                        endif
+                      endfor
+                      if collectionHandle
+                        assign collectionProduct = collections[collectionHandle]
+                      else
+                        assign collectionProduct = product.collections[0]
                       endif
-                    endfor
-                    if collectionHandle
-                      assign collectionProduct = collections[collectionHandle]
-                    else
-                      assign collectionProduct = product.collections[0]
-                    endif
 
-                    assign bottomTier = collectionProduct.metafields.custom.delivery_time.value
-                    assign upperTier = collectionProduct.metafields.custom.lead_times_upper_tier.value
-                  -%}
-                  <span>MADE TO ORDER</span>
-                  {% if bottomTier or upperTier %}
-                  <br>
-                  <span class="MTP__date">{{ bottomTier }}{% if bottomTier and upperTier %} - {% endif %}{{ upperTier }} weeks</span>
-                  {% endif %}
-                {%- else -%}
-                  {{ 'products.product.add_to_cart' | t }}
-                {%- endif -%}
+                      assign bottomTier = collectionProduct.metafields.custom.delivery_time.value
+                      assign upperTier = collectionProduct.metafields.custom.lead_times_upper_tier.value
+                    -%}
+                    <span>MADE TO ORDER</span>
+                    {% if bottomTier or upperTier %}
+                    <br>
+                    <span class="MTP__date">{{ bottomTier }}{% if bottomTier and upperTier %} - {% endif %}{{ upperTier }} weeks</span>
+                    {% endif %}
+                  {%- else -%}
+                    {{ 'products.product.add_to_cart' | t }}
+                  {%- endif -%}
 
                 {%- endif -%}
               {%- else -%}

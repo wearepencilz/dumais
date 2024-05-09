@@ -169,7 +169,7 @@
             </div>
 
             {%- if show_inventory -%}
-              <div id="Inventory-status-{{ section.id }}" class="rte product__atc-etxt">
+              <div id="Inventory-status-{{ section.id }}" class="rte product__atc-etxt {{ block.settings.extra_txt_alignment }}">
                 <p
                   class="no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
                   role="status"
@@ -186,7 +186,7 @@
             {%- endif -%}
 
             {%- if block.settings.extra_txt != blank -%}
-              <div class="{{ block.settings.extra_txt_alignment }} rte product__atc-etxt text-block">
+              <div class="{{ block.settings.extra_txt_alignment }} rte product__atc-etxt">
                 {{ block.settings.extra_txt }}
               </div>
             {%- endif -%}
