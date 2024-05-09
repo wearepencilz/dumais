@@ -39,16 +39,8 @@
                             </a>
                         {% endif %}
                         
-                        {% if product.metafields.custom.certified_image %}
-                            <div class="certified-image">
-                                <img
-                                    src="{{ product.metafields.custom.certified_image | image_url: width: 140 }}"
-                                    alt="{{ product.metafields.custom.certified_image.alt | escape | default: "Certified Image" }}"
-                                    width="70"
-                                    height="{{ 70 | divided_by: product.metafields.custom.certified_image.aspect_ratio | ceil }}"
-                                    loading="lazy"
-                                >
-                                </div>
+                        {% if product.metafields.custom.show_certificate %}
+                            <div class="certified-image">{{ images['ul-certified.png'] | image_url: width: 70 | image_tag }}</div>
                         {% endif %}
                     </div>
                 {% endif %}
