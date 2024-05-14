@@ -25,13 +25,6 @@
           "settings": {
           }
         },
-        "f76da53f-246e-4baf-9776-d00e047558cd": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.custom.lead_times | metafield_text }}",
-            "text_style": "uppercase"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -50,7 +43,6 @@
         "price",
         "caption",
         "description",
-        "f76da53f-246e-4baf-9776-d00e047558cd",
         "variant_picker",
         "buy_buttons"
       ],

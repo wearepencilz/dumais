@@ -1,9 +1,24 @@
 {
   "sections": {
+    "video_XKDaVH": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/Screenshot_2024-05-08_160349.jpg",
+        "video_url": "https:\/\/vimeo.com\/943769776?share=copy",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/231220_Blunk_Process_hero.jpg",
+        "image": "shopify:\/\/shop_images\/240508_Dumais_hero.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -21,30 +36,41 @@
         "189fc2f5-9841-46f8-bcba-c2e9c27e184c": {
           "type": "heading",
           "settings": {
-            "heading": "<h2><strong>OBJECTS FOR LIVING.<\/strong><\/h2>",
+            "heading": "<h2><strong>PRESENTING 31 DAYS.<\/strong><\/h2>",
             "heading_size": "hxl"
           }
         },
         "4ef8fc5c-8192-4102-a90a-1a550a6614e6": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "<p><em><strong>Elevated, practical pieces for giving and receiving<\/strong><\/em><\/p>",
+            "heading": "<p><em><strong>Experience an intimate look into the creative practice of our founder, Charlie Dumais.<\/strong><\/em><\/p>",
             "heading_size": "h2"
+          }
+        },
+        "button_XtAPbH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "https:\/\/dumaismade.com\/pages\/31-days",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "189fc2f5-9841-46f8-bcba-c2e9c27e184c",
-        "4ef8fc5c-8192-4102-a90a-1a550a6614e6"
+        "4ef8fc5c-8192-4102-a90a-1a550a6614e6",
+        "button_XtAPbH"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-3",
+        "color_scheme": "accent-1",
         "full_width": true,
-        "padding_top": 52,
-        "padding_bottom": 52
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     },
     "rich_text": {
@@ -60,6 +86,7 @@
         },
         "d95e15a0-5143-4c49-b3e0-2739fb834d18": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<p><em><strong>Tactile pieces revealing their character<br\/>the longer you live with them.<\/strong><\/em><\/p>",
             "heading_size": "h2"
@@ -84,8 +111,8 @@
       "settings": {
         "custom_liquid": "<a href=\"#Slide-template--16833782251734__484c3238-f937-420d-b89b-dace073250dc-1\">\n<div class=\"home-arrow-down\" \nstyle=\"position: absolute;\nmargin-left: auto;\nmargin-right: auto;\nleft: 0;\nright: 0;\ntext-align: center;\nscroll-behavior: smooth;\n\">\n<svg width=\"8\" height=\"6\" viewBox=\"0 0 8 6\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M4.4876 5.62988L8 0.629883L6.80165 0.629883L4.03306 4.61749L1.26446 0.629882L0.0661177 0.629882L3.57851 5.62988L4.4876 5.62988Z\" fill=\"black\"\/>\n<\/svg>\n\n<\/div>\n<\/a>",
         "color_scheme": "background-1",
-        "padding_top": 20,
-        "padding_bottom": 40
+        "padding_top": 12,
+        "padding_bottom": 64
       }
     },
     "52f2e727-b1ce-444c-b0d5-b23b9f45cd1c": {
@@ -94,7 +121,7 @@
         "template--16833782251734__52f2e727-b1ce-444c-b0d5-b23b9f45cd1c-167501942530475a7e-0": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/231221_Table_Lamps.jpg",
+            "image": "shopify:\/\/shop_images\/240505_Lighting_thumb_30ba5c08-a9a6-4ae5-8f8a-1cc3c565fd11.jpg",
             "image_link": "shopify:\/\/pages\/lighting",
             "title": "Lighting >"
           }
@@ -102,7 +129,7 @@
         "template--16833782251734__52f2e727-b1ce-444c-b0d5-b23b9f45cd1c-167501942530475a7e-1": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/231221_Furniture_v2.jpg",
+            "image": "shopify:\/\/shop_images\/240505_Furniture_thumb_b0dd9b7b-f60c-42cc-88ff-1f09d3a91cb2.jpg",
             "image_link": "shopify:\/\/collections\/tables",
             "title": "Furniture >"
           }
@@ -110,7 +137,7 @@
         "5bd451cb-0575-43d2-8047-49bfc4a98f33": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/231221_Mirror.jpg",
+            "image": "shopify:\/\/shop_images\/240505_Mirrors_thumb_ecb1b77c-f346-4da0-9fba-1495ec00df96.jpg",
             "image_link": "shopify:\/\/collections\/mirrors",
             "title": "Mirrors >"
           }
@@ -420,6 +447,7 @@
     }
   },
   "order": [
+    "video_XKDaVH",
     "image_banner",
     "2c207f1a-1258-4648-9eff-342f729e4c37",
     "rich_text",

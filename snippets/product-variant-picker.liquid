@@ -56,10 +56,11 @@
           </div>
         </div>
 
-        <div class="view-glazes-wrapper">
+        {%- if forloop.first -%}
+        <div class="view-glazes-wrapper {{ block.settings.text_align }}">
           <a class="view-glazes" href="../pages/glazes-1">View all glazes</a>
         </div>
-
+        {%- endif -%}
 
       {%- endfor -%}
 
