@@ -47,11 +47,11 @@
       width: 35px;
       height: 35px;
       margin-right: 10px;
-      background-image:url({{ block.settings.swatchImage | img_url: '60x60' }});
+      background-image:url({{ block.settings.swatchImage | image_url: '60x60' }});
       border-radius: 100%;
     }
     .glaze--container .glaze--icon[data-glaze="{{ block.settings.text }}"] {
-      background-image:url({{ block.settings.swatchImage | img_url: '20x20' }});
+      background-image:url({{ block.settings.swatchImage | image_url: '20x20' }});
     }
     {%- else -%}
     .CustomActive[data-option="{{ block.settings.text }}"]::before,
