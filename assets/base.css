@@ -1878,6 +1878,7 @@ details[open] > .share-button__fallback {
 
 .select .icon-caret,
 .customer select + svg {
+  z-index: 1;
   height: 0.6rem;
   pointer-events: none;
   position: absolute;

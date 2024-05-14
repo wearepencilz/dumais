@@ -5,6 +5,7 @@
   Accepts:
   - product: {Object} Product liquid object
   - variant_images: {Array} Product images associated with a variant
+  - variant_alts: {Array} Product images alt associated with a variant
   - is_duplicate: {Boolean} Prevents rendering uneeded elements and duplicate ids for subsequent instances
 
   Usage:
@@ -31,6 +32,8 @@
 
   if section.settings.media_size == 'large'
     assign media_width = 0.65
+  elsif section.settings.media_size == 'balanced'
+    assign media_width = 0.5
   elsif section.settings.media_size == 'medium'
     assign media_width = 0.55
   elsif section.settings.media_size == 'small'
@@ -43,6 +46,16 @@
   endif
 -%}
 
+{%- if variant_alts != blank -%}
+<style>
+  {%- for alt in variant_alts -%}
+    #MediaGallery-{{ section.id }}{{ id_append }}[data-active-media-alt="{{ alt }}"] li:not([data-media-alt="{{alt}}"]) {
+      display: none;
+    }
+  {%- endfor -%}
+</style>
+{%- endif -%}
+
 <media-gallery
   id="MediaGallery-{{ section.id }}{{ id_append }}"
   role="region"
@@ -51,9 +64,10 @@
   {% endif %}
   aria-label="{{ 'products.product.media.gallery_viewer' | t }}"
   data-desktop-layout="{{ section.settings.gallery_layout }}"
+  data-active-media-alt="{{ product.selected_or_first_available_variant.featured_media.alt }}"
 >
   <div id="GalleryStatus-{{ section.id }}" class="visually-hidden" role="status"></div>
-  <slider-component id="GalleryViewer-{{ section.id }}{{ id_append }}" class="slider-mobile-gutter">
+<slider-component id="GalleryViewer-{{ section.id }}{{ id_append }}" {% unless section.settings.gallery_layout contains 'arrows' %}class="slider-mobile-gutter"{% endunless %}>
     {%- unless is_duplicate -%}
       <a class="skip-to-content-link button visually-hidden quick-add-hidden" href="#ProductInfo-{{ section.id }}">
         {{ 'accessibility.skip_to_product_info' | t }}
@@ -61,7 +75,7 @@
     {%- endunless -%}
     <ul
       id="Slider-Gallery-{{ section.id }}{{ id_append }}"
-      class="product__media-list contains-media grid grid--peek list-unstyled slider slider--mobile"
+  class="product__media-list contains-media grid grid--peek grid--1-col-desktop list-unstyled slider{% if section.settings.gallery_layout contains 'arrows' %} slider--everywhere{% else  %} slider--mobile{% endif %}"
       role="list"
     >
       {%- if product.selected_or_first_available_variant.featured_media != null -%}
@@ -70,6 +84,7 @@
           id="Slide-{{ section.id }}-{{ featured_media.id }}{{ id_append }}"
           class="product__media-item grid__item slider__slide is-active{% if single_media_visible %} product__media-item--single{% endif %}{% if featured_media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains featured_media.src %} product__media-item--variant{% endif %}"
           data-media-id="{{ section.id }}-{{ featured_media.id }}"
+          data-media-alt="{{ featured_media.alt }}"
         >
           {%- assign media_position = 1 -%}
           {% render 'product-thumbnail',
@@ -94,6 +109,7 @@
             id="Slide-{{ section.id }}-{{ media.id }}{{ id_append }}"
             class="product__media-item grid__item slider__slide{% if single_media_visible %} product__media-item--single{% endif %}{% if product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}"
             data-media-id="{{ section.id }}-{{ media.id }}"
+            data-media-alt="{{ media.alt }}"
           >
             {%- liquid
               assign media_position = media_position | default: 0 | plus: 1
@@ -128,11 +144,11 @@
           name="previous"
           aria-label="{{ 'general.slider.previous_slide' | t }}"
         >
-          {% render 'icon-caret' %}
+          {% render 'icon-arrow' %}
         </button>
-        <div class="slider-counter caption">
+        <div class="slider-counter">
           <span class="slider-counter--current">1</span>
-          <span aria-hidden="true"> / </span>
+          <span class="slider-counter--separator" aria-hidden="true"> / </span>
           <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
           <span class="slider-counter--total">{{ media_count }}</span>
         </div>
@@ -142,7 +158,7 @@
           name="next"
           aria-label="{{ 'general.slider.next_slide' | t }}"
         >
-          {% render 'icon-caret' %}
+          {% render 'icon-arrow' %}
         </button>
       </div>
     {%- endunless -%}
@@ -208,6 +224,7 @@
             class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains featured_media.src %} thumbnail-list_item--variant{% endif %}"
             data-target="{{ section.id }}-{{ featured_media.id }}"
             data-media-position="{{ media_index }}"
+            data-media-alt="{{ featured_media.alt }}"
           >
             {%- capture thumbnail_id -%}
               Thumbnail-{{ section.id }}-0{{ id_append }}
@@ -248,6 +265,7 @@
               class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains media.src %} thumbnail-list_item--variant{% endif %}"
               data-target="{{ section.id }}-{{ media.id }}"
               data-media-position="{{ media_index }}"
+              data-media-alt="{{ media.alt }}"
             >
               {%- if media.media_type == 'model' -%}
                 <span class="thumbnail__badge" aria-hidden="true">

@@ -45,10 +45,15 @@
           <button
             type="submit"
             name="add"
+            id="product-form-ATC-{{ section.id }}"
+            {%- if product.selected_or_first_available_variant.available and product.selected_or_first_available_variant.inventory_quantity <= 0 and block.settings.e_made -%}
+            data-made="true"
+            {% endif %}
             class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
             {% if product.selected_or_first_available_variant.available == false
               or product.selected_or_first_available_variant.quantity_rule.min
                 > product.selected_or_first_available_variant.inventory_quantity
+              and product.selected_or_first_available_variant.inventory_policy == 'deny'
             %}
               disabled
             {% endif %}
@@ -57,10 +62,36 @@
               {%- if product.selected_or_first_available_variant.available -%}
                 {%- if product.selected_or_first_available_variant.quantity_rule.min
                     > product.selected_or_first_available_variant.inventory_quantity
+                  and product.selected_or_first_available_variant.inventory_policy == 'deny'
                 -%}
                   {{ 'products.product.sold_out' | t }}
                 {%- else -%}
-                  {{ 'products.product.add_to_cart' | t }}
+
+                  {%- if product.selected_or_first_available_variant.inventory_quantity <= 0 and block.settings.e_made -%}
+                    {%- liquid
+                      for tag in product.tags
+                        if tag contains 'main_collection'
+                          assign collectionHandle = tag | split: ':' | last
+                        endif
+                      endfor
+                      if collectionHandle
+                        assign collectionProduct = collections[collectionHandle]
+                      else
+                        assign collectionProduct = product.collections[0]
+                      endif
+
+                      assign bottomTier = collectionProduct.metafields.custom.delivery_time.value
+                      assign upperTier = collectionProduct.metafields.custom.lead_times_upper_tier.value
+                    -%}
+                    <span>MADE TO ORDER</span>
+                    {% if bottomTier or upperTier %}
+                    <br>
+                    <span class="MTP__date">{{ bottomTier }}{% if bottomTier and upperTier %} - {% endif %}{{ upperTier }} weeks</span>
+                    {% endif %}
+                  {%- else -%}
+                    {{ 'products.product.add_to_cart' | t }}
+                  {%- endif -%}
+
                 {%- endif -%}
               {%- else -%}
                 {{ 'products.product.sold_out' | t }}
@@ -78,6 +109,24 @@
               </svg>
             </div>
           </button>
+
+          {%- if show_inventory -%}
+            <div id="Inventory-status-{{ section.id }}" class="rte">
+              <p
+                class="rte product__atc-etxt no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
+                role="status"
+              >
+                {%- if product.selected_or_first_available_variant.inventory_management == 'shopify' -%}
+                  {%- if product.selected_or_first_available_variant.inventory_quantity > 0 or product.selected_or_first_available_variant.inventory_policy == 'continue' -%}
+                    {{ product.selected_or_first_available_variant.inventory_quantity }} item{%- if product.selected_or_first_available_variant.inventory_quantity > 1 -%}s{%- endif %} in stock - Aditional quantities will be made to order
+                  {%- else -%}
+                    Out of stock
+                  {%- endif -%}
+                {%- endif -%}
+              </p>
+            </div>
+          {%- endif -%}
+
           {%- if block.settings.show_dynamic_checkout -%}
             {{ form | payment_button }}
           {%- endif -%}
