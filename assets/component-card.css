@@ -377,3 +377,32 @@
 .card-article-info {
   margin-top: 1rem;
 }
+
+.card-information:has(.glaze--container) {
+  position: relative;
+}
+
+.glaze--container {
+  display: flex;
+  justify-content: flex-end;
+  height: 16px;
+  gap: 4px;
+}
+
+@media only screen and (min-width: 460px) {
+  .glaze--container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+}
+
+
+.glaze--icon {
+  display: block;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  line-height: 11px;
+}
