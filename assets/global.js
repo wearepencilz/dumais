@@ -875,6 +875,11 @@ class VariantSelects extends HTMLElement {
       const previousOptionSelected = inputWrappers[index - 1].querySelector(':checked').value;
       const availableOptionInputsValue = selectedOptionOneVariants.filter(variant => variant.available && variant[`option${ index }`] === previousOptionSelected).map(variantOption => variantOption[`option${ index + 1 }`]);
       this.setInputAvailability(optionInputs, availableOptionInputsValue)
+      if (this.swatchesVariant) {
+        const swatchInputs = [...option.querySelectorAll('div.SelectOption')]
+        const swatchActive = option.querySelector('div.CustomActive')
+        this.setReplacedSwatchesAvailability(swatchInputs,availableOptionInputsValue,swatchActive)
+      }
     });
   }
 
@@ -882,10 +887,27 @@ class VariantSelects extends HTMLElement {
     listOfOptions.forEach(input => {
       if (listOfAvailableOptions.includes(input.getAttribute('value'))) {
         input.innerText = input.getAttribute('value');
+        input.removeAttribute('disabled');
       } else {
         input.innerText = window.variantStrings.unavailable_with_option.replace('[value]', input.getAttribute('value'));
+        input.setAttribute('disabled','disabled');
       }
     });
+  }
+
+  setReplacedSwatchesAvailability(listOfSwatches, listOfAvailableOptions,activeSwatch) {
+    listOfSwatches.forEach(swatch => {
+      if (listOfAvailableOptions.includes(swatch.getAttribute('data-option'))) {
+        swatch.removeAttribute('data-disabled');
+      } else {
+        swatch.setAttribute('data-disabled','disabled');
+      }
+    });
+    if (listOfAvailableOptions.includes(activeSwatch.getAttribute('data-option'))) {
+      activeSwatch.removeAttribute('data-disabled');
+    } else {
+      activeSwatch.setAttribute('data-disabled','disabled');
+    }
   }
 
   updatePickupAvailability() {
@@ -995,56 +1017,60 @@ class VariantSelects extends HTMLElement {
   }
 
   replaceVariants() {
-    var VariantSelect = this
-    this.querySelectorAll('select.select__select').forEach(function (el) {
-      const customSelect = document.createElement('div'),
-            customActive = document.createElement('div'),
-            select = el,
-            container = select.parentElement;
-        var customOptions = [];
+    if (this.dataset.swatchesReplace) {
+      var VariantSelect = this
+      this.swatchesVariant = true
+      this.querySelectorAll('select.select__select').forEach(function (el) {
+        const customSelect = document.createElement('div'),
+              customActive = document.createElement('div'),
+              select = el,
+              container = select.parentElement;
+          var customOptions = [];
+    
+          select.classList.add('s-hidden');
+          customSelect.classList.add('CustomSelect');
+          customActive.classList.add('CustomActive','select__select');
+          container.appendChild(customSelect);
+          container.appendChild(customActive);
   
-        select.classList.add('s-hidden');
-        customSelect.classList.add('CustomSelect');
-        customActive.classList.add('CustomActive','select__select');
-        container.appendChild(customSelect);
-        container.appendChild(customActive);
-
-        Array.from(select.options).forEach(function(option) {
-          if (option.value) {
-            let customOption = document.createElement('div');
-            customOption.classList.add('SelectOption','select__select');
-            customOption.dataset.option = option.value;
-            customOption.innerHTML = option.value;
-            customOptions.push(customOption);
-            customSelect.appendChild(customOption);
-          }
-          if(option.selected) {
-            customActive.dataset.option = option.value;
-            customActive.innerHTML = option.value;
-          }
-        })
-
-        container.addEventListener("click",function(trigger) {
-          if(trigger.target === customActive ) {
-            customActive.classList.toggle('s-hidden');
-            container.classList.toggle('is-open');
-          } else if (trigger.target.classList.contains('SelectOption')) {
-            select.value = trigger.target.dataset.option
-            select.querySelector(`option[value="${trigger.target.dataset.option}"]`).selected = true;
-            customActive.dataset.option = trigger.target.dataset.option;
-            customActive.innerHTML = trigger.target.dataset.option;
-            VariantSelect.dispatchEvent(new Event('change'));
-            container.classList.toggle('is-open');
-            customActive.classList.toggle('s-hidden');
-          }
-        })
-        document.addEventListener("click",function(trigger) {
-          if (trigger.target !== customActive && !trigger.target.classList.contains('SelectOption') && container.classList.contains('is-open')) {
-            customActive.classList.toggle('s-hidden');
-            container.classList.toggle('is-open');
-          }
-        })
-    })
+          Array.from(select.options).forEach(function(option) {
+            if (option.value) {
+              let customOption = document.createElement('div');
+              customOption.classList.add('SelectOption','select__select');
+              customOption.dataset.option = option.value;
+              if(option.disabled) customOption.dataset.disabled = option.disabled;
+              customOption.innerHTML = option.value;
+              customOptions.push(customOption);
+              customSelect.appendChild(customOption);
+            }
+            if(option.selected) {
+              customActive.dataset.option = option.value;
+              customActive.innerHTML = option.value;
+            }
+          })
+  
+          container.addEventListener("click",function(trigger) {
+            if(trigger.target === customActive ) {
+              customActive.classList.toggle('s-hidden');
+              container.classList.toggle('is-open');
+            } else if (trigger.target.classList.contains('SelectOption')) {
+              select.value = trigger.target.dataset.option
+              select.querySelector(`option[value="${trigger.target.dataset.option}"]`).selected = true;
+              customActive.dataset.option = trigger.target.dataset.option;
+              customActive.innerHTML = trigger.target.dataset.option;
+              VariantSelect.dispatchEvent(new Event('change'));
+              container.classList.toggle('is-open');
+              customActive.classList.toggle('s-hidden');
+            }
+          })
+          document.addEventListener("click",function(trigger) {
+            if (trigger.target !== customActive && !trigger.target.classList.contains('SelectOption') && container.classList.contains('is-open')) {
+              customActive.classList.toggle('s-hidden');
+              container.classList.toggle('is-open');
+            }
+          })
+      })
+    }
   }
 }
 

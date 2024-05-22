@@ -335,6 +335,16 @@
       },
       {
         "type": "header",
+        "content": "t:settings_schema.variant_pills.h_variant_swatches"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_swatches",
+        "default": true,
+        "label": "t:settings_schema.variant_pills.e_variant_swatches"
+      },
+      {
+        "type": "header",
         "content": "t:settings_schema.global.settings.header__border.content"
       },
       {
