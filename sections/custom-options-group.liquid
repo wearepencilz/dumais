@@ -1,3 +1,4 @@
+{% if settings.enable_swatches %}
 <style>
   .select {
     display: grid;
@@ -38,6 +39,16 @@
     transition: all .4s ease-out;;
   }
 
+  .SelectOption[data-disabled] {
+    pointer-events: none;
+    opacity: .75;
+    text-decoration: line-through;
+  }
+  .CustomActive[data-disabled] {
+    opacity: .75;
+    text-decoration: line-through;
+  }
+
   {% for block in section.blocks %}
     {%- if block.settings.swatchImage != blank -%}
     .CustomActive[data-option="{{ block.settings.text }}"]::before,
@@ -75,11 +86,17 @@
     display: none;
   }
 </style>
+{% endif %}
 
 {% schema %}
   {
     "name": "Custom Variant swatches",
-    "settings": [],
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "To enable/disable the swatches head to the variant pills tab at theme settings"
+      }
+    ],
     "blocks": [
       {
         "type": "text",

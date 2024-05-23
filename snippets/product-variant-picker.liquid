@@ -35,6 +35,7 @@
       class="no-js-hidden"
       data-section="{{ section.id }}"
       data-url="{{ product.url }}"
+      {% if settings.enable_swatches == true %}data-swatches-replace="true"{% endif %}
       {% if update_url == false %}data-update-url="false"{% endif %}
       {{ block.shopify_attributes }}
     >
