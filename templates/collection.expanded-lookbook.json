@@ -161,7 +161,6 @@
     },
     "d660d8d2-d479-4898-aee5-2fc9559be70b": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--16924426535126__d660d8d2-d479-4898-aee5-2fc9559be70b-1689279880ad127bf4-0": {
           "type": "heading",
@@ -190,6 +189,7 @@
         "template--16924426535126__d660d8d2-d479-4898-aee5-2fc9559be70b-1689279880ad127bf4-1",
         "template--16924426535126__d660d8d2-d479-4898-aee5-2fc9559be70b-1689279880ad127bf4-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Dumais_ICF_2023_332.jpg",
         "height": "adapt",
