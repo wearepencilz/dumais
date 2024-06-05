@@ -118,7 +118,7 @@
               >
                 {%- if product.selected_or_first_available_variant.inventory_management == 'shopify' -%}
                   {%- if product.selected_or_first_available_variant.inventory_quantity > 0 or product.selected_or_first_available_variant.inventory_policy == 'continue' -%}
-                    {{ product.selected_or_first_available_variant.inventory_quantity }} item{%- if product.selected_or_first_available_variant.inventory_quantity > 1 -%}s{%- endif %} in stock - Additional quantities are made-to-order.
+                    {{ product.selected_or_first_available_variant.inventory_quantity }} item{%- if product.selected_or_first_available_variant.inventory_quantity > 1 -%}s{%- endif %} in stock. Additional quantities are made-to-order.
                   {%- else -%}
                     Out of stock
                   {%- endif -%}
